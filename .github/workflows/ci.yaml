@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-test:}
+  build-and-test:
     strategy:
       matrix:
         os: [windows-latest, macos-latest, ubuntu-latest]
