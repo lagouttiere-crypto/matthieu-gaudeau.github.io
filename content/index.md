@@ -2,7 +2,8 @@
 title: Accueil
 ---
 
-# Bienvenue
+# Bienvenue !
+
 
 Espace de réflexion sur la Technique Alexander et la pédagogie énactive.
 
