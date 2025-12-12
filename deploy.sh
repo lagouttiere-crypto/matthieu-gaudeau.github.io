@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "📝 Sauvegarde des modifications..."
+npx prettier . --write
 npx quartz sync
 
 echo "🔨 Build du site..."
