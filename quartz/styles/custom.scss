@@ -183,106 +183,58 @@ a.internal {
    EXPLORER - Sidebar gauche
    ============================================ */
 
-.explorer {
-  // Diminuer la taille de la typo
-  font-size: 0.85rem;
+// Forcer avec spécificité maximale
+.explorer,
+.explorer *,
+button.desktop-explorer,
+button.mobile-explorer {
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
+}
 
-  // Enlever le gras
-  font-weight: 400;
+.explorer .folder-title,
+.explorer a,
+button.desktop-explorer h2,
+button.mobile-explorer h2 {
+  font-size: 0.85rem !important;
+  font-weight: 400 !important;
+}
 
-  // Les titres de dossiers
-  .folder-title {
-    font-weight: 400; // pas de gras
-    font-size: 0.85rem;
-  }
-
-  // Les liens de fichiers
-  a {
-    font-weight: 400;
-    font-size: 0.85rem;
-  }
-
-  // Les icônes de dossier (si tu veux les garder subtiles)
-  .folder-icon {
-    opacity: 0.6;
-  }
+.explorer .folder-icon {
+  opacity: 0.6;
 }
 /* ============================================
-   FIX GRID - Mettre tags sous le titre
+   TAGS - Version finale
    ============================================ */
 
-// Casser la grid du div.desc pour mettre tags en dessous
-.section-li .desc {
-  display: block !important; // au lieu de grid
-
-  // ou si tu veux garder une mise en page propre :
-  // display: flex !important;
-  // flex-direction: column !important;
-}
-
-// Le titre et les tags
-.section-li .desc h3 {
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.section-li .desc .tags {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  gap: 3px !important;
-  margin-top: 0.25rem !important;
-}
-/* ============================================
-   TAGS - FIX DÉFINITIF
-   ============================================ */
-
-// Cibler spécifiquement la structure complète
-.section-li > .section > .tags,
-.page-listing ul.tags,
-ul.tags {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-flow: row wrap !important;
-  gap: 3px !important;
-  list-style: none !important;
-  padding-left: 0 !important;
-  justify-content: flex-start !important; // au lieu de flex-end
-
-  // CRITIQUE : les li en inline
-  > li {
-    display: inline-flex !important;
+// Forcer horizontal avec maximum de spécificité
+.section-li .desc,
+.page-listing,
+.content-meta {
+  .tags,
+  ul.tags {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 3px !important;
     list-style: none !important;
-    margin: 0 !important;
-  }
-}
-/* ============================================
-   TAGS - FORCE BRUTALE horizontal
-   ============================================ */
+    padding-left: 0 !important;
+    margin-top: 0.25rem !important;
 
-// Cibler spécifiquement avec max de spécificité
-.page-listing ul.tags,
-.content-meta ul.tags,
-.explorer ul.tags,
-ul.tags {
-  display: flex !important;
-  flex-direction: row !important;
-  flex-wrap: wrap !important;
-  gap: 3px !important;
-  list-style: none !important;
-  padding-left: 0 !important;
-
-  // Les li
-  > li {
-    display: inline !important;
-    list-style: none !important;
+    > li {
+      display: inline-flex !important;
+      list-style: none !important;
+      margin: 0 !important;
+    }
   }
 }
 
+// Style des tags individuels
 .tag-link {
   font-size: 0.6rem !important;
   font-weight: 400 !important;
   padding: 1px 6px !important;
-  margin: 0 3px 0 0 !important;
+  margin: 0 !important;
   background: rgba(255, 255, 255, 0.5) !important;
   border-radius: 10px !important;
   white-space: nowrap !important;
