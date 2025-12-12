@@ -1,3 +1,269 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+/* ====================================
+   CUSTOMISATIONS JARDIN NUMÉRIQUE
+   ==================================== */
+
+/* 1. POLICE SF PRO (système Apple) */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif !important;
+}
+
+/* 2. TAILLE TEXTE ARTICLES PLUS GRANDE */
+.popover-hint article,
+article.popover-hint,
+.page-content {
+  font-size: 1.1rem !important;
+  line-height: 1.7 !important;
+}
+
+/* 3. DATES EN TYPO MANUSCRITE */
+time, .meta time, .page-metadata time {
+  font-family: "Segoe Print", "Bradley Hand", "Apple Chancery", cursive !important;
+  font-size: 0.95em !important;
+}
+
+/* 4. FILET LÉGER SIDEBAR GAUCHE */
+.left {
+  border-right: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.theme-dark .left {
+  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+/* 5. SURLIGNAGE BLEUTÉ LIENS */
+a {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(rgba(100, 149, 237, 0.2), rgba(100, 149, 237, 0.2)) !important;
+  background-size: 0 2px, 100% 2px !important;
+  background-position: 0 100%, 0 100% !important;
+  background-repeat: no-repeat !important;
+  transition: background-size 0.3s ease !important;
+  text-decoration: none !important;
+}
+
+a:hover {
+  background-size: 100% 2px, 100% 100% !important;
+}
+
+.theme-dark a {
+  background-image: linear-gradient(transparent, transparent), linear-gradient(rgba(130, 170, 255, 0.25), rgba(130, 170, 255, 0.25)) !important;
+}
+
+/* 6. RÉDUCTION LARGEUR SIDEBAR GAUCHE */
+.left.sidebar {
+  max-width: 250px !important;
+}
+
+/* 7. TITRE "GARDEN GESTER" AVEC SURLIGNAGE VERT */
+.page-title, h1.article-title {
+  background: linear-gradient(transparent 60%, rgba(144, 238, 144, 0.3) 60%) !important;
+  display: inline !important;
+  line-height: 1.4 !important;
+  border-radius: 4px !important;
+}
+
+/* 8. MARGE INTERNE GAUCHE TEXTE CENTRAL */
+.center, article, .page-content {
+  padding-left: 1rem !important;
+}
+/* 9. PERSONNALISATION CALLOUT QUOTE */
+.callout[data-callout="quote"] {
+  --color: 144, 238, 144; /* Vert doux (RGB) */
+  --border: rgba(144, 238, 144, 0.4);
+  --bg: rgba(144, 238, 144, 0.08);
+}
+
+/* Changer "Quote" en "Citation" */
+.callout[data-callout="quote"] .callout-title-inner::before {
+  content: "Citation";
+}
+
+.callout[data-callout="quote"] .callout-title-inner {
+  font-size: 0; /* Cache le texte original */
+}
+
+.callout[data-callout="quote"] .callout-title-inner::before {
+  font-size: 0.9rem; /* Taille du nouveau texte */
+}
+/* ============================================
+   FLORAISONS - Popups organiques
+   ============================================ */
+
+// Animation d'apparition organique
+.popover {
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); // elastic ease-out
+  transform-origin: center bottom;
+  
+  &:not(.visible) {
+    opacity: 0;
+    transform: scale(0.9) translateY(10px);
+  }
+  
+  &.visible {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+// Contenu du popover
+.popover-inner {
+  border: 2px solid var(--tertiary);
+  border-radius: 12px;
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 10px 25px -5px rgba(0, 0, 0, 0.15);
+  
+  // Animation du contenu qui "s'ouvre"
+  > * {
+    animation: unfold 0.5s ease-out forwards;
+  }
+}
+
+@keyframes unfold {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Liens internes avec effet "pétale"
+a.internal {
+  position: relative;
+  transition: all 0.2s ease;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: var(--tertiary);
+    transition: width 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  }
+  
+  &:hover::after {
+    width: 100%;
+  }
+}
+/* ============================================
+   EXPLORER - Sidebar gauche
+   ============================================ */
+
+.explorer {
+  // Diminuer la taille de la typo
+  font-size: 0.85rem;
+  
+  // Enlever le gras
+  font-weight: 400;
+  
+  // Les titres de dossiers
+  .folder-title {
+    font-weight: 400; // pas de gras
+    font-size: 0.85rem;
+  }
+  
+  // Les liens de fichiers
+  a {
+    font-weight: 400;
+    font-size: 0.85rem;
+  }
+  
+  // Les icônes de dossier (si tu veux les garder subtiles)
+  .folder-icon {
+    opacity: 0.6;
+  }
+}
+/* ============================================
+   FIX GRID - Mettre tags sous le titre
+   ============================================ */
+
+// Casser la grid du div.desc pour mettre tags en dessous
+.section-li .desc {
+  display: block !important; // au lieu de grid
+  
+  // ou si tu veux garder une mise en page propre :
+  // display: flex !important;
+  // flex-direction: column !important;
+}
+
+// Le titre et les tags
+.section-li .desc h3 {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.section-li .desc .tags {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 3px !important;
+  margin-top: 0.25rem !important;
+}
+/* ============================================
+   TAGS - FIX DÉFINITIF
+   ============================================ */
+
+// Cibler spécifiquement la structure complète
+.section-li > .section > .tags,
+.page-listing ul.tags,
+ul.tags {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-flow: row wrap !important;
+  gap: 3px !important;
+  list-style: none !important;
+  padding-left: 0 !important;
+  justify-content: flex-start !important; // au lieu de flex-end
+  
+  // CRITIQUE : les li en inline
+  > li {
+    display: inline-flex !important;
+    list-style: none !important;
+    margin: 0 !important;
+  }
+}
+/* ============================================
+   TAGS - FORCE BRUTALE horizontal
+   ============================================ */
+
+// Cibler spécifiquement avec max de spécificité
+.page-listing ul.tags,
+.content-meta ul.tags,
+.explorer ul.tags,
+ul.tags {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 3px !important;
+  list-style: none !important;
+  padding-left: 0 !important;
+  
+  // Les li
+  > li {
+    display: inline !important;
+    list-style: none !important;
+  }
+}
+
+.tag-link {
+  font-size: 0.6rem !important;
+  font-weight: 400 !important;
+  padding: 1px 6px !important;
+  margin: 0 3px 0 0 !important;
+  background: rgba(255, 255, 255, 0.5) !important;
+  border-radius: 10px !important;
+  white-space: nowrap !important;
+  display: inline-block !important;
+  border: 1px solid var(--lightgray) !important;
+}
