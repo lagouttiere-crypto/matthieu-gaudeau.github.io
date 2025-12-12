@@ -11,7 +11,7 @@ cd public
 git init
 git add -A
 git commit -m "Deploy site $(date '+%Y-%m-%d %H:%M')"
-git push --force origin HEAD:gh-pages
+git push --force https://github.com/lagouttiere-crypto/matthieu-gaudeau.github.io.git HEAD:gh-pages
 cd ..
 
 echo "✅ Déploiement terminé !"
