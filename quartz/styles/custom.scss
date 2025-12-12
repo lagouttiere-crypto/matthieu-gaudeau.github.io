@@ -204,6 +204,26 @@ button.mobile-explorer h2 {
   opacity: 0.6;
 }
 /* ============================================
+   SIDEBAR DROITE - Texte plus petit
+   ============================================ */
+
+.right.sidebar {
+  font-size: 0.85rem !important;
+
+  h3,
+  h2,
+  h1 {
+    font-size: 0.9rem !important;
+  }
+
+  a,
+  li,
+  p {
+    font-size: 0.85rem !important;
+  }
+}
+
+/* ============================================
    TAGS - Version finale
    ============================================ */
 
