@@ -241,3 +241,18 @@ button.mobile-explorer h2 {
   display: inline-block !important;
   border: 1px solid var(--lightgray) !important;
 }
+/* ============================================
+   TAGS - Mode sombre
+   ============================================ */
+
+.theme-dark .tag-link,
+[saved-theme="dark"] .tag-link {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: rgba(255, 255, 255, 0.3) !important;
+  color: var(--light) !important;
+  
+  &:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    border-color: var(--tertiary) !important;
+  }
+}
