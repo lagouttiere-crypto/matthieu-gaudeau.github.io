@@ -14,22 +14,25 @@ tags:
 
 Le concept de **subsomption** émerge de la robotique des années 1980 avec Rodney Brooks. Contrairement aux architectures hiérarchiques classiques où chaque niveau traite des "caractéristiques" pour les envoyer au niveau supérieur, l'architecture de subsomption propose que **chaque niveau soit fonctionnel en soi**.
 
-Subsumer (du latin *subsumere* : prendre dessous, inclure) signifie **prendre le relais tout en intégrant** : une couche supérieure utilise les fonctionnalités de la couche inférieure qui reste active, ajoute un niveau de contrôle supplémentaire, et peut moduler ou inhiber selon le contexte — mais ne remplace jamais.
+Subsumer (du latin _subsumere_ : prendre dessous, inclure) signifie **prendre le relais tout en intégrant** : une couche supérieure utilise les fonctionnalités de la couche inférieure qui reste active, ajoute un niveau de contrôle supplémentaire, et peut moduler ou inhiber selon le contexte — mais ne remplace jamais.
 
 ---
 
 ## L'exemple du robot de Brooks
 
-**Couche 1** (évitement d'obstacles) : 
+**Couche 1** (évitement d'obstacles) :
+
 - Un sonar calcule une force répulsive si un mur est devant
 - Cette couche est **fonctionnelle seule** — le robot évite les murs
 
 **Couche 2** (déambulation) :
+
 - Choisit une direction aléatoire à intervalles réguliers
 - **Subsume** la couche 1 : combine sa direction avec la force du sonar
 - La couche 1 continue de fonctionner, la couche 2 prend le relais du contrôle global
 
 **Couche 3** (exploration) :
+
 - Subsume les deux couches précédentes
 - Ajoute des objectifs de navigation tout en préservant évitement et déambulation
 
@@ -67,16 +70,18 @@ Chaque niveau évolutif subsume le précédent sans l'effacer. Les affordances p
 
 ---
 
-## Robotique morphologique et *soft robotics*
+## Robotique morphologique et _soft robotics_
 
 La **morphological computation** (calcul morphologique) prolonge cette idée : la structure physique du robot — sa déformabilité, ses matériaux, sa géométrie — **fait partie du système de contrôle**, pas seulement le logiciel.
 
 **Exemples** :
+
 - **Robots souples** (silicone, tissus pneumatiques) : la déformation elle-même encode de l'information et résout des problèmes de contrôle
 - **Passive dynamic walkers** : robots bipèdes sans moteurs qui marchent grâce à leur géométrie et la gravité
 - **Octobots** : exploitent la compliance des matériaux pour naviguer — la proprioception émerge de la déformation physique
 
 Dans ces systèmes :
+
 - La **structure physique déformable** = le cheval (fonctionnel en soi)
 - Le **contrôleur de haut niveau** = le cavalier (qui subsume)
 - Les **déformations matérielles** = les sensations que le cavalier ne perçoit pas directement, mais dont il perçoit les affordances
@@ -97,7 +102,7 @@ Le [[Geste]] opère selon une logique de subsomption. Les niveaux infra-intentio
 
 3. **L'apprentissage** ne consiste pas à "reprogrammer" les réflexes mais à **enrichir les couches de subsomption** — ajouter de nouvelles modalités de coordination sans perdre les anciennes
 
-4. **La [[Voix médiane]]** prend tout son sens : le sujet n'agit pas *sur* son tonus mais *avec/à travers* lui, en tant que couche subsumée qui reste agent
+4. **La [[Voix médiane]]** prend tout son sens : le sujet n'agit pas _sur_ son tonus mais _avec/à travers_ lui, en tant que couche subsumée qui reste agent
 
 ---
 
@@ -131,4 +136,4 @@ La [[Récursivité]] s'exprime ici : les affordances perçues par les niveaux su
 
 ---
 
-*"Si chaque niveau doit être fonctionnel, alors ce qu'il perçoit ne peut pas être de simples caractéristiques, mais des affordances."*
+_"Si chaque niveau doit être fonctionnel, alors ce qu'il perçoit ne peut pas être de simples caractéristiques, mais des affordances."_

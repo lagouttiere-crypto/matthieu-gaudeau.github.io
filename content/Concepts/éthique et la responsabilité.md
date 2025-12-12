@@ -2,10 +2,11 @@
 type: concept
 aliases: []
 tags: [concept]
-domaine: 
-auteur_principal: 
-date_origine: 
+domaine:
+auteur_principal:
+date_origine:
 ---
+
 La perspective de la deuxième personne est aujourd’hui considérée comme centrale pour comprendre l’éthique et la responsabilité, parce qu’elle structure l’idée même d’obligation comme relation d’adresse entre des personnes qui peuvent se demander des comptes.​
 
 ## Adresse, revendication et autorité morale
@@ -27,4 +28,3 @@ On parle alors de prise de position réflexive en seconde personne sur soi-même
 
 Les approches de type « second-personal » soutiennent ainsi que les concepts moraux fondamentaux (obligation, devoir, respect, dignité) sont inséparables de pratiques d’adresse mutuelle et de responsabilité réciproque.[compass.onlinelibrary.wiley+1](https://compass.onlinelibrary.wiley.com/doi/full/10.1111/phc3.12901)​  
 L’éthique n’est plus pensée seulement comme calcul de bonnes conséquences ou application de principes impersonnels, mais comme réseau de relations où chacun est à la fois capable de formuler des exigences et vulnérable à celles des autres.[philarchive+1](https://philarchive.org/rec/PAUTSS-2)​
-

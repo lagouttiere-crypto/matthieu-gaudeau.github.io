@@ -19,20 +19,19 @@ Contrairement à une idée reçue tenace, nous ne "sentons" pas directement la g
 - L'**oreille interne** (système vestibulaire : canaux semi-circulaires et organes otolithiques)
 - La **vue** qui participe à la construction de la verticale
 
-C'est sur cette *synthèse sensorielle multidimensionnelle* que se coordonnent nos mouvements, notre tonus, notre organisation posturale.
-
+C'est sur cette _synthèse sensorielle multidimensionnelle_ que se coordonnent nos mouvements, notre tonus, notre organisation posturale.
 
 ## Qu'est-ce qu'un invariant ?
 
 Avant d'aller plus loin, clarifions ce concept central.
 
-En sciences cognitives et en psychologie du développement, un **invariant** désigne une **relation stable** qui persiste à travers les variations du contexte. Ce n'est pas un objet fixe, mais une *régularité relationnelle* qui structure l'expérience et permet l'action. 
+En sciences cognitives et en psychologie du développement, un **invariant** désigne une **relation stable** qui persiste à travers les variations du contexte. Ce n'est pas un objet fixe, mais une _régularité relationnelle_ qui structure l'expérience et permet l'action.
 
-- Posez-vous un instant. Vous êtes assis au bord d'une rivière. L'eau s'écoule rapidement, la surface  ondule, les reflets changent et pourtant vous savez directement dans quel sens coule le courant.  Ce savoir ne dépend pas d'un élément fixe, ni d'un élément stable dans le flux. Il dépend d'une relation stable dans le "chaos". 
+- Posez-vous un instant. Vous êtes assis au bord d'une rivière. L'eau s'écoule rapidement, la surface ondule, les reflets changent et pourtant vous savez directement dans quel sens coule le courant. Ce savoir ne dépend pas d'un élément fixe, ni d'un élément stable dans le flux. Il dépend d'une relation stable dans le "chaos".
 
 ### L'invariant comme point d'appui perceptif
 
-André Bullinger, pionnier dans l'étude du développement sensori-moteur, a montré que **l'invariant gravitaire** fonctionne comme un *référentiel* autour duquel le bébé organise progressivement ses mouvements et sa posture. 
+André Bullinger, pionnier dans l'étude du développement sensori-moteur, a montré que **l'invariant gravitaire** fonctionne comme un _référentiel_ autour duquel le bébé organise progressivement ses mouvements et sa posture.
 
 **Caractéristiques essentielles :**
 
@@ -46,20 +45,24 @@ André Bullinger, pionnier dans l'étude du développement sensori-moteur, a mon
 L'invariant gravitaire émerge de l'intégration continue de :
 
 **1. Le système vestibulaire (oreille interne)**
+
 - Canaux semi-circulaires → détectent les rotations de la tête
 - Organes otolithiques (utricule, saccule) → sensibles aux accélérations linéaires et à l'orientation par rapport à la verticale
 
 **2. La proprioception profonde**
+
 - Fuseaux neuromusculaires → longueur et tension musculaire
 - Organes tendineux de Golgi → tension dans les tendons
 - Récepteurs articulaires → position des segments corporels
 
 **3. Les récepteurs de pression**
+
 - Mécanorécepteurs cutanés → zones de contact et d'appui
 - Voûte plantaire → carte dynamique des pressions au sol
 - Surfaces d'appui (fesses en position assise, dos en position allongée...)
 
 **4. La vision**
+
 - Verticale visuelle participant à la construction de la verticale subjective
 - Flux optique donnant des indices sur les déplacements du corps dans l'espace
 

@@ -11,8 +11,8 @@ tags:
 
 ## Ce que Newton n'a pas demandé
 
->[!chute] "When an apple fell on his head, Isaac Newton was inspired to describe his three laws of motion. These became the foundation of our ideas about physics. **Being essentially objective, Newton ignored what it feels like to be the apple.**"  
-> — Steve Paxton, *Fall After Newton*
+> [!chute] "When an apple fell on his head, Isaac Newton was inspired to describe his three laws of motion. These became the foundation of our ideas about physics. **Being essentially objective, Newton ignored what it feels like to be the apple.**"  
+> — Steve Paxton, _Fall After Newton_
 
 Steve Paxton, pionnier du Contact Improvisation, retourne la question newtonienne. Newton a théorisé la gravité en troisième personne — forces, masses, accélérations. Paxton demande : **quelle est l'expérience vécue de la chute ?**
 
@@ -21,6 +21,7 @@ Cette question n'est pas anecdotique. Elle ouvre un renversement épistémologiq
 ## Troisième personne : le mouvement observé
 
 La physique newtonienne décrit le mouvement du dehors :
+
 - Forces appliquées
 - Trajectoires calculables
 - Lois universelles
@@ -78,4 +79,4 @@ La pomme de Newton tombe selon des lois immuables. Mais celui qui apprend à tom
 
 ---
 
-*"Being essentially objective, Newton ignored what it feels like to be the apple." — Steve Paxton*
+_"Being essentially objective, Newton ignored what it feels like to be the apple." — Steve Paxton_

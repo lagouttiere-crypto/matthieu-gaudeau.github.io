@@ -13,12 +13,13 @@ tags:
 
 ### Voix médiane (Benveniste)
 
-**En grec ancien** : *haptomai* = "je touche / je suis touché"
+**En grec ancien** : _haptomai_ = "je touche / je suis touché"
 
 **Structure** :
-- Ni voix active : *haptô* (je touche - action sur l'objet)
-- Ni voix passive : *haptomai* (je suis touché - je subis)
-- **Mais voix médiane** : *haptomai* (je me touche / je touche en étant touché)
+
+- Ni voix active : _haptô_ (je touche - action sur l'objet)
+- Ni voix passive : _haptomai_ (je suis touché - je subis)
+- **Mais voix médiane** : _haptomai_ (je me touche / je touche en étant touché)
 
 **Citation clé (Benveniste)** :
 
@@ -33,13 +34,15 @@ tags:
 La voix médiane n'est pas qu'une structure grammaticale, elle se manifeste dans le [[Geste]] corporel :
 
 **GESTE ACTIF (voix active)**
+
 - JE fais le geste
 - Le geste est mon produit
 - Je suis agent pur
 - Contrôle, volonté
-- *End-gaining*
+- _End-gaining_
 
 **GESTE PASSIF (voix passive)**
+
 - Le geste m'arrive
 - Je subis le geste
 - Je suis patient pur
@@ -47,11 +50,12 @@ La voix médiane n'est pas qu'une structure grammaticale, elle se manifeste dans
 - Dérive
 
 **GESTE MÉDIAN (voix médiane)**
+
 - Le geste ME FAIT autant que je le fais
 - Je suis agent ET site de l'action
 - Ni contrôle ni abandon
 - Disponibilité active
-- *Means-whereby*
+- _Means-whereby_
 
 ---
 
@@ -60,6 +64,7 @@ La voix médiane n'est pas qu'une structure grammaticale, elle se manifeste dans
 ### 1. Réciprocité
 
 Le geste médian est réciproque :
+
 - Je touche le sol ET le sol me touche
 - Je porte mon regard ET mon regard me porte
 - Je respire ET la respiration me respire
@@ -69,6 +74,7 @@ Le geste médian est réciproque :
 ### 2. Co-émergence
 
 Le geste médian fait émerger :
+
 - Le sujet ET le geste co-émergent
 - Pas de sujet préalable qui ensuite fait le geste
 - Le sujet advient DANS le geste
@@ -85,18 +91,20 @@ Comme les fruits se donnent par l'arbre en fin d'été ([[Ce par quoi il donne|f
 
 ## Le geste médian dans la pratique
 
-### Alexander Technique : *inhibition* et *direction*
+### Alexander Technique : _inhibition_ et _direction_
 
 Dans la Technique Alexander, le [[Contrôle-Primaire]] opère selon une logique médiane :
+
 - On ne "tient" pas sa posture (actif)
 - On ne s'abandonne pas à la gravité (passif)
-- On **permet** que l'organisation émerge (*means-whereby*)
+- On **permet** que l'organisation émerge (_means-whereby_)
 
-L'*inhibition* n'est pas un blocage mais une suspension de l'action directe. La *direction* n'est pas une commande motrice mais une disponibilité orientée. Le geste advient dans cet espace médian.
+L'_inhibition_ n'est pas un blocage mais une suspension de l'action directe. La _direction_ n'est pas une commande motrice mais une disponibilité orientée. Le geste advient dans cet espace médian.
 
 ### Contact Improvisation : chute et portage
 
 En Contact Improvisation ([[Expérience de la chute|voir vidéo]]), la voix médiane structure toute la pratique :
+
 - Je tombe ET je suis porté
 - Je porte ET je suis porté
 - Le poids se donne ET je le reçois
@@ -119,10 +127,10 @@ Cette dissolution n'est pas une perte mais une libération : ne plus avoir à "f
 - [[Donner]] — donation plutôt que production
 - [[Récursivité]] — co-émergence sujet/geste
 - [[Agentivité]] — dissolution du sujet comme origine
-- [[Contrôle-Primaire]] — *means-whereby*
+- [[Contrôle-Primaire]] — _means-whereby_
 - [[L'expérience de la chute]] — Contact Improvisation
 - [[Gestosphère]] — univers symbolique des gestes
 
 ---
 
-*"Le geste ne présuppose pas un sujet qui le ferait, mais produit le sujet en même temps qu'il se produit." — Emma Bigé*
+_"Le geste ne présuppose pas un sujet qui le ferait, mais produit le sujet en même temps qu'il se produit." — Emma Bigé_

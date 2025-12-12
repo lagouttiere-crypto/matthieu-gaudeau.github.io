@@ -16,13 +16,13 @@ Cette compréhension du geste rompt avec la vision instrumentale du mouvement. C
 
 ## Le geste fait sens
 
->[!quote] Le geste (ou le verbe) nomme l'indissociabilité de l'agir, de l'être et du sentir. Il « fait sens », comme Lucia Angelino le dit en prenant l'anglicisme au pied de la lettre : en lui, se fabrique le sens, c'est-à-dire que se tissent le sentir et le faire qu'il déploie.
+> [!quote] Le geste (ou le verbe) nomme l'indissociabilité de l'agir, de l'être et du sentir. Il « fait sens », comme Lucia Angelino le dit en prenant l'anglicisme au pied de la lettre : en lui, se fabrique le sens, c'est-à-dire que se tissent le sentir et le faire qu'il déploie.
 
-Le geste n'est pas porteur d'un sens préexistant qu'il transmettrait. Il *fabrique* le sens dans son déploiement même. Cette [[Récursivité]] est fondamentale : percevoir c'est déjà agir, agir c'est reconfigurer ce qui peut être perçu. Le geste ne représente pas un monde, il fait advenir un monde <> et par là même, un sujet-expérimentation. 
+Le geste n'est pas porteur d'un sens préexistant qu'il transmettrait. Il _fabrique_ le sens dans son déploiement même. Cette [[Récursivité]] est fondamentale : percevoir c'est déjà agir, agir c'est reconfigurer ce qui peut être perçu. Le geste ne représente pas un monde, il fait advenir un monde <> et par là même, un sujet-expérimentation.
 
 ## La gestosphère : l'univers symbolique des gestes
 
-Hubert Godard introduit le concept de [[10 - Fondamentaux/H.Godard/Concepts/Fondamentaux/lié au mouvement/Gestosphère]] pour désigner l'univers symbolique des gestes qui constituent une personne. Ce n'est pas simplement l'ensemble des mouvements possibles (la *kinésphère* de Laban), mais le répertoire des gestes avec leur portée signifiante, affective, relationnelle.
+Hubert Godard introduit le concept de [[10 - Fondamentaux/H.Godard/Concepts/Fondamentaux/lié au mouvement/Gestosphère]] pour désigner l'univers symbolique des gestes qui constituent une personne. Ce n'est pas simplement l'ensemble des mouvements possibles (la _kinésphère_ de Laban), mais le répertoire des gestes avec leur portée signifiante, affective, relationnelle.
 
 > "C'est cet univers symbolique qui va expliquer et forcer l'anatomie, et non l'inverse." — Hubert Godard
 
@@ -38,7 +38,7 @@ Cette notion de **geste manquant** est capitale : on peut avoir la force muscula
 
 Le geste s'actualise toujours dans un environnement qui offre des possibilités d'action — ce que Gibson nomme [[Affordance]]. Mais contrairement à une lecture behavioriste, l'affordance n'est pas une propriété objective de l'environnement : elle émerge du couplage entre la gestosphère de l'individu et le contexte.
 
-L'espace du geste n'est pas homogène, il est peuplé de densités variables, d'orientations privilégiées, de fantômes relationnels. Avant qu'un geste ne se déploie, l'espace doit être reconstruit à partir de la géographie réelle (le *topos*) et de l'univers symbolique (la gestosphère).
+L'espace du geste n'est pas homogène, il est peuplé de densités variables, d'orientations privilégiées, de fantômes relationnels. Avant qu'un geste ne se déploie, l'espace doit être reconstruit à partir de la géographie réelle (le _topos_) et de l'univers symbolique (la gestosphère).
 
 ## Geste et voix médiane
 
@@ -57,5 +57,5 @@ Cette dimension médiane dissout l'[[Agentivité]] classique. Le geste n'a pas d
 
 ---
 
-*"Le geste fait sens" — Lucia Angelino*  
-*"C'est cet univers symbolique qui va expliquer et forcer l'anatomie" — Hubert Godard*
+_"Le geste fait sens" — Lucia Angelino_  
+_"C'est cet univers symbolique qui va expliquer et forcer l'anatomie" — Hubert Godard_

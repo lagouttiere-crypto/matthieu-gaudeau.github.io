@@ -97,10 +97,10 @@ async function mouseEnterHandler(
         el.id = targetID
       })
       const elts = [...html.getElementsByClassName("popover-hint")]
-    if (elts.length === 0) return
+      if (elts.length === 0) return
 
-    elts.forEach((elt) => popoverInner.appendChild(elt))
-    attachPopoverListeners(popoverInner)  // même indentation que la ligne au-dessus
+      elts.forEach((elt) => popoverInner.appendChild(elt))
+      attachPopoverListeners(popoverInner) // même indentation que la ligne au-dessus
   }
 
   if (!!document.getElementById(popoverId)) {
@@ -136,7 +136,6 @@ document.addEventListener("nav", () => {
     window.addCleanup(() => {
       link.removeEventListener("mouseenter", mouseEnterHandler)
       link.removeEventListener("mouseleave", clearActivePopover)
-     
     })
   }
 })

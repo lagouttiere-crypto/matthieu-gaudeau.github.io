@@ -10,15 +10,16 @@ tags:
 
 ## Une donation, pas une production
 
-Le [[Geste]] n'est pas un mouvement que l'on exécute. Il est **ce par quoi un monde se donne**. Cette formulation n'est pas métaphorique — elle nomme un processus transitif où quelque chose advient *par* le geste, sans que le geste soit une cause volontaire ou une origine stable.
+Le [[Geste]] n'est pas un mouvement que l'on exécute. Il est **ce par quoi un monde se donne**. Cette formulation n'est pas métaphorique — elle nomme un processus transitif où quelque chose advient _par_ le geste, sans que le geste soit une cause volontaire ou une origine stable.
 
 ## Fructidor : qui donne les fruits
 
 Le calendrier républicain français (1793-1805) nommait le 11e mois **Fructidor** — du 18 août au 16 septembre, période des récoltes.
 
-**Étymologie** : 
-- *fructus* (latin) : fruit
-- *doron* (grec) : don
+**Étymologie** :
+
+- _fructus_ (latin) : fruit
+- _doron_ (grec) : don
 
 **Fructidor** = "qui donne les fruits"
 
@@ -27,6 +28,7 @@ Cette nomination ne désigne pas une action volontaire. Les arbres ne "produisen
 ## Le geste comme fructidor
 
 Le geste opère selon la même structure :
+
 - Il ne "produit" pas un monde par volonté
 - Le monde **se donne par** le geste
 - Le geste est le lieu de cette donation, pas son origine
@@ -35,8 +37,8 @@ Comme l'arbre ne contrôle pas la fructification tout en étant le lieu où elle
 
 ## Étymologie de "donner"
 
-**Latin** : *donare* → faire don, offrir  
-**Indo-européen** : *dō-* → donner
+**Latin** : _donare_ → faire don, offrir  
+**Indo-européen** : _dō-_ → donner
 
 Le verbe "donner" porte cette ambiguïté fondamentale : est-ce moi qui donne, ou est-ce que quelque chose se donne par moi ? La langue grecque ancienne résolvait cette tension par la **[[Voix médiane]]** : une forme grammaticale distincte de l'actif et du passif, qui nomme un processus dont le sujet est le lieu sans en être la cause.
 
@@ -57,4 +59,4 @@ Comme fructidor nomme le temps où les fruits se donnent et transforment l'arbre
 
 ---
 
-*"Ce par quoi il donne" — non pas une action, mais une donation*
+_"Ce par quoi il donne" — non pas une action, mais une donation_
