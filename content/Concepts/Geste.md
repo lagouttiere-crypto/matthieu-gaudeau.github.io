@@ -16,7 +16,7 @@ Cette compréhension du geste rompt avec la vision instrumentale du mouvement. C
 
 ## Le geste fait sens
 
-> [!quote] Le geste (ou le verbe) nomme l'indissociabilité de l'agir, de l'être et du sentir. Il « fait sens », comme Lucia Angelino le dit en prenant l'anglicisme au pied de la lettre : en lui, se fabrique le sens, c'est-à-dire que se tissent le sentir et le faire qu'il déploie.
+> [!important] Le geste (ou le verbe) nomme l'indissociabilité de l'agir, de l'être et du sentir. Il « fait sens », comme Lucia Angelino le dit en prenant l'anglicisme au pied de la lettre : en lui, se fabrique le sens, c'est-à-dire que se tissent le sentir et le faire qu'il déploie.
 
 Le geste n'est pas porteur d'un sens préexistant qu'il transmettrait. Il _fabrique_ le sens dans son déploiement même. Cette [[Récursivité]] est fondamentale : percevoir c'est déjà agir, agir c'est reconfigurer ce qui peut être perçu. Le geste ne représente pas un monde, il fait advenir un monde <> et par là même, un sujet-expérimentation.
 

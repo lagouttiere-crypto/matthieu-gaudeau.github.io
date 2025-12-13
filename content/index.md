@@ -5,9 +5,9 @@ tags:
   - geste-médian
 ---
 
-**Bienvenue, welcome** ----- dans cet espace en _jachère_
+**Bienvenue, welcome** dans cet espace en _jachère_
 
--- ---- --- -- Faisons rapidement quelques pas ensemble --- --- - --- -- \_--- -- - -- \_\_ -- -
+-- ---- -- ---- Faisons rapidement quelques pas ensemble --- --- - --- -- \_--- -- - -- \_\_ -- -
 
 ```
 									----------- ---- --- ---- -- _----- --- _
@@ -29,7 +29,7 @@ Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la 
 Allons-y pas à pas, mais faisons un saut\_\_ : un geste n'est pas un mouvement que l'on exécute, c'est une organisation qui émerge, comme l'équilibre : on ne le "tient" pas, on l'habite. Un **geste** est ce par quoi un monde se donne, transitif.
 
 - Le contrôle primaire en Technique Alexander
-- l’[Invariant](https://lagouttiere-crypto.github.io/matthieu-gaudeau.github.io/Concepts/Invariant) gravitaire chez Bullinger
+- l’[[Invariant]] gravitaire chez Bullinger
 - la coordination chez Bernstein
 
 —> tous pointent vers cette même énigme : _comment quelque chose de stable peut-il émerger sans être contrôlé ?_
