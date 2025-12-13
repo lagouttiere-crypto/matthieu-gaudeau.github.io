@@ -22,7 +22,7 @@ Le geste n'est pas porteur d'un sens préexistant qu'il transmettrait. Il _fabri
 
 ## La gestosphère : l'univers symbolique des gestes
 
-Hubert Godard introduit le concept de [[10 - Fondamentaux/H.Godard/Concepts/Fondamentaux/lié au mouvement/Gestosphère]] pour désigner l'univers symbolique des gestes qui constituent une personne. Ce n'est pas simplement l'ensemble des mouvements possibles (la _kinésphère_ de Laban), mais le répertoire des gestes avec leur portée signifiante, affective, relationnelle.
+Hubert Godard introduit le concept de gestosphère pour désigner l'univers symbolique des gestes qui constituent une personne. Ce n'est pas simplement l'ensemble des mouvements possibles (la _kinésphère_ de Laban), mais le répertoire des gestes avec leur portée signifiante, affective, relationnelle.
 
 > "C'est cet univers symbolique qui va expliquer et forcer l'anatomie, et non l'inverse." — Hubert Godard
 

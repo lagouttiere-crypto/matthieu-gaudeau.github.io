@@ -5,7 +5,15 @@ tags:
   - geste-médian
 ---
 
+---
+
+## title: Garden Gester
+
 # Un jardin de gestes
+
+# Bienvenue / Welcome
+
+[[Public/A propos|A propos]] • [ About](About.md)
 
 ![[pierre.jpg|80]]
 
@@ -30,7 +38,7 @@ Les débats actuels portent notamment sur la manière d’intégrer des descript
 
 ## Un jardin qui ne se survole pas
 
-Dans la conception japonaise du jardin zen, il n'existe pas de point de vue qui permettrait d'embrasser l'ensemble d'un regard. Le jardin se découvre en arpentant. Chaque pas révèle non seulement une composition nouvelle, un nouvel angle de vue, un nouvel assemblage, mais bien plus encore, il se donne par le mouvement même de sa découverte, qui demande de ne pas en épuiser le sens.
+Dans la conception japonaise du jardin zen, il n'existe pas de point de vue qui permettrait d'embrasser l'ensemble d'un regard. Le [jardin](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) se découvre en arpentant. Chaque pas révèle non seulement une composition nouvelle, un nouvel angle de vue, un nouvel assemblage, mais bien plus encore, il se donne par le mouvement même de sa découverte, qui demande de ne pas en épuiser le sens.
 **[[Récursivité]]** : le sens du jardin naît du geste qui le cherche, et qui à son tour reconfigure ce qui peut être cherché. La beauté échappe au regard qui surplombe, elle excède dans l'expérience du parcours dans sa caresse.
 Ce site fonctionne de la même manière. Il n'y a pas de "début" à connaître avant de passer à la "suite". Les textes sont reliés, des occurrences qui suivent les associations conceptuelles plutôt qu'un ordre linéaire. Un mot souligné vous mènera vers son développement théorique, une référence vous ouvrira vers une exploration parallèle.
 

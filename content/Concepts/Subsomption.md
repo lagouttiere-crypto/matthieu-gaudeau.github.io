@@ -38,7 +38,7 @@ Subsumer (du latin _subsumere_ : prendre dessous, inclure) signifie **prendre le
 
 **Principe clé** : À chaque niveau, l'ensemble des couches inférieures forme un système fonctionnel. Ce n'est jamais "en attente" du niveau supérieur pour avoir un sens.
 
-La **morphological computation** prolonge cette idée ([[Images-Soft-Robots|voir exemples visuels]]) : la structure physique du robot...
+La **morphological computation** prolonge cette idée ([[Concepts/Images-soft-robots|voir exemples visuels]]) : la structure physique du robot...
 
 ---
 

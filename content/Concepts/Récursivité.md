@@ -12,7 +12,7 @@ tags:
 
 La récursivité n'est pas simplement une boucle de rétroaction. C'est une structure où l'acte de chercher le sens _produit_ le sens qu'il cherche, qui à son tour transforme la manière de chercher. Pas de point d'origine stable, pas de terme final : le processus se nourrit de lui-même sans jamais se clore.
 
-Dans le [[Public/Concepts/Geste|Geste]], cette récursivité se manifeste comme l'impossibilité de séparer ce qui agit de ce qui est agi. Le geste ne préexiste pas à son exécution, il émerge de l'acte même de se déployer.
+Dans le [[Concepts/Geste|Geste]], cette récursivité se manifeste comme l'impossibilité de séparer ce qui agit de ce qui est agi. Le geste ne préexiste pas à son exécution, il émerge de l'acte même de se déployer.
 
 > [!Le geste] Le geste (ou le verbe) nomme l’indissociabilité de l’agir, de l’être et du sentir.
 > Il « fait sens », comme Lucia Angelino le dit en prenant l’anglicisme au pied de la lettre : en lui, se fabrique le sens, c’est-à-dire que se tissent le sentir et le faire qu’il déploie.
