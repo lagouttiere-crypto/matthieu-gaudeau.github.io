@@ -66,10 +66,10 @@ Faisons un pas récursif, reprenons le terme -articuler- dans la phrase précéd
 - **⥰** Elle **m’offre** un <u>support</u> sur lequel je peux plus ou moins me déposer,
 - ⥹ et **recevoir** en retour le <u>support</u> afin de déployer mes bras et plus de liberté à mes mains afin qu’elles ne s’effondrent pas sur le clavier, privant ainsi mes doigts de précieux degrés de liberté qui leur permettront de trouver les touches et d’écrire dans un rythme plus cohérent avec le rythme de mes pensées (à moins que ce rythme ne soit lui-même la conséquence de ce couplage homme-machine ?).
 
-  Entre ces deux perspectives émerge
-    
-   ————> UN RAPPORT <————
-  <---------->
+Entre ces deux perspectives émerges
+
+-----> UN RAPPORT <-------
+<--------------------------->
 
 Soufflons un instant et déployons notre geste.
 
