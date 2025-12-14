@@ -10,13 +10,13 @@ tags:
 -- ---- -- ---- Faisons rapidement quelques pas ensemble --- --- - --- -- \_--- -- - -- \_\_ -- -
 
 ```
-									----------- ---- --- ---- -- _----- --- _
-┌─────────────────────────────────────────────────────────────────────────┐  |
-│                                                                         │  |
-│  Garden-Gester est le jardin public à l'orée d'une forêt beaucoup    │   <-
+									----------- ---- --- ---- -- _----- __
+┌──────────────────────────────────────────────────────────────────────┐  |
+│                                                                      │  |
+│  Garden-Gester est le jardin public à l'orée d'une forêt beaucoup     <-
 │  plus grande et un tout petit peu plus sauvage.                      │
-│                                                                         │
-└─────────────────────────────────────────────────────────────────────────┘
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
 ```
 
 ----- -- ----- ---- ---- My wonderful **big jumble** ----- --- -- - --- ---- -- --- \_--- ---->
@@ -24,7 +24,7 @@ tags:
 J'ai essayé de rendre cet espace autant que possible praticable. Je crois comprendre que nous avons (chacun.e d'entre nous) des façons très singulières de faire corps avec l'inconfort du sens. **ICI** j'évoque surtout des bout de pensées plus ou moins germées sur le concept de GESTE et ses très nombreuses implications.
 Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la chose, est de débuter par le fait que :
 
-### Le geste n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]...
+### Le [[Public/Concepts/Geste|Geste]] n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]...
 
 Allons-y pas à pas, mais faisons un saut\_\_ : un geste n'est pas un mouvement que l'on exécute, c'est une organisation qui émerge, comme l'équilibre : on ne le "tient" pas, on l'habite. Un **geste** est ce par quoi un monde se donne, transitif.
 
