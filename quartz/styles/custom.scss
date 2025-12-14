@@ -277,15 +277,15 @@ button.mobile-explorer h2 {
   }
 }
 
-/* Surlignage - Vague verte au lieu de fond jaune */
-mark,
-.markdown-preview-view mark,
-.popover-inner mark,
-article mark,
-.page-content mark {
-  background: transparent !important;
+/* ============================================
+   SURLIGNAGE - Vague verte
+   ============================================ */
+
+.text-highlight {
   background-color: transparent !important;
-  padding-bottom: 3px !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+  padding: 0 0.1rem 3px 0.1rem !important;
   position: relative !important;
 
   &::after {
