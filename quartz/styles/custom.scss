@@ -278,38 +278,24 @@ button.mobile-explorer h2 {
 }
 
 /* ============================================
-   SURLIGNAGE - Vague verte (FORCE MAXIMALE)
+   SOULIGNEMENT VAGUE VERTE - Classe custom
    ============================================ */
 
-span.text-highlight,
-.text-highlight,
-.page-content .text-highlight,
-article .text-highlight,
-.popover-inner .text-highlight {
-  background-color: transparent !important;
-  background: none !important;
-  background-image: none !important;
-  border-radius: 0 !important;
-  padding: 0 0.1rem 4px 0.1rem !important;
+.vague,
+.wave {
+  background: transparent !important;
   position: relative !important;
-  display: inline !important;
-}
+  padding-bottom: 6px !important;
 
-span.text-highlight::after,
-.text-highlight::after {
-  content: "" !important;
-  position: absolute !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  width: 100% !important;
-  height: 3px !important;
-  background: repeating-linear-gradient(
-    90deg,
-    rgba(144, 238, 144, 0.9) 0px,
-    rgba(144, 238, 144, 0.9) 4px,
-    transparent 4px,
-    transparent 8px
-  ) !important;
-  z-index: -1 !important;
+  &::after {
+    content: "" !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 4px !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 8'%3E%3Cpath d='M 0 4 Q 5 0, 10 4 T 20 4 T 30 4 T 40 4' stroke='%2390EE90' stroke-width='2' fill='none'/%3E%3C/svg%3E") !important;
+    background-repeat: repeat-x !important;
+    background-size: 40px 8px !important;
+  }
 }
