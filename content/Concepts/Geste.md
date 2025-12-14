@@ -20,7 +20,7 @@ Parce qu’il faut commencer par un **geste**, essayons celui de _circonscrire_.
 
 2- Puis posons quelques question :
 
-- Pourquoi avons-nous besoins de gestes et non de mouvements ?
+- Pourquoi avons-nous besoin de gestes et non de mouvements ?
 - De quoi parlons-nous quand nous parlons de geste d’affection ou d’amour ?
 - Comment un simple geste, acquiert-il un statut particulier, d’affection ou de tendresse ?
 

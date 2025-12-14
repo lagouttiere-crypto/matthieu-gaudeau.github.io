@@ -13,7 +13,7 @@ tags:
 > Chez Gibson, un **invariant** est une structure stable dans le flux sensoriel - par exemple, le rapport entre les hauteurs apparentes de deux objets reste constant quand tu bouges, ou la texture du sol persiste malgré tes déplacements. Ce ne sont pas des « objets » figés mais des **régularités** dans l'information disponible.
 
 - ➥ un flux perceptif
-  > [!Un flux sensoriel]
+  > [! flux sensoriel]
   > Un flux sensoriel (Bullinger, 1996 ; 2004 ; 2015) peut se définir comme un ensemble dynamique de signaux continus et orientés qui vont venir stimuler la surface sensible d’un capteur mobile. Les variations d’orientation passives ou actives de ce capteur ou un changement d’orientation de la source induisent une modification du flux.
 
 ## Le point de départ : qu'est-ce qu'un invariant perceptif ?
