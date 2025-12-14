@@ -69,7 +69,6 @@ Faisons un pas récursif, reprenons le terme -articuler- dans la phrase précéd
 Entre ces deux perspectives émerges
 
 -----> UN RAPPORT <-------
-<--------------------------->
 
 Soufflons un instant et déployons notre geste.
 
