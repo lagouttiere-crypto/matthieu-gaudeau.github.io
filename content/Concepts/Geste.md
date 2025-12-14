@@ -10,7 +10,16 @@ tags:
 
 ## Une organisation émergente vs un mouvement exécuté
 
-Parce qu’il faut commencer par un **geste**, essayons celui de _circonscrire_.
+> [!abstract]
+> **Abstract**
+>
+> ### **An Emergent Organization vs. an Executed Movement**
+>
+> This article rethinks the notion of gesture by distinguishing it from movement understood as the execution of a motor action. A gesture is neither something one performs nor something one authors; it is an **emergent organization** arising from the dynamic coupling of body, environment, and relational history.
+> Drawing on the work of Hubert Godard, Bernstein’s theory of coordination, and ecological approaches to action, gesture is understood as the site where acting, sensing, and being are inseparable. Gesture does not express a pre-existing meaning; it **produces meaning in its very unfolding**, bringing forth both a world and a subject, and thereby challenging instrumental and dualistic conceptions of movement.
+> The concept of the **gestosphere** designates the symbolic and relational universe of gestures that configures bodily organization itself. Finally, gesture is situated within a **middle voice**: neither active nor passive, but a recursive process through which agency and perception continually co-emerge.
+
+==Parce qu’il faut commencer par un **geste**, essayons celui de _circonscrire_.==
 
 1- Faisons le tour de quelques idées peu conventionnelles :
 
