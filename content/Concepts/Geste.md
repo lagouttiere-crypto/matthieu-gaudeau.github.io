@@ -121,7 +121,7 @@ L'espace du geste n'est pas homogène, il est peuplé de densités variables, d'
 Le geste échappe à la dichotomie actif/passif. Il relève de ce que la grammaire grecque nomme la [[Voix médiane]] : ni faire ni subir, mais un processus dont le sujet est le lieu sans en être la cause. On ne "fait" pas un geste au sens où on exécuterait une commande — le geste se fait, et nous sommes le lieu de ce faire.
 
 Cette dimension médiane dissout l'[[Agentivité]] classique. Le geste n'a pas de sujet au sens d'une origine stable qui le produirait. Il y a plutôt une boucle récursive où ce qui agit et ce qui est agi ne peuvent être séparés.
-Cela repositionne notre éthique de la responsabilité. Et en cela Haraway peut nous donner une piste à suivre en développant le concept de response-ability, mais cela nous fait bifurquer.
+Cela repositionne notre éthique de la responsabilité. Et en cela Haraway peut nous donner une piste à suivre en développant le concept de [[response-ability]], mais cela nous fait bifurquer.
 
 ## Liens
 
