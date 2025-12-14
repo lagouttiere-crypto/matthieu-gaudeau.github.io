@@ -113,7 +113,7 @@ Nous pourrions tout autant prendre l’exemple d’une grenouille sur un nénuph
 
 ## Geste et affordance
 
-Le geste s'actualise toujours dans un environnement qui offre des [[Lapi_Cordel|Possibilités d'action]] possibilités d'action — ce que Gibson nomme [[Concepts/Affordance|Affordance]]. Mais contrairement à une lecture behavioriste, l'affordance n'est pas une propriété objective de l'environnement : elle émerge du couplage entre la [[Invite?|gestosphère de l'individu et le contexte]].
+Le geste s'actualise toujours dans un environnement qui offre des [[Lapi_Cordel|Possibilités d'action]] possibilités d'action — ce que Gibson nomme [[Concepts/Affordance|Affordance]]. Mais contrairement à une lecture behavioriste, l'affordance n'est pas une propriété objective de l'environnement : elle émerge du couplage entre la [[Invite|gestosphère de l'individu et le contexte]].
 
 L'espace du geste n'est pas homogène, il est peuplé de densités variables, d'orientations privilégiées, de fantômes relationnels. Avant qu'un geste ne se déploie, l'espace doit être reconstruit à partir de la géographie réelle (le _topos_) et de l'univers symbolique (la gestosphère).
 
