@@ -57,7 +57,7 @@ L'espace n'est pas donné a priori, il est reconstruit différemment pour chaque
 - [[Geste]] — organisation émergente, transitivité
 - [[Récursivité]] — le sens émerge du parcours qui le cherche
 - [[Voix médiane]] — ni actif ni passif
-- [[Affordance]] — possibilités d'action qui émergent du couplage
+- [[20 - Terrains/21 - ⚗️Fermentarium/50_Import-Worpress/Articles/affordance/Affordance]] — possibilités d'action qui émergent du couplage
 - [[Image du corps]] — constitution par le retour extéroceptif
 
 ---

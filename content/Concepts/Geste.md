@@ -66,10 +66,10 @@ Faisons un pas récursif, reprenons le terme -articuler- dans la phrase précéd
 - **⥰** Elle **m’offre** un <u>support</u> sur lequel je peux plus ou moins me déposer,
 - ⥹ et **recevoir** en retour le <u>support</u> afin de déployer mes bras et plus de liberté à mes mains afin qu’elles ne s’effondrent pas sur le clavier, privant ainsi mes doigts de précieux degrés de liberté qui leur permettront de trouver les touches et d’écrire dans un rythme plus cohérent avec le rythme de mes pensées (à moins que ce rythme ne soit lui-même la conséquence de ce couplage homme-machine ?).
 
-      				 Entre ces deux perspectives émerge
+      	 Entre ces deux perspectives émerge
 
-                    ————> UN RAPPORT <————
-                         <---------->
+            ————> UN RAPPORT <————
+                <---------->
 
 Soufflons un instant et déployons notre geste.
 
@@ -113,7 +113,7 @@ Nous pourrions tout autant prendre l’exemple d’une grenouille sur un nénuph
 
 ## Geste et affordance
 
-Le geste s'actualise toujours dans un environnement qui offre des [[Lapi_Cordel|Possibilités d'action]] possibilités d'action — ce que Gibson nomme [[Affordance]]. Mais contrairement à une lecture behavioriste, l'affordance n'est pas une propriété objective de l'environnement : elle émerge du couplage entre la [[Invite?|gestosphère de l'individu et le contexte]].
+Le geste s'actualise toujours dans un environnement qui offre des [[Lapi_Cordel|Possibilités d'action]] possibilités d'action — ce que Gibson nomme [[Concepts/Affordance|Affordance]]. Mais contrairement à une lecture behavioriste, l'affordance n'est pas une propriété objective de l'environnement : elle émerge du couplage entre la [[Invite?|gestosphère de l'individu et le contexte]].
 
 L'espace du geste n'est pas homogène, il est peuplé de densités variables, d'orientations privilégiées, de fantômes relationnels. Avant qu'un geste ne se déploie, l'espace doit être reconstruit à partir de la géographie réelle (le _topos_) et de l'univers symbolique (la gestosphère).
 
@@ -129,7 +129,7 @@ Cela repositionne notre éthique de la responsabilité. Et en cela Haraway peut 
 - [[Récursivité]] — le sens émerge du geste qui le cherche
 - [[Public/Concepts/Gestosphère|Gestosphère]] — l'univers symbolique qui force l'anatomie
 - [[Voix médiane]] — ni actif ni passif
-- [[Affordance]] — possibilités d'action qui émergent du couplage
+- [[Concepts/Affordance|Affordance]] — possibilités d'action qui émergent du couplage
 - [[Agentivité]] — dissolution du sujet comme origine
 - [[Contrôle primaire]] — organisation émergente qui ne se contrôle pas
 

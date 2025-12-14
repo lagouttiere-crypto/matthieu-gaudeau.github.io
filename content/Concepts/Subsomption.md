@@ -42,7 +42,7 @@ La **morphological computation** prolonge cette idée ([[Concepts/Images-soft-ro
 
 ---
 
-## Subsomption et [[Affordance|affordances]]
+## Subsomption et [[20 - Terrains/21 - ⚗️Fermentarium/50_Import-Worpress/Articles/affordance/Affordance|affordances]]
 
 Si chaque niveau doit être fonctionnel, alors **ce qu'il perçoit ne peut pas être de simples "caractéristiques"** (contours, couleurs, intensités) qui n'ont de sens qu'une fois assemblées. Ce doit être des **affordances** : des possibilités d'interaction.
 
@@ -128,7 +128,7 @@ La [[Récursivité]] s'exprime ici : les affordances perçues par les niveaux su
 
 ## Liens
 
-- [[Affordance]] — possibilités d'action directement perçues
+- [[20 - Terrains/21 - ⚗️Fermentarium/50_Import-Worpress/Articles/affordance/Affordance]] — possibilités d'action directement perçues
 - [[Geste]] — organisation émergente qui subsume les niveaux infra-intentionnels
 - [[Voix médiane]] — ni actif ni passif, mais médian
 - [[Récursivité]] — boucle perception-action
