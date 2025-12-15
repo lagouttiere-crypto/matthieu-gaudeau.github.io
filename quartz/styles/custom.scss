@@ -313,3 +313,22 @@ span.text-highlight::after,
   ) !important;
   z-index: -1 !important;
 }
+
+/* ============================================
+   Footer typo
+   ============================================ */
+footer p {
+  font-weight: 400; /* normal, pas gras */
+  font-size: 0.8rem; /* très petit, tu peux tester 0.75rem ou 0.8rem si besoin */
+}
+footer ul li a {
+  font-weight: 400; /* pas gras */
+  font-size: 0.7rem; /* même taille que le texte du footer */
+  text-decoration: none; /* enlève le soulignement si tu veux */
+  opacity: 0.8; /* un peu plus discret */
+}
+
+footer ul li a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
