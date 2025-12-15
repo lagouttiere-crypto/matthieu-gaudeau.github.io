@@ -128,7 +128,7 @@ La [[Récursivité]] s'exprime ici : les affordances perçues par les niveaux su
 
 ## Liens
 
-- [[20 - Terrains/21 - ⚗️Fermentarium/50_Import-Worpress/Articles/affordance/Affordance]] — possibilités d'action directement perçues
+- [[Public/Concepts/Affordance|Affordance]] — possibilités d'action directement perçues
 - [[Geste]] — organisation émergente qui subsume les niveaux infra-intentionnels
 - [[Voix médiane]] — ni actif ni passif, mais médian
 - [[Récursivité]] — boucle perception-action
