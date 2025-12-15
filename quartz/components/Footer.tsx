@@ -14,7 +14,8 @@ export default ((opts?: Options) => {
     return (
       <footer class={`${displayClass ?? ""}`}>
         <p>
-          Created MGaudeau © {year} — Powered by{" "}
+          Created MGaudeau © {year}
+          {i18n(cfg.locale).components.footer.createdWith}{" "}
           <a href="https://quartz.jzhao.xyz/">Quartz v{version}</a>
         </p>
 
