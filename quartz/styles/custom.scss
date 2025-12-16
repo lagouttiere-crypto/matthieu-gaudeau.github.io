@@ -51,7 +51,8 @@ time,
 a {
   background-image:
     linear-gradient(transparent, transparent),
-    linear-gradient(rgba(100, 149, 237, 0.2), rgba(100, 149, 237, 0.2)) !important;
+    linear-gradient(rgba(144, 238, 144, 0.15), rgba(144, 238, 144, 0.15)) !important; /* Vert ! */
+
   background-size:
     0 2px,
     100% 2px !important;
@@ -331,4 +332,77 @@ footer ul li a {
 footer ul li a:hover {
   opacity: 1;
   text-decoration: underline;
+}
+/* ============================================
+   Page accueil sans sidebar 
+   ============================================ */
+
+body:has(.garden-recent) {
+  .page {
+    display: grid !important; // Garde le grid mais modifie-le
+    grid-template-columns: 1fr !important; // Une seule colonne
+    justify-content: center !important;
+  }
+
+  .left,
+  .right {
+    display: none !important;
+  }
+
+  .center {
+    width: 100% !important;
+    max-width: 1400px !important;
+    margin: 0 auto !important;
+    padding: 2rem 0rem !important;
+    grid-column: 1 / -1 !important; // <-- LE VOILÀ !
+  }
+
+  // titre et tags
+  .page-title,
+  .article-title,
+  .content-meta,
+  .tags,
+  ul.tags {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+  }
+
+  // Article de contenu
+  .center > article {
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+    padding-bottom: 2rem !important;
+  }
+  .garden-recent {
+    padding: 0 4rem !important; // Le padding uniquement ici
+  }
+}
+
+// Override TOUS les breakpoints possibles
+@media (min-width: 768px) {
+  body:has(.garden-recent) .left,
+  body:has(.garden-recent) .right {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  body:has(.garden-recent) .left,
+  body:has(.garden-recent) .right {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1280px) {
+  body:has(.garden-recent) .left,
+  body:has(.garden-recent) .right {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1536px) {
+  body:has(.garden-recent) .left,
+  body:has(.garden-recent) .right {
+    display: none !important;
+  }
 }

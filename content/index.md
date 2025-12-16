@@ -3,6 +3,8 @@ title: Un jardin de gestes
 tags:
   - geste
   - geste-médian
+  - invariant
+  - récursivité
 ---
 
 **Bienvenue, welcome** dans cet espace en _jachère_

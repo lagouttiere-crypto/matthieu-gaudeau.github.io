@@ -51,3 +51,4 @@ export {
   Flex,
   ConditionalRender,
 }
+export { default as GardenRecent } from "./GardenRecent"
