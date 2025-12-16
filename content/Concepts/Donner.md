@@ -6,11 +6,7 @@ tags:
   - geste
 ---
 
-# Ce par quoi il donne
-
-## Une donation, pas une production
-
-Le [[Geste]] n'est pas un mouvement que l'on exécute. Il est **ce par quoi un monde se donne**. Cette formulation n'est pas métaphorique — elle nomme un processus transitif où quelque chose advient _par_ le geste, sans que le geste soit une cause volontaire ou une origine stable.
+# Une donation, pas une production
 
 ## Fructidor : qui donne les fruits
 
@@ -26,6 +22,8 @@ Le calendrier républicain français (1793-1805) nommait le 11e mois **Fructidor
 Cette nomination ne désigne pas une action volontaire. Les arbres ne "produisent" pas les fruits, Ils se donnent en fruit et en fin d'été — les fruits **se donnent** et [[L'expérience de la chute|tombent]] par le processus même de la maturation. Ce n'est ni actif (je donne) ni passif (on me donne des fruits), mais **médian** : ça se donne par l'arbre, et avec lui, l'apogée d'un été, qui est le lieu-même de cette donation, sa tonalité, sans en être la cause originaire.
 
 ## Le geste comme fructidor
+
+Le [[Geste]] n'est pas un mouvement que l'on exécute. Il est **ce par quoi un monde se donne**. Cette formulation n'est pas métaphorique — elle nomme un processus transitif où quelque chose advient _par_ le geste, sans que le geste soit une cause volontaire ou une origine stable.
 
 Le geste opère selon la même structure :
 
