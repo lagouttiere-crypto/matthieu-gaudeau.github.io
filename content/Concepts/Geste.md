@@ -45,7 +45,7 @@ Cette distinction est importante non pas pour spécifier le geste humain et disq
 
 Un geste n'est pas de l’ordre de ce que l'on fait. C'est une organisation qui émerge, de la même façon que l’équilibre n’est pas ce que nous tenons.
 
-## Le geste fait sens
+## Le geste fait sens ([[Public/Concepts/Enaction|sensing]])
 
 > _Le geste (ou le verbe) nomme l'indissociabilité de l'agir, de l'être et du sentir. Il « fait sens », comme Lucia Angelino le dit en prenant l'anglicisme au pied de la lettre : en lui, se fabrique le sens, c'est-à-dire que se tissent le sentir et le faire qu'il déploie._ [Emma Bigé](https://www.pourunatlasdesfigures.net/element/note-sur-le-concept-de-geste)
 
@@ -141,6 +141,7 @@ Cela repositionne notre éthique de la responsabilité. Et en cela Haraway peut 
 - [[Voix médiane]] — ni actif ni passif
 - [[Concepts/Affordance|Affordance]] — possibilités d'action qui émergent du couplage
 - [[Agentivité]] — dissolution du sujet comme origine
+- [[Public/Concepts/Enaction|Enaction]] — cognition incarnée - Embodiement
 - [[Contrôle primaire]] — organisation émergente qui ne se contrôle pas
 
 ---

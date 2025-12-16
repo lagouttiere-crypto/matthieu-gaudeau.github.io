@@ -1,7 +1,10 @@
 ---
 type: Note
 created: 2025-12-16
-tags: []
+tags:
+  - chiasme
+  - notes
+  - énaction
 ---
 
 **Le chiasme comme structure énactive**
