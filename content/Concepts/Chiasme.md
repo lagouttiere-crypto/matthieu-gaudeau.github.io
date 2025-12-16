@@ -12,7 +12,10 @@ date_origine: 16-12-2025
 
 ---
 
-**Concept principal :** [[Chiasme]] | [[Reversibilite]] | [[Corps propre]] | [[Reflexivite corporelle]] **Date de création :** 2025-11-11 **Statut :** 🌿 En cours **Tags :** #enrichissement #citations #Merleau-Ponty #phenomenologie #concept/chiasme #concept/reversibilite #concept/corps-propre
+**Concept principal :** [[Chiasme]] | [[Reversibilite]] | [[Corps propre]] | [[Reflexivite corporelle]]
+**Date de création :** 2025-11-11
+**Statut :** 🌿 En cours
+**Tags :** #enrichissement #citations #Merleau-Ponty #phenomenologie #concept/chiasme #concept/reversibilite #concept/corps-propre
 
 ## Vue d'ensemble
 
@@ -609,16 +612,18 @@ VISIBLE      TOUCHABLE
 | Écart irréductible        | "Faire comme si"           | **Même ambiguïté**     |
 | Chair partagée            | Accordage = rencontre      | **Même participation** |
 
-**Complémentarité :**
+**[[Le chiasme comme structure énactive|Complémentarité]] :**
 
 - Merleau-Ponty = fondation **philosophique**
 - Behnke = application **pratique**, technique
 
-### Comment cela change ma pratique
+---
+
+## Comment cela informe la pratique
 
 ### Questions ouvert
 
-**Q1 : Rapport du chiasme à l’habitude **
+**Q1 : Rapport du chiasme à l’habitude ? **
 
 **Q2 : Y a-t-il un lien entre chiasme et inhibition ?**
 
