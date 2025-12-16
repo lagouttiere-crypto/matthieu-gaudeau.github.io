@@ -27,11 +27,19 @@ Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la 
 
 ### Le [[Concepts/Geste|Geste]] n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]...
 
-Allons-y pas à pas, mais faisons un saut\_\_ : un geste n'est pas un mouvement que l'on exécute, c'est une organisation qui émerge, comme l'équilibre : on ne le "tient" pas, on l'habite. Un **geste** est ce par quoi un monde se donne, transitif.
+Allons-y pas à pas, mais faisons un saut\_\_ : Proposons en premier lieu
 
-- Le contrôle primaire en Technique Alexander
-- l’[[Invariant]] gravitaire chez Bullinger
-- la coordination chez Bernstein
+➫ qu'un geste ne soit pas un mouvement que l'on exécute mais une organisation qui émerge, comme l'équilibre : on ne le "tient" pas, on [[Small dance|l'habite]].
+
+et ensuite ?
+
+➫ qu'un **geste** soit ce par quoi un monde se [[Donner|donne]], transitif.
+
+---
+
+- Le **contrôle primaire** en Technique Alexander
+- l’**[[Invariant]] gravitaire** chez Bullinger
+- la **coordination** chez Bernstein
 
 —> tous pointent vers cette même énigme : _comment quelque chose de stable peut-il émerger sans être contrôlé ?_
 
@@ -50,7 +58,7 @@ Ces trois perspectives ne s'opposent pas. Elles s'entrelacent, se nourrissent, r
 Plusieurs auteurs soutiennent que l’étude de l’expérience requiert une articulation rigoureuse de ces trois perspectives plutôt qu’une opposition simpliste entre subjectif (1P) et objectif (3P).[](https://www.expliciter.org/wp-content/uploads/2022/05/vers-une-psychophenomenologie-1-pierre-vermersch.pdf)​  
 Les débats actuels portent notamment sur la manière d’intégrer des descriptions de première et de deuxième personne dans des protocoles de recherche en troisième personne sans réduire l’expérience vécue à ses corrélats observables.[](https://www.implications-philosophiques.org/?p=11591)​
 
-## Un jardin qui ne se survole pas
+## Un jardin ne se survole pas
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────┐
