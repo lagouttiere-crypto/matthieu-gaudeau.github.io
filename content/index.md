@@ -47,7 +47,7 @@ Ce jardin explore cette question à travers la pédagogie énactive : une approc
 
 ## Trois chemins qui se croisent
 
-**En [[Première personne|première personne]]** : l'expérience vécue, le sentir kinesthésique, ce qui se révèle dans l'attention portée à soi-même. Quelle est la "nature" de ce geste ? Car il s'agit bien d'un geste et comme tout geste, il produit ses [[Public/Concepts/Chiasme|effets]]. Quels sont-ils sur notre organisation, lorsque nous cessons de "faire" et commençons à "permettre" ?
+**En [[Première personne|première personne]]** : l'expérience vécue, le sentir kinesthésique, ce qui se révèle dans l'attention portée à soi-même. Quelle est la "nature" de ce geste ? Car il s'agit bien d'un geste et comme tout geste, il produit ses [[Concepts/Chiasme|effets]]. Quels sont-ils sur notre organisation, lorsque nous cessons de "faire" et commençons à "permettre" ?
 
 **En [[deuxième personne]]** : la relation pédagogique, le toucher comme langage, la co-émergence du geste dans l'accompagnement. L'enseignant qui oriente sans imposer, qui "design" des affordances plutôt que des instructions.
 
