@@ -195,5 +195,4 @@ Le _geste musical_ naît de cette danse à trois.
 
 - Spirales et lignes de force : mouvement lent, guidé par les appuis dynamiques.
 - Écoute incarnée : perception des affordances par le toucher, le son, le souffle.
-- Pré-mouvement musical : expérimenter comment l’intention modifie le corps avant même le son.  
-
+- Pré-mouvement musical : expérimenter comment l’intention modifie le corps avant même le son.
