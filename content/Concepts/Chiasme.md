@@ -3,9 +3,16 @@ type: concept
 aliases: []
 tags:
   - concept
+  - "#enrichissement"
+  - "#citations"
+  - "#Merleau-Ponty"
+  - phenomenologie
+  - concept/chiasme
+  - moyen/reversibilite
+  - concept/corps-propre
 domaine:
 auteur_principal: Merleau-Ponty
-date_origine: 16-12-2025
+date_origine: 11-11-2025
 maturity: arbre
 ---
 
@@ -14,9 +21,6 @@ maturity: arbre
 ---
 
 **Concept principal :** [[Chiasme]] | [[Reversibilite]] | [[Corps propre]] | [[Reflexivite corporelle]]
-**Date de création :** 2025-11-11
-**Statut :** 🌳
-**Tags :** #enrichissement #citations #Merleau-Ponty #phenomenologie #concept/chiasme #concept/reversibilite #concept/corps-propre
 
 ## Vue d'ensemble
 
@@ -216,7 +220,7 @@ Quand mes mains touchent l'élève :
 
 ---
 
-## ✨ EFFETS (What / Quoi)
+## EFFETS (What / Quoi)
 
 ### Citation 1 - Dépassement du dualisme sujet-objet
 
