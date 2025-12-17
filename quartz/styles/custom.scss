@@ -336,7 +336,7 @@ a.internal {
 .garden-recent .article-title,
 .garden-recent h1 {
   font-size: 1.3rem !important;
-  font-weight: 500 !important;
+  /*font-weight: 500 !important;*/
   margin-bottom: 0.5rem !important;
 }
 
@@ -364,6 +364,21 @@ a.internal {
 
 .garden-recent ul li:last-child,
 .garden-recent .section-li:last-child {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+}
+
+/* ===================================
+   GARDEN RECENT - Séparateurs entre cartes
+   =================================== */
+
+.garden-card {
+  padding-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  border-bottom: 1px solid #afaeae !important;
+}
+
+.garden-card:last-child {
   border-bottom: none !important;
   margin-bottom: 0 !important;
 }
