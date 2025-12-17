@@ -52,3 +52,4 @@ export {
   ConditionalRender,
 }
 export { default as GardenRecent } from "./GardenRecent"
+export { default as RelatedArticles } from "./RelatedArticles"

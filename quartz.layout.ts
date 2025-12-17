@@ -10,6 +10,12 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [
     Component.Graph(), // Graphe après le contenu de toutes les pages
     Component.Backlinks(), // Articles reliés après le graphe
+    Component.RelatedArticles({
+      // <-- NOUVEAU : Articles similaires par tags
+      title: "Articles similaires",
+      limit: 8,
+      showTags: true,
+    }),
     Component.GardenRecent({
       title: "Floraisons récentes",
       limit: 10,

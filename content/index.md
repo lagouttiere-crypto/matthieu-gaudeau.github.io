@@ -114,5 +114,3 @@ Les textes que vous trouverez ici sont en évolution permanente. Certains sont d
 [[À propos|À propos]] • [ About](About.md)
 
 ---
-
-_Ce site est construit avec [Quartz](https://quartz.jzhao.xyz), un outil qui transforme des notes connectées en jardin numérique explorable._

@@ -351,7 +351,7 @@ Si l'apprentissage nécessite variabilité et exploration, alors l'environnement
 
 ---
 
-## 🔄 Boucle récursive : retour au jardin
+## ↺ Boucle récursive : retour au jardin
 
 En arpentant Kirielle et ses ramifications, retour au jardin Garden-Gester, mais enrichi, éclairé autrement.
 

@@ -345,7 +345,14 @@ a.internal {
   /*font-weight: 500 !important;*/
 }
 
-.garden-recent h3 {
+/* Titre "Floraisons récentes" */
+.garden-recent > h3 {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 2rem !important;
+  color: #1a1a1a !important;
+}
+.garden-recent .garden-card h3 {
   font-size: 1rem !important;
   font-weight: 400 !important;
 }
@@ -379,6 +386,68 @@ a.internal {
 }
 
 .garden-card:last-child {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+}
+
+/* ===================================
+   RELATED ARTICLES - Titres plus discrets
+   =================================== */
+
+.related-articles .article-title,
+.related-articles h1 {
+  font-size: 1.3rem !important;
+  font-weight: 500 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.related-articles h2 {
+  font-size: 1.2rem !important;
+}
+
+/* Titre principal "Articles similaires" - sélecteur direct */
+.related-articles > h3 {
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+  margin-bottom: 1.5rem !important;
+  color: #1a1a1a !important;
+}
+
+/* Titres des cartes dans la grille - restent discrets */
+.related-articles .garden-card h3 {
+  font-size: 1rem !important;
+  font-weight: 400 !important;
+}
+
+/* ===================================
+   RELATED ARTICLES - Séparateurs entre items
+   =================================== */
+
+.related-articles ul li,
+.related-articles .section-li {
+  padding-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-left: 1rem !important;
+  border-bottom: 1px solid #686767 !important;
+}
+
+.related-articles ul li:last-child,
+.related-articles .section-li:last-child {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
+}
+
+/* ===================================
+   RELATED ARTICLES - Séparateurs entre cartes
+   =================================== */
+
+.related-articles .garden-card {
+  padding-bottom: 1rem !important;
+  margin-bottom: 1rem !important;
+  border-bottom: 1px solid #afaeae !important;
+}
+
+.related-articles .garden-card:last-child {
   border-bottom: none !important;
   margin-bottom: 0 !important;
 }

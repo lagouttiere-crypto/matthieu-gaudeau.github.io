@@ -41,7 +41,7 @@ export default ((userOpts?: Partial<Options>) => {
 
     return (
       <div class={classNames(displayClass, "garden-recent")}>
-        <h2>{opts.title}</h2>
+        <h3>{opts.title}</h3>
         <div class="garden-grid">
           {pages.map((page) => {
             const title = page.frontmatter?.title ?? "Sans titre"
@@ -79,7 +79,7 @@ export default ((userOpts?: Partial<Options>) => {
   box-sizing: border-box;
 }
 
-.garden-recent h2 {
+.garden-recent h3 {
   margin-bottom: 2rem;
   font-size: 1.8rem;
 }
