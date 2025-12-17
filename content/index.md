@@ -46,7 +46,7 @@ Nous avons déjà fait un bout de chemin ---- -- - - --- ---- ---- --- prenons q
 
 ### Finalement, pour ressaisir ce qui précède, nous pourrions le prolonger par une question. Qui est auteur du geste ?
 
-Que ce soit Berstein, F.M ALexander ou A.Bullinger, ( pour ne citer qu'eux ) **butent tous trois sur les limites du modèle commande-contrôle** :
+Que ce soit Berstein, F.M ALexander ou A.Bullinger, ( pour ne citer qu'eux ) tous trois ont **buté sur les limites du modèle commande-contrôle** :
 
 - Bernstein depuis la physiologie soviétique et le réflexe conditionné pavlovien
 - Alexander depuis l'introspection pratique (pragmatisme) et la pédagogie
