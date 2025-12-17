@@ -1,26 +1,29 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
+// Layout partagé - header minimaliste avec juste le titre
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
-  header: [],
+  header: [
+    Component.PageTitle(), // Juste le lien "Index" en haut
+  ],
   afterBody: [
+    Component.Graph(), // Graphe après le contenu de toutes les pages
+    Component.Backlinks(), // Articles reliés après le graphe
     Component.GardenRecent({
-      // <-- Utilise Component. au lieu de GardenRecent
-      title: " Floraisons récentes",
+      title: "Floraisons récentes",
       limit: 10,
       showTags: true,
     }),
   ],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      // Tu peux garder ou vider tes liens
     },
   }),
 }
 
-// components for pages that display a single page (e.g. a single note)
+// Layout pour les pages de contenu individuelles
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ConditionalRender({
@@ -31,44 +34,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ContentMeta(),
     Component.TagList(),
   ],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
-    Component.Explorer(),
-  ],
-  right: [
-    Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
-  ],
+  left: [], // Plus de sidebar gauche
+  right: [], // Plus de sidebar droite
 }
 
-// components for pages that display lists of pages  (e.g. tags or folders)
+// Layout pour les pages de liste (tags, dossiers)
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.Explorer(),
-  ],
+  left: [],
   right: [],
 }

@@ -11,29 +11,23 @@ tags:
 
 -- ---- -- ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳-- \_--- -- - --🌳 \_\_
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│                                                                  │
-│  Garden-Gester est le jardin public à l'orée d'une forêt
-│  beaucoup plus grande et un tout petit peu plus sauvage 🌵
-│                                                                  │
-└──────────────────────────────────────────────────────────────────┘
-```
+### ==Garden-Gester est le jardin public à l'orée d'une forêt beaucoup plus grande et un tout petit peu plus sauvage 🌵== , <u> My wonderful big jumble </u> qui prospère grace à Obsidian.
 
------ -- ----- ---- <u> My wonderful **big jumble** </u> --- -- - -- -- --- \_-- ---- \_\_
+J'ai essayé de rendre Garden-Gester autant que possible praticable. Je crois comprendre, que nous avons (chacun.e d'entre nous) des façons très singulières de faire corps avec l'inconfort du sens. **ICI** j'évoque surtout des bout de pensées plus ou moins germées sur le concept de GESTE et ses nombreuses implications et ramifications.
 
-J'ai essayé de rendre cet espace autant que possible praticable. Je crois comprendre que nous avons (chacun.e d'entre nous) des façons très singulières de faire corps avec l'inconfort du sens. **ICI** j'évoque surtout des bout de pensées plus ou moins germées sur le concept de GESTE et ses très nombreuses implications.
-Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la chose, est de débuter par le fait que :
+Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la chose quand on parle de geste, c'est de commencer par le fait que :
 
-### Le [[Concepts/Geste|Geste]] n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]...
+### ➫ Le [[Concepts/Geste|Geste]] n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]... ( si ce n'est clair je vous invite à suivre ce lien )
 
-Allons-y pas à pas, mais faisons un saut\_\_ : Proposons en premier lieu
+Allons-y pas à pas, mais faisons un saut\_\_ : et poursuivons par :
 
-➫ qu'un geste ne soit pas un mouvement que l'on exécute mais une organisation qui émerge, comme l'équilibre : on ne le "tient" pas, on [[Small dance|l'habite]].
+➫ qu'un **geste** ne soit pas un mouvement que l'on exécute mais une organisation qui émerge, comme l'équilibre : on ne le "tient" pas, on [[Small dance|l'habite]].
 
 et ensuite ?
 
 ➫ qu'un **geste** soit ce par quoi un monde se [[Donner|donne]], transitif.
+
+Nous avons déjà fait un bon bout de chemin ---- -- - - --- ---- ---- ---
 
 ---
 
@@ -43,7 +37,7 @@ et ensuite ?
 
 —> tous pointent vers cette même énigme : _comment quelque chose de stable peut-il émerger sans être contrôlé ?_
 
-Ce jardin explore cette question à travers la pédagogie énactive : une approche où le geste découvre et où le sens _construit_ en arpentant.
+Ce **jardin** explore cette question à travers **la pédagogie énactive** : une approche où le geste découvre et où le sens _construit_ en arpentant.
 
 ## Trois chemins qui se croisent
 

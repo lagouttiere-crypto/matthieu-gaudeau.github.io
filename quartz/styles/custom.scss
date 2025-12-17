@@ -1,15 +1,24 @@
 @use "./base.scss";
 
-// put your custom CSS here!
-
 /* ====================================
-   CUSTOMISATIONS JARDIN NUMÉRIQUE
+   REFONTE MINIMALISTE - Décembre 2024
    ==================================== */
 
-/* 1. POLICE SF PRO (système Apple) */
+/* ===================================
+   TYPOGRAPHIE - Fira Sans
+   =================================== */
+
 body {
   font-family:
-    -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", system-ui, sans-serif !important;
+    "Fira Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    Helvetica,
+    sans-serif !important;
+  font-size: 18px !important;
+  line-height: 1.7 !important;
+  color: #1a1a1a !important;
+  background-color: #ffffff !important;
 }
 
 h1,
@@ -19,18 +28,102 @@ h4,
 h5,
 h6 {
   font-family:
-    -apple-system, BlinkMacSystemFont, "SF Pro Display", system-ui, sans-serif !important;
+    "Fira Sans",
+    -apple-system,
+    BlinkMacSystemFont,
+    Helvetica,
+    sans-serif !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
 }
 
-/* 2. TAILLE TEXTE ARTICLES PLUS GRANDE */
-.popover-hint article,
-article.popover-hint,
-.page-content {
-  font-size: 1rem !important;
-  line-height: 1.7 !important;
+h1 {
+  font-size: 2.2rem !important;
+  margin-top: 2.5rem !important;
 }
 
-/* 3. DATES EN TYPO MANUSCRITE */
+h2 {
+  font-size: 1.8rem !important;
+  margin-top: 2rem !important;
+}
+
+h3 {
+  font-size: 1.4rem !important;
+  margin-top: 1.5rem !important;
+}
+
+/* ===================================
+   LIENS - Vert subtil
+   =================================== */
+
+a {
+  color: #3a5a4a !important; // Vert foncé neutre
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent !important;
+  transition: all 0.2s ease !important;
+  background: none !important;
+  background-image: none !important;
+}
+
+a:hover {
+  color: #2d4a3e !important; // Légèrement plus foncé
+  border-bottom-color: #2d4a3e !important;
+}
+
+a:visited {
+  color: #4a6a5a !important; // Un peu plus clair
+}
+
+/* ===================================
+   HEADER MINIMALISTE
+   =================================== */
+
+header {
+  padding: 2rem 0 !important;
+  border-bottom: 1px solid #e8e8e8 !important;
+  text-align: center !important;
+}
+
+.page-title {
+  font-size: 1.2rem !important;
+  font-weight: 500 !important;
+  margin: 0 !important;
+  background: none !important; // Enlève le surlignage vert précédent
+  display: inline !important;
+}
+
+/* ===================================
+   LAYOUT - Pas de sidebars
+   =================================== */
+
+.left,
+.right {
+  display: none !important;
+}
+
+.center {
+  max-width: 720px !important;
+  margin: 0 auto !important;
+  padding: 3rem 1.5rem !important;
+  width: 100% !important;
+}
+
+/* ===================================
+   CONTENU ARTICLE
+   =================================== */
+
+article {
+  padding: 0 !important;
+}
+
+.article-title {
+  background: none !important; // Enlève le surlignage vert
+}
+
+/* ===================================
+   DATES EN TYPO MANUSCRITE (gardé)
+   =================================== */
+
 time,
 .meta time,
 .page-metadata time {
@@ -38,91 +131,108 @@ time,
   font-size: 0.95em !important;
 }
 
-/* 4. FILET LÉGER SIDEBAR GAUCHE */
-.left {
-  border-right: 1px solid rgba(0, 0, 0, 0.08) !important;
+/* ===================================
+   TAGS - Version horizontale compacte
+   =================================== */
+
+.tags,
+ul.tags {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: wrap !important;
+  gap: 4px !important;
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-top: 0.5rem !important;
 }
 
-.theme-dark .left {
-  border-right: 1px solid rgba(255, 255, 255, 0.1) !important;
+.tags > li {
+  display: inline-flex !important;
+  list-style: none !important;
+  margin: 0 !important;
 }
 
-/* 5. SURLIGNAGE BLEUTÉ LIENS */
-a {
-  background-image:
-    linear-gradient(transparent, transparent),
-    linear-gradient(rgba(144, 238, 144, 0.15), rgba(144, 238, 144, 0.15)) !important; /* Vert ! */
-
-  background-size:
-    0 2px,
-    100% 2px !important;
-  background-position:
-    0 100%,
-    0 100% !important;
-  background-repeat: no-repeat !important;
-  transition: background-size 0.3s ease !important;
-  text-decoration: none !important;
+.tag-link {
+  font-size: 0.7rem !important;
+  font-weight: 400 !important;
+  padding: 2px 8px !important;
+  margin: 0 !important;
+  background: rgba(58, 90, 74, 0.05) !important; // Vert très pâle
+  border-radius: 12px !important;
+  white-space: nowrap !important;
+  display: inline-block !important;
+  border: 1px solid rgba(58, 90, 74, 0.15) !important;
+  color: #3a5a4a !important;
 }
 
-a:hover {
-  background-size:
-    100% 2px,
-    100% 100% !important;
+.tag-link:hover {
+  background: rgba(58, 90, 74, 0.1) !important;
+  border-color: #3a5a4a !important;
 }
 
-.theme-dark a {
-  background-image:
-    linear-gradient(transparent, transparent),
-    linear-gradient(rgba(130, 170, 255, 0.25), rgba(130, 170, 255, 0.25)) !important;
-}
+/* ===================================
+   CALLOUT QUOTE (gardé avec nouveau vert)
+   =================================== */
 
-/* 6. RÉDUCTION LARGEUR SIDEBAR GAUCHE */
-.left.sidebar {
-  max-width: 250px !important;
-}
-
-/* 7. TITRE "GARDEN GESTER" AVEC SURLIGNAGE VERT */
-.page-title,
-h1.article-title {
-  background: linear-gradient(transparent 75%, rgba(144, 238, 144, 0.3) 75%) !important;
-  display: inline !important;
-  line-height: 1.4 !important;
-  border-radius: 4px !important;
-}
-
-/* 8. MARGE INTERNE GAUCHE TEXTE CENTRAL */
-.center,
-article,
-.page-content {
-  padding-left: 0.2rem !important;
-}
-/* 9. PERSONNALISATION CALLOUT QUOTE */
 .callout[data-callout="quote"] {
-  --color: 144, 238, 144; /* Vert doux (RGB) */
-  --border: rgba(144, 238, 144, 0.4);
-  --bg: rgba(144, 238, 144, 0.08);
+  --color: 58, 90, 74; /* Nouveau vert (RGB) */
+  --border: rgba(58, 90, 74, 0.4);
+  --bg: rgba(58, 90, 74, 0.08);
 }
 
-/* Changer "Quote" en "Citation" */
 .callout[data-callout="quote"] .callout-title-inner::before {
   content: "Citation";
 }
 
 .callout[data-callout="quote"] .callout-title-inner {
-  font-size: 0; /* Cache le texte original */
+  font-size: 0;
 }
 
 .callout[data-callout="quote"] .callout-title-inner::before {
-  font-size: 0.9rem; /* Taille du nouveau texte */
+  font-size: 0.9rem;
 }
-/* ============================================
-   FLORAISONS - Popups organiques
-   ============================================ */
 
-// Animation d'apparition organique
+/* ===================================
+   SURLIGNAGE - Vague verte (gardé)
+   =================================== */
+
+span.text-highlight,
+.text-highlight {
+  background-color: transparent !important;
+  background: none !important;
+  background-image: none !important;
+  border-radius: 0 !important;
+  padding: 0 0.1rem 4px 0.1rem !important;
+  position: relative !important;
+  display: inline !important;
+}
+
+span.text-highlight::after,
+.text-highlight::after {
+  content: "" !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  width: 100% !important;
+  height: 6px !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 3 Q 5 0, 10 3 T 10 3' stroke='rgba(58, 90, 74, 0.6)' stroke-width='2.5' fill='none'/%3E%3C/svg%3E") !important;
+  background-repeat: repeat-x !important;
+  background-position: bottom !important;
+  z-index: -1 !important;
+}
+
+/* ===================================
+   FLORAISONS - Popups organiques (gardées)
+   =================================== */
+
 .popover {
-  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1); // elastic ease-out
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   transform-origin: center bottom;
+  background: #ffffff !important;
+  border: 1px solid #e8e8e8 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
 
   &:not(.visible) {
     opacity: 0;
@@ -135,15 +245,7 @@ article,
   }
 }
 
-// Contenu du popover
 .popover-inner {
-  border: 2px solid var(--tertiary);
-  border-radius: 12px;
-  box-shadow:
-    0 4px 6px -1px rgba(0, 0, 0, 0.1),
-    0 10px 25px -5px rgba(0, 0, 0, 0.15);
-
-  // Animation du contenu qui "s'ouvre"
   > * {
     animation: unfold 0.5s ease-out forwards;
   }
@@ -163,7 +265,6 @@ article,
 // Liens internes avec effet "pétale"
 a.internal {
   position: relative;
-  transition: all 0.2s ease;
 
   &::after {
     content: "";
@@ -171,8 +272,8 @@ a.internal {
     bottom: -2px;
     left: 0;
     width: 0;
-    height: 2px;
-    background: var(--tertiary);
+    height: 1px;
+    background: #3a5a4a;
     transition: width 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
 
@@ -180,225 +281,214 @@ a.internal {
     width: 100%;
   }
 }
-/* ============================================
-   EXPLORER - Sidebar gauche
-   ============================================ */
 
-// Forcer avec spécificité maximale
-.explorer,
-.explorer *,
-button.desktop-explorer,
-button.mobile-explorer {
-  font-size: 0.85rem !important;
-  font-weight: 400 !important;
+/* ===================================
+   GRAPHE EN BAS
+   =================================== */
+
+#graph-container {
+  margin-top: 4rem !important;
+  padding: 2rem 0 !important;
+  margin-right: 4rem !important;
+  border-top: 1px solid #e8e8e8 !important;
 }
 
-.explorer .folder-title,
-.explorer a,
-button.desktop-explorer h2,
-button.mobile-explorer h2 {
-  font-size: 0.85rem !important;
-  font-weight: 400 !important;
-}
+/* ===================================
+   BACKLINKS (Articles reliés)
+   =================================== */
 
-.explorer .folder-icon {
-  opacity: 0.6;
-}
-/* ============================================
-   SIDEBAR DROITE - Texte plus petit
-   ============================================ */
+.backlinks {
+  margin-top: 3rem !important;
+  padding: 2rem 0 !important;
+  margin-right: 2rem !important;
 
-.right.sidebar {
-  font-size: 0.85rem !important;
-
-  h3,
-  h2,
-  h1 {
-    font-size: 0.9rem !important;
+  h3 {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    color: #6b6b6b !important;
+    margin-bottom: 1rem !important;
   }
 
-  a,
-  li,
-  p {
-    font-size: 0.85rem !important;
-  }
-}
-
-/* ============================================
-   TAGS - Version finale
-   ============================================ */
-
-// Forcer horizontal avec maximum de spécificité
-.section-li .desc,
-.page-listing,
-.content-meta {
-  .tags,
-  ul.tags {
-    display: flex !important;
-    flex-direction: row !important;
-    flex-wrap: wrap !important;
-    gap: 3px !important;
+  ul {
     list-style: none !important;
-    padding-left: 0 !important;
-    margin-top: 0.25rem !important;
+    padding: 0 !important;
 
-    > li {
-      display: inline-flex !important;
-      list-style: none !important;
-      margin: 0 !important;
+    li {
+      margin-bottom: 0.8rem !important;
+
+      a {
+        font-size: 1rem !important;
+      }
     }
   }
 }
 
-// Style des tags individuels
-.tag-link {
-  font-size: 0.6rem !important;
-  font-weight: 400 !important;
-  padding: 1px 6px !important;
-  margin: 0 !important;
-  background: rgba(255, 255, 255, 0.5) !important;
-  border-radius: 10px !important;
-  white-space: nowrap !important;
-  display: inline-block !important;
-  border: 1px solid var(--lightgray) !important;
-}
-/* ============================================
-   TAGS - Mode sombre
-   ============================================ */
+/* ===================================
+   GARDEN RECENT Séparateurs entre items
+   =================================== */
 
-.theme-dark .tag-link,
-[saved-theme="dark"] .tag-link {
-  background: rgba(255, 255, 255, 0.1) !important;
-  border-color: rgba(255, 255, 255, 0.3) !important;
-  color: rgba(255, 255, 255, 0.9) !important;
-
-  &:hover {
-    background: rgba(255, 255, 255, 0.2) !important;
-    border-color: var(--tertiary) !important;
-  }
+.garden-recent ul li,
+.garden-recent .section-li {
+  padding-bottom: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  margin-left: 1rem !important;
+  border-bottom: 1px solid #686767 !important;
 }
 
-/* ============================================
-   SURLIGNAGE - Vague verte (FORCE MAXIMALE)
-   ============================================ */
-
-span.text-highlight,
-.text-highlight,
-.page-content .text-highlight,
-article .text-highlight,
-.popover-inner .text-highlight {
-  background-color: transparent !important;
-  background: none !important;
-  background-image: none !important;
-  border-radius: 0 !important;
-  padding: 0 0.1rem 4px 0.1rem !important;
-  position: relative !important;
-  display: inline !important;
+.garden-recent ul li:last-child,
+.garden-recent .section-li:last-child {
+  border-bottom: none !important;
+  margin-bottom: 0 !important;
 }
 
-span.text-highlight::after,
-.text-highlight::after {
-  content: "" !important;
-  position: absolute !important;
-  bottom: 0 !important;
-  left: 0 !important;
-  right: 0 !important;
-  width: 100% !important;
-  height: 6px !important;
-  background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 3 Q 5 0, 10 3 T 10 3' stroke='rgba(144, 238, 144, 0.9)' stroke-width='2.5' fill='none'/%3E%3C/svg%3E") !important;
-  background-repeat: repeat-x !important;
-  background-position: bottom !important;
-  z-index: -1 !important;
+/* ===================================
+   FOOTER - Compact et séparé
+   =================================== */
+
+footer {
+  margin-top: 4rem !important;
+  padding: 1.5rem 0 !important;
+  border-top: 1px solid #e8e8e8 !important;
+  text-align: center !important;
 }
 
-/* ============================================
-   Footer typo
-   ============================================ */
 footer p {
-  font-weight: 400; /* normal, pas gras */
-  font-size: 0.8rem; /* très petit, tu peux tester 0.75rem ou 0.8rem si besoin */
+  font-weight: 400 !important;
+  font-size: 0.75rem !important;
+  color: #6b6b6b !important;
+  margin: 0.5rem 0 !important;
+  line-height: 1.4 !important;
 }
+
+footer ul {
+  list-style: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex !important;
+  justify-content: center !important;
+  gap: 0 !important;
+}
+
 footer ul li a {
-  font-weight: 400; /* pas gras */
-  font-size: 0.7rem; /* même taille que le texte du footer */
-  text-decoration: none; /* enlève le soulignement si tu veux */
-  opacity: 0.8; /* un peu plus discret */
+  font-weight: 400 !important;
+  font-size: 0.6rem !important;
+  text-decoration: none !important;
+  opacity: 0.7 !important;
+  color: #3a5a4a !important;
+  border-bottom: 1px solid transparent !important;
+  transition: all 0.2s ease !important;
 }
 
 footer ul li a:hover {
-  opacity: 1;
-  text-decoration: underline;
+  opacity: 1 !important;
+  border-bottom-color: #3a5a4a !important;
 }
-/* ============================================
-   Page accueil sans sidebar 
-   ============================================ */
+footer ul li a {
+  font-weight: 400 !important;
+  font-size: 0.7rem !important;
+  text-decoration: none !important;
+  opacity: 0.7 !important;
+  color: #3a5a4a !important;
+}
 
-body:has(.garden-recent) {
-  .page {
-    display: grid !important; // Garde le grid mais modifie-le
-    grid-template-columns: 1fr !important; // Une seule colonne
-    justify-content: center !important;
-  }
+footer ul li a:hover {
+  opacity: 1 !important;
+  text-decoration: underline !important;
+}
+/* ===================================
+   RESPONSIVE
+   =================================== */
 
-  .left,
-  .right {
-    display: none !important;
+@media (max-width: 768px) {
+  body {
+    font-size: 16px !important;
   }
 
   .center {
-    width: 100% !important;
-    max-width: 1400px !important;
-    margin: 0 auto !important;
-    padding: 2rem 0rem !important;
-    grid-column: 1 / -1 !important; // <-- LE VOILÀ !
+    padding: 2rem 1rem !important;
   }
 
-  // titre et tags
-  .page-title,
-  .article-title,
-  .content-meta,
-  .tags,
-  ul.tags {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
+  h1 {
+    font-size: 1.8rem !important;
   }
-
-  // Article de contenu
-  .center > article {
-    padding-left: 4rem !important;
-    padding-right: 4rem !important;
-    padding-bottom: 2rem !important;
+  h2 {
+    font-size: 1.5rem !important;
   }
-  .garden-recent {
-    padding: 0 4rem !important; // Le padding uniquement ici
+  h3 {
+    font-size: 1.2rem !important;
   }
 }
 
-// Override TOUS les breakpoints possibles
+/* ===================================
+   FORCER LE CENTRAGE - Toutes les pages
+   =================================== */
+
+.page {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+  justify-content: center !important;
+}
+
+.left,
+.right,
+.left.sidebar,
+.right.sidebar {
+  display: none !important;
+}
+
+.center {
+  width: 100% !important;
+  max-width: 720px !important;
+  margin: 0 auto !important;
+  padding: 3rem 3rem !important;
+  grid-column: 1 / -1 !important;
+}
+
+// titre et tags
+.page-title,
+.article-title,
+.content-meta,
+.tags,
+ul.tags {
+  padding-left: 2rem !important;
+  padding-right: 4rem !important;
+}
+
+// Article de contenu
+.center > article {
+  padding-left: 1rem !important;
+  padding-right: 5rem !important;
+  padding-bottom: 1rem !important;
+}
+.garden-recent {
+  padding: 0 4rem !important; // Le padding uniquement ici
+}
+
+// Override TOUS les breakpoints
 @media (min-width: 768px) {
-  body:has(.garden-recent) .left,
-  body:has(.garden-recent) .right {
+  .left,
+  .right {
     display: none !important;
   }
 }
 
 @media (min-width: 1024px) {
-  body:has(.garden-recent) .left,
-  body:has(.garden-recent) .right {
+  .left,
+  .right {
     display: none !important;
   }
 }
 
 @media (min-width: 1280px) {
-  body:has(.garden-recent) .left,
-  body:has(.garden-recent) .right {
+  .left,
+  .right {
     display: none !important;
   }
 }
 
 @media (min-width: 1536px) {
-  body:has(.garden-recent) .left,
-  body:has(.garden-recent) .right {
+  .left,
+  .right {
     display: none !important;
   }
 }
