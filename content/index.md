@@ -7,9 +7,11 @@ tags:
   - récursivité
 ---
 
-**Bienvenue, welcome** dans cet espace en _jachère_
+**Bienvenue, welcome dans cet espace en jachère**
 
--- ---- -- ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳-- \_--- -- - --🌳 \_\_
+🌿 _Ce jardin pousse : pour voir comment il s'est ramifié, consultez le [[Rhizome de Garden-Gester|Rhizome]]_
+
+— ---- — ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳— \_--- — - —🌳 \_\_
 
 ### ==Garden-Gester est le jardin public à l'orée d'une forêt beaucoup plus grande et un tout petit peu plus sauvage 🌵== , <u> My wonderful big jumble </u> qui prospère grace à Obsidian.
 
