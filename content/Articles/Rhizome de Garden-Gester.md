@@ -14,15 +14,15 @@ date_origine: 17-12-2025
 
 ---
 
-## Comment ce parcours s'est tracé
+## Comment ce [[Note méthodologique|parcours]] s'est tracé
 
-Ce document retrace le chemin parcouru, les bifurcations prises, les concepts qui ont germé en arpentant. Ce n'est pas une généalogie linéaire (V1 → V2 → V3), mais la cartographie d'un processus **récursif** : en explorant ailleurs (Kirielle), on a redécouvert et enrichi ce qui était déjà ici (le jardin).
+|➲ Ce document retrace le chemin parcouru, les bifurcations prises, les concepts qui ont germé en arpentant ce mercredi 17/12/2025. Ce n'est pas une généalogie linéaire (V1 → V2 → V3), mais la cartographie d'un processus **récursif** : en explorant ailleurs (Kirielle), on a redécouvert et enrichi ce qui était déjà ici (en jachère).
 
 ---
 
 ## 🌳 Le jardin existait
 
-**Garden-Gester** a commencé avec une intuition fondamentale :
+**Garden-Gester** a commencé avec une intuition fondamentale (venue de ma pratique de la danse et de mon enseignement de la technique Alexander):
 
 ### Le geste n'est pas ce que l'on fait, mais ce par quoi il donne…
 
@@ -30,9 +30,7 @@ Ce document retrace le chemin parcouru, les bifurcations prises, les concepts qu
 
 ➫ qu'un geste soit **ce par quoi un monde se donne**, transitif.
 
-**Le contrôle primaire** en Technique Alexander  
-**L'Invariant gravitaire** chez Bullinger  
-**La coordination** chez Bernstein
+Berstein, F.M ALexander ou A.Bullinger, qui **butent tous trois sur les limites du modèle commande-contrôle** :
 
 —> tous pointent vers cette même énigme : **comment quelque chose de stable peut-il émerger sans être contrôlé ?**
 
@@ -190,6 +188,9 @@ On crée des **contraintes** qui font émerger le mouvement adapté.
 
 **Le rôle du·de la pédagogue** : Ne pas transmettre un savoir, mais créer des environnements où de nouvelles affordances deviennent perceptibles.
 
+==➫ Modifications du jardin==
+=="**En [[deuxième personne]]** : la relation pédagogique, le toucher comme langage, la co-émergence du geste dans l'accompagnement. L'enseignant qui [[Encompagner|encompagne]], oriente sans imposer, qui "design" des [[Concepts/Affordance|affordances]] - spatiales, tactiles, verbales - plutôt qu'il n'_éructe_ des instructions (même si cela n'existe plus)."==
+
 **Citation clé** :
 
 > **"L'apprentissage ne vient pas d'un savoir transmis, mais d'une nouvelle possibilité d'agir rendue perceptible."**
@@ -202,7 +203,7 @@ On crée des **contraintes** qui font émerger le mouvement adapté.
 ### 5. Le groupe comme ressource (pas obstacle)
 
 **Ce qui a émergé** :  
-Si l'apprentissage passe par l'exploration de la variabilité, alors le **groupe** n'est pas un obstacle (concurrence), mais une **ressource** (amplificateur de variabilité).
+Si l'apprentissage passe par l'exploration de la variabilité, alors le **groupe** n'est pas un obstacle (concurrence), mais une **ressource** (amplificateur de variabilité). Cf [Pour une pédagogie de l'entraide](https://www.ifbelgique.be/images/boite-a-outils/a-lire/nous-avons-lu-pour-vous/ped-entraide-adlg.pdf)
 
 **Apprentissage différentiel** : Apprendre par les différences plutôt que par la répétition du même.
 
@@ -229,6 +230,9 @@ Chaque différence est une information. Observer quelqu'un·e faire autrement = 
 
 → [[Groupe comme ressource]]  
 → [[Apprentissage différentiel]]
+
+==➫ Modifications du jardin==
+_==**Le groupe comme ressource** Non pas obstacle (concurrence), mais **amplificateur de variabilité**. Chaque différence est une information. L'apprentissage différentiel contre la pédagogie répétitive.==_
 
 ---
 
@@ -301,7 +305,7 @@ La maladie n'est pas simplement l'absence de santé ou un dysfonctionnement méc
 
 ---
 
-### 8. La friche comme commun pédagogique
+### 8. La [[Les adventure playgrounds|friches]] comme commun pédagogique
 
 **Ce qui a émergé** :  
 Si l'apprentissage nécessite variabilité et exploration, alors l'environnement joue un rôle crucial.
@@ -349,7 +353,7 @@ Si l'apprentissage nécessite variabilité et exploration, alors l'environnement
 
 ## 🔄 Boucle récursive : retour au jardin
 
-En arpentant Kirielle et ses ramifications, quelque chose d'étonnant s'est produit : on a **redécouvert** ce qui était déjà présent dans le jardin Garden-Gester, mais enrichi, éclairé autrement.
+En arpentant Kirielle et ses ramifications, retour au jardin Garden-Gester, mais enrichi, éclairé autrement.
 
 ### Ces concepts éclairent rétroactivement ce qui était déjà dans le jardin
 
@@ -408,7 +412,7 @@ De même que le jardin zen japonais n'a pas de point de vue qui embrasse l'ensem
 
 ---
 
-## 🌺 L'index se réécrit (Décembre 2025)
+## 🌿 L'index se réécrit (Décembre 2025)
 
 Suite à ce parcours, l'index du jardin s'enrichit — pas pour être remplacé, mais pour **intégrer** ce qui a émergé.
 
@@ -436,7 +440,7 @@ Quand j'émule un geste (sans le faire physiquement), j'active non seulement la 
 
 ### Métaphore enrichie
 
-**Comme un palais de mémoire** : un espace que vous allez émuler corporellement en le parcourant. Pas "dans votre tête", mais en engageant tout votre être relationnel — vision, motricité, anticipation perceptive.
+**Comme un palais de mémoire** : un espace émulé corporellement en le parcourant. Pas "dans la tête", mais en engageant tout notre être relationnel — vision, motricité, anticipation perceptive.
 
 Et comme dans un palais de mémoire, **le trajet se stabilise en se faisant** :  
 En parcourant, vous posez des objets (concepts, liens, questions).  
@@ -463,7 +467,7 @@ Le trajet affine les objets.
 
 ## Note sur la pratique d'anarchivage
 
-Ce document est lui-même un **geste** : celui de refaire la boucle après nos échanges, de documenter le processus, de laisser une trace du parcours.
+Ce document est lui-même un **geste** : celui de refaire la boucle, de documenter le processus, de laisser une trace du parcours.
 
 **Anarchivage** (pas "archivage") parce que :
 
@@ -484,5 +488,3 @@ Le jardin continue de pousser. D'autres fils seront tirés. D'autres ramificatio
 À suivre... 🌱
 
 ---
-
-**Voilà ! Est-ce que cette version respecte mieux le parcours réel et les nuances que vous pointiez ?**

@@ -17,33 +17,45 @@ J'ai essayé de rendre Garden-Gester autant que possible praticable. Je crois co
 
 Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la chose quand on parle de geste, c'est de commencer par le fait que :
 
-### ➫ Le [[Concepts/Geste|Geste]] n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]... ( si ce n'est clair je vous invite à suivre ce lien )
+### ➫ Le [[Concepts/Geste|Geste]] n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]...
 
-Allons-y pas à pas, mais faisons un saut\_\_ : et poursuivons par :
+( si vous souhaitez approfondir ou éclaircir, je vous invite à survoler _geste_ ou _donne_ au dessus )
 
-➫ qu'un **geste** ne soit pas un mouvement que l'on exécute mais une organisation qui émerge, comme l'équilibre : on ne le "tient" pas, on [[Small dance|l'habite]].
+Allons-y pas à pas, mais faisons un saut\_\_ et poursuivons par :
+
+### ➫ un **geste** n'est pas un mouvement que l'on exécute mais une organisation qui émerge
+
+comme l'équilibre : on ne le "tient" pas, on [[Small dance|l'habite]].
 
 et ensuite ?
 
-➫ qu'un **geste** soit ce par quoi un monde se [[Donner|donne]], transitif.
+### ➫ un **geste** est ce par quoi un monde se [[Donner|donne]], [[Voix médiane|transitif]].
 
-Nous avons déjà fait un bon bout de chemin ---- -- - - --- ---- ---- ---
+Nous avons déjà fait un bout de chemin ---- -- - - --- ---- ---- --- prenons quelques instants
 
 ---
 
-- Le **contrôle primaire** en Technique Alexander
-- l’**[[Invariant]] gravitaire** chez Bullinger
-- la **coordination** chez Bernstein
+### Finalement, pour ressaisir ce qui précède, nous pourrions le prolonger par une question. Qui est auteur du geste ?
 
-—> tous pointent vers cette même énigme : _comment quelque chose de stable peut-il émerger sans être contrôlé ?_
+Que ce soit Berstein, F.M ALexander ou A.Bullinger, ( pour ne citer qu'eux ) **butent tous trois sur les limites du modèle commande-contrôle** :
 
-Ce **jardin** explore cette question à travers **la pédagogie énactive** : une approche où le geste découvre et où le sens _construit_ en arpentant.
+- Bernstein depuis la physiologie soviétique et le réflexe conditionné pavlovien
+- Alexander depuis l'introspection pratique (pragmatisme) et la pédagogie
+- Bullinger depuis la psychologie du développement
 
-## Trois chemins qui se croisent
+—> Ils pointent vers cette même énigme : _comment quelque chose de stable peut-il émerger sans être contrôlé ?_ _Sans un agent contrôleur ?_ Et quelles sont les implications pratiques, pédagogiques et éthiques.
+
+Ce **jardin** explore ces question à travers :
+
+- ➫ **La pédagogie [[Public/Concepts/Enaction|énactive]]** : une approche où le geste et son sens se _construit_ en arpentant.
+- ➫ **Le groupe comme ressource** Non pas obstacle (concurrence), mais **amplificateur de variabilité**. Chaque différence est une information. L'apprentissage différentiel contre la pédagogie répétitive.
+- ➫ **La friche comme commun** Les espaces non-planifiés, accessibles, auto-organisés comme **infrastructures éducatives invisibles**. Là où la variabilité peut se déployer. Là où l'attention devient exploratoire, pas captive.
+
+## Trois chemins se croisent
 
 **En [[Première personne|première personne]]** : l'expérience vécue, le sentir kinesthésique, ce qui se révèle dans l'attention portée à soi-même. Quelle est la "nature" de ce geste ? Car il s'agit bien d'un geste et comme tout geste, il produit ses [[Concepts/Chiasme|effets]]. Quels sont-ils sur notre organisation, lorsque nous cessons de "faire" et commençons à "permettre" ?
 
-**En [[deuxième personne]]** : la relation pédagogique, le toucher comme langage, la co-émergence du geste dans l'accompagnement. L'enseignant qui oriente sans imposer, qui "design" des affordances plutôt que des instructions.
+**En [[deuxième personne]]** : la relation pédagogique, le toucher comme langage, la co-émergence du geste dans l'accompagnement. L'enseignant qui [[Encompagner|encompagne]], oriente sans imposer, qui "design" des [[Concepts/Affordance|affordances]] - spatiales, tactiles, verbales - plutôt qu'il n'_éructe_ des instructions (même si cela n'existe plus).
 
 **En [[Troisième personne|troisième personne]]** : la théorisation, les concepts, les modèles scientifiques qui tentent de saisir ce qui, par nature, échappe à la saisie. Les neurosciences, la phénoménologie, les théories de l'énaction qui convergent vers une compréhension du vivant comme processus émergent.
 
@@ -64,15 +76,22 @@ Les débats actuels portent notamment sur la manière d’intégrer des descript
 
 ```
 
-Dans la conception japonaise du jardin zen, il n'existe pas de point de vue qui permettrait d'embrasser l'ensemble d'un regard. Le [jardin](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) se découvre en arpentant. Chaque pas révèle non seulement une composition nouvelle, un nouvel angle de vue, un nouvel assemblage, mais bien plus encore, il se donne par le mouvement même de sa découverte, qui demande de ne pas en épuiser le sens.
+Dans la conception japonaise du jardin zen, il n'existe pas de point de vue qui permettrait d'embrasser l'ensemble d'un regard. Le [jardin](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) se _découvre_ en arpentant. Chaque pas révèle non seulement une composition nouvelle, un nouvel angle de vue, un nouvel assemblage, mais bien plus encore, il se donne par le mouvement même de sa découverte, qui demande de ne pas en épuiser le sens.
 **[[Récursivité]]** : le sens du jardin naît du geste qui le cherche, et qui à son tour reconfigure ce qui peut être cherché. La beauté échappe au regard qui surplombe, elle excède dans l'expérience du parcours dans sa caresse.
 Ce site fonctionne de la même manière. Il n'y a pas de "début" à connaître avant de passer à la "suite". Les textes sont reliés, des occurrences qui suivent les associations conceptuelles plutôt qu'un ordre linéaire. Un mot souligné vous mènera vers son développement théorique, une référence vous ouvrira vers une exploration parallèle.
+
+**Cette page elle-même est vivante**. Elle se transforme au fur et à mesure de vos passages et de mes propres boucles de compréhension. Il n'y a pas de menu définitif qui cartographierait un territoire stable - plutôt des **possibilités de trajets** qui se reconfigurent selon ce que chaque arpentage révèle.
+
+Vous pouvez revenir ici entre deux explorations, repartir par un autre chemin, et constater que certaines formulations se sont précisées, que de nouveaux liens sont apparus, traverser le jardin pour un autre espace.
+Le jardin s'éclaire progressivement non pas parce qu'on en dévoilerait la structure cachée, mais parce que **chaque parcours participe à son actualisation**.
+
+De la même façon, dans l'apprentissage du geste, on ne découvre pas une forme préexistante, on la fait émerger en l'explorant.
 
 ## Invitation
 
 Les textes que vous trouverez ici sont en évolution permanente. Certains sont des ébauches, d'autres des synthèses plus abouties. Tous sont des tentatives pour articuler ce qui résiste à l'articulation : comment le corps apprend, comment le geste s'organise, comment la conscience se déploie dans l'action.
 
-Suivez vos curiosités. Laissez-vous porter par les liens. Revenez par d'autres chemins. Le jardin se révèle différemment à chaque parcours.
+==**_Suivez vos curiosités. Laissez-vous porter par les liens. Revenez par d'autres chemins. Le jardin se donne, différemment à chaque parcours_**.==
 
 ---
 
@@ -81,5 +100,3 @@ Suivez vos curiosités. Laissez-vous porter par les liens. Revenez par d'autres 
 ---
 
 _Ce site est construit avec [Quartz](https://quartz.jzhao.xyz), un outil qui transforme des notes connectées en jardin numérique explorable._
-
-[[Contrôle-Primaire|→ Commencer par l'article sur le contrôle primaire]]

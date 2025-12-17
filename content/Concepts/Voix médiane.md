@@ -5,6 +5,7 @@ tags:
   - geste-médian
   - linguistique
   - énaction
+Etat: 🌱 Note
 ---
 
 # Voix médiane
