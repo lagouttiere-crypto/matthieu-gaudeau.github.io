@@ -64,7 +64,21 @@ Ce **jardin** explore ces question à travers :
 Ces trois perspectives ne s'opposent pas. Elles s'entrelacent, se nourrissent, révèlent chacune ce que les autres laissent dans l'ombre.
 
 Plusieurs auteurs soutiennent que l’étude de l’expérience requiert une articulation rigoureuse de ces trois perspectives plutôt qu’une opposition simpliste entre subjectif (1P) et objectif (3P).[](https://www.expliciter.org/wp-content/uploads/2022/05/vers-une-psychophenomenologie-1-pierre-vermersch.pdf)​  
-Les débats actuels portent notamment sur la manière d’intégrer des descriptions de première et de deuxième personne dans des protocoles de recherche en troisième personne sans réduire l’expérience vécue à ses corrélats observables.[](https://www.implications-philosophiques.org/?p=11591)​
+Les débats actuels portent notamment sur la manière d’intégrer des descriptions de première et de deuxième personne dans des protocoles de recherche en troisième personne sans réduire l’expérience vécue à ses corrélats observables.[](https://www.implications-philosophiques.org/?p=11591)
+
+## Deux régimes de vérité
+
+Ce jardin n'ambitionne pas **la vérité de la réalité** — celle qui se fonde sur l'opposition vrai/faux, qui cherche la certitude par la démonstration, qui renforce le vrai en détruisant le faux. Cette vérité-là est essentielle dans bien des domaines (la science, le droit, la technique), mais elle n'épuise pas ce qui peut être dit de juste sur l'expérience vécue.
+
+Ici, nous arpentons plutôt **la vérité du réel** — celle où "tout est vrai". Non pas que tout se vaut, mais que même l'illusion est réelle, même l'erreur enseigne, car faisant partie d'un certain régime de vécu. Cette vérité-là n'est pas celle de la contradiction (soit vrai, soit faux), mais celle de la **cohérence**, de la **correspondance**, de la **connivence** — ce clin d'œil où quelque chose passe, où ça "fait sens" sans nécessairement pouvoir être démontré.
+
+Quand Héraclite écrit dans son fragment 65 "c'est jour-nuit, fin-satiété, blanc-noir", cette proposition n'a pas de sens dans le régime de la réalité (jour **ou** nuit, pas les deux). Mais **curieusement, lorsqu'on l'entend, c'est cohérent**. Ça dit quelque chose de la nature du mouvement, du devenir, de l'expérience vécue.
+
+De même, quand nous disons qu'un geste "émerge" plutôt qu'il ne s'exécute, que le corps et l'environnement forment un système indissociable, que l'apprentissage n'est pas transmission mais émergence d'affordances — ces propositions peuvent sembler paradoxales dans une logique stricte (si ça émerge, qui agit ? si c'est un système, où commence le corps ?).
+
+Mais **elles sont cohérentes avec l'expérience**. Elles font un clin d'œil à ce que nous ressentons déjà, confusément peut-être, quand nous apprenons, quand nous bougeons, quand un geste se donne.
+
+Ce jardin cultive cette **vérité de cohérence** : pas de démonstration définitive, mais des propositions qui résonnent et ouvrent des possibilités de sentir et d'agir autrement.​
 
 ## Un jardin ne se survole pas
 
@@ -93,7 +107,7 @@ De la même façon, dans l'apprentissage du geste, on ne découvre pas une forme
 
 Les textes que vous trouverez ici sont en évolution permanente. Certains sont des ébauches, d'autres des synthèses plus abouties. Tous sont des tentatives pour articuler ce qui résiste à l'articulation : comment le corps apprend, comment le geste s'organise, comment la conscience se déploie dans l'action.
 
-==**_Suivez vos curiosités. Laissez-vous porter par les liens. Revenez par d'autres chemins. Le jardin se donne, différemment à chaque parcours_**.==
+==Suivez vos curiosités. Laissez-vous porter par les liens. Revenez par d'autres chemins. Le jardin se donne, différemment à chaque parcours.==
 
 ---
 

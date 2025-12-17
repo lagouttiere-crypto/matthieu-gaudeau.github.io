@@ -111,8 +111,8 @@ Quand on parle d'émulation motrice (visualisation, simulation mentale), on tomb
 
 **Mais** : L'émulation n'est pas que motrice. Quand j'émule un geste :
 
-- J'émule aussi **le retour sensoriel** que je vais recevoir
-- J'émule l'organisation gravitaire
+- J'émule aussi **le retour sensoriel** que je vais "recevoir" - Jeannerod, M. (2006). _Motor Cognition: What Actions Tell the Self_. Oxford University Press. Berthoz, A. (2009).
+- J'émule l'organisation gravitaire - Pré-mouvement et travaux de M. Bergamasco (Feedforward control et retour haptique)
 - J'émule tout l'engagement relationnel
 
 **Citation de Jean-Philippe Lachaux** :
