@@ -4,6 +4,8 @@ tags:
   - Gibson
   - invariant-gravitaire
   - Bullinger
+date_creation: 2025-12-14
+maturity: arbuste
 ---
 
 > [!Invariant]

@@ -6,6 +6,7 @@ tags:
   - artiste
 domaine: Anarchitecture
 date_origine: 16-12-2025
+maturity: arbuste
 ---
 
 # Gordon Matta-Clark : Open House - Résumé structuré à partir de :

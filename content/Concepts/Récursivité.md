@@ -4,6 +4,8 @@ tags:
   - concept-pivot
   - mādhyamaka
   - énaction
+date_creation: 2025-12-14
+maturity: arbuste
 ---
 
 # Récursivité

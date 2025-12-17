@@ -1,10 +1,12 @@
 ---
 type: concept
 aliases: []
-tags: [concept]
+tags:
+  - concept
 domaine:
 auteur_principal:
-date_origine:
+date_origine: 15/12/25
+maturity: germe
 ---
 
 ## Troisième personne

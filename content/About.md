@@ -1,5 +1,7 @@
 ---
 title: About this Garden
+date_creation: 2025-12-16
+maturity: arbuste
 ---
 
 ---

@@ -8,6 +8,7 @@ tags:
 domaine: music
 auteur_principal:
 date_origine: 15/12/25
+maturity: arbre
 ---
 
 # [Architectes contre jardiniers](https://gordonbrander.com/notes/architects-vs-gardeners/) (traduit de l'anglais)

@@ -10,6 +10,7 @@ tags:
 domaine: Philosophie, sciences cognitives, sciences de l'enseignement
 auteur_principal:
 date_origine:
+maturity: germe
 ---
 
 ## Deuxième personne de l'expérience

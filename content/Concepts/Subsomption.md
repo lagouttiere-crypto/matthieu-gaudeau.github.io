@@ -6,6 +6,8 @@ tags:
   - affordance
   - énaction
   - technique-alexander
+date_creation: 2025-12-12
+maturity: arbre
 ---
 
 # Subsomption

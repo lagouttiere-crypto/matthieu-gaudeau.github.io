@@ -4,6 +4,8 @@ tags:
   - godard
   - geste
   - symbolique
+date_creation: 2025-12-14
+maturity: arbuste
 ---
 
 # Gestosphère

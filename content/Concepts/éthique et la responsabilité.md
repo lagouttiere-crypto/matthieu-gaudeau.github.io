@@ -1,10 +1,12 @@
 ---
 type: concept
 aliases: []
-tags: [concept]
+tags:
+  - concept
 domaine:
 auteur_principal:
-date_origine:
+date_origine: 16-12-2025
+maturity: arbuste
 ---
 
 La perspective de la deuxième personne est aujourd’hui considérée comme centrale pour comprendre l’éthique et la responsabilité, parce qu’elle structure l’idée même d’obligation comme relation d’adresse entre des personnes qui peuvent se demander des comptes.​

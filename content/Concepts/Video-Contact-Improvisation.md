@@ -1,5 +1,6 @@
 ---
 title: Contact Improvisation - Exemple
+maturity: arbuste
 ---
 
 <iframe width="400" height="225" src="https://www.youtube.com/embed/k768K_OTePM" frameborder="0" allowfullscreen></iframe>

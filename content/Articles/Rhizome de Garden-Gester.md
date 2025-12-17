@@ -5,6 +5,7 @@ tags:
   - concept
 auteur_principal: MatthieuG
 date_origine: 17-12-2025
+maturity: arbuste
 ---
 
 # Rhizome de Garden-Gester

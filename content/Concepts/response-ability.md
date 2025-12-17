@@ -6,7 +6,8 @@ tags:
   - response-ability
 domaine:
 auteur_principal: Haraway
-date_origine:
+date_origine: 16-12-2025
+maturity: germe
 ---
 
 la response-ability n'est pas la _responsabilité_ (au sens juridico-moral classique), mais l'_habilité à répondre_. C'est une capacité, pas une culpabilité.

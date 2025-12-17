@@ -4,6 +4,8 @@ tags:
   - concept-pivot
   - godard
   - énaction
+date_origine: 15/12/25
+maturity: arbre
 ---
 
 # Geste

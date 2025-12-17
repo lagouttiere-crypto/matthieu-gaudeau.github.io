@@ -5,7 +5,8 @@ tags:
   - geste-médian
   - linguistique
   - énaction
-Etat: 🌱 Note
+date_creation: 2025-12-12
+maturity: arbuste
 ---
 
 # Voix médiane

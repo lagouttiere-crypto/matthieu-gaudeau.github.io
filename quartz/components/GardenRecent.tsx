@@ -3,6 +3,18 @@ import { classNames } from "../util/lang"
 import { resolveRelative } from "../util/path"
 import { formatDate, getDate } from "./Date"
 
+function getMaturityEmoji(maturity?: string): string {
+  switch (maturity?.toLowerCase()) {
+    case "germe":
+      return "🌱 "
+    case "arbuste":
+      return "🌿 "
+    case "arbre":
+      return "🌳 "
+    default:
+      return ""
+  }
+}
 interface Options {
   title?: string
   limit: number
@@ -51,7 +63,10 @@ export default ((userOpts?: Partial<Options>) => {
 
             return (
               <a href={resolveRelative(fileData.slug!, page.slug!)} class="garden-card">
-                <h3>{title}</h3>
+                <h3>
+                  {getMaturityEmoji(page.frontmatter?.maturity as string)}
+                  {title}
+                </h3>
                 {description && <p class="excerpt">{description}...</p>}
                 <div class="card-footer">
                   {date && <time>{formatDate(date, cfg.locale)}</time>}

@@ -1,5 +1,7 @@
 ---
 title: À propos
+date_creation: 2025-12-15
+maturity: arbuste
 ---
 
 # À propos de ce jardin numérique

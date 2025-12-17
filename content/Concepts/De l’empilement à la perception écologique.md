@@ -6,6 +6,7 @@ tags:
 domaine: enaction/couplage-système
 auteur_principal:
 date_origine: 16-12-2025
+maturity: arbuste
 ---
 
 **Concept principal :** [[Concepts/Chiasme|Chiasme]] | [[Concepts/Affordance|Affordance]]

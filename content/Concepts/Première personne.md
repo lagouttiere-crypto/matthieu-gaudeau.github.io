@@ -9,7 +9,8 @@ tags:
   - auteur/Nathalie-Depraz
 domaine: Philosophie, sciences cognitives
 auteur_principal:
-date_origine:
+date_origine: 15/12/25
+maturity: germe
 ---
 
 ## Première personne de l'expérience

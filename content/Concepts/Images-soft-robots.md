@@ -1,5 +1,7 @@
 ---
 title: Images-soft-robots
+date_creation: 2025-12-15
+maturity: germe
 ---
 
 ## Octobot (Harvard)

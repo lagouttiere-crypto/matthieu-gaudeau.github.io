@@ -8,7 +8,8 @@ tags:
   - autopoïèse
 domaine:
 auteur_principal:
-date_origine:
+date_origine: 15/12/25
+maturity: arbuste
 ---
 
 **Enaction** (ou **énaction**) : Concept développé par Francisco Varela, Evan Thompson et Eleanor Rosch (_The Embodied Mind_, 1991) qui propose une alternative radicale aux approches computationnelles de la cognition. L'enaction soutient que la cognition n'est pas représentation d'un monde préexistant, mais **co-construction active** émergeant des interactions dynamiques entre un organisme incarné et son environnement. La perception et l'action sont indissociables : l'organisme ne découvre pas le monde, il le **fait émerger** (enacts) par son couplage sensori-moteur avec lui. Fondée sur l'autopoïèse (Maturana & Varela), l'enaction considère que les systèmes vivants sont autonomes et génèrent leur propre monde de significations plutôt que de traiter passivement de l'information.

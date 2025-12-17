@@ -7,6 +7,7 @@ tags:
 domaine:
 auteur_principal:
 date_origine: 15/12/25
+maturity: germe
 ---
 
 [Contrôle comme langue](https://mkremins.github.io/blog/controls-as-language/) ➫ verbe lié à l'action et au jeu vidéos

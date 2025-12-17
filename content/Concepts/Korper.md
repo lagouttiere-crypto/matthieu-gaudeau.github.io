@@ -5,6 +5,7 @@ tags:
   - concept
   - Korper
 date_origine: 15/12/25
+maturity: germe
 ---
 
 [Korper](https://www.are.na/matthieu-gaudeau/corps-zlsnwo9nfzq)

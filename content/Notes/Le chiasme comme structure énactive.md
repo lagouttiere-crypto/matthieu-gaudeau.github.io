@@ -5,6 +5,8 @@ tags:
   - chiasme
   - notes
   - énaction
+maturity: germe
+date_creation: 2025-12-16
 ---
 
 **Le chiasme comme structure énactive**

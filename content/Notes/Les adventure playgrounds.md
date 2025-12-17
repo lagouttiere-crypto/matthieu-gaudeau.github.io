@@ -4,6 +4,7 @@ tags:
   - adventure-playgrounds
 statut: 🌱 Ébauche structurée / évolutive
 date_creation: 17-12-2025
+maturity: germe
 ---
 
 #### Histoire : Les adventure playgrounds

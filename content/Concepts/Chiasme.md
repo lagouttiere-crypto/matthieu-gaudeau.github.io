@@ -6,6 +6,7 @@ tags:
 domaine:
 auteur_principal: Merleau-Ponty
 date_origine: 16-12-2025
+maturity: arbre
 ---
 
 # Enrichissement - Chiasme touchant-touché (Merleau-Ponty)
@@ -14,7 +15,7 @@ date_origine: 16-12-2025
 
 **Concept principal :** [[Chiasme]] | [[Reversibilite]] | [[Corps propre]] | [[Reflexivite corporelle]]
 **Date de création :** 2025-11-11
-**Statut :** 🌿 En cours
+**Statut :** 🌳
 **Tags :** #enrichissement #citations #Merleau-Ponty #phenomenologie #concept/chiasme #concept/reversibilite #concept/corps-propre
 
 ## Vue d'ensemble

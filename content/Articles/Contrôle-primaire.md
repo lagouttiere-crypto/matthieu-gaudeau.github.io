@@ -1,7 +1,13 @@
 ---
 title: Le contrôle primaire comme invariant gravitaire
 date: 2025-12-10
-tags: [technique-alexander, invariant, gravité, contrôle-primaire, bullinger]
+tags:
+  - technique-alexander
+  - invariant
+  - gravité
+  - contrôle-primaire
+  - bullinger
+maturity: arbuste
 ---
 
 # Le contrôle primaire comme invariant gravitaire
