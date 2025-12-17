@@ -50,8 +50,8 @@ Que ce soit Berstein, F.M ALexander ou A.Bullinger, ( pour ne citer qu'eux ) **b
 Ce **jardin** explore ces question à travers :
 
 - ➫ **La pédagogie [[Public/Concepts/Enaction|énactive]]** : une approche où le geste et son sens se _construit_ en arpentant.
-- ➫ **Le groupe comme ressource** Non pas obstacle (concurrence), mais **amplificateur de variabilité**. Chaque différence est une information. L'apprentissage différentiel contre la pédagogie répétitive.
-- ➫ **La friche comme commun** Les espaces non-planifiés, accessibles, auto-organisés comme **infrastructures éducatives invisibles**. Là où la variabilité peut se déployer. Là où l'attention devient exploratoire, pas captive.
+- ➫ **Le groupe comme ressource** : non pas obstacle (concurrence), mais **amplificateur de variabilité**. Chaque différence est une information. L'apprentissage différentiel contre la pédagogie répétitive.
+- ➫ **La friche comme commun** : les espaces non-planifiés, accessibles, auto-organisés comme **infrastructures éducatives invisibles**. Là où la variabilité peut se déployer. Là où l'attention devient exploratoire, pas captive.
 
 ## Trois chemins se croisent
 
