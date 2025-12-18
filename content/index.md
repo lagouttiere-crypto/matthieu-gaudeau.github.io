@@ -18,9 +18,9 @@ date_creation: 2025-12-10
 
 🌿 _Ce jardin pousse : pour voir comment il s'est ramifié, consultez le [[Rhizome de Garden-Gester|Rhizome]]_.
 
-==🌱 Donner de l'attention (_attendere_ : tendre vers), c'est prendre soin, attiser un feu — nourrir ce qui brûle sans consumer==.
+🌱 ==Donner de l'attention (_attendere_ : tendre vers), c'est prendre soin, attiser un feu — nourrir ce qui brûle sans consumer==.
 
-— ---- — ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳— \_--- — - —🌳 \_\_.
+      — ---- — ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳— _--- — - —🌳 __.
 
 ### ==Garden-Gester est le jardin public à l'orée d'une forêt beaucoup plus grande et un tout petit peu plus sauvage 🌵== , <u> My wonderful big jumble </u> qui prospère grâce à Obsidian.
 
@@ -102,10 +102,10 @@ Ce jardin cultive cette **vérité de cohérence** : pas de démonstration défi
 ```
 
 Dans la conception japonaise du jardin zen, il n'existe pas de point de vue qui permettrait d'embrasser l'ensemble d'un regard. Le [jardin](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/) se _découvre_ en arpentant. Chaque pas révèle non seulement une composition nouvelle, un nouvel angle de vue, un nouvel assemblage, mais bien plus encore, il se donne par le mouvement même de sa découverte, qui demande de ne pas en épuiser le sens.
-**[[Récursivité]]** : le sens du jardin naît du geste qui le cherche, et qui à son tour reconfigure ce qui peut être cherché. La beauté échappe au regard qui surplombe, elle excède dans l'expérience du parcours dans sa caresse.
+**[[Récursivité]]** : le sens du jardin naît du geste qui le cherche, et qui à son tour reconfigure ce qui peut être cherché. La beauté échappe au regard qui surplombe, elle excède dans l'expérience du parcours, dans sa caresse.
 Ce site fonctionne de la même manière. Il n'y a pas de "début" à connaître avant de passer à la "suite". Les textes sont reliés, des occurrences qui suivent les associations conceptuelles plutôt qu'un ordre linéaire. Un mot souligné vous mènera vers son développement théorique, une référence vous ouvrira vers une exploration parallèle.
 
-**Cette page elle-même est vivante**. Elle se transforme au fur et à mesure de vos passages et de mes propres boucles de compréhension. Il n'y a pas de menu définitif qui cartographierait un territoire stable - plutôt des **possibilités de trajets** qui se reconfigurent selon ce que chaque arpentage révèle.
+**Cette page elle-même est [[Rhizome de Garden-Gester|vivante]]**. Elle se transforme au fur et à mesure de vos passages et de mes propres boucles de compréhension. Il n'y a pas de menu définitif qui cartographierait un territoire stable - plutôt des **possibilités de trajets** qui se reconfigurent selon ce que chaque arpentage révèle.
 
 Vous pouvez revenir ici entre deux explorations, repartir par un autre chemin, et constater que certaines formulations se sont précisées, que de nouveaux liens sont apparus, traverser le jardin pour un autre espace.
 Le jardin s'éclaire progressivement non pas parce qu'on en dévoilerait la structure cachée, mais parce que **chaque parcours participe à son actualisation**.

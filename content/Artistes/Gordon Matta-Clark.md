@@ -4,6 +4,7 @@ aliases: []
 tags:
   - Gordon-Matta-Clark
   - artiste
+  - gestosphère
 domaine: Anarchitecture
 date_origine: 16-12-2025
 maturity: arbuste
@@ -98,7 +99,7 @@ Les deux trajectoires (déconstruction + reconstitution sociale) commençaient �
 
 > "C'est cette qualité que je cherche à créer [...] un processus de transformation vigoureux qui commence à redéfinir le donné."
 
-**2. Geste comme intervention** Matta-Clark : "mouvement en tant que geste, à la fois métaphorique, sculptural et social" → Votre gestosphère : le geste n'est pas dans l'espace, il **fait** l'espace
+**2. Geste comme intervention** Matta-Clark : "mouvement en tant que geste, à la fois métaphorique, sculptural et social" → gestosphère : le geste n'est pas dans l'espace, il **fait** l'espace
 
 **3. Performance vs représentation** "L'activité de travail [...] constitue la performance" → approche énactive : la connaissance s'actualise dans l'action, pas avant
 
