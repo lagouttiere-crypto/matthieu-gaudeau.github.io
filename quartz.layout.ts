@@ -6,6 +6,7 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [
     Component.PageTitle(), // Juste le lien "Index" en haut
+    Component.Search(),
   ],
   afterBody: [
     Component.Graph(), // Graphe après le contenu de toutes les pages

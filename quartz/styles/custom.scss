@@ -603,3 +603,22 @@ ul.tags {
     display: none !important;
   }
 }
+
+/* ===================================
+   SEARCH - Minimaliste dans header
+   =================================== */
+
+header {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  padding: 2rem 1.5rem !important;
+}
+
+header .page-title {
+  margin: 0 !important;
+}
+
+header .search {
+  max-width: 300px !important;
+}
