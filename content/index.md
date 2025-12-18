@@ -16,9 +16,11 @@ date_creation: 2025-12-10
 
 **Bienvenue, welcome dans cet espace en jachère**
 
-🌿 _Ce jardin pousse : pour voir comment il s'est ramifié, consultez le [[Rhizome de Garden-Gester|Rhizome]]_
+🌿 _Ce jardin pousse : pour voir comment il s'est ramifié, consultez le [[Rhizome de Garden-Gester|Rhizome]]_.
 
-— ---- — ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳— \_--- — - —🌳 \_\_
+==🌱 Donner de l'attention (_attendere_ : tendre vers), c'est prendre soin, attiser un feu — nourrir ce qui brûle sans consumer==.
+
+— ---- — ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳— \_--- — - —🌳 \_\_.
 
 ### ==Garden-Gester est le jardin public à l'orée d'une forêt beaucoup plus grande et un tout petit peu plus sauvage 🌵== , <u> My wonderful big jumble </u> qui prospère grâce à Obsidian.
 
@@ -64,7 +66,7 @@ Ce **jardin** explore ces question à travers :
 
 **En [[Première personne|première personne]]** : l'expérience vécue, le sentir kinesthésique, ce qui se révèle dans l'attention portée à soi-même. Quelle est la "nature" de ce geste ? Car il s'agit bien d'un geste et comme tout geste, il produit ses [[Concepts/Chiasme|effets]]. Quels sont-ils sur notre organisation, lorsque nous cessons de "faire" et commençons à "permettre" ?
 
-**En [[deuxième personne]]** : la relation pédagogique, le toucher comme langage, la co-émergence du geste dans l'accompagnement. L'enseignant qui [[Encompagner|encompagne]], oriente sans imposer, qui "design" des [[Concepts/Affordance|affordances]] - spatiales, tactiles, verbales - plutôt qu'il n'_éructe_ des instructions (même si cela n'existe plus).
+**En [[deuxième personne]]** : la [relation](https://hapgood.us/2016/10/10/new-directions-in-open-education/) pédagogique, le toucher comme langage, la co-émergence du geste dans l'accompagnement. L'enseignant qui [[Encompagner|encompagne]], oriente sans imposer, qui "design" des [[Concepts/Affordance|affordances]] - spatiales, tactiles, verbales - plutôt qu'il n'_éructe_ des instructions (même si cela n'existe plus).
 
 **En [[Troisième personne|troisième personne]]** : la théorisation, les concepts, les modèles scientifiques qui tentent de saisir ce qui, par nature, échappe à la saisie. Les neurosciences, la phénoménologie, les théories de l'énaction qui convergent vers une compréhension du vivant comme processus émergent.
 

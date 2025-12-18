@@ -678,3 +678,61 @@ header .search input:focus {
   outline: none !important;
   box-shadow: 0 0 0 3px rgba(58, 90, 74, 0.15) !important;
 }
+
+/* ===================================
+   TOOLTIPS pour liens externes
+   =================================== */
+
+/* Cible uniquement les liens externes (qui commencent par http) */
+a[href^="http"]::after,
+a[href^="https://"]::after {
+  content: attr(href);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 0.75rem;
+  background: hsl(30, 87%, 76%);
+  color: #564d4d;
+  font-size: 0.75rem;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+  margin-bottom: 0.5rem;
+}
+
+a[href^="http"]:hover::after,
+a[href^="https://"]:hover::after {
+  opacity: 1;
+}
+
+/* Petite flèche du tooltip */
+a[href^="http"]::before,
+a[href^="https://"]::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 5px solid transparent;
+  border-top-color: #1a1a1a;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease;
+  z-index: 1000;
+  margin-bottom: 0.5rem;
+}
+
+a[href^="http"]:hover::before,
+a[href^="https://"]:hover::before {
+  opacity: 1;
+}
+
+/* S'assurer que les liens ont une position relative pour le tooltip */
+a[href^="http"],
+a[href^="https://"] {
+  position: relative;
+}
