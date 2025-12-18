@@ -652,11 +652,29 @@ header .search input::placeholder {
 header .search button,
 header .search-button,
 header button[aria-label="Search"] {
-  font-size: 0.65rem !important;
+  font-size: 0.75rem !important;
   padding: 0.4rem 0.75rem !important;
 }
 
 /* Force la typo sur tous les éléments de la recherche */
 header .search * {
-  font-size: 0.65rem !important;
+  font-size: 0.75rem !important;
+}
+
+/*contour vert sur search*/
+header .search input {
+  font-size: 0.85rem !important;
+  padding: 0.4rem 0.75rem !important;
+  border: 1px solid #3a5a4a !important; // <-- Vert direct au lieu de gris
+  border-radius: 20px !important;
+  background: #ffffff !important;
+  color: #1a1a1a !important;
+  width: 100% !important;
+  transition: all 0.2s ease !important;
+}
+
+header .search input:focus {
+  border-color: #2d4a3e !important; // <-- Vert plus foncé au focus
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(58, 90, 74, 0.15) !important;
 }
