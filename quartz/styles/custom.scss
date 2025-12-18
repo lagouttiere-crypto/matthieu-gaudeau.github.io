@@ -612,9 +612,9 @@ header {
   display: flex !important;
   align-items: center !important;
   justify-content: space-between !important;
-  padding: 2rem 1.5rem !important;
-  max-width: 720px !important;
-  margin: 0 auto !important;
+  padding: 2rem 0.5rem !important;
+  max-width: 1100px !important;
+  margin: 0.2rem !important;
   width: 100% !important;
 }
 
@@ -648,4 +648,15 @@ header .search input:focus {
 header .search input::placeholder {
   color: #9b9b9b !important;
   font-size: 0.8rem !important;
+}
+header .search button,
+header .search-button,
+header button[aria-label="Search"] {
+  font-size: 0.65rem !important;
+  padding: 0.4rem 0.75rem !important;
+}
+
+/* Force la typo sur tous les éléments de la recherche */
+header .search * {
+  font-size: 0.65rem !important;
 }
