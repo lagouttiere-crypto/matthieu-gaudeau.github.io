@@ -1,11 +1,10 @@
 ---
 type: Note
-created:
-  "{ date:YYYY-MM-DD }":
 tags:
   - graphein
   - calibration
 maturity: arbuste
+date_creation: 2025-12-19
 ---
 
 # Étymologie du geste graphique - De gratter à déposer

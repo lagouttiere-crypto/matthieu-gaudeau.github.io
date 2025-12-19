@@ -1,12 +1,11 @@
 ---
 type: Note
-created:
-  "{ date:YYYY-MM-DD }":
 tags:
   - Format-A4
   - coordination-oeil-main
   - fenêtre-attentionnelle
 maturity: arbuste
+date_creation: 2025-12-19
 ---
 
 # Format A4, coordination œil-main et la loupe

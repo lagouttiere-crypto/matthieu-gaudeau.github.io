@@ -1,13 +1,12 @@
 ---
 type: Note
-created:
-  "{ date:YYYY-MM-DD }":
 tags:
   - palais-de-mémoire
   - boucles_perception_action
   - énaction
   - émulation
 maturity: arbuste
+date_creation: 2025-12-19
 ---
 
 Construire un palais de mémoire - Mode d'emploi et calibrage sensori-moteur

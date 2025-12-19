@@ -1,7 +1,5 @@
 ---
 type: Manifeste
-created:
-  "{ date:YYYY-MM-DD }":
 tags:
   - ecole-nomade
   - auteur/Bigé
@@ -9,6 +7,7 @@ tags:
   - auteur/Lucci
   - auteur/Gaudeau
 maturity: arbre
+date_creation: 2025-12-19
 ---
 
 ## Manifeste pour une école somatique nomade

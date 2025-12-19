@@ -1,11 +1,10 @@
 ---
 type: Notes
-created:
-  "{ date:YYYY-MM-DD }":
 tags:
   - philosophie/éducation
   - auteur/Foucault
 maturity: arbuste
+date_creation: 2025-12-19
 ---
 
 # Le modèle éducatif français hérité du modèle carcéral
