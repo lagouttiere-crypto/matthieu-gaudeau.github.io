@@ -29,7 +29,7 @@ maturity: arbre
 
 ## Préambule méthodologique
 
-## Le texte que vous lisez actuellement s'écrit dans une tension productive : il s’intéresse à l'intrication entre perception, action et environnement technique _tout en s'incarnant_ dans cette même intrication. Écrit sur Obsidian, destiné à Quartz, il vous invite à explorer ses ramifications, à bifurquer selon vos propres fenêtres attentionnelles.
+Le texte que vous lisez actuellement s'écrit dans une tension productive : il s’intéresse à l'intrication entre perception, action et environnement technique _tout en s'incarnant_ dans cette même intrication. Écrit sur Obsidian, destiné à Quartz, il vous invite à explorer ses ramifications, à bifurquer selon vos propres fenêtres attentionnelles.
 
 ## I. Une chaîne d’instruments : une généalogie sensori-motrice
 
