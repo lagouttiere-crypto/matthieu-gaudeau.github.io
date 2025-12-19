@@ -61,7 +61,7 @@ Mais… L’outil modifie la pensée elle-même. L'écriture au clavier favorise
 
 Pierre Vermersch, dans ses travaux sur l'entretien d'explicitation, a montré comment nos **fenêtres attentionnelles de types visuelles** se structurent selon des formats techniques devenus _invisibles_ à force d'évidence[](https://www.expliciter.org/wp-content/uploads/2022/05/la_prise_en_compte_de_la_dynamique_attentionne_pierre-vermersch.pdf).
 
-Le **format A4** n'est pas neutre. Il cadre notre attention. Comme **[[Rétention-tertiaire|rétention tertiaire]]** (au sens de Stiegler), il organise l'espace de notre perception, lors de la lecture et de l'écriture. La page A4 définit combien d'information peut tenir "sous les yeux" simultanément. Elle structure le paragraphe, la note de bas de page, la marge – toute l'architecture visible et invisible du texte académique ou administratif. Ces formats structures nos perceptions et crée des mélodies perceptives. Nos perceptions sont tissées des ces orientations subtils. La façon dont nous allons extraire de nos environnement telle ou telle éléments structurants, vont définir des lignes de forces perceptives.
+Le **format A4** n'est pas neutre. Il cadre notre attention. Comme **[[Rétention-tertiaire|rétention tertiaire]]** (au sens de Stiegler), il organise l'espace de notre perception, lors de la lecture et de l'écriture. La page A4 définit combien d'information peut tenir "sous les yeux" simultanément. Elle structure le paragraphe, la note de bas de page, la marge – toute l'architecture visible et invisible du texte académique ou administratif. Ces formats structures nos perceptions et crée des mélodies perceptives. Nos perceptions sont tissées de ces orientations subtiles. La façon dont nous allons extraire de nos environnements, tels ou tels éléments structurants, vont définir des lignes de forces perceptives.
 
 C'est ici que le travail de **Godard sur la vergence** prend tout son sens, ainsi que les remarques "civilisationnelles" de F.M Alexander (_Constructive Conscious Control of the Individual-1923_) : la convergence des axes oculaires, leur accommodation, sont calibrées par ces formats standardisés. Notre système visuel se règle sur ces invariants techniques. Les remettre en mouvement est salutaire. Entendons-nous, il ne s’agit surtout pas de gymnastique oculaire, mais d’habitus, de façon d’habiter notre monde. En redonnant du jeu, c’est le couplage à nouveau que nous rejouons, nos incessantes fiançailles.
 
@@ -111,7 +111,7 @@ Sur la Lune (gravité 6× plus faible), vous arriveriez trop tôt. En apesanteur
 
 Les astronautes doivent **recalibrer** pendant plusieurs jours. Et au retour sur Terre, nouveau recalibrage : ils lâchent des objets en s'attendant qu'ils flottent.
 
-\*\*L'invariant gravitaire n'est pas "pensé". Il est incorporé dans tous nos gestes, sauf si nous adoptons la position deLucia Angelino. Le geste fait sens, en prenant l’anglicisme au pied de la lettre (sensing) : en lui, se fabrique le sens, c’est-à-dire que se tissent le sentir et le faire qu’il déploie.
+**L'invariant gravitaire n'est pas "pensé". Il est incorporé dans tous nos gestes, sauf si nous adoptons la position deLucia Angelino. Le geste fait sens, en prenant l’anglicisme au pied de la lettre (sensing) : en lui, se fabrique le sens, c’est-à-dire que se tissent le sentir et le faire qu’il déploie.**
 
 ### Chaque outil reconfigure ce rapport
 
@@ -127,8 +127,10 @@ L’étude est faite sur :
 
 - Le port de vêtements compressif (compression ajustée pour action proprioceptive)
 - Une rééducation sur La plateforme Huber 360®. Huber est un dispositif de rééducation kinésithérapeutique breveté par LPG Medical. _Son principe repose sur une plateforme oscillante motorisée multi-axes, équipée de capteurs de force (plateau, poignées) et d'un feedback visuel en temps réel à l'écran, pour une rééducation fonctionnelle globale sollicitant simultanément aspects physiques (musculaires, posturaux) et cognitifs_.
+
   ==➫ Intégration sensorielle==
   ==Dans le cas de patients atteints de SEDh, elle recalibre la dysproprioception en forçant la réintégration proprio/visuelle sous instabilités contrôlées en complétant le port de vêtements compressifs (+23% proprioception).​==
+
 - Puis sur un phase en salle de réalité virtuelle qui permet de _mesurer_ les effets de ce dispositif. Il est important de souligner que la phase virtuelle : déplacement sur tapis avec variation du flux visuel, influe également dans le traitement.
 
 Les résultats de l’études devrait-être publié prochainement.
@@ -139,28 +141,32 @@ En sollicitant le rapport
 - sol (sol radical)
 - oreille interne (Sol subjectif)
 - et Horizon (champ visuel- avec une _accroche_ visuelle importante dans le cas de déficit proprioceptif)
-- et en faisant _jouer_ toute la musculature profonde (équilibre)
-  ➫ ils obtiennent un recalibrage de l’organisation gravitaire.
+- et en faisant _jouer_ toute la musculature profonde (équilibre).
+
+➫ ils obtiennent un recalibrage de l’organisation gravitaire.
 
 ll est important de s'arrêter un instant, pour faire un parallèle avec que ceci est à l'œuvre dans de nombreuses pratiques somatiques. En jouant sur ces paramètres — sol, oreille interne, horizon —, nous pouvons impacter de la même façon et profondément l'organisation gravitaire.
 **C'est une forme d'approche low-tech du recalibrage sensoriel**.
 
 **Vous souhaitez faire une expérience ?**
 
-1- Exploration
+1- Exploration :
+
 En guise d’échauffement, je vous propose de faire une expérience [[Concepts/Small dance|Small Dance]].
 Puis déplacer vous tranquillement dans un endroit familier assez grand pour ne pas entraver vos mouvements.
 
-==Et amusez-vous à faire varier vos _imaginaires_ de sol et d’espace.==
+==Et amusez-vous à faire varier vos imaginaires de sol et d’espace.==
 
-1- Imaginez que un tapis-sol qui se déplace et vous invite par là-même vers l’avant (pente descendante). Mais trouver l’origine du mouvement dans le sol.
-2- Le même tapis sous vos pieds à présent mais dans le sens inverse, il vous _tire_ délicatement vers l’arrière (pente ascendante légère)
+1- Imaginez qu'un _tapis roulant_ se déplace et vous invite par là-même vers l’avant (pente descendante). Mais trouver l’origine du mouvement dans le sol.
+
+2- Le même tapis sous vos pieds mais dans le sens inverse à présent, il vous _tire_ délicatement vers l’arrière (pente ascendante légère)
 
 ==Percevez Les échos délicats dans votre posture globale.==
 
-Poursuivez l’exploration mais depuis votre oreille interne et cette fois, donnez du poids à votre regard, invitez vos yeux à se déposez délicatement dans les orbites et pourquoi pas sur vos oreilles et de fait sur votre oreille interne. Puis en **marchant** :
+Poursuivez l’exploration depuis votre oreille interne cette fois. Donnez du poids à votre regard, invitez vos yeux à se déposez délicatement dans les orbites et pourquoi pas sur vos oreilles et de fait sur votre oreille interne. Puis en **marchant** :
 
-1- laisser votre regard s’ouvrir à l’environnement et faites jouer votre curseur, tendez vers votre environnement
+1- laisser votre regard s’ouvrir à l’environnement et faites jouer votre curseur, tendez vers votre environnement.
+
 2- laisser le monde entrez dans votre regard
 
 **De nouveau, percevez Les échos délicats dans votre posture globale.**
@@ -179,7 +185,7 @@ _Dans cette section : nous explorons comment une technique millénaire (le palai
 
 ### Une technique millénaire
 
-Le **palais de mémoire** (ou méthode des loci) est l'une des plus anciennes techniques mnémoniques connues. Décrite par Cicéron, elle consiste à associer les éléments à mémoriser à des lieux spécifiques dans un espace mental que l'on peut "parcourir".
+Le **palais de mémoire** (ou méthode des loci) est l'une des plus anciennes techniques mnémoniques connues. Décrite par Cicéron (55 av J.C), elle consiste à associer les éléments à mémoriser à des lieux spécifiques dans un espace mental que l'on peut "parcourir".
 
 Ce qui nous intéresse ici, c'est comment cette technique millénaire révèle l'**intrication profonde entre perception, action, mémoire et création**. Pour construire un palais de mémoire, il faut :
 
@@ -190,7 +196,7 @@ Ce qui nous intéresse ici, c'est comment cette technique millénaire révèle l
 
 Le palais de mémoire n'est ni purement spatial, ni purement verbal. Il est une **hybridation** qui mobilise simultanément plusieurs systèmes cognitifs.
 
-La palais se construit pour être habiter et se modifie par l’usage… Voyez-vous ? Vous vous déplacez dans votre palais et posez un objet insolite de préférence qui va marquer votre attention, saillant, étrange, drôle, érotique, effrayant ? À vous de vous découvrir en oeuvrant. Maintenant déposez le mais pas trop grand (il vous encombre), ni trop petit (vous ne le verrez plus ou au prix de l’oubli). Déplacez vous de nouveau, percevez vous que selon la taille et l’objet lui-même votre pièce à changé ? L’ambiance de la pièce, sa couleur affective, sa tonalité vient de colorer votre expérience et votre trajet. À nouveau l’expérience est récursive et transformatrice.
+La palais se construit pour être habité et il se modifie par l’usage… Voyez-vous ? Vous vous déplacez dans votre palais et posez un objet insolite de préférence, qui va marquer votre attention, saillant, étrange, drôle, érotique, effrayant ? À vous de vous découvrir en oeuvrant. Maintenant déposez le. Ce dernier ne doit pas être trop grand (il vous encombre), ni trop petit (vous ne le verrez plus ou au prix de l’oubli). Déplacez vous de nouveau. Percevez vous que selon la taille et l’objet lui-même votre pièce à changé ? L’ambiance de la pièce, sa couleur affective, sa tonalité vient de colorer votre expérience et votre trajet. À nouveau l’expérience est récursive et transformatrice.
 
 Le palais que nous fabriquons est une pratique transformative :  
 Ce n'est pas un "truc" mnémotechnique pour retenir des listes. Ou si c’est le cas, investissez dans un outil numérique. Gain de temps et d’énergie, assuré.
@@ -249,7 +255,7 @@ Les travaux à Caen ne s'arrêtent pas à la technologie seule. Un aspect crucia
 
 Pourquoi est-ce si important ? Parce que la **recalibration sensori-motrice** n'est pas un processus purement mécanique. Elle nécessite une attention, une conscience kinesthésique que la personne peut apprendre à cultiver.
 
-L'expert·e guide cette attention, encompagne, permet d’observer certains signaux. Par sa présence, sa voix, ses questions, iel aide la personne à **percevoir** ce qui se passe pour elle pendant la recalibration. C'est une forme de **guidage phénoménologique**.
+L'expert·e guide cette attention, [[Encompagner|encompagne]], permet d’observer certains signaux. Par sa présence, sa voix, ses questions, iel aide la personne à **percevoir** ce qui se passe pour elle pendant la recalibration. C'est une forme de **guidage phénoménologique**.
 
 ### Émulation vs simulation
 
@@ -262,7 +268,7 @@ La réalité virtuelle pour traiter la maladie d’Alzheimer n'essaie pas de "si
 ## Chemins à explorer
 
 Note pour d’hypothétique lecteurs:
-Les liens de bas ne sont pas toujours actifs, ils ouvrent des pistes.
+Les liens ci-dessoous ne sont pas toujours actifs, ils ouvrent des pistes.
 
 Ce texte pourrait bifurquer vers :
 
