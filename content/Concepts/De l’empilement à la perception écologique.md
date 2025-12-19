@@ -3,23 +3,22 @@ type: concept
 aliases: []
 tags:
   - concept
+  - tenségrité
+  - affordance
+  - auteur/Gibson
 domaine: enaction/couplage-système
 auteur_principal:
-date_origine: 16-12-2025
+date_origine: 11-11-2025
 maturity: arbuste
 ---
 
-**Concept principal :** [[Concepts/Chiasme|Chiasme]] | [[Concepts/Affordance|Affordance]]
-**Date de création :** 2025-11-11
-**Statut :** 🌱 Notes de travail (en germe)
-**Tags :** #tenségrité #affordance #auteur/Gibson
 **Notes :** [[chiasmes affordanciels]] | [[structure générative multi-échelle]]
 
 # De l’empilement à la perception écologique
 
 ---
 
-## 1. De l’ « empilement » à la « tenségrité ».
+## 1. De l’ empilement à la tenségrité.
 
 ### Vision classique : le corps en empilement segmentaire
 
@@ -68,7 +67,7 @@ Tenségrité = Tension + Intégrité
 
 ---
 
-## 2. De la perception "caméra obscure" à la perception prédictive
+## 2. De la perception caméra obscure à la perception prédictive
 
 ### Modèle classique : le cerveau caméra / boîte noire
 
