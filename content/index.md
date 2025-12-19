@@ -48,7 +48,7 @@ Nous avons déjà fait un bout de chemin ---- -- - - --- ---- ---- --- prenons q
 
 ### Finalement, pour ressaisir ce qui précède, nous pourrions le prolonger par une question. Qui est auteur du geste ?
 
-Que ce soit Berstein, F.M ALexander ou A.Bullinger, ( pour ne citer qu'eux ) tous trois ont **buté sur les limites du modèle commande-contrôle** :
+Que ce soit Berstein, F.M ALexander ou A.Bullinger ( pour ne citer qu'eux ), tous trois ont **buté sur les limites du modèle commande-contrôle** :
 
 - Bernstein depuis la physiologie soviétique et le réflexe conditionné pavlovien
 - Alexander depuis l'introspection pratique (pragmatisme) et la pédagogie
@@ -58,7 +58,7 @@ Que ce soit Berstein, F.M ALexander ou A.Bullinger, ( pour ne citer qu'eux ) tou
 
 Ce **jardin** explore ces question à travers :
 
-- ➫ **La pédagogie [[Public/Concepts/Enaction|énactive]]** : une approche où le geste et son sens se _construit_ en arpentant.
+- ➫ **La pédagogie [[Concepts/Enaction|énactive]]** : une approche où le geste et son sens se _construit_ en arpentant.
 - ➫ **Le groupe comme ressource** : non pas obstacle (concurrence), mais **amplificateur de variabilité**. Chaque différence est une information. L'apprentissage différentiel contre la pédagogie répétitive.
 - ➫ **La friche comme commun** : les espaces non-planifiés, accessibles, auto-organisés comme **infrastructures éducatives invisibles**. Là où la variabilité peut se déployer. Là où l'attention devient exploratoire, pas captive.
 
@@ -66,7 +66,7 @@ Ce **jardin** explore ces question à travers :
 
 **En [[Première personne|première personne]]** : l'expérience vécue, le sentir kinesthésique, ce qui se révèle dans l'attention portée à soi-même. Quelle est la "nature" de ce geste ? Car il s'agit bien d'un geste et comme tout geste, il produit ses [[Concepts/Chiasme|effets]]. Quels sont-ils sur notre organisation, lorsque nous cessons de "faire" et commençons à "permettre" ?
 
-**En [[deuxième personne]]** : la [relation](https://hapgood.us/2016/10/10/new-directions-in-open-education/) pédagogique, le toucher comme langage, la co-émergence du geste dans l'accompagnement. L'enseignant qui [[Encompagner|encompagne]], oriente sans imposer, qui "design" des [[Concepts/Affordance|affordances]] - spatiales, tactiles, verbales - plutôt qu'il n'_éructe_ des instructions (même si cela n'existe plus).
+**En [[deuxième personne]]** : la [relation](https://hapgood.us/2016/10/10/new-directions-in-open-education/) pédagogique, le toucher comme langage, la co-émergence du geste dans l'accompagnement. L'enseignant qui [[Encompagner|encompagne]], oriente sans imposer, qui "design" des [[Concepts/Affordance|affordances]] - spatiales, tactiles, verbales - plutôt qu'il n'_éructe_ des instructions (même si cela n'existe plus...).
 
 **En [[Troisième personne|troisième personne]]** : la théorisation, les concepts, les modèles scientifiques qui tentent de saisir ce qui, par nature, échappe à la saisie. Les neurosciences, la phénoménologie, les théories de l'énaction qui convergent vers une compréhension du vivant comme processus émergent.
 

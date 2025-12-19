@@ -14,7 +14,7 @@ date_origine: 18/12/2025
 maturity: arbuste
 ---
 
-IL est difficile de donner une définition à l'==attention==, elle enjambe négligemment les domaines, les éclaire et les nourrit (philosophie, éthique, sciences sociales, développementales, sciences cognitives). Elle est partout au cœur de toutes les attentions et bien trop souvent définie
+IL est difficile de donner une définition de l'==attention==, elle enjambe négligemment les domaines, les éclaire et les nourrit (philosophie, éthique, sciences sociales, développementales, sciences cognitives). Elle est partout au cœur de toutes les attentions et bien trop souvent définie
 ➫ comme une denrée rare, une ressource privée, limitée et de fait convoitée.
 
 Comme le souligne Jeremy Damian, _le surgissement de la question de l’attention ( nos attentions ! ) dans l’espace public marque à la fois les menaces qui pèsent sur elle, du fait de toutes les formes de prédation dont elle fait l’objet, et le souci renouvelé de collectivement réapprendre à « faire attention _ [](https://shs.hal.science/halshs-02055117v1/document).
