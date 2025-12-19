@@ -121,29 +121,29 @@ Les boucles sensori-motrices que nous développons sont toujours **situées**, o
 
 Les travaux menés à Caen par le laboratoire COMETE (CNRS)[](https://comete.unicaen.fr/fin-des-inclusions-de-letude-vitalised/) et le projet VITALISED révèlent quelque chose de fascinant sur cette intrication perception/action/environnement.
 
-Ces études sont menées auprès de patient atteints du syndrome d’Ehlers-Danlos de type hypermobile (SEDh). Le SEDh est une atteinte du tissu conjonctif qui se manifeste principalement à travers une hypermobilité articulaire généralisée, une hyperextensibilité cutanée variable et des douleurs musculaires et articulaires diffuses et chroniques. En conséquence, les patients SEDh présentent des troubles de la motricité, encore mal évalués, impactant leur adaptabilité fonctionnelle, pouvant conduire à une perte d’autonomie, voire à l’isolement et à la désocialisation.
+Cette étude est menée auprès de patient atteints du syndrome d’Ehlers-Danlos de type hypermobile (SEDh). Le SEDh est une atteinte du tissu conjonctif qui se manifeste principalement à travers une hypermobilité articulaire généralisée, une hyperextensibilité cutanée variable et des douleurs musculaires et articulaires diffuses et chroniques. En conséquence, les patients SEDh présentent des troubles de la motricité, encore mal évalués, impactant leur adaptabilité fonctionnelle, pouvant conduire à une perte d’autonomie, voire à l’isolement et à la désocialisation.
 
-L’étude est faite sur d’une part
+L’étude est faite sur :
 
-- du port de vêtements compressif (compression ajustée pour action proprioceptive)
-- et une rééducation sur La plateforme Huber 360®. Huber est un dispositif de rééducation kinésithérapeutique breveté par LPG Medical. _Son principe repose sur une plateforme oscillante motorisée multi-axes, équipée de capteurs de force (plateau, poignées) et d'un feedback visuel en temps réel à l'écran, pour une rééducation fonctionnelle globale sollicitant simultanément aspects physiques (musculaires, posturaux) et cognitifs_.
+- Le port de vêtements compressif (compression ajustée pour action proprioceptive)
+- Une rééducation sur La plateforme Huber 360®. Huber est un dispositif de rééducation kinésithérapeutique breveté par LPG Medical. _Son principe repose sur une plateforme oscillante motorisée multi-axes, équipée de capteurs de force (plateau, poignées) et d'un feedback visuel en temps réel à l'écran, pour une rééducation fonctionnelle globale sollicitant simultanément aspects physiques (musculaires, posturaux) et cognitifs_.
+  ==➫ Intégration sensorielle==
+  ==Dans le cas de patients atteints de SEDh, elle recalibre la dysproprioception en forçant la réintégration proprio/visuelle sous instabilités contrôlées en complétant le port de vêtements compressifs (+23% proprioception).​==
+- Puis sur un phase en salle de réalité virtuelle qui permet de _mesurer_ les effets de ce dispositif. Il est important de souligner que la phase virtuelle : déplacement sur tapis avec variation du flux visuel, influe également dans le traitement.
 
-Intégration sensorielle
-Dans cas de patients atteints de SEDh, elle recalibre la dysproprioception en forçant la réintégration proprio/visuelle sous instabilités contrôlées en complétant le port de vêtements compressifs (+23% proprioception).​
+Les résultats de l’études devrait-être publié prochainement.
 
-- Puis sur un phase en salle de réalité virtuelle qui permet de _mesurer_ les effets de ce dispositif. Il est important de souligner que la phase virtuelle marche sur tapis roulant avec variation du flux visuel, influe également dans le traitement.
-
-Les résultats de l’études devrait-être publié prochainement. Mais nous pouvons dès à présent nous arrêter un instant.
-
-Amusons-nous à explorer une dimension incarnée de l’imaginaire. Nous pouvons apprécier la finesse de l’approche du Huber 360.
+Nous pouvons apprécier la finesse de l’approche du Huber 360.
 En sollicitant le rapport
 
 - sol (sol radical)
 - oreille interne (Sol subjectif)
 - et Horizon (champ visuel- avec une _accroche_ visuelle importante dans le cas de déficit proprioceptif)
-  En faisant jouer toute la musculature profonde (équilibre), ils obtiennent un recalibrage de l’organisation gravitaire.
+- et en faisant _jouer_ toute la musculature profonde (équilibre)
+  ➫ ils obtiennent un recalibrage de l’organisation gravitaire.
 
-l est important de s'arrêter un instant pour voir que ceci est à l'œuvre dans de nombreuses pratiques somatiques. En jouant sur ces paramètres — sol, oreille interne, horizon —, nous pouvons impacter de façon profonde notre organisation gravitaire. **C'est une approche low-tech du recalibrage sensoriel**.
+ll est important de s'arrêter un instant, pour faire un parallèle avec que ceci est à l'œuvre dans de nombreuses pratiques somatiques. En jouant sur ces paramètres — sol, oreille interne, horizon —, nous pouvons impacter de la même façon et profondément l'organisation gravitaire.
+**C'est une forme d'approche low-tech du recalibrage sensoriel**.
 
 **Vous souhaitez faire une expérience ?**
 

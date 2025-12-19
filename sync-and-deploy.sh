@@ -10,6 +10,9 @@ npx quartz sync
 echo "🔨 Build du site..."
 npx quartz build
 
+echo "📄 Ajout du CNAME..."
+cp static/CNAME public/CNAME
+
 echo "🚀 Déploiement vers GitHub Pages..."
 cd public
 git init
