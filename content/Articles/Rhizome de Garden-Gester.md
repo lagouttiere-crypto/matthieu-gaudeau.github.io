@@ -17,7 +17,7 @@ maturity: arbuste
 
 ## Comment ce [[Note méthodologique|parcours]] s'est tracé
 
-|➲ Ce document retrace le chemin parcouru, les bifurcations prises, les concepts qui ont germé en arpentant ce mercredi 17/12/2025. Ce n'est pas une généalogie linéaire (V1 → V2 → V3), mais la cartographie d'un processus **récursif** : en explorant ailleurs (Kirielle), on a redécouvert et enrichi ce qui était déjà ici (en jachère).
+|➲ Ce document retrace le chemin parcouru, les bifurcations prises, les concepts qui ont germé en arpentant ce mercredi 17/12/2025. Ce n'est pas une généalogie linéaire (V1 → V2 → V3), mais la cartographie d'un processus **récursif** : en explorant ailleurs ([[Articles/Kyrielle|Kyrielle]]), on a redécouvert et enrichi ce qui était déjà ici (en jachère).
 
 ---
 
@@ -61,7 +61,7 @@ La beauté échappe au regard qui surplombe, elle excède dans l'expérience du 
 
 ---
 
-## 🌱 Un fil tiré : Kirielle
+## 🌱 Un fil tiré : [[Articles/Kyrielle|Kyrielle]]
 
 ### L'intention initiale
 
@@ -103,7 +103,7 @@ Comment l'instrument et son usage (récursivité) modifient nos gestes et nos po
 
 ## 🌿 Ramifications apparues en arpentant
 
-En développant Kirielle, des concepts ont germé, se sont ramifiés, ont créé des connexions latérales. Voici la trace de ces émergences.
+En développant [[Articles/Kyrielle|Kyrielle]], des concepts ont germé, se sont ramifiés, ont créé des connexions latérales. Voici la trace de ces émergences.
 
 ### 1. Émulation du retour sensoriel
 
@@ -123,8 +123,6 @@ Quand on parle d'émulation motrice (visualisation, simulation mentale), on tomb
 **Conséquence** : Quand je pense à un geste, mon pré-mouvement est concerné, mon organisation gravitaire est concernée, le sous-bassement du geste est concerné. Ce n'est pas seulement le bras, mais tout mon engagement relationnel qui est en jeu.
 
 **Plus surprenant encore** : J'émule aussi le retour sensoriel. Je sens la piste de ski ou le salto arrière et ajuste motricité et anticipation perceptive. Une sensori-motricité capable de **prévoir les sensations qui vont être en jeu à ce moment-là**.
-
-→ [[Émulation du retour sensoriel]]
 
 ---
 
@@ -146,8 +144,6 @@ Quand j'émule un salto arrière :
 - Comment le sol va me renvoyer, comment l'air va résister, comment la gravité va m'accélérer
 
 **L'émulation est relationnelle** : elle simule le couplage entre mes possibilités d'action et les offres de l'environnement (affordances).
-
-→ [[Le geste comme pratique de la relation]]
 
 ---
 
@@ -171,8 +167,6 @@ C'est l'**apprentissage d'extraction d'invariants** : développer une expertise 
 > _"L'apprentissage, autrement dit, me permet de **stabiliser des invariants à l'intérieur de l'espace d'action-perception**, invariants qui seront donc d'un côté mon corps plus ou moins identique à lui-même dans le mouvement et de l'autre mon environnement plus ou moins stable à mesure que je le traverse."_
 
 **Conséquence** : Laisser la motricité être organisée par le couplage. Ne pas décider consciemment de chaque micro-ajustement, mais laisser le couplage corps-environnement organiser le mouvement.
-
-→ [[Invariants et variabilité]]
 
 ---
 
@@ -229,7 +223,6 @@ Chaque différence est une information. Observer quelqu'un·e faire autrement = 
 - Encourage la coopération
 - Le groupe = ressource
 
-→ [[Groupe comme ressource]]  
 → [[Apprentissage différentiel]]
 
 ==➫ Modifications du jardin==
@@ -266,8 +259,8 @@ Ce n'est pas qu'un "truc" mnémotechnique pour retenir des listes. C'est une pra
 
 En construisant un palais, je fais l'expérience des matériaux qui permettent la construction (comme un maçon ou un architecte). J'apprends à reconnaître et recalibrer mon être au monde.
 
-→ [[Palais de mémoire]]  
-→ [[Calibrage sensori-moteur]]
+→ [[Construire un palais de mémoire]]  
+→ [[Articles/Kyrielle|Kyrielle]]
 
 ---
 
@@ -453,9 +446,9 @@ Le trajet affine les objets.
 
 ---
 
-## Portes d'entrée (mais vous pouvez commencer n'importe où)
+## Portes d'entrée (liens vers le futur pour la plupart ;)))
 
-→ [[Kirielle]] - Une archéologie des gestes techniques, des objets qui modifient nos postures  
+→ [[Articles/Kyrielle|Kyrielle]]- Une archéologie des gestes techniques, des objets qui modifient nos postures  
 → [[Le geste comme émergence]] - Pourquoi on ne "fait" pas un geste, on l'habite  
 → [[Affordances et design]] - Comment l'environnement offre des possibilités d'agir  
 → [[La friche comme commun]] - Les espaces non-planifiés comme lieux d'apprentissage  
