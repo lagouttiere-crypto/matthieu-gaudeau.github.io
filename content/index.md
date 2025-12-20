@@ -22,7 +22,7 @@ date_creation: 2025-12-10
 
       — ---- — ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳— _--- — - —🌳 __.
 
-### ==Garden-Gester est le jardin public à la lisière d'une forêt beaucoup plus grande et un tout petit peu plus sauvage 🌵== , <u> My wonderful big jumble </u> qui prospère grâce à Obsidian [](https://fr.wikipedia.org/wiki/Obsidian_(logiciel)
+### ==Garden-Gester est le jardin public à la lisière d'une forêt beaucoup plus grande et un tout petit peu plus sauvage 🌵== , <u> My wonderful big jumble </u> qui prospère grâce à Obsidian [](<https://fr.wikipedia.org/wiki/Obsidian_(logiciel)>)
 
 J'ai essayé de rendre Garden-Gester autant que possible praticable. Je crois comprendre, que nous avons (chacun.e d'entre nous) des façons très singulières de faire corps avec l'inconfort du sens. **ICI** j'évoque surtout des bout de pensées plus ou moins germées sur le concept de GESTE et ses nombreuses implications et ramifications.
 
