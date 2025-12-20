@@ -14,19 +14,19 @@ maturity: arbuste
 date_creation: 2025-12-10
 ---
 
-**Bienvenue, welcome dans cet espace en jachère**
+**Bienvenue, welcome dans cet [[Rhizome#écotone|écotone]]**
 
-🌿 _Ce jardin pousse : pour voir comment il s'est ramifié, consultez le [[Rhizome de Garden-Gester|Rhizome]]_.
+🌿 _Ce [[Rhizome#historique des jardins (de ceux qui invitent)|jardin]] pousse : pour avoir un aperçu de comment il se ramifie, consultez le [[Rhizome de Garden-Gester|Rhizome]]_.
 
 🌱 ==Donner de l'attention (_attendere_ : tendre vers), c'est prendre soin, attiser un feu — nourrir ce qui brûle sans consumer==.
 
       — ---- — ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳— _--- — - —🌳 __.
 
-### ==Garden-Gester est le jardin public à l'orée d'une forêt beaucoup plus grande et un tout petit peu plus sauvage 🌵== , <u> My wonderful big jumble </u> qui prospère grâce à Obsidian.
+### ==Garden-Gester est le jardin public à la lisière d'une forêt beaucoup plus grande et un tout petit peu plus sauvage 🌵== , <u> My wonderful big jumble </u> qui prospère grâce à Obsidian [](https://fr.wikipedia.org/wiki/Obsidian_(logiciel)
 
 J'ai essayé de rendre Garden-Gester autant que possible praticable. Je crois comprendre, que nous avons (chacun.e d'entre nous) des façons très singulières de faire corps avec l'inconfort du sens. **ICI** j'évoque surtout des bout de pensées plus ou moins germées sur le concept de GESTE et ses nombreuses implications et ramifications.
 
-Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la chose quand on parle de geste, c'est de commencer par le fait que :
+Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la chose quand on parle de [[Rhizome#Les gestes du jardin|geste]], c'est de commencer par le fait que :
 
 ### ➫ Le [[Concepts/Geste|Geste]] n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]...
 
