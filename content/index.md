@@ -14,9 +14,9 @@ maturity: arbuste
 date_creation: 2025-12-10
 ---
 
-**Bienvenue, welcome dans cet [[Rhizome#écotone|écotone]]**
+**Bienvenue, welcome dans cet [[écotone]]**
 
-🌿 _Ce [[Rhizome#historique des jardins (de ceux qui invitent)|jardin]] pousse : pour avoir un aperçu de comment il se ramifie, consultez le [[Rhizome de Garden-Gester|Rhizome]]_.
+🌿 _Ce [[historique des jardins (de ceux qui invitent)|jardin]] pousse : pour avoir un aperçu de comment il se ramifie, consultez le [[Rhizome de Garden-Gester|Rhizome]]_.
 
 🌱 ==Donner de l'attention (_attendere_ : tendre vers), c'est prendre soin, attiser un feu — nourrir ce qui brûle sans consumer==.
 
@@ -26,7 +26,7 @@ date_creation: 2025-12-10
 
 J'ai essayé de rendre Garden-Gester autant que possible praticable. Je crois comprendre, que nous avons (chacun.e d'entre nous) des façons très singulières de faire corps avec l'inconfort du sens. **ICI** j'évoque surtout des bout de pensées plus ou moins germées sur le concept de GESTE et ses nombreuses implications et ramifications.
 
-Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la chose quand on parle de [[Rhizome#Les gestes du jardin|geste]], c'est de commencer par le fait que :
+Je crois que la façon la plus simple (mais pas la moins complexe) d'aborder la chose quand on parle de [[Les gestes du jardin|geste]], c'est de commencer par le fait que :
 
 ### ➫ Le [[Concepts/Geste|Geste]] n'est pas ce que l'on fait, mais ce par quoi il [[Donner|donne]]...
 
