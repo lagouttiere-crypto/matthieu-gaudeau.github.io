@@ -118,6 +118,7 @@ Nés de la révolution industrielle, c'est au début du XIXe siècle qu'appara
 - Tondre
 - Biner
 - Ramasser
+  - [[Sur la piste animale-Morizot]]
 - Décaper
 - Débroussailler​
 

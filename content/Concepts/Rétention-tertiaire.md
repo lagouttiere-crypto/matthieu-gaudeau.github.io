@@ -13,6 +13,9 @@ maturity: arbuste
 ---
 
 Rétention tertiaire (Bernard Stiegler)
+[Ce qui fait que la vie vaut la peine d'être vécue-extraits](https://publish.obsidian.md/bamwempan/Livre/Ce+qui+fait+que+la+vie+vaut+la+peine+d'être+vécue)
+[[Stiegler-concepts]]
+[[Ce qui vaut que la vie mérite d'être vécue - Stiegler]]
 
 ## Définition
 
