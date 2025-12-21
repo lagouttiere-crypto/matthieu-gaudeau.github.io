@@ -73,12 +73,13 @@ Cette planche qui vibre et se transforme, c'est une image de ce que fait votre c
 
 Prenons maintenant un moment pour sentir comment cette résonance attentionnelle se déploie. Elle a plusieurs qualités qui coexistent à chaque instant :
 
-**Elle est structurelle** : Portez attention à vos pieds. Sentez-vous comme votre tonus change ? Comment la distribution des tensions dans votre corps se réorganise instantanément ? L'attention modifie la structure.
-**Elle est prédictive** : Avant même de lever la main, quelque chose en vous "goûte" déjà le mouvement à venir. L'attention anticipe, prépare le geste.
-Elle est récursive : Percevoir → agir → percevoir le résultat → ajuster. Chaque cycle affine le suivant, comme ces métronomes qui s'écoutent mutuellement.
-**Elle se dit, se parle, elle est médiatisée** : Dites intérieurement "laisse ton poids couler dans le sol" puis "pousse dans le sol". Sentez-vous la différence ? Les mots orientent l'attention, sculptent la qualité du geste.
-**Elle est affective** : Votre attention n'est jamais neutre. Elle a toujours une couleur vitale : jaillissante, coulante, explosive, s'effaçant. Elle a une tonalité, et cette qualité affective colore l'expérience.
-**Elle est relationnelle** : L'attention tisse des liens - avec le sol, avec l'espace, avec les autres présences. Elle est ce qui vous met en relation.
+- **Elle est structurelle** : Portez attention à vos pieds. Sentez-vous comme votre tonus change ? Comment la distribution des tensions dans votre corps se réorganise instantanément ? L'attention modifie la structure.
+- **Elle est prédictive** : Avant même de lever la main, quelque chose en vous "goûte" déjà le mouvement à venir. L'attention anticipe, prépare le geste.
+- **Elle est récursive** : Percevoir → agir → percevoir le résultat → ajuster. Chaque cycle affine le suivant, comme ces métronomes qui s'écoutent mutuellement.
+- **Elle se dit, se parle, elle est médiatisée** : Dites intérieurement "laisse ton poids couler dans le sol" puis "pousse dans le sol". Sentez-vous la différence ? Les mots orientent l'attention, sculptent la qualité du geste.
+- **Elle est affective** : Votre attention n'est jamais neutre. Elle a toujours une couleur vitale : jaillissante, coulante, explosive, s'effaçant. Elle a une tonalité, et cette qualité affective colore l'expérience.
+- **Elle est relationnelle** : L'attention tisse des liens - avec le sol, avec l'espace, avec les autres présences. Elle est ce qui vous met en relation.
+
 Ces qualités ne sont pas séparées. Elles coexistent, s'entrelacent, se modulent mutuellement dans chaque moment attentionnel.
 
 Tout ceci a des répercutions, vous commencez sûrement à les entrevoir. La première fausse idée et la plus profondément et culturellement ancrée c'est que :
