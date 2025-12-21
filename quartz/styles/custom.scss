@@ -221,7 +221,12 @@ span.text-highlight::after,
   background-position: bottom !important;
   z-index: -1 !important;
 }
-
+/* Empêcher les éléments enfants d'hériter du background */
+.text-highlight > *,
+span.text-highlight > * {
+  background-color: transparent !important;
+  background: none !important;
+}
 /* ===================================
    FLORAISONS - Popups organiques (gardées)
    =================================== */
