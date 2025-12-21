@@ -9,7 +9,7 @@ tags:
   - attention/selection
   - attention-incarnée
 domaine:
-auteur_principal:
+auteur_principal: MatthieuG
 date_origine: 18/12/2025
 maturity: arbuste
 ---
