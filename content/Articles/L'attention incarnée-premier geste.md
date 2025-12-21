@@ -19,7 +19,7 @@ Pour cela, nous pouvons nous **asseoir** quelques instants, si ce n’est pas le
 - Habitons simplement notre assise.
   ➫ Notre attention est distribuée dans le tissu vivant de notre présence au monde.
 
-Percevez-vous comme vous pouvez être ici, porté et ouvert à votre environnement, sans tension excessive ? Percevez-vous ? Cette présence est peuplée de sons et de présence. Percevez-vous la micro-danse qui tisse votre présence au monde.
+Percevez-vous comme vous pouvez être ici, porté et ouvert à votre environnement, sans tension excessive ? Percevez-vous la micro-danse qui tisse votre présence au monde.
 
 L'attention est cet **accordage**.
 
