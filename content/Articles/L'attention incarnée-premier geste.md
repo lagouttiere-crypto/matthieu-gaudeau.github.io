@@ -9,6 +9,13 @@ date_origine: 20/12/2025
 maturity: arbre
 ---
 
+**L'attention comme accordage résonnant : pour une écologie relationnelle de la présence**
+
+_Ce texte propose un déplacement radical dans notre compréhension de l'attention. Plutôt que de la concevoir comme un projecteur mental dirigé par un observateur central, l'attention est ici explorée comme un processus d'accordage multimodal et distribué. À travers des métaphores acoustiques (le sonar des chauves-souris, la résonance des métronomes), nous développons l'idée que notre perception émerge de l'interférence de multiples "sonars" sensoriels qui se modulent mutuellement. Le cerveau n'est pas un chef d'orchestre mais une structure résonnante parmi d'autres, participant à un couplage dynamique entre corps et environnement. Cette perspective relationnelle a des implications concrètes pour la pédagogie et les pratiques somatiques : la subjectivation devient un processus émergent plutôt qu'une donnée fixe, et l'apprentissage se déploie comme création de conditions de couplage plutôt que transmission d'information. L'attention est ainsi révélée comme ce qui nous constitue en tant qu'êtres-en-relation._
+
+---
+
+Ça te convient ? Je peux ajuster la longueur ou l'angle si tu veux.
 ==Commençons par un geste de réduction.==
 
 Pour cela, nous pouvons nous **asseoir** quelques instants, si ce n’est pas le cas…
