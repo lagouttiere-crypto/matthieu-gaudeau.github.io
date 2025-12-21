@@ -1,8 +1,10 @@
 ---
-type: concept
+type: Notes
 aliases: []
 tags:
-  - concept
+  - notes
+  - auteur/Stiegler
+  - extraits
 domaine: Philosophie
 auteur_principal: Stiegler
 date_origine: 20/12/2025
