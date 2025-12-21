@@ -31,6 +31,8 @@ Tout cela nous demande de repenser intensément nos pratiques — et d'abord, de
 
 ### 1- L’attention est un geste et c’est en cela qu’elle peut être apprise.
 
+➫ [[L'attention incarnée-premier geste|L'attention incarnée - Premier geste.]]
+
 ### 2- Faire Attention
 
 ### 3- Ne pas faire Attention

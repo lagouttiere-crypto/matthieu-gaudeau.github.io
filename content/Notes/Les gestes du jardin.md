@@ -6,8 +6,8 @@ tags:
   - verbes
 domaine:
 auteur_principal:
-date_origine:
-maturity:
+date_origine: 20/12/2025
+maturity: germe
 ---
 
 ## Les gestes du jardin
@@ -21,6 +21,7 @@ maturity:
 - Terrasser
 - Drainer
 - Fertiliser​
+  - [l'histoire de l'internet et du web- Valérie Schafer & Alexandre Serres](https://www.livingbooksabouthistory.ch/fr/book/histories-of-the-internet-and-the-web#chapter-1-1-1)
 
 ### Verbes de plantation
 
