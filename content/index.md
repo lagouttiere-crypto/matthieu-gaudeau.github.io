@@ -18,7 +18,7 @@ date_creation: 2025-12-10
 
 🌿 _Ce [[historique des jardins (de ceux qui invitent)|jardin]] pousse : pour avoir un aperçu de comment il se ramifie, consultez le [[Rhizome de Garden-Gester|Rhizome]]_.
 
-🌱 ==Donner de l'attention (_attendere_ : tendre vers), c'est prendre soin, attiser un feu — nourrir ce qui brûle sans consumer==.
+🌱 ==Donner de [[l'attention]] (_attendere_ : tendre vers), c'est prendre soin, attiser un feu — nourrir ce qui brûle sans consumer==.
 
       — ---- — ---- Faisons rapidement quelques pas ensemble --- --- - --- 🌳— _--- — - —🌳 __.
 
