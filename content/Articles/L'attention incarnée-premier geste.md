@@ -15,7 +15,6 @@ _Ce texte propose un déplacement radical dans notre compréhension de l'attenti
 
 ---
 
-Ça te convient ? Je peux ajuster la longueur ou l'angle si tu veux.
 ==Commençons par un geste de réduction.==
 
 Pour cela, nous pouvons nous **asseoir** quelques instants, si ce n’est pas le cas…
@@ -67,7 +66,7 @@ Bien à présent, placez délicatement plusieurs métronomes dessus. Oui là jus
 
  <iframe width="560" height="315" src="https://www.youtube.com/embed/T58lGKREubo?si=elStPuVNRo3mBzj9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Les métronomes se synchronisent... Cela en soi est déjà un impressionnant. On appelle ça un changement de phase - un moment critique où le système bascule spontanément vers un nouveau régime d'organisation- mais ce qui est fascinant, c'est que si vous reprenez la planche après quelques centaines ou milliers _d’accordages_, vous constaterez qu’elle-même a été modifiée par le processus.
+Les métronomes se synchronisent... Cela en soi est déjà impressionnant. On appelle ça un changement de phase - un moment critique où le système bascule spontanément vers un nouveau régime d'organisation- mais ce qui est fascinant, c'est que si vous reprenez la planche après quelques centaines ou milliers _d’accordages_, vous constaterez qu’elle-même a été modifiée par le processus.
 Sous l'effet des oscillations, certaines zones deviennent plus rigides, d'autres plus souples. Cette déformation dynamique change la façon dont les vibrations se propagent. La structure ne précède pas la fonction - elle émerge avec elle. Vous avez à présent une nouvelle planche…
 Cette planche qui vibre et se transforme, c'est une image de ce que fait votre corps - et votre cerveau comme partie de ce corps. Le cerveau n'est pas un chef d'orchestre qui dirigerait de l'extérieur. Il est une structure résonnante parmi d'autres (fascias, tonus, organes sensoriels), qui amplifie certaines vibrations, en atténue d'autres, module les patterns d'interférence. C'est ce qu'on appelle la pondération - ajuster le volume de chaque 'sonar' selon la situation ([[co-détermination structure-fonction]]).
 
