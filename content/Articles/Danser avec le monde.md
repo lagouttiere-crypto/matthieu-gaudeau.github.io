@@ -30,7 +30,7 @@ Nous avons exploré comment **l'apprentissage** consiste à reconnaître des **i
 
 Car si l'attention est un geste, si percevoir est un couplage, **porter attention à sa propre pratique** est lui-même un couplage. Mais un couplage d'un type particulier : un couplage **récursif**, où _je_ deviens simultanément **terme** (la personne qui pratique) **et** **relation** (celle qui _réverbère_ la pratique - nous avons préférer le verbe _réverbérer_ à _observer_, trop imprégné de dualisme).
 
-Ça va jusque là ? Une petite analogie pour clarifier le paragraphe précédent ? (Si vous ne vous êtes pas promené.e dans l'article [[Public/Articles/Kyrielle|Kyrielle]], je vous le recommande. Nous y évoquons notamment, l'utilisation d'images marquantes à des fins mnémoniques).
+Ça va jusque là ? Une petite analogie pour clarifier le paragraphe précédent ? (Si vous ne vous êtes pas promené.e dans l'article [[Articles/Kyrielle|Kyrielle]], je vous le recommande. Nous y évoquons notamment, l'utilisation d'images marquantes à des fins mnémoniques).
 
 **Image saisissante** :
 
