@@ -20,11 +20,10 @@ Ce jardin numérique explore la **pédagogie énactive** et la **Technique Alexa
 - **Cognition incarnée** - Godard, biotensegrité, approches fasciales
 - **Phénoménologie** - voix médiane, expérience vécue
 - **Gestosphère** - cadre théorique pour comprendre la coordination comme agentivité distribuée
-- neurophenomenology :
+- **neurophenomenology** :
   - 1ère personne : expérience vécue, phénoménologie (ce que JE vis)
-
-* 2ème personne : relation intersubjective (ce que NOUS partageons, empathie)
-* 3ème personne : observation objective, mesures (ce que l'on observe de l'extérieur)
+  - 2ème personne : relation intersubjective (ce que NOUS partageons, empathie)
+  - 3ème personne : observation objective, mesures (ce que l'on observe de l'extérieur)
 
 ## Penseurs clés
 
@@ -35,8 +34,8 @@ Francisco Varela • Hubert Godard • Tim Ingold • Nikolai Bernstein • Maur
 - [[Voix médiane]] - ni actif ni passif, le mode de la coordination
 - [[Geste fondateur]] - virtualité coordinative qui s'actualise
 - [[Gestosphère]] - espace des gestes possibles, champ d'affordances
-- [[Recursivité]] - boucles étranges et conscience réflexive
-- [[Emulation]] - pratiques d'exploration des fasciae et du sensible
+- [[Récursivité]] - boucles étranges et conscience réflexive
+- [[Danser avec le monde|Réverbération]] - pédagogie énactive et rapport à soi
 - [[Biotensegrité]] - modèle structural alternatif au levier osseux
 
 ## À propos de moi

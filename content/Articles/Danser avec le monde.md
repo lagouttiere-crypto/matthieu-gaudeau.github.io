@@ -11,7 +11,8 @@ maturity: arbre
 
 ## **Strate 2 : "Être avec - S'insérer dans la mélodie du monde"**
 
-[[Reconnaître ce qui relie|Partie 1 : Reconnaître ce qui relie]] | [[Cultiver la confiance|Partie 2 : Cultiver la confiance]] | [[Danser avec le monde|Partie 3 : Danser avec le monde]] ⬅︎ [[L'attention incarnée-premier geste|Strate 1 : L'attention incarnée-premier geste]]
+[[Reconnaître ce qui relie|Partie 1 : Reconnaître ce qui relie]] | [[Cultiver la confiance|Partie 2 : Cultiver la confiance]] | [[Danser avec le monde|Partie 3 : Danser avec le monde]].
+⬅︎ [[L'attention incarnée-premier geste|Strate. 1 : L'attention incarnée-premier geste]]
 
 ---
 
@@ -35,7 +36,7 @@ Car si l'attention est un geste, si percevoir est un couplage, **porter attentio
 **Image saisissante** :
 
 - 1961, Antarctique.
-- Le Dr Leonid Rogozov, unique médecin d'une station soviétique isolée, développe une appendicite aiguë.
+- Le [Dr Leonid Rogozov](https://fr.wikipedia.org/wiki/Leonid_Rogozov), unique médecin d'une station soviétique isolée, développe une appendicite aiguë.
 - Impossible d'évacuer.
 - Il n'a qu'une option : s'opérer lui-même.
 - Avec un miroir pour voir, il retire son propre appendice
@@ -67,7 +68,7 @@ Revenons à notre grimpeuse. Quand elle grimpe, elle est en **couplage avec la r
 
 - Le couplage "externe" (moi-roche) **informe** le couplage interne (ma perception de ce couplage)
 - Et inversement, le couplage "interne" (mon attention à mes gestes) **modifie** le couplage externe (ma façon de grimper)
-- Les termes _externe_ et _interne_ ici sont éléments signalétiques pour décrire les termes de la relations et en aucun cas descriptif de l'expérience. Dans bien des situations ses distinctions s'estompent dans un vécu multi-échelles (Multiscalarité énactive).
+- Les termes _externe_ et _interne_ sont signalétiques. Ils décrivent les termes de la relation, en aucun cas représentatif du vécu. Dans bien des situations ses distinctions s'estompent dans un vécu multi-échelles (Multiscalarité énactive).
 
 ---
 
