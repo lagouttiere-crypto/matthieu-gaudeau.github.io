@@ -142,7 +142,8 @@ Les actions sur les choses (manipuler une cuillère) se déroulent en **série**
 
 **Mais les actions sur soi-même** (se tenir debout, marcher) relèvent d'une autre logique : **orchestration simultanée** de multiples parties coordonnées. Quand je me lève, mon tonus, mon équilibre, mes yeux, ma tête, mes jambes s'ajustent **ensemble** - pas successivement.
 
-**L'impensé** : on transpose abusivement le modèle simple au domaine complexe. On croit qu'il suffit de montrer ("tiens-toi droit"), de contrôler consciemment ("redresse tes épaules"), de se fier aux sensations immédiates. **Mais les sensations peuvent être "trompeuses"**,
+**L'impensé** : on transpose abusivement le modèle simple au domaine complexe. On croit qu'il suffit de montrer ("tiens-toi droit"), de contrôler consciemment ("redresse tes épaules"), de se fier aux sensations immédiates. **Mais les sensations peuvent être "trompeuses"**.
+
 ➫ et intervenir successivement sur un système simultané **renforce** la dysfonction.
 
 **C'est dans ce malentendu** que s'enracine la circularité de Gorman : traiter la relation à soi comme une série de corrections successives renforce le schème global.
