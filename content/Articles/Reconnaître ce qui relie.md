@@ -33,13 +33,11 @@ Dans le premier geste, nous avons proposé un déplacement radical : l'attention
 À travers la métaphore des chauves-souris et de leurs sonars multiples, nous avons exploré comment notre perception émerge de l'**interférence** de multiples sources sensorielles qui se modulent mutuellement : la perception est toujours multimodale.
 
 Dans cette perspective, dire que l’attention n’est pas "dans notre tête" ne nie pas l’activité cérébrale, mais refuse le modèle internaliste d’un observateur central. Le cerveau, loin d'être un chef d'orchestre centralisateur, y apparaît comme une **structure résonnante** parmi d'autres - fascias, tonus, organes sensoriels. Il **pondère** (amplifie certaines informations, en atténue d'autres) mais ne commande pas depuis un poste de contrôle isolé. Cette **pondération** émerge elle-même du **couplage dynamique** entre corps et environnement, dans une co-détermination structure/fonction où la planche (le corps) se transforme au fil des accordages. \
-Là encore si vous êtes perdus je vous propose un petit détour par le premier geste.[L'attention incarnée / premier geste]
+Là encore si vous êtes perdus je vous propose un petit détour par le premier geste.[[L'attention incarnée-premier geste]]
 
 Nous avons vu que cette perspective a des conséquences profondes : la **subjectivation** devient un processus émergent plutôt qu'une donnée fixe ("the relationship is the binding agent of not yet"), et **l'apprentissage** se déploie comme création de conditions de couplage plutôt que transmission d'information.
 
 Nous arrivons au bout de ce retour sur expérience de ce premier geste, pour évoquer le fait que nous avions laissé en suspens une question historique et critique : **d'où viennent ces métaphores visuelles** (projecteur, filtre, zoom, cadre) qui dominent encore notre pensée ? Et surtout : **pourquoi est-il si difficile de s'en défaire** ?
-
-**→ Transition naturelle vers camera obscura**
 
 ---
 
