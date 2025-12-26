@@ -49,7 +49,7 @@ Tout cela nous demande de repenser intensément nos pratiques — et d'abord, de
 
 - ==De la pondération sensorielle (SEDh, VITALISED) à la variabilité fonctionnelle (Bernstein) : comment se cultive la confiance dans les couplages par exploration patiente.==
 
-**Partie 3 :** 🌳 [[Danser avec le monde]]. 20 min de lecture
+**Partie 3 :** 🌳 [[Danser avec le monde]]. 25 min de lecture
 
 - ==Récursivité : devenir conscient du couplage (Gorman, Depraz, Gendlin). Mélodie : apprendre à sentir les affects de vitalité (Stern, Sheets-Johnstone) et danser avec le monde plutôt que le maîtriser.==
 

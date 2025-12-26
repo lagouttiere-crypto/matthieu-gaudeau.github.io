@@ -101,5 +101,20 @@ Et encore en pédagogie, si l’apprentissage n'est pas transmission d'informati
 
 Si vous souhaitez aller plus loin...
 
-- Comment cette pondération fonctionne neurologiquement ? → [[Strate 2 : Mécanismes-second geste]]
-- ou encore Quelles sont les bases philosophiques ? → [[Strate 3 : Fondations- dernier geste]] »
+➫ 🌳 **"Être avec - Second geste"**
+
+#### **S'insérer dans la mélodie du monde**
+
+- ==Contre le modèle extractiviste de l'apprentissage : reconnaître ce qui relie, cultiver la confiance dans le couplage, et s'insérer dans la mélodie du monde.==
+
+**Partie 1 :** 🌳 [[Reconnaître ce qui relie]]. 22 min de lecture
+
+- ==Apprendre n'est pas extraire des informations objectives mais reconnaître des invariants relationnels qui émergent du couplage.==
+
+**Partie 2 :** 🌳 [[Cultiver la confiance]]. 10 min de lecture
+
+- ==De la pondération sensorielle (SEDh, VITALISED) à la variabilité fonctionnelle (Bernstein) : comment se cultive la confiance dans les couplages par exploration patiente.==
+
+**Partie 3 :** 🌳 [[Danser avec le monde]]. 25 min de lecture
+
+- ==Récursivité : devenir conscient du couplage (Gorman, Depraz, Gendlin). Mélodie : apprendre à sentir les affects de vitalité (Stern, Sheets-Johnstone) et danser avec le monde plutôt que le maîtriser.==
