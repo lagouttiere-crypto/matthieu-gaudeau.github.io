@@ -117,13 +117,16 @@ En **contraignant intelligemment** l'espace d'exploration :
 
 **C'est ce qu'on appelle "pédagogie par manipulation de contraintes"** - et nous y reviendrons.
 
-**L'analogie : transposer des invariants entre domaines**
+---
 
-Il y a une autre dimension fascinante de la variabilité fonctionnelle : l'analogie. _Son usage systématique date des années 1980-1990, basé sur des travaux cognitifs montrant qu'elle active schémas préexistants pour appréhender la nouveauté._ Gentner (Structure-Mapping Theory, 1983).
+### **L'analogie : transposer des invariants entre domaines**
+
+Il y a une autre dimension fascinante de la variabilité fonctionnelle : **l'analogie**.  
+_Son usage systématique date des années 1980-1990, basé sur des travaux cognitifs montrant qu'elle active schémas préexistants pour appréhender la nouveauté._ Gentner (Structure-Mapping Theory, 1983).
 
 Autrement dit ou expérimenté, quand un professeur de chant dit "chante comme si tu lançais une pierre dans un étang", il ne propose pas une métaphore décorative - il invite à transposer un invariant déjà incorporé (la coordination élan-libération-portée du lancer) vers un nouveau domaine (le phrasé vocal).
 L'analogie fonctionne parce qu'elle crée un pont entre deux Umwelten apparemment distincts : l'élève reconnaît dans le chant une structure relationnelle qu'il connaît déjà par le corps dans le lancer. Ce qui se transpose, ce n'est pas une forme visible mais un contour dynamique, une qualité temporelle - ce que Stern appelle un affect de vitalité.
-L'expertise dans un domaine enrichit ainsi le répertoire d'invariants disponibles pour transposition (parfois de façon caricaturale dans les fameux bilan de compétences basés sur les transferts de compétences…)
+L'expertise dans un domaine enrichit ainsi le répertoire d'invariants disponibles par transposition (parfois de façon caricaturale dans les fameux bilan de compétences basés sur les transferts de compétences…)
 
 ---
 
@@ -140,11 +143,11 @@ Regardons de plus près cette analogie:
 **Pourquoi ça marche ?** L'étudiant possède déjà l'invariant "zoomer révèle des détails cachés" (cartes, Google Earth, vie quotidienne). L'analogie le transpose vers un domaine abstrait (dimension fractale) en passant par le corps vécu (marcher le long d'une côte, sentir sa rugosité infinie).
 
 Appuyons-nous un instant sur cette même analogie, pour développer une critique radicale de l’imaginaire aujourd’hui utilisé pour décrire l’attention comme une denrée rare et convoitée.
-Rappelez-vous,Patrick Le Lay, PDG de TF1, prononce en 1996 lors d'un entretien avec Laurent Ruquier dans On a tout essayé (France Inter)
+Rappelez-vous, Patrick Le Lay, PDG de TF1, prononce en 1996 lors d'un entretien avec Laurent Ruquier dans On a tout essayé (France Inter)
 « Ce que nous vendons à Coca-Cola, c'est du temps de cerveau humain disponible. »
 Cette phrase n’est possible que dans la mesure où l’attention est considérée dans une perspective capitaliste et extractiviste, mais si nous reprenons à présent l’analogie des fractales pour notre développement de l’attention incarnée.
 Notre grimpeur expert que nous avions laisser sur les roches Bretonne, pratique ces zooms fractales sur les affordances de la roche - chaque micro-texture révèle des prises invisibles au débutant, détails infinis dans la relation main-pierre.
-Son attention (notre attention) devient un système d’amplification infinie de relation qui permettent de déplier et d’habiter nos Umwelts.
+**Son attention (notre attention) devient un système d’amplification infinie de relation qui permettent de déplier et d’habiter nos Umwelts.**
 
 ---
 
@@ -176,4 +179,4 @@ Car si l'attention est un geste, si percevoir est un couplage, porter attention 
 
 C'est ce que nous allons explorer maintenant.
 
-[ lien vers section 2/2]
+[[Danser avec le monde|Partie 3 : Danser avec le monde]]

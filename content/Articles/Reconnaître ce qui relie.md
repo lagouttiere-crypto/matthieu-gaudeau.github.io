@@ -71,18 +71,19 @@ Dans ce modèle, l'œil/cerveau est **récepteur passif** d'informations qui vie
 
 - La lumière "entre" --> l’image "se forme" —> l'esprit "contemple". Aucune activité du percevant n'est nécessaire - si ce n'est "ouvrir les yeux".
 
-**Conséquence mais qui est un impensable en occident jusqu’à aujourd’hui :** Toute la **motricité** inhérente à la perception disparaît. Les mouvements oculaires (saccades, poursuite, accommodation), l'exploration active, les ajustements posturaux qui soutiennent le regard - tout cela devient **invisible**, relégué au rang de "préparation" à la vraie perception (qui serait passive).
-Là encore, de magnifiques exemples de cette perspective, nous sont donnés dans le film le Baron de Münchhausen de Terry Gilliam (1987).Les scènes qui apposent corps et têtes du roi et de la reine de la lune sont délicieuse (avec un oeil critique qui manque cruellement à Vice et versa).
+**Conséquence mais qui est un impensé en occident jusqu’à aujourd’hui :** Toute la **motricité** inhérente à la perception disparaît. Les mouvements oculaires (saccades, poursuite, accommodation), l'exploration active, les ajustements posturaux qui soutiennent le regard - tout cela devient **invisible**, relégué au rang de "préparation" à la vraie perception (qui serait passive).
+Là encore, de magnifiques exemples de cette perspective, nous sont donnés dans le film le Baron de Münchhausen de Terry Gilliam (1987).Les scènes qui apposent corps et têtes du roi et de la reine de la lune sont délicieuse.
 
 **3. Centralisation et homunculus** jusqu’à l’absurde.
 
-Si une image se forme dans l'œil, **qui la regarde** ? Descartes répond : l'âme, située dans la glande pinéale. Mais cela crée une **régression infinie** : si l'âme regarde une image, n'y a-t-il pas une autre âme qui regarde l'âme qui regarde ? L'_homunculus_ (petit homme dans la tête) devient inévitable - et absurde. Je ne résiste pas cette fois à orienter votre regard sur Men in Black et le petit Alien qui pilote sa « machine-humaine » depuis son poste de commande intra-crânien - dispositif comique qui, tout en se moquant de l'homunculus, en reconduit l'imaginaire.
+Si une image se forme dans l'œil, **qui la regarde** ? Descartes répond : l'âme, située dans la glande pinéale. Mais cela crée une **régression infinie** : si l'âme regarde une image, n'y a-t-il pas une autre âme qui regarde l'âme qui regarde ? L'_homunculus_ (petit homme dans la tête) devient inévitablement absurde. Je ne résiste pas cette fois à orienter votre regard sur Men in Black et le petit Alien qui pilote sa « machine-humaine » depuis son poste de commande intra-crânien - dispositif comique qui, tout en se moquant de l'homunculus, en reconduit l'imaginaire.
 
 **Conséquence sérieuse:** Toute l'information doit **converger** vers un point central d'observation et de pilotage, niant par la même :
 
 - la **distribution** de la perception dans l'ensemble du corps (proprioception, toucher, équilibre, viscères).
 
-Malheureusement, la camera obscura ne reste pas confinée aux traités d'optique. Elle devient le modèle même de la connaissance à l'âge classique. Dès le XVe siècle, avec l'invention de la perspective linéaire en peinture (Brunelleschi, Alberti), le monde commence à s'organiser depuis un point de vue unique - celui de l'œil immobile qui projette l'espace sur un plan. **Toutes les lignes convergent vers un point de fuite**, lieu géométrique de l'observateur absent qui structure la scène sans y apparaître.
+Malheureusement, la camera obscura ne reste pas confinée aux traités d'optique. Elle devient le modèle même de la connaissance à l'âge classique. Dès le XVe siècle, avec l'invention de la perspective linéaire en peinture (Brunelleschi, Alberti), le monde commence à s'organiser depuis un point de vue unique - celui de l'œil immobile qui projette l'espace sur un plan.
+➫ **Toutes les lignes convergent vers ce point de fuite**, lieu géométrique de l'observateur absent qui structure la scène sans y apparaître.
 
 - Il faudra attendre Poincaré après cela pour lier explicitement géométrie et déplacements corporels dans L'Espace et ses trois dimensions (1895) :
 
@@ -95,12 +96,12 @@ Malheureusement, la camera obscura ne reste pas confinée aux traités d'optique
 Et attendre encore un siècle, pour laisser les enfants jeter des objets et s’émerveiller du fait qu’ils tombent indéfiniment -à la condition qu’un adulte veuille bien leur redonner-. Expérimentation désormais indispensable à leur compréhension des mathématique avancés, conditionnant rétroactivement leur admission à Harvard (le diable se cache définitivement dans les détails).
 
 Mais revenons à la renaissance et à notre affaire sérieuse.
-Le cerveau et le système nerveux deviennent centraux, maitre marionnettiste qui tire les ficelles (muscles et l’obsession pour la dissection anatomique et notamment musculaire) pour permettre à son automate animé de parcourir, cartographier et « dominer » le globe.
+Le cerveau et le système nerveux deviennent centraux, maitre marionnettiste qui tire les ficelles (d'où l’obsession soudaine pour l'anatomie, notamment musculaire) pour permettre à son automate animé de parcourir, cartographier et « dominer » le globe.
 Car cette logique perspectiviste ne reste pas dans l'atelier du peintre. Elle informe la cartographie moderne : le monde devient surface à mesurer, à quadriller, à représenter depuis le point de vue de nulle part (Thomas Nagel) - ou, depuis le point de vue du colonisateur européen qui déploie son filet de coordonnées sur l'ensemble du globe. La carte n'est pas neutre : elle incorpore l'imaginaire de l'observateur séparé, surplombant, qui possède le monde par la représentation qu'il s’en fait et en donne (et enseigne avec plus ou moins soucis du consentement).
 
 > De Mercator (1569) aux systèmes GPS contemporains, la même structure persiste : un sujet extérieur au monde, qui le regarde depuis une position privilégiée (le point de fuite, le satellite, le "nulle part" mathématique), et qui le transforme en image manipulable.
 > Le monde devient tableau, carte, écran - toujours à distance, toujours projeté devant un œil qui ne participe pas à ce qu'il voit.
-> L'imaginaire de la camera obscura s'est mondialisé. Il a façonné non seulement notre manière de percevoir, mais notre manière d'habiter (ou plutôt, de ne plus habiter) la Terre.
+> L'imaginaire de la camera obscura s'est mondialisé. Il a façonné non seulement notre manière de percevoir, mais notre manière d'habiter (ou plutôt, de ne plus habiter) la Terre (Abram 1996).
 
 **Éclaircissement** : ce survol n’est pas exhaustif. Il permet de tracer une ligne de force qui met en tension un nouvel assemblage et, de faire droit aux nombreuses critiques qui ont travaillé le modèle.
 
@@ -230,7 +231,7 @@ Ce modèle présuppose que :
 
 Ce qui est appris n'est pas "dans" le monde (à extraire) ni "dans" la tête (à construire) - **c'est la relation elle-même qui devient disponible.**
 
-*À bien y regarder, Nous avons là, les trois piliers du modèle de l’école républicaine. C’est sur ce postulat, que s’est développée l’organisation des espaces, et les chorégraphies relationnelles, sensés favoriser la transmission des savoirs. Un professeur *central* (même si les estrades se font rares de nos jours) qui transmet des informations et corrige au moyen de système d’évaluation la capacité des élèves (récalcitrants) à ingérer les connaissances et à les redistribuer dans un contexte élargi. Le tout, dans une ambiance affective, exigeant immobilité des corps et silence disciplinaire, indispensables à la transmission d’informations non bruitées et au développement de la capacité intellectuelles.*
+*À bien y regarder, Nous avons là, les trois piliers du modèle de l’école républicaine. C’est sur ce postulat, que s’est développée l’organisation des espaces, et les chorégraphies relationnelles, sensés favoriser la transmission des savoirs. Un professeur *central* (même si les estrades se font rares de nos jours) qui transmet des informations et corrige au moyen de système d’évaluation la capacité des élèves (récalcitrants) à ingérer les connaissances et à les redistribuer dans un contexte élargi. Le tout, dans une ambiance affective, exigeant immobilité des corps et silence disciplinaire, indispensables à la transmission d’informations non bruitées et au développement de la capacité intellectuelle.*
 
 ---
 
@@ -244,7 +245,7 @@ Une chaise n'est pas "un objet de 45cm de haut avec quatre pieds" - c'est **ce-s
 
 Un **invariant**, au sens de Bernstein et plus tard de l'approche écologique, est une **régularité relationnelle** qui se stabilise dans la pratique. Ce n'est pas une "règle" abstraite ni une "forme correcte" à reproduire - c'est quelque chose qui **tient**, qui **fonctionne**, qui permet au geste de s'insérer dans la mélodie du monde.
 
-Reprenons l’exemple de la balle que je trouve parfaitement adapté. Si vous l’avez lu précédemment, vous pouvez vous rendre directement un peu plus bas []
+Reprenons l’exemple de la balle que je trouve parfaitement adapté. Si vous l’avez lu précédemment, vous pouvez vous rendre directement un peu plus bas.
 
 **Prenez l'exemple simple d'attraper une balle lancée vers vous.**
 
@@ -326,6 +327,6 @@ De même, l'expert grimpeur ne "voit" pas plus d'informations objectives - il ha
 **Apprendre = enrichir son Umwelt** - faire émerger de nouvelles pertinences par la reconnaissance d'invariants relationnels.
 **Mais reconnaître des invariants ne suffit pas.** Il faut encore que ces invariants deviennent **fiables** - c'est-à-dire que le système sensori-moteur leur **fasse confiance**. Comment se cultive cette confiance ? C'est ce que nous explorerons dans la Partie 2.
 
-→ **[[Apprendre comme accordage - Partie 2 : Cultiver la confiance]]**"
+→ **[[Cultiver la confiance|Apprendre comme accordage - Partie 2 : Cultiver la confiance]]**"
 
 ---
