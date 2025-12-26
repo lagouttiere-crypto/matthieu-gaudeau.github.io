@@ -81,7 +81,7 @@ La réverbération n'est pas un simple feedback mécanique où le signal revient
 
 ---
 
-#### **La circularité de l'habitude : David Gorman et le symptôme**
+### **La circularité de l'habitude : David Gorman et le symptôme**
 
 **David Gorman**, praticien de la Technique Alexander et créateur de [Learning Methods](https://learningmethods.com), décrit dans un article passionnant une expérience qui bouleverse sa pratique. Confronté à une douleur récurrente, il entreprend d'observer et documenter en première personne les mécanismes à l'oeuvre. Sa découverte est troublante : **toutes tentatives pour _soigner son_ symptôme le renforcent**.
 
@@ -134,7 +134,7 @@ Nous devons prendre au sérieux la teneur expérientielle de cet instant, si l'o
 
 Cette réorganisation n'est pas graduelle mais **discontinue** - un changement de phase au sens de Simondon. Comme une solution sursaturée qui cristallise brutalement, le système passe d'un état métastable (tension maintenue) à un nouvel équilibre plus économique. La suspension n'est pas ce qui produit le changement - elle **permet** au système de résoudre sa tension interne.
 
-#### **Un impensé culturel : La confusion entre actions sur les choses et actions sur soi**
+### **Un impensé culturel : La confusion entre actions sur les choses et actions sur soi**
 
 Ce que Gorman découvre révèle un **impensé culturel** profond : **nous appliquons aux actions sur nous-mêmes le modèle des actions sur les choses** - et ce modèle est inadéquat.
 
@@ -149,7 +149,7 @@ Les actions sur les choses (manipuler une cuillère) se déroulent en **série**
 
 ---
 
-#### **Becoming aware : Les trois phases du devenir-conscient**
+### **Becoming aware : Les trois phases du devenir-conscient**
 
 Ce que Gorman décrit minutieusement, Natalie Depraz, Francisco Varela et Pierre Vermersch l'ont théorisé dans leur recherche collaborative sur le becoming aware (devenir-conscient).
 
@@ -261,7 +261,7 @@ Ce geste de laisser revenir est en soi un geste expert, celui de laisser place e
 
 ---
 
-#### **Felt sense et felt shift : Eugene Gendlin**
+### **Felt sense et felt shift : Eugene Gendlin**
 
 Eugene Gendlin, philosophe et psychothérapeute, a développé une pratique appelée **Focusing** qui explore une dimension particulière de notre expérience corporelle : le _felt sense_. Il s'agit d'une sensation corporelle globale, pré-verbale, mais profondément **chargée de sens**.
 
@@ -277,7 +277,7 @@ Ce felt shift présente une qualité particulière : c'est un **surgissement**, 
 
 ---
 
-#### **Synthèse : Le geste récursif de l'apprentissage**
+### **Synthèse : Le geste récursif de l'apprentissage**
 
 Les trois approches que nous venons d'explorer - celle de Gorman, celle de Depraz, Varela et Vermersch, et celle de Gendlin - décrivent au fond **la même structure récursive**, mais l'éclairent sous des angles différents.
 
