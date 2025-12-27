@@ -102,7 +102,7 @@ Intensification de la sensation
 [Retour au début - cercle vicieux]
 ```
 
-Dans cette chronique gargantuesque, **l'habitude se nourrit d'elle-même** : plus j'essaie de "corriger" le symptôme, plus je le renforce en multipliant les stratégies d'évitement. Je ne détaillerais pas ici la liste truculente que nous partage Gorman. Quelques boucles suffiront à nous donner une idée.  
+Dans cette chronique gargantuesque, **l'habitude se nourrit d'elle-même** : plus j'essaie de "corriger" le symptôme, plus je le renforce en multipliant les stratégies d'évitement. Je ne détaillerai pas ici la liste truculente que nous partage Gorman. Quelques boucles suffiront à nous donner une idée.  
 À chaque nouvelle apparition du symptôme :
 
 - 1- symptômes —> **réaction** —> étirements —> **retour à l'état considéré comme juste (silencieux) —> acceptable dans une économie de moi-même.**
@@ -253,7 +253,7 @@ Chaque mouvement du devenir-conscient modifie la **qualité de réverbération**
 
 Cette entreprise de description phénoménologique de la _prise de conscience_, s'inscrit dans une recherche vaste et passionnante sur le recueil des vécus en première personne. Elle a permis le développement d’une gestosphère foisonnante de **gestes attentionnels et expérientiels** décrits par le GREX et la micro‑phénoménologie.[](https://pmc.ncbi.nlm.nih.gov/articles/PMC9834112/)
 
-Prenons un exemple afin d'illustrer un de ces gestes "la visé à vide". Celui de laisser revenir un mot qui vous échappe. Vous l'avez là, sur l'extrémité de votre langue, prêt à être articulé. Il est là en potentialité. Vous avez eu la sensation de son passage, parfois de son dévoilement, immédiatement recouvert.
+Prenons un exemple afin d'illustrer un de ces gestes "la visé à vide". Geste utile pour laisser revenir un mot qui vous a échappé. Vous l'avez là, sur l'extrémité de votre langue, prêt à être articulé. Il est là en potentialité. Vous avez eu la sensation de son passage, parfois de son dévoilement, immédiatement recouvert.
 
 _"Viser à vide, c'est chercher à atteindre cognitivement quelque chose qui ne se donne pas immédiatement comme disponible, mais dont on sait avec certitude qu'on l'a vécu, qu'il existe. L'entretien d'explicitation pour aider à la réussite de cette "visée à vide" et ainsi obtenir un "remplissement" mnémonique, propose à la personne de laisser revenir des impressions sensorielles de ce moment passé, des éléments de contexte, n'importe quoi qui n'a pas fait l'objet d'une mémorisation au moment où il était vécu."_ Pierre Vermersch.
 
@@ -299,11 +299,11 @@ Rapidement quelque chose ne fonctionne pas. Les corps sont "vides, vidés, dése
 
 L'enseignante observe son propre état : "Je les observe avec une moue que je sens s'installer sur mon visage ; mon front se plisse, ma nuque se raidit, ma respiration se bloque." Elle pourrait réagir automatiquement - corriger les enfants, répéter la consigne plus fort, donner un exemple. Mais elle suspend. "OK, mon intention, quelle est ton intention ? [...] Je décide alors de prononcer le mot 'fin'." Elle arrête. Elle ne fait pas "le prochain pas". C'est exactement le geste que Gorman décrit : interrompre la réaction habituelle, accepter le moment tel qu'il est.
 
-Puis vient une redirection de l'attention, dans le mouvement que Depraz théorise. "Faire le vide, ralentir, faire taire. [...] Mon attention, elle est où ? [...] Ouvre, vaste... laisse-toi impressionner, le lieu, la lumière..." L'enseignante ne cherche pas intellectuellement la solution. Elle redirige son attention vers son propre vécu corporel, ici et maintenant.
+Puis vient une redirection de l'attention, dans le mouvement que Depraz théorise. "Faire le vide, ralentir, faire taire. [...] Mon attention, elle est où ? [...] Ouvre, vaste... laisse-toi impressionner, le lieu, la lumière..." L'enseignante ne cherche pas directement la solution, à sortir de cette situation symptomatique, certainement inconfortable. Elle redirige son attention vers son propre vécu corporel, ici et maintenant.
 
 Ce qui se passe chez les enfants (corps "vides, désertés") **réverbère** en elle : moue, front plissé, nuque raidie, respiration bloquée. Elle **ressent corporellement** l'échec de la consigne. Mais au lieu de réagir à cette réverbération inconfortable (corriger, insister), elle **suspend** - elle crée un espace où cette réverbération peut se transformer.
 
-Dans cette redirection s'ouvre l'espace pour l'accueil - ce que Gendlin nomme le felt sense. "Ouvrir un espace en moi [...] reçois, laisse-toi toucher, flottement... laisse venir... je salive, ma langue se déroule, ma bouche est pleine... je déglutis, **je goûte**." L'attention au processus somatique est frappante : elle ne "pense" pas, elle **sent**. Sa langue, sa salive, sa bouche... Et c'est de cette attention incarnée qu'émerge le mot : "GOÛTER !?!? Le mot me vient en bouche, soudainement à la bouche."
+Dans cette redirection s'ouvre l'espace pour l'accueil - ce que Gendlin nomme le felt sense. "Ouvrir un espace en moi [...] reçois, laisse-toi toucher, flottement... laisse venir... je salive, ma langue se déroule, ma bouche est pleine... je déglutis, **je goûte**." L'attention au processus somatique est frappante : elle ne "pense" pas, elle **ressent**. Sa langue, sa salive, sa bouche... Et c'est de cette attention incarnée qu'émerge le mot : "GOÛTER !?!? Le mot me vient en bouche, soudainement à la bouche."
 
 C'est un felt shift parfait : le mot n'a pas été cherché - il a **surgi**. Cristallisation soudaine, accompagnée d'une reconnaissance immédiate ("c'est génial, ça colle !"). L'enseignante reprend alors avec les enfants : "Goûter le sol avec nos mains, nos pieds, le ventre, le dos, avec tout notre corps comme si nous avions de petites bouches le long de nos bras..." Et tout change. "Des corps redémarrent dans une qualité autre... des corps en écoute... lenteur, suspens... Corps pleins, consistants."
 
@@ -311,7 +311,7 @@ C'est un felt shift parfait : le mot n'a pas été cherché - il a **surgi**. Cr
 
 Nous pouvons d'ailleurs remarquer le passage du "vous" au "nous" entre la première et la seconde consigne - l'enseignante ne se situe plus **face** aux enfants mais **avec** eux, participant à la même réverbération.
 
-Le mot "goûter" transpose l'invariant du gustatif, que les enfants connaissent intimement, vers le domaine kinesthésique. C'est une analogie incarnée parfaite, non pas pensée abstraitement mais **ressentie** dans la récursivité attentionnelle. Ce qui n'aurait jamais pu être produit par la réflexion intellectuelle a jailli du processus somatique lui-même.
+Le mot "goûter" transpose l'invariant du gustatif, que les enfants connaissent intimement, vers le domaine kinesthésique. C'est une analogie incarnée parfaite, non pas pensée abstraitement mais **ressentie** dans la récursivité attentionnelle. Ce qui n'aurait jamais pu être produit par une approche corticale, a jailli du processus somatique lui-même.
 
 ---
 
