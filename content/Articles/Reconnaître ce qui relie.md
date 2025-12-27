@@ -133,7 +133,7 @@ Les imaginaires (comme la camera obscura) ne restent pas "dans la tête" comme r
 
 Dans son célèbre texte _Les techniques du corps_ (1934), Marcel Mauss montre que même les gestes les plus "naturels" - marcher, nager, s'asseoir, dormir - sont **culturellement appris**. Il n'y a pas UNE façon universelle de marcher, mais des **styles** culturels incorporés dès l'enfance.
 
-**Citation centrale (celle que vous aviez donnée) :**
+**Citation centrale :**
 
 "Pour tout observateur du dehors, l'homme est un complexus de gestes. Nous appelons gestes tous les mouvements qui s'exécutent dans le composé humain. Visibles ou invisibles, macroscopiques ou microscopiques, poussés ou esquissés, conscients ou inconscients, volontaires ou involontaires, ces gestes n'en accusent pas moins la même nature essentiellement **motrice**."
 
