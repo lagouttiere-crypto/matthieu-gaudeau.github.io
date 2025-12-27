@@ -321,7 +321,7 @@ Revenons à la question de la confiance que nous avons développée en Section 3
 
 **Mais il y a une dimension supplémentaire** : pour que cette confiance externe se développe, il faut aussi une **confiance interne** - c'est-à-dire la capacité à **faire confiance au processus d'émergence lui-même**.
 
-**Prenons ou faisons l'expérience de la small dance (petite danse), si vous ne savez pas de quoi on parle, je vous invite à l'expérimenter [ici] avant de poursuivre.**
+**Prenons ou faisons l'expérience de la small dance (petite danse), si vous ne savez pas de quoi on parle, je vous invite à l'expérimenter [[Small dance|ici]] avant de poursuivre.**
 
 **Phase 1** : Apprendre à faire confiance au **sol** (couplage externe)
 
@@ -364,7 +364,7 @@ On pourrait dire que ces pratiques cultivent une **méta-réverbération** : la 
 
 **Mais attention** : cette récursivité peut devenir un **piège** si elle tombe dans l'hyper-réflexivité (la fameuse "paralysie par analyse").
 
-L'enjeu pédagogique est de cultiver **juste assez** de récursivité pour permettre la réorganisation, sans tomber dans le contrôle obsessionnel.
+L'enjeu pédagogique est de cultiver **juste assez** de récursivité pour permettre la réorganisation, sans tomber dans le contrôle obsessionnel. Cela revient à habiter spacieusement la périphérie.
 
 Et pour cela Gorman nous offre une jolie piste en conclusion de son article.
 
