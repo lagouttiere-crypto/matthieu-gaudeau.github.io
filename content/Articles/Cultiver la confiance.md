@@ -52,7 +52,7 @@ Le projet **VITALISED** (COMETE-CNRS) teste un protocole de recalibrage dont le 
 
 **Métaphoriquement** : On amplifie le sonar défaillant et on crée des situations où le système peut **éprouver** que ce sonar est digne de confiance. Ce n'est pas "convaincre mentalement" la personne - c'est permettre au système sensori-moteur de **recalibrer** sa pondération.
 
-→ **Voir** [[Strate 2 : SED - Stratégies de recalibrage]] pour le développement complet.
+→ **Voir** [[Articles/Kyrielle#Caen et la réalité virtuelle « perturber pour recalibrer »|Stratégies de recalibrage]] pour le développement complet.
 
 ---
 

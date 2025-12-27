@@ -175,7 +175,7 @@ Si je crois (même implicitement) que percevoir = recevoir passivement des image
 **Ce ne sont pas des "erreurs de pensée" - ce sont des patterns moteurs incorporés**, transmis par notre culture visuo-centrée.
 
 **Et l'imaginaire "résonance" ?**
-Explorons maintenant quel rapport produit l'imaginaire 'résonance/sonars multiples.
+Explorons maintenant quel rapport produit l'imaginaire résonance/sonars multiples.
 
 Si je conçois que percevoir = résonner avec des patterns d'interférence multiples, alors :
 
@@ -270,7 +270,7 @@ Dans le modèle de Bernstein, cet invariant va permettre de « stabiliser » l
 - dans des conditions variées (terrains, adversaires, conditions météo, état corporel et émotionnel changeant)
 - et au sein de cet indéterminé (variabilité) à extrait les invariants les plus pertinents pour _renforcer_ le couplage.
 
-Autrement dit, l’expert est celui qui (au sein de même de sa motricité) conserve le plus de degré de liberté (= le minimum de tension) afin que tout puisse s’ajuster avec le moins d’effort sur l’invariant.
+Autrement dit, l’expert est celui qui (au sein même de sa motricité) conserve le plus de degré de liberté (= le minimum de tension) afin que tout puisse s’ajuster avec le moins d’effort sur l’invariant.
 **L’organisation est entièrement conférée à la relation et au couplage à l’environnement.\*\***Ce que j’appelle à la périphérie.\*\*
 
 —
@@ -306,7 +306,7 @@ Le débutant, lui, est aveugle - non par déficit perceptif, mais parce que ces 
 
 **Une cécité paradoxale**
 Cette cécité perceptive du débutant rappelle étrangement un phénomène neurologique fascinant : la vision aveugle (blindsight).
-Des patients comme GY, malgré des lésions du cortex visuel primaire (V1), parviennent à éviter des obstacles, à suivre des trajectoires mobiles, à discriminer des directions dans leur hémichamp "aveugle" - tout en affirmant sincèrement ne rien voir.
+Des patients qui malgré des lésions du cortex visuel primaire (V1), parviennent à éviter des obstacles, à suivre des trajectoires mobiles, à discriminer des directions dans leur hémichamp "aveugle" - tout en affirmant sincèrement ne rien voir.
 Comment est-ce possible ? Leur colliculus supérieur (structure sous-corticale ancienne) continue de capter des affordances motrices directes - trajectoires évitables, mouvements à suivre - via une voie qui contourne le cortex visuel conscient et projette directement vers l'aire MT (mouvement). Le système capte des invariants écologiques sans que cela n'accède au "théâtre de la conscience".
 GY ne "voit" pas, mais son corps agit avec précision.[](https://www.lemonde.fr/blog/realitesbiomedicales/tag/blindsight/)
 
