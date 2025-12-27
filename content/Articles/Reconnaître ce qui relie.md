@@ -22,7 +22,7 @@ maturity: arbre
 Les sections qui suivent s'appuient sur deux corpus de recherche complémentaires :
 
 1. Hubert Godard - Geste, perception et pré-mouvement
-   Danseur, praticien de Rolfing et chercheur, Hubert Godard a développé une approche du geste qui articule biomécanique, neurophysiologie et phénoménologie. Sa théorie du "geste fondamental" et du "pré-mouvement" (préparation tonique inconsciente qui précède tout geste volontaire) est centrale pour comprendre comment l'attention structure la motricité.
+   Danseur, praticien de Rolfing et chercheur, Hubert Godard a développé une approche du geste qui articule biomécanique, neurophysiologie et phénoménologie. Sa théorie du "geste" et du "pré-mouvement" (organisation tonique "non consciente" qui précède tout geste volontaire) est centrale pour comprendre comment l'attention structure la motricité.
 
 2. Ecological Dynamics - Davids, Chow, Araújo
    Courant de recherche en sciences du mouvement qui articule l'approche écologique (Gibson) avec les systèmes dynamiques non-linéaires (Kugler, Kelso). L'apprentissage y est conçu comme exploration contrainte d'un paysage de solutions possibles, où émergent des attracteurs fonctionnels.
