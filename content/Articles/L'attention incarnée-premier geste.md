@@ -40,7 +40,7 @@ Délestons-nous de nos yeux et revêtons une magnifique paire d’ailes. Des ail
 Vous avez été aidé pour cela, vous ne le percevez peut-être pas encore, mais plusieurs chauves-souris volent également dans la même pièce.
 Chacune émet ses propres impulsions sonores, chacune reçoit non seulement ses propres échos mais également ceux des autres, réfractés, déformés, mélangés. Aucune chauve-souris n'a une "image" complète et objective de la caverne. Ce qui émerge, c'est une carte dynamique et distribuée, construite par la superposition de multiples [[Note-sonar-multiples|sonars]].
 
-S’il vous plait, pardon, reprenez un instant votre position humaine. **Votre perception (toute humaine) fonctionne le même façon : toujours multimodale, toujours plurielle. Vous ne voyez pas ET entendez ET sentez la position de vos membres - vous percevez un monde unifié qui émerge de l'interférence de ces multiples "sonars" sensoriels. L'attention n'est pas un rayon unique - c'est le pattern d'interférence de multiples sources qui se modulent mutuellement.**
+S’il vous plait, pardon, reprenez un instant votre position humaine. **Votre perception (toute humaine) fonctionne de la même façon : toujours multimodale, toujours plurielle. Vous ne voyez pas ET entendez ET sentez la position de vos membres - vous percevez un monde unifié qui émerge de l'interférence de ces multiples "sonars" sensoriels. L'attention n'est pas un rayon unique - c'est le pattern d'interférence de multiples sources qui se modulent mutuellement.**
 
 Voyez-vous mieux à présent, quand nous proposions plus haut que la première opération de l’attention est de tendre ou détendre (ad- tensio) le champ au sein duquel elle pourra se déplacer ?
 
@@ -95,7 +95,7 @@ Mais imaginez à présent, les implications concrètes dans les apprentissages n
 
 **Prenons un cours de danse et commençons par la relation :**
 1- Au sol, à l’espace, puis à vos partenaires. Adressez leur vos gestes, nourris de votre relation au support, ils pourront y répondre, y habiter, s’y déployer et créer par là-même le terrain dans lequel votre geste prend sens, s’amplifie et vous revient en cadeau.
-Percevez-vous à présent comme votre geste s’est agrandi, comme vos tissus ont _con-senti_ à l’invitation et comme le retour extéroceptif vous offre un appui stable et confortable (le travail de Trisha Brown en est un exemple remarquable.[](https://youtu.be/4juID0hSyaw?si=qtbmNeZVL2KnKkcW)
+Percevez-vous à présent comme votre geste s’est agrandi, comme vos tissus ont _con-senti_ à l’invitation et comme le retour extéroceptif vous offre un appui stable et confortable (le travail de Trisha Brown en est un exemple remarquable.[](https://youtu.be/4juID0hSyaw?si=qtbmNeZVL2KnKkcW))
 
 Et encore en pédagogie, si l’apprentissage n'est pas transmission d'information mais création de conditions de couplage ? À quoi pourrait ressembler une classe ? Un.e professeur.euse ? Quelle seraient la nature de ses interactions ?
 

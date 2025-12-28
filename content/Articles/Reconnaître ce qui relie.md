@@ -72,7 +72,7 @@ Dans ce modèle, l'œil/cerveau est **récepteur passif** d'informations qui vie
 - La lumière "entre" --> l’image "se forme" —> l'esprit "contemple". Aucune activité du percevant n'est nécessaire - si ce n'est "ouvrir les yeux".
 
 **Conséquence mais qui est un impensé en occident jusqu’à aujourd’hui :** Toute la **motricité** inhérente à la perception disparaît. Les mouvements oculaires (saccades, poursuite, accommodation), l'exploration active, les ajustements posturaux qui soutiennent le regard - tout cela devient **invisible**, relégué au rang de "préparation" à la vraie perception (qui serait passive).
-Là encore, de magnifiques exemples de cette perspective, nous sont donnés dans le film le Baron de Münchhausen de Terry Gilliam (1987).Les scènes qui apposent corps et têtes du roi et de la reine de la lune sont délicieuse.
+Là encore, de magnifiques exemples de cette perspective, nous sont donnés dans le film le Baron de Münchhausen de Terry Gilliam (1987). Les scènes qui apposent corps et têtes du roi et de la reine de la lune sont délicieuses.
 
 **3. Centralisation et homunculus** jusqu’à l’absurde.
 
@@ -93,10 +93,10 @@ Malheureusement, la camera obscura ne reste pas confinée aux traités d'optique
 
 « Nous remarquons que certains changements de chacune de ces catégories peuvent être corrigés par un changement corrélatif de l’autre catégorie. ».
 
-Et attendre encore un siècle, pour laisser les enfants jeter des objets et s’émerveiller du fait qu’ils tombent indéfiniment -à la condition qu’un adulte veuille bien leur redonner-. Expérimentation désormais indispensable à leur compréhension des mathématique avancés, conditionnant rétroactivement leur admission à Harvard (le diable se cache définitivement dans les détails).
+Et attendre encore un siècle, pour laisser les enfants jeter des objets et s’émerveiller du fait qu’ils tombent indéfiniment -à la condition qu’un adulte veuille bien leur redonner-. Expérimentation désormais indispensable à leur compréhension des mathématique avancées, conditionnant rétroactivement leur admission à Harvard (le diable se cache définitivement dans les détails).
 
 Mais revenons à la renaissance et à notre affaire sérieuse.
-Le cerveau et le système nerveux deviennent centraux, maitre marionnettiste qui tire les ficelles (d'où l’obsession soudaine pour l'anatomie, notamment musculaire) pour permettre à son automate animé de parcourir, cartographier et « dominer » le globe.
+Le cerveau et le système nerveux deviennent centraux, maître marionnettiste qui tire les ficelles (d'où l’obsession soudaine pour l'anatomie, notamment musculaire) pour permettre à son automate animé de parcourir, cartographier et « dominer » le globe.
 Car cette logique perspectiviste ne reste pas dans l'atelier du peintre. Elle informe la cartographie moderne : le monde devient surface à mesurer, à quadriller, à représenter depuis le point de vue de nulle part (Thomas Nagel) - ou, depuis le point de vue du colonisateur européen qui déploie son filet de coordonnées sur l'ensemble du globe. La carte n'est pas neutre : elle incorpore l'imaginaire de l'observateur séparé, surplombant, qui possède le monde par la représentation qu'il s’en fait et en donne (et enseigne avec plus ou moins soucis du consentement).
 
 > De Mercator (1569) aux systèmes GPS contemporains, la même structure persiste : un sujet extérieur au monde, qui le regarde depuis une position privilégiée (le point de fuite, le satellite, le "nulle part" mathématique), et qui le transforme en image manipulable.
@@ -299,7 +299,7 @@ Pour la tique (exemple célèbre d'Uexküll, repris délicieusement par Deleuze)
 **Pour l’expert** (_Umwelt enrichi_) :
 
 - Toutes ces dimensions sont devenues **pertinentes** - non pas parce qu'il a "appris à y faire attention" (effort volontaire), mais parce qu'elles participent désormais à des couplages stables
-- Il **reconnaît** des invariants fins : « cette prise me permet de m’y repousser, de m’y reposer. Et elle participe d’un assemblage plus large, une voie »
+- Il **reconnaît** des invariants fins : « cette prise me permet de m’y repousser, de m’y reposer. Et elle participe d’un assemblage plus large, une voie ».
 
 Car l’expert possède le **pouvoir** de _lire_ les voies depuis le sol, sans y être engagé. Il faut donner tout son poids à cette formule : lire les voies. C'est-à-dire déchiffrer une cohérence au sein même de la paroi, des mélodies cinétiques qu'il pourra emprunter. Il y perçoit des détails impossibles à voir "visuellement" depuis le bas de la falaise. Mais il a acquis ce pouvoir de prescience qui lui permet d'émuler la texture même de la roche, d'anticiper comment son corps s'y articulera.
 Le débutant, lui, est aveugle - non par déficit perceptif, mais parce que ces éléments ne font pas encore sens pour lui. Il n'est pas encore en mesure de les extraire, de les voir. Ces affordances ne sont pas encore disponibles à la relation.
@@ -315,7 +315,7 @@ Le grimpeur débutant partage cette structure paradoxale :
 - Les affordances sont physiquement présentes (micro-prises, textures, points de repos).
 - Son système sensori-moteur pourrait théoriquement les capter
   Mais elles ne sont pas encore disponibles à sa conscience incarnée.
-  Il grimpe "en aveugle", s'agrippant aux évidences grossières, manquant la finesse du dialogue avec la roche
+  Il grimpe "en aveugle", s'agrippant aux évidences grossières, manquant la finesse du dialogue avec la roche.
 
 Non pas parce que ses yeux ou ses mains sont défaillants, mais parce que ces dimensions n'ont pas encore émergé dans son Umwelt.
 Ce qui manque, ce n'est pas l'information (elle est là, dans l'environnement) - c'est le couplage qui rendrait cette information pertinente, actionnable, vivante.
