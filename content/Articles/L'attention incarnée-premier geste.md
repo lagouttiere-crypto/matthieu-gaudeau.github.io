@@ -35,7 +35,7 @@ L'attention est cet **accordage**.
 Pendant plus d'un siècle, depuis William James (1890), l'attention a été capturée par des métaphores visuelles et leurs appareillages : projecteur, filtre, le zoom, la focale, le cadre ou cadrage. Si l’on y _regarde_ de plus près, ces imaginaires suggèrent implicitement un observateur central qui contrôle ce qui entre dans la conscience (_camera obstrua voir section 2_).
 
 ==Si vous êtes partant.e.s, nous pourrions essayer pour un instant un autre imaginaire ?==
-Délestons-nous de nos yeux et revêtons une magnifique paire d’ailes. Des ailes courtes. Ressentez-vous à présent que la moindre modification de leurs orientations vous permet de percevoir autrement l’espace (les courants qui le constitue) et de vous y déplacer ? Vous êtes à ce point toniques (tendu.e) que vous résonnez tout entier au plus petit changement d'appui dans l'air. Vous êtes à présent devenu.e, une merveilleuse toile sensible qui vibre et résonne à plus petite variation dans l’environnement. C’est ce qui vous permet d’aller si vite. Si seulement vous pouviez un instant vous percevoir depuis des yeux humains, vous verriez sans hésitation, une fulgurante chauve-souris, et le _vous-chauve-sourie_ aurait perçu.e la présence de ce vous-humain grâce au sonar qui vous caractérise. Vous n’existiez pas il y a quelques instants. Vous êtes apparu.e.s pour votre vous-chauve-sourie quand la réfractation du son vous à enveloppé.e, déformant et remodelant ainsi la cohérence acoustique de l'espace.
+Délestons-nous de nos yeux et revêtons une magnifique paire d’ailes. Des ailes pas trop grandes, courtes en fait pour nos besoins fonctionnels. Ressentez-vous à présent que la moindre modification de leurs orientations vous permet de percevoir autrement l’espace (les courants qui le constitue) et de vous y déplacer ? Vous êtes à ce point toniques (tendu.e) que vous résonnez tout entier au plus petit changement d'appui dans l'air. Vous êtes à présent devenu.e, une merveilleuse toile sensible qui vibre et résonne à plus petite variation dans l’environnement. C’est ce qui vous permet d’aller si vite. Si seulement vous pouviez un instant vous percevoir depuis des yeux humains, vous verriez sans hésitation, une fulgurante chauve-souris, et le _vous-chauve-sourie_ aurait perçu.e la présence de ce vous-humain grâce au sonar qui vous caractérise. Vous n’existiez pas il y a quelques instants. Vous êtes apparu.e.s pour votre vous-chauve-sourie quand la réfractation du son vous à enveloppé.e, déformant et remodelant ainsi la cohérence acoustique de l'espace.
 
 Vous avez été aidé pour cela, vous ne le percevez peut-être pas encore, mais plusieurs chauves-souris volent également dans la même pièce.
 Chacune émet ses propres impulsions sonores, chacune reçoit non seulement ses propres échos mais également ceux des autres, réfractés, déformés, mélangés. Aucune chauve-souris n'a une "image" complète et objective de la caverne. Ce qui émerge, c'est une carte dynamique et distribuée, construite par la superposition de multiples [[Note-sonar-multiples|sonars]].
@@ -49,6 +49,12 @@ Et cette multitude-chauves-souris peut être comprise à deux niveaux - mais san
 **Et au niveau inter-personnel** : Chaque "sonar" peut être une autre personne avec qui vous êtes en relation. L'accordage (Stern, 1985) fonctionne toujours selon les mêmes principes que l'intégration multisensorielle.
 Comme le suggère Erin Manning : "[[always-more-than-one]]" - il y a toujours multiplicité, que ce soit la « multiplicité » de notre sensorialité (amodale) ou celle des présences avec lesquelles nous résonnons.
 
+Encore une chose, ces multiples sonars possèdent leurs propres limites fonctionnelles - ils ne font surgir qu'une image partielle, fractionnée de l'espace dans lequel ils se répercutent : son isomorphisme acoustique.
+
+À présent, si vous sondez attentivement, à nouveau la grotte, vous recueillerez d'autres présences à l'extrémité de la caverne. D'autres vous-humains qui, au moyen d'instruments étranges - théodolites, lasers, capteurs - en recueillent l'isomorphisme visuel.
+
+Ces deux "cavernes" - l'acoustique et la visuelle - ne sont pas deux versions d'une même réalité pré-donnée. Elles se contraignent et s'éclairent mutuellement, co-générant le domaine phénoménal qu'elles explorent.
+
 Nous sommes un peu obligé.e.s, à ce stade, de faire une pause non ? Le temps de reprendre nos esprits, retrouver notre assise.
 Parce que si l’attention émerge de cette multiplicité résonnante -ces sonars qui s’interfèrent- il est difficile, de « croire » que notre attention soit une propriété isolée de _notre_ cerveau…
 Cela ne rend pas particulièrement justice à la délicatesse et à l’inventivité du vivant.
@@ -58,7 +64,7 @@ S’il n’est pas le chef organisateur et centralisateur, comme notre culture m
 
 ## le cerveau résonateur
 
-Puisque nous semblons embarqué.e.s dans une série d’analogie, j’aimerais vous mettre un instant à contribution pour déployer un l'imaginaire qui va suivre.
+Puisque nous semblons embarqué.e.s dans une série d’analogie, j’aimerais vous mettre un instant à contribution pour déployer l'imaginaire qui va suivre.
 Prenez le temps de choisir entre plusieurs planches de bois fin là juste devant vous. Chacune a une épaisseur spécifique, une texture singulière, une patine, une odeur, mais surtout une densité particulière. Vous pouvez jouer avec son élasticité (son tuilage). Prenez le temps de choisir celle qui vous convient. Vous avez trouvé **votre** planche ?
 
 Bien à présent, placez délicatement plusieurs métronomes dessus. Oui là juste à côté. Elle doit être libre de vibrer (il faut aménager un dispositif pour cela, il y a plusieurs possibilités). Libérez-les métronomes et observer attentivement. Voyez-vous ce que se passe ?
