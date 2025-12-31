@@ -16,7 +16,7 @@ maturity: arbuste
 
 ## Une approche récursive du dualisme pédagogique
 
-**Note exploratoire** - Décembre 2024  
+**Note exploratoire** - Décembre 2025  
 **Contexte** : Émergence dialogique lors de la rédaction de "Pédagogie de la Réverbération"
 
 ---
