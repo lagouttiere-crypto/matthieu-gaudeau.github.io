@@ -91,40 +91,62 @@ Nés de la révolution industrielle, c'est au début du XIXe siècle qu'appara
 
 ## Récursivité du jardin
 
+Le jardin numérique n'accumule pas - il **réverbère**.
+
+Comme le Canon de Bach, comme la marche qui revient transformée, le jardin opère par **boucles récursives** :
+
+### La chaîne-référence du jardinier-pisteur
+
+**Terrain vécu** (expérience, intuition, nuit qui porte conseil)
+↓ Geste : **Désigner** (pointer l'intuition)
+**Dialogue** (émergence collaborative)
+↓ Geste : **Prélever** (extraire des fragments)
+**Notes** (concepts nommés, structurés)
+↓ Geste : **Coder** (liens, tags, structure)
+**Articles** (synthèses, développements)
+↓ Geste : **Composter** (laisser se décomposer/recomposer)
+**Terrain partagé** (jardin public, lecteurs)
+↓ Geste : **Ramasser** (suivre les traces des lecteurs)
+**Nouveau terrain vécu** (retour transformé)
+
+À chaque étape : **perte** (immédiateté, contexte) ET **gain** (mobilité, comparabilité, partageabilité)
+
+Comme chez Latour : la référence ne "représente" pas - elle **circule** dans la chaîne.
+
 [[Rhizome de Garden-Gester]]
 
 ## Les gestes du jardin
 
-### Verbes de préparation
+### Verbes de préparation = Créer les conditions
 
-- Bêcher
-- Désherber
+- **Bêcher** = Inhibition (Alexander) - créer un écart, suspendre
+- **Désherber** = Époché (Varela) - mettre entre parenthèses
   - [Comme nous pourrions penser - Vannevar Bush 1945 ](http://www.softphd.com/these/traduction/vannevar-bush-as-we-may-think)
   - [Le jardin et le ruisseau technopastoral - Mike Caulfield 2015](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/)
 - Terrasser
 - Drainer
 - Fertiliser​
 
-### Verbes de plantation
+### Verbes de plantation = Faire émerger
 
 - Semer
-- Repiquer
+- **Repiquer** = Dissécier (Gaudeau) - transplanter sans tuer
 - Planter
 - Protéger
 - Remplacer​
 
-### Verbes d'entretien courant
+### Verbes d'entretien courant = Maintenir le vivant
 
 - Tondre
 - Biner
-- Ramasser
+- **Ramasser** = Pister (Morizot) - suivre les traces
   - [[Sur la piste animale-Morizot]]
 - Décaper
 - Débroussailler​
 
-### Verbes de taille et soins
+### Verbes de taille et soins = Dissécier (explorer sans tuer !)
 
-- Tailler
+- **Tailler** = Méta-rapporteur (Haraway) - voir les patterns pour ajuster
 - Émonder
 - Élaguer
 - Traiter
@@ -138,5 +160,29 @@ Nés de la révolution industrielle, c'est au début du XIXe siècle qu'appara
 - Poser (bordures, dalles)
 - Installer (arrosage, éclairage)
 - Évacuer
-- Composter
+- **Composter** = Dé-différenciation (Bigé) - laisser se transformer
 - Recycler​
+
+### Attracteurs conceptuels du Rhizome
+
+Les textes gravitent autour de certains **attracteurs** qui créent des champs de force :
+
+**Attracteur 1 : Dualisme/Non-dualisme**
+
+- Textes attirés : Boucles Étranges, Dissécier, Varela récursif
+- Force : Dissolution plutôt que combat frontal
+
+**Attracteur 2 : Méthode vs Théorie**
+
+- Textes attirés : Chaîne-référence Latour, Prouver marche en marchant
+- Force : Épistémologie pratique
+
+**Attracteur 3 : Émergence vs Contrôle**
+
+- Textes attirés : Métronomes, Plateforme résonnante, Kairos
+- Force : Conditions plutôt que causation
+
+**Attracteur 4 : Écotones/Marges**
+
+- Textes attirés : Tout ce qui n'entre pas dans les MOCs établis
+- Force : Biodiversité conceptuelle
