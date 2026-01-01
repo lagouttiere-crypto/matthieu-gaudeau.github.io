@@ -262,7 +262,10 @@ Les textes ne sont pas classés par thèmes fixes - ils **gravitent** autour d'a
 - [[Boucles Étranges, Habitudes et Dé-différenciation]]
 - [[Dissécier sans dissocier]]
 - [[Varela : Répondre récursivement au dualisme]]
-- [[Bigé : Dé-différenciation par la pesée]]
+- Bigé : Dé-différenciation par la pesée ➫ C.f Mouvementements § La pesée p30 (Bigé 2020)
+- [[Logique_CATUSKOTI_tétralemme]] ➫ Graham Priest (2010), Nagar-juna, Mulamadhyamakakarika
+- [[Kirielle + Catuskoti]] ➫ Implication pédagogique (tentative)
+- [[Totalité sphérique post-parménidienne]] ➫ L'impératif varélien.
 
 **Principe** : Ces textes ne combattent pas le dualisme frontalement (ce qui créerait un nouveau dualisme : anti-dualistes vs dualistes). Ils **pratiquent** des méthodes qui dissolvent la pertinence du dualisme.
 
@@ -272,10 +275,10 @@ Les textes ne sont pas classés par thèmes fixes - ils **gravitent** autour d'a
 
 **Textes attirés** :
 
-- [[Latour : Chaîne-référence et construction de la vérité]]
-- [[Bitbol : C'est la méthode qui définit le champ des problèmes]]
+- Latour : Chaîne-référence et construction de la vérité
+- Bitbol : C'est la méthode qui définit le champ des problèmes [](https://www.actu-philosophia.com/entretien-avec-michel-bitbol-autour-de-la/)
 - [[Alexander : Inhibition comme pratique]]
-- [[Petite danse : Pratique de dé-différenciation]]
+- Petite danse : Pratique de dé-différenciation. C.f Mouvementements § La pesée p30 (Bigé 2020)
 - [[Rhizome de Garden-Gester]]
 
 **Principe** : La méthode n'est pas l'application d'une théorie préexistante. C'est la méthode qui crée le champ des problèmes possibles. Changer de méthode dissout certains problèmes plutôt que de les résoudre.
