@@ -13,7 +13,7 @@ date_origine: 01/01/2026
 maturity: arbuste
 ---
 
-# Kirielle + Catuskoti
+# Kyrielle + Catuskoti
 
 ## Titre provisoire
 

@@ -67,7 +67,7 @@ Voici le piège : si je veux changer une habitude néfaste, ma tentative même d
 **Pourquoi ?** Parce que je **réagis contre** le symptôme :
 
 - Je veux arrêter de fumer → je lutte contre l'envie
-- Je veux corriger ma posture → je contrôle mon dos
+- Je veux corriger ma posture → je contrôle mon alignement
 - Je veux cesser de ruminer → je surveille mes pensées
 
 Mais cette réaction maintient la **même structure** : une partie de moi (volonté, conscience) agit sur une autre partie (corps, automatisme). C'est une **scission dualiste** qui perpétue précisément ce qu'on voulait transformer. (==Nécessité de préciser==, [[École de Palo Alto. Boucles systémiques et doubles contraintes]])
@@ -77,6 +77,7 @@ Mais cette réaction maintient la **même structure** : une partie de moi (volon
 Le problème fondamental : **Je ne peux pas sortir du système pour le modifier**.
 
 C'est notre condition autopoïétique : je suis toujours déjà dans le couplage que je cherche à transformer. Il n'y a pas de position de surplomb depuis laquelle "observer objectivement" mon habitude.
+[[Totalité sphérique post-parménidienne]]
 
 Cette impossibilité n'est pas un échec méthodologique - c'est **la condition même** de notre existence incarnée. Mais notre culture dualiste nous a formés à croire que nous pouvons nous scinder : une partie qui observe, une autre qui agit, une troisième qui corrige.
 

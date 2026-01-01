@@ -259,12 +259,12 @@ Les textes ne sont pas classés par thèmes fixes - ils **gravitent** autour d'a
 
 **Textes attirés** :
 
-- [[Boucles Étranges, Habitudes et Dé-différenciation]]
-- [[Dissécier sans dissocier]]
-- [[Varela : Répondre récursivement au dualisme]]
-- Bigé : Dé-différenciation par la pesée ➫ C.f Mouvementements § La pesée p30 (Bigé 2020)
+- [[Boucles Étranges, Habitudes et Dé-différenciation]] ➫ cet arpentage à conduit à la réécriture du § 4 [[Pédagogie de la Réverbération : Boucles Étranges et Hiérarchies Enchevêtrées dans l'Apprentissage Incarné|Pédagogie de Réverbération]]
+- Dissécier sans dissocier cf : Pédagogie de la Réverbération et [[Kyrielle + Catuskoti]]
+- [[Varela : Répondre récursivement au dualisme]] ➫ [[Totalité sphérique post-parménidienne]]
+- Bigé : Dé-différenciation par la pesée ➫ C.f Mouvementements § La pesée p30 (Bigé 2020) [[Boucles Étranges, Habitudes et Dé-différenciation]]
 - [[Logique_CATUSKOTI_tétralemme]] ➫ Graham Priest (2010), Nagar-juna, Mulamadhyamakakarika
-- [[Kirielle + Catuskoti]] ➫ Implication pédagogique (tentative)
+- [[Kyrielle + Catuskoti]] ➫ Implication pédagogique (tentative)
 - [[Totalité sphérique post-parménidienne]] ➫ L'impératif varélien.
 
 **Principe** : Ces textes ne combattent pas le dualisme frontalement (ce qui créerait un nouveau dualisme : anti-dualistes vs dualistes). Ils **pratiquent** des méthodes qui dissolvent la pertinence du dualisme.
@@ -289,10 +289,10 @@ Les textes ne sont pas classés par thèmes fixes - ils **gravitent** autour d'a
 
 **Textes attirés** :
 
-- [[Métronomes sur plateforme souple : Synchronisation sans contrôle]]
-- [[Gorman : Plateforme résonnante et résonance]]
-- [[Kairos : Le moment opportun qui ne peut être forcé]]
-- [[Enseignant-pisteur : Encompagner plutôt que diriger]]
+- [[L'attention incarnée-premier geste]] ➫ Métronomes sur plateforme souple : Synchronisation sans contrôle
+- Gorman : Plateforme résonnante et résonance c.f "_Un modèle d'interaction par résonnance_"
+- [[Articles/Kairos|Kairos]] : Le moment opportun qui ne peut être forcé
+- Enseignant-pisteur : Encompagner plutôt que diriger ➫ [[Pédagogie de la Réverbération : Boucles Étranges et Hiérarchies Enchevêtrées dans l'Apprentissage Incarné|Pédagogie de Réverbération]]
 
 **Principe** : L'apprentissage, comme l'individuation (Simondon), ne peut être forcé. On crée des conditions, on maintient une plateforme, et quelque chose émerge - ou pas. Respecter le _kairos_.
 

@@ -4277,5 +4277,5 @@ other_result = db.query("paris_capitale_france")
 
 **Liens :**
 
-- [[Kirielle + Catuskoti]] ➫ tentative de lien pédagogique
+- [[Kyrielle + Catuskoti]] ➫ tentative de lien pédagogique
 -
