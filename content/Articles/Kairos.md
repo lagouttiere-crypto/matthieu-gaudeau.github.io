@@ -10,8 +10,9 @@ tags:
   - processus
   - concept-clé
 domaine: temporalité
-auteur_principal:
-date_origine:
+auteur_principal: M.Gaudeau
+date_origine: 01/01/2026
+maturity: arbuste
 ---
 
 # Temporalité / Kairos

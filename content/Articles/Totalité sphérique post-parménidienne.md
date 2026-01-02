@@ -143,7 +143,7 @@ C'est ici que tout bascule — **dissolution de la dualité sujet/objet**.
 - Chacun éprouve et est éprouvé par l'autre
 - Sphère = immersion mutuelle sans extériorité possible
 
-## Liens avec vos concepts
+## Liens avec concepts
 
 ### [[Gestosphère]] (Godard)
 
@@ -161,7 +161,7 @@ C'est ici que tout bascule — **dissolution de la dualité sujet/objet**.
 - Je suis éprouvé par gravité (elle me constitue) autant que je l'éprouve (je m'y accorde)
 - Totalité sphérique = gestosphère sans dedans/dehors strict
 
-### [[Accordage]]
+### Accordage
 
 **Accordage comme participation à totalité éprouvante-éprouvée :**
 
@@ -171,7 +171,7 @@ C'est ici que tout bascule — **dissolution de la dualité sujet/objet**.
   - Je ne m'accorde pas à sol "objectif" là-dehors
   - Sol-et-moi émergeons dans couplage (sol devient "praticable", je deviens "posturé")
 
-### [[Preuve du réel]] (Lygia Clark)
+### Preuve du réel (Lygia Clark) dans article H.Godard
 
 **Objet relationnel teste totalité sphérique :**
 
@@ -182,7 +182,7 @@ C'est ici que tout bascule — **dissolution de la dualité sujet/objet**.
   - Mais "pierre révèle mon poids à moi-même" (je deviens éprouvé par pierre)
   - Circularité : je l'éprouve, elle m'éprouve → frontière devient indécidable
 
-### [[Anattā]]
+### Anattā
 
 **Non-soi comme dissolution sujet éprouvant séparé :**
 
@@ -214,105 +214,6 @@ C'est ici que tout bascule — **dissolution de la dualité sujet/objet**.
 - Comprendre coproduction conditionnée (pratītyasamutpāda)
 - Voir qu'autrui (humain, non-humain) n'est pas objet séparé
 - **Compassion = reconnaissance de totalité sphérique** partagée[^7]
-
-## Pédagogie énactive : enseigner depuis totalité sphérique
-
-### Implications pour votre pratique
-
-**Posture pédagogique classique (à éviter) :**
-
-- Enseignant = sujet éprouvant (maîtrise, transmission)
-- Élève = objet éprouvé (reçoit, accumule)
-- Savoir = représentation de nature-objet
-
-**Posture énactive (votre approche) :**
-
-- Enseignant et élève = **co-éprouvance dans totalité partagée**
-- Pas transmission unidirectionnelle mais **accordage mutuel**
-- Savoir = transformation du couplage (chacun modifie et est modifié)
-
-**Exemple Alexander concret :**
-
-- Pas : "Je montre bonne posture (moi éprouvant) à élève (lui éprouvé)"
-- Mais : "Nous explorons ensemble champ postural (totalité éprouvante-éprouvée)"
-- Mes mains sur dos élève : je l'éprouve ET suis éprouvé par ses tensions
-- **Circularité** : impossible dire qui guide qui — émergence mutuelle
-
-### Cultiver expérience de totalité sphérique
-
-**Pratiques possibles :**
-
-**1. Méditation terre-corps** (inspiré bouddhisme)
-
-- Sentir poids corps sur sol
-- Observer : "je sens sol" ET "sol me soutient" (m'éprouve)
-- Dissolution progressive frontière moi/terre
-- Expérience : totalité gravitaire sans dedans/dehors strict
-
-**2. Marche énactive**
-
-- Pas "je marche dans espace" (sujet → objet)
-- Mais "marche se fait" dans totalité jambes-sol-air
-- Chaque pas : je constitue chemin ET suis constitué par lui
-- Sol-sous-pieds n'est pas donné avant marche — il émerge comme "praticable" dans couplage
-
-**3. Toucher réciproque** (Lygia Clark)
-
-- Une main touche l'autre
-- Observer : impossible décider quelle main est "touchante" et quelle est "touchée"
-- Les deux simultanément (Merleau-Ponty : réversibilité chair)[^8]
-- Expérience directe : éprouvant = éprouvé dans totalité sphérique
-
-## Pour votre jardin : note synthèse
-
-```markdown
-# Totalité sphérique post-parménidienne (Varela)
-
-**Définition** : Nature n'est pas grand objet contemplé de l'extérieur
-(réalisme naïf), mais totalité dynamique sans extériorité, dans laquelle
-nous sommes immergés — totalité qui nous éprouve autant qu'on l'éprouve.
-
-**Contre Parménide** :
-
-- Pas totalité-bloc achevée et immobile (Être éternel)
-- Mais totalité-processus auto-organisé en devenir (flux impermanent)
-- Sphérique = sans point de vue externe possible (immersion radicale)
-
-**Éprouvante ET éprouvée** :
-
-- Nature n'est pas seulement objet de perception (éprouvée par sujet)
-- Elle nous constitue activement (éprouvante) autant qu'on la constitue
-- Dissolution dualité sujet/objet → coproduction mutuelle ([[énaction]])
-
-**Lien [[autopoïèse]]** :
-Clôture opérationnelle = pas d'accès monde "objectif" extérieur
-→ Système et milieu s'auto-spécifient mutuellement (totalité sphérique)
-
-**Lien [[gestosphère]]** :
-Geste n'émerge pas de sujet séparé (éprouvant) dans monde séparé (éprouvé)
-→ Geste = actualisation champ où sujet-et-monde co-émergent
-
-**Lien [[accordage]]** :
-Pas ajustement sujet → objet externe
-→ Co-transformation mutuelle dans totalité partagée
-
-**Lien [[anattā]]** :
-Si pas de "je" substantiel préexistant (non-soi)
-→ Pas de sujet-éprouvant fixe face à nature-éprouvée
-→ Flux d'éprouvance sans propriétaire
-
-**Implications éthiques** :
-
-- Impossible s'extraire nature pour l'exploiter (on est constitué par elle)
-- Réciprocité ontologique → responsabilité circulaire
-- Compassion = lucidité sur coproduction conditionnée
-
-**Pratiques pédagogiques** :
-
-- Enseigner = co-éprouvance dans totalité partagée (pas transmission unidirectionnelle)
-- Cultiver expérience : méditation terre-corps, marche énactive, toucher réciproque
-- Alexander : explorer ensemble champ postural (totalité éprouvante-éprouvée)
-```
 
 ## Sources et approfondissements
 

@@ -3,10 +3,13 @@ type: concept
 aliases: []
 tags:
   - concept
-domaine:
-auteur_principal:
-date_origine:
-maturity:
+  - écotone
+  - MOC
+  - auteur/Latour
+domaine: apprentissage
+auteur_principal: M.Gaudeau
+date_origine: 30/12/2025
+maturity: arbuste
 ---
 
 # 🌿 MOC Rhizome : Pensées des écotones
@@ -280,6 +283,7 @@ Les textes ne sont pas classés par thèmes fixes - ils **gravitent** autour d'a
 - [[Alexander : Inhibition comme pratique]]
 - Petite danse : Pratique de dé-différenciation. C.f Mouvementements § La pesée p30 (Bigé 2020)
 - [[Rhizome de Garden-Gester]]
+- [[Triangle épistémologique Varela]]
 
 **Principe** : La méthode n'est pas l'application d'une théorie préexistante. C'est la méthode qui crée le champ des problèmes possibles. Changer de méthode dissout certains problèmes plutôt que de les résoudre.
 
