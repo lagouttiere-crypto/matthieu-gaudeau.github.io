@@ -89,6 +89,12 @@ Mais **elles sont cohérentes avec l'expérience**. Elles font un clin d'œil à
 
 Ce jardin cultive cette **vérité de cohérence** : pas de démonstration définitive, mais des propositions qui résonnent et ouvrent des possibilités de sentir et d'agir autrement.​
 
+## 🐢 🐢 🐢 🐢 🐢 🐢 🐢 🐢
+
+- [ ] Nous aspirons à un régime de pensée et d’écriture qui ne se fonde pas sur une dynamique d’exclusion, le vrai existant en opposition au faux - en ayant conscience d’échouer régulièrement ici même.
+- [ ] Cette pensée se propose d'échapper à toute extraction de vérité du vivant et de ses processus. Non par principe intellectuel ou moral, mais parce que cette dernière ne se cache pas, ni se dérobe dans un vivant enclos qu’il faudrait forcer - en ayant conscience d’échouer régulièrement ici même.
+- [ ] Enfin, que cette pensée ne se développe pas dans le souci de sa contradiction et de ses contradicteurs - en ayant conscience d’échouer régulièrement ici même et ailleurs.
+
 ## Un jardin ne se survole pas
 
 ```
@@ -114,7 +120,7 @@ De la même façon, dans l'apprentissage du geste, on ne découvre pas une forme
 
 ## Invitation
 
-Les textes que vous trouverez ici sont en évolution permanente. Certains sont des ébauches, d'autres des synthèses plus abouties. Tous sont des tentatives pour articuler ce qui résiste à l'articulation : comment le corps apprend, comment le geste s'organise, comment la conscience se déploie dans l'action.
+Les textes que vous trouverez ici sont en évolution permanente. Certains sont des ébauches, d'autres des synthèses plus abouties. Tous sont des tentatives d'articuler : comment le corps apprend, comment le geste s'organise, comment la conscience se déploie dans l'action.
 
 ==Suivez vos curiosités. Laissez-vous porter par les liens. Revenez par d'autres chemins. Le jardin se donne, différemment à chaque parcours.==
 
