@@ -279,9 +279,9 @@ Les textes ne sont pas classés par thèmes fixes - ils **gravitent** autour d'a
 **Textes attirés** :
 
 - Latour : Chaîne-référence et construction de la vérité
-- Bitbol : C'est la méthode qui définit le champ des problèmes [](https://www.actu-philosophia.com/entretien-avec-michel-bitbol-autour-de-la/)
+- Bitbol : C'est la méthode qui définit le champ des problèmes [](https://www.actu-philosophia.com/entretien-avec-michel-bitbol-autour-de-la/) & [[Boucles Étranges, Habitudes et Dé-différenciation]]
 - [[Alexander : Inhibition comme pratique]]
-- Petite danse : Pratique de dé-différenciation. C.f Mouvementements § La pesée p30 (Bigé 2020)
+- Petite danse : Pratique de dé-différenciation. C.f Mouvementements § La pesée p30 (Bigé 2020) & [[Boucles Étranges, Habitudes et Dé-différenciation]]
 - [[Rhizome de Garden-Gester]]
 - [[Triangle épistémologique Varela]]
 
@@ -345,9 +345,8 @@ Cartographie des zones de transition où émergent les textes rhizomatiques :
 
 **Textes à l'interface** :
 
-- [[Petite danse (Bigé) : Pratique de dé-différenciation]]
-- [[Varela : Neurophénoménologie comme méthode]]
-- [[Prouver la marche en marchant]]
+- [[Boucles Étranges, Habitudes et Dé-différenciation|Petite danse (Bigé) : Pratique de dé-différenciation]] ➫ Notes de travail
+- [[Boucles Étranges, Habitudes et Dé-différenciation|Varela : Neurophénoménologie comme méthode]] ➫ Notes de travail
 
 ### Entre Individuel et Collectif
 
