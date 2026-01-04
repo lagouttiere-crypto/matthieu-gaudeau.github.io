@@ -65,8 +65,8 @@ du couplage. C'est un geste propitiatoire qui crée les conditions pour que
 quelque chose puisse émerger – sans savoir à l'avance quoi.
 
 ==Cette deuxième dimension de l'attention se déploie en trois mouvements :==
-==comment l'apprentissage réverbère (spirales fugales), comment explorer sans==
-==séparer (dissécier), et comment accompagner cette émergence (enseignant-pisteur).==
+comment l'apprentissage réverbère (spirales fugales), comment explorer sans
+séparer (dissécier), et comment accompagner cette émergence (enseignant-pisteur).
 
 ---
 
