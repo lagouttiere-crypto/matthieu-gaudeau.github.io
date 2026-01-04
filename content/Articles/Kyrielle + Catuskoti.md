@@ -346,7 +346,7 @@ A₀ → A₁ → A₂ → A₃ → ... → Aₙ
 
 ### 3.3 Le geste d'adresse et les prédicats de statut
 
-**Rappel de ta conceptualisation** :
+\*\*Rappel :
 
 ```
 Le "geste d'adresse" = tonus représentationnel
@@ -530,7 +530,7 @@ L'élève sent qu'il est droit alors qu'il est voûté
 │ - Moments où "courbé" prédomine (→ f)                   │
 │ - Moments de tension productive (→ b)                   │
 │ - Moments où la question change (→ n)                   │
-│   ("Qu'est-ce que 'droit' veut dire ?")                │
+│   ("Qu'est-ce que 'droit' veut dire ?")                 │
 │                                                         │
 │ → Apprentissage non-linéaire par réverbération          │
 └─────────────────────────────────────────────────────────┘
@@ -620,7 +620,7 @@ C'est un SUCCÈS pédagogique
 ┌─────────────────────────────────────────────────────────┐
 │ Connaissance = CO-ÉMERGENCE                             │
 │                                                         │
-│ Pas : Sujet → Objet (représentation)                   │
+│ Pas : Sujet → Objet (représentation)                    │
 │ Mais : Sujet ↔ Monde (couplage structurel)              │
 │                                                         │
 │ → La cognition est embodied, embedded, enacted          │
