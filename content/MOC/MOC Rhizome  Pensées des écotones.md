@@ -366,7 +366,7 @@ Cartographie des zones de transition où émergent les textes rhizomatiques :
 
 Ce Rhizome **ne remplace pas** les MOCs thématiques - il les **relie** en habitant leurs lisières :
 
-- ← [[l'attention|MOC Attention]] : Emprunte les concepts d'attention fractale, d'amplification relationnelle
+- ← [[attention|MOC Attention]] : Emprunte les concepts d'attention fractale, d'amplification relationnelle
 - ← [[MOC Pédagogie]] : Emprunte les Boucles Étranges, la réverbération
 - → Nourrit les deux sans appartenir pleinement à aucun
 
