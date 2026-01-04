@@ -13,7 +13,7 @@ maturity: arbre
 Auteur: Matthieu.G
 ---
 
-**Geste propitiatoire** : [[Spirales fugales – Quand l'apprentissage réverbère|3.1 spirales fugales]] · [[Dissécier – L'art d'explorer sans séparer|3.2-dissecier]] · [[L'enseignant-pisteur – Plateforme résonnante et zoom fractal|3.3-enseignant-pisteur]]  
+**Geste propitiatoire** : [[Spirales fugales–Quand-l'apprentissage-réverbère|3.1 spirales fugales]] · [[Dissécier–L'art-d'explorer-sans-séparer|3.2-dissecier]] · [[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|3.3-enseignant-pisteur]]  
 **Vous êtes ici : 3.3 - enseignant-pisteur**
 
 > [! Résumé]

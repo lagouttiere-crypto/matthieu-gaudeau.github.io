@@ -13,7 +13,7 @@ maturity: arbre
 Auteur: Matthieu.G
 ---
 
-**Geste propitiatoire** : [[Spirales fugales – Quand l'apprentissage réverbère|3.1 spirales fugales]] · [[Dissécier – L'art d'explorer sans séparer|3.2-dissecier]] · [[L'enseignant-pisteur – Plateforme résonnante et zoom fractal|3.3-enseignant-pisteur]]  
+**Geste propitiatoire** : [[Spirales fugales–Quand-l'apprentissage-réverbère|3.1 spirales fugales]] · [[Dissécier–L'art-d'explorer-sans-séparer|3.2-dissecier]] · [[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|3.3-enseignant-pisteur]]  
 **Vous êtes ici : 3.1 – Spirales fugales**
 
 > [!Résumé]
@@ -141,6 +141,6 @@ nous confronte à une question méthodologique cruciale : comment explorer ces
 boucles étranges sans retomber dans la scission réflexive qui les détruirait ?
 Comment peut-on examiner le couplage sans le dissocier ?
 
-C'est l'enjeu de **[[Dissécier – L'art d'explorer sans séparer]]**, où nous verrons qu'on ne peut pas sortir du système
+C'est l'enjeu de **[[Dissécier–L'art-d'explorer-sans-séparer]]**, où nous verrons qu'on ne peut pas sortir du système
 autopoïétique pour l'observer objectivement. Cette posture intenable exige une
 méthode radicalement différente.

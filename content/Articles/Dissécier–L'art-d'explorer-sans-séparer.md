@@ -13,7 +13,7 @@ maturity: arbre
 Auteur: Matthieu.G
 ---
 
-**Geste propitiatoire** : [[Spirales fugales – Quand l'apprentissage réverbère|3.1 spirales fugales]] · [[Dissécier – L'art d'explorer sans séparer|3.2-dissecier]] · [[L'enseignant-pisteur – Plateforme résonnante et zoom fractal|3.3-enseignant-pisteur]]  
+**Geste propitiatoire** : [[Spirales fugales–Quand-l'apprentissage-réverbère|3.1 spirales fugales]] · [[Dissécier–L'art-d'explorer-sans-séparer|3.2-dissecier]] · [[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|3.3-enseignant-pisteur]]  
 **Vous êtes ici : 3.2 - dissecier**
 
 > [!Résumé]
@@ -257,7 +257,7 @@ Et l'enseignant, dans cette configuration, ne serait pas le chef d'orchestre qui
 
 ---
 
-**← Retour** : [[Spirales fugales – Quand l'apprentissage réverbère|Comment l'apprentissage réverbère]]
+**← Retour** : [[Spirales fugales–Quand-l'apprentissage-réverbère|Comment l'apprentissage réverbère]]
 
 **→ Suite du parcours**
 
@@ -266,4 +266,4 @@ où le système peut se réorganiser spontanément. Mais qui crée cet espace ?
 Comment maintenir cette suspension sans retomber dans le contrôle dualiste ?
 
 Cette question nous conduit à repenser radicalement le rôle de l'enseignant dans
-**[[L'enseignant-pisteur – Plateforme résonnante et zoom fractal|l'enseignent pisteur]]**. Non plus transmettre des savoirs, mais s'enforester avec l'apprenant dans le territoire fractal de l'expérience. Non plus corriger, mais créer les conditions de la résonance.
+**[[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|l'enseignent pisteur]]**. Non plus transmettre des savoirs, mais s'enforester avec l'apprenant dans le territoire fractal de l'expérience. Non plus corriger, mais créer les conditions de la résonance.

@@ -76,7 +76,7 @@ séparer (dissécier), et comment accompagner cette émergence (enseignant-piste
 
 _L'apprentissage incarné ne fonctionne pas par accumulation mais par réverbération : comme le Canon de Bach qui revient au point de départ transformé, chaque exploration somatique fait résonner différemment les mêmes gestes. La Boucle Étrange (Hofstadter) devient principe pédagogique où le retour à la marche n'est jamais identique – le preparatory set s'est reconfiguré, l'Umwelt s'est déplié. La surprise qui accompagne ce retour est la signature qu'une transformation réelle du couplage a eu lieu._
 
-**Partie 1**: 🌳 [[Spirales fugales – Quand l'apprentissage réverbère]]
+**Partie 1**: 🌳 [[Spirales fugales–Quand-l'apprentissage-réverbère]]
 
 ---
 
@@ -86,7 +86,7 @@ _L'apprentissage incarné ne fonctionne pas par accumulation mais par réverbér
 
 On ne peut pas sortir du système autopoïétique pour l'observer objectivement – c'est la posture intenable qui exige une méthode radicalement différente. Dissécier, ce n'est ni disséquer (tuer pour comprendre) ni dissocier (séparer ce qui était tissé), mais explorer les articulations d'un couplage vivant sans le rompre. L'inhibition alexandrienne et l'épochè phénoménologique deviennent des pratiques de suspension du système entier, où la transformation advient non par correction volontaire mais par réorganisation spontanée quand cessent les réactivités habituelles.
 
-**Partie 2**: 🌳 [[Dissécier – L'art d'explorer sans séparer]]
+**Partie 2**: 🌳 [[Dissécier–L'art-d'explorer-sans-séparer]]
 
 ---
 
@@ -96,7 +96,7 @@ On ne peut pas sortir du système autopoïétique pour l'observer objectivement 
 
 L'attention n'est pas une ressource extractible à protéger mais une capacité à varier l'échelle de résolution du couplage – comme la côte bretonne de Mandelbrot qui révèle une longueur infinie selon le zoom. L'enseignant devient pisteur : il s'enforeste avec l'apprenant, maintient son intégration face au gradient de fixité (Gorman), crée les conditions de la résonance sans forcer l'émergence. Le retour à la marche vérifie alors : à quelle échelle de résolution suis-je maintenant couplé ? Quelle géométrie a pris ma surface d'échange ?
 
-**Partie 3**: 🌳 [[L'enseignant-pisteur – Plateforme résonnante et zoom fractal|l'enseignent-pisteur]]
+**Partie 3**: 🌳 [[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|l'enseignent-pisteur]]
 
 ---
 
