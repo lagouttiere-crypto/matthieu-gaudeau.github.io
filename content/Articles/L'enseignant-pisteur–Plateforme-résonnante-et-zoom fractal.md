@@ -16,8 +16,9 @@ Auteur: Matthieu.G
 **Geste propitiatoire** : [[Spirales fugales–Quand-l'apprentissage-réverbère|3.1 spirales fugales]] · [[Dissécier–L'art-d'explorer-sans-séparer|3.2-dissecier]] · [[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|3.3-enseignant-pisteur]]  
 **Vous êtes ici : 3.3 - enseignant-pisteur**
 
-> [! Résumé]
-> L'attention n'est pas une ressource extractible à protéger mais une capacité à varier l'échelle de résolution du couplage – comme la côte bretonne de Mandelbrot qui révèle une longueur infinie selon le zoom. L'enseignant devient pisteur : il s'enforeste avec l'apprenant, maintient son intégration face au gradient de fixité (Gorman), crée les conditions de la résonance sans forcer l'émergence. Le retour à la marche vérifie alors : à quelle échelle de résolution suis-je maintenant couplé ? Quelle géométrie a pris ma surface d'échange ?
+> [! ]
+> **Rappel : Dissécier sans dissocier**
+> Dans la partie précédente, nous avons affronté le paradoxe central de toute exploration incarnée : **on ne peut pas sortir du système pour l'observer**. Cette posture intenable de l'autopoïèse exige une méthode radicalement différente. **Dissécier** n'est ni disséquer (tuer pour comprendre) ni dissocier (séparer ce qui était tissé). C'est explorer les articulations d'un couplage vivant sans le rompre – comme le pisteur suit les traces sans capturer l'animal. Cette méthode passe par : - **L'inhibition** (Alexander) : suspension du système entier, non contrôle volontaire d'une partie sur une autre - **L'épochè** (Varela, Depraz, Vermersch) : suspension, redirection, lâcher-prise - **Transformation des conditions** : agir sur le preparatory set en amont, pas sur le symptôme conscient qui arrive toujours trop tard (Libet, Gorman) Nous avons vu que la pédagogie fonctionne comme une **partition fugale** : les explorations ne s'additionnent pas, elles réverbèrent, créant des harmoniques qui révèlent des dimensions imperceptibles. Et comme les métronomes sur une plateforme souple, elles se synchronisent spontanément par couplage, sans contrôle centralisé. Mais qui crée et maintient cette plateforme ? Comment l'enseignant peut-il accompagner cette émergence **sans la forcer**, contenir l'expérience **sans la contrôler** ? Comment s'enforester avec l'apprenant dans le territoire fractal de l'expérience tout en maintenant sa propre intégration ? C'est la question du **rôle de l'enseignant** dans ce nouveau paradigme pédagogique.
 
 ## S'enforester dans l'attention : Zoom fractal du couplage
 
@@ -40,7 +41,7 @@ Les discours sur "l'économie de l'attention", sur les "voleurs d'attention" (r�
 
 Il ne s'agit pas de minimiser la réalité des dispositifs de **capture attentionnelle**. Les recherches ont amplement documenté les mécanismes exploités par les plateformes numériques.
 
-La capture attentionnelle désigne l'orientation automatique du regard vers un stimulus saillant - couleur vive, mouvement, notification - indépendamment de nos intentions. Posner (1980) a montré que des distracteurs peuvent détourner l'attention en moins de 100 millisecondes. Ces mécanismes ne seraient pas de simples "mauvaises habitudes" - ils seraient profondément ancrés dans notre architecture cognitive.
+La capture attentionnelle désigne l'orientation automatique du regard vers un stimulus saillant - couleur vive, mouvement, notification - indépendamment de nos intentions. Posner (1980) a montré que des distracteurs peuvent détourner l'attention en moins de 100 millisecondes. Ces mécanismes ne seraient pas de simples "mauvaises habitudes" - ils seraient profondément ancrés dans notre architecture cognitive et délibérément exploités à des fins commerciales.
 
 Les plateformes ont systématiquement exploité ces insights :
 
@@ -57,22 +58,32 @@ Face à cette réalité, il serait tentant de conclure : "Donc effectivement, l'
 
 Car cet imaginaire - l'attention comme stock intérieur à défendre contre des prédateurs extérieurs - présupposerait exactement la même ontologie que les dispositifs de capture : un modèle container où l'attention serait "dans" l'individu comme de l'or dans une mine.
 
-Or, ce modèle nierait la dimension relationnelle de l'attention. Il supposerait un individu séparé du monde, possédant une attention qu'il doit soit "donner" soit "protéger". Ce serait fondamentalement un imaginaire extractiviste appliqué à la fois :
+Or, ce modèle nierait (en voulant la défendre à juste titre) la dimension relationnelle de l'attention. Il supposerait un individu séparé du monde, possédant une attention qu'il doit soit "donner" soit "protéger". Ce serait fondamentalement un imaginaire extractiviste appliqué à la fois :
 
 - Par les plateformes qui cherchent à extraire l'attention
 - Et par les discours de résistance qui cherchent à "restaurer" l'attention
 
-Les deux partageraient le même présupposé : l'attention comme propriété privée du sujet.
+Les deux partagent le même présupposé : l'attention comme propriété privée du sujet.
 
-**Vers une écologie de l'attention**
+### Vers une écologie de l'attention
 
-Depuis l'approche énactive, cette conception s'effondrerait. Car l'attention ne serait pas une ressource localisée dans le sujet. Elle serait une configuration du couplage organisme-environnement.
+Depuis l'approche énactive, la conception de l'attention comme ressource extractible s'effondrerait. Car l'attention ne serait pas une ressource localisée dans le sujet. Elle serait une configuration du couplage organisme-environnement.
+
+**Une critique déjà bien établie**
+
+Cette critique de "l'économie de l'attention" a été développée de manière importante par Yves Citton[^1] et Bernard Stiegler[^2]. Citton montre que penser l'attention comme capital rare à protéger reproduit précisément la logique néolibérale qu'on cherche à critiquer. Stiegler, lui, analyse comment les "technologies de captation attentionnelle" produisent une prolétarisation de l'attention – une dépossession de la capacité à former soi-même son attention.
+
+Leur critique converge sur un point crucial : **le problème n'est pas la "perte" d'attention (comme si on en possédait un stock), mais la colonisation des régimes attentionnels** par des dispositifs qui imposent un seul mode de couplage au monde.
+
+L'approche énactive que nous développons ici prolonge cette critique tout en la déplaçant légèrement : plutôt que de penser en termes de "captation", nous proposons de penser en termes de **configuration du couplage**.
+
+**Les dispositifs comme configurateurs de couplage**
 
 Les dispositifs de capture fonctionneraient parce qu'ils configurent un certain type de couplage - ergotropique, réactif, à échelle macro, focalisé. Ils créeraient un environnement où le preparatory set est maintenu en état de vigilance/alerte, où les micro-stimuli déclenchent des réponses quasi-automatiques, où l'échelle de résolution reste bloquée au niveau des saliences grossières.
 
-Mais l'attention elle-même ne s'épuiserait pas. Ce qui s'éroderait, ce serait la capacité à moduler le couplage - à passer d'une configuration à une autre, à zoomer entre les échelles, à suspendre la réactivité ergotropique pour accéder à une réception trophotropique.
+Mais l'attention elle-même ne s'épuiserait pas. Ce qui s'éroderait, ce serait la capacité à moduler le couplage – à passer d'une configuration à une autre, à zoomer entre les échelles, à suspendre la réactivité ergotropique pour accéder à une réception trophotropique.
 
-Ce que les dispositifs de capture attaqueraient, ce ne serait pas un "stock d'attention", ce serait la plasticité du preparatory set. Ils nous maintiendraient dans une configuration figée - focalisation excessive, perte de la vision périphérique, inhibition de l'activité vestibulaire.
+Ce que les dispositifs de capture attaqueraient, ce ne serait pas un "stock d'attention", ce serait la **plasticité du preparatory set**. Ils nous maintiendraient dans une configuration figée – focalisation excessive, perte de la vision périphérique, inhibition de l'activité vestibulaire.
 
 Et ce couplage figé, contrairement à un stock qui se vide, ne se restaurerait pas par le repos. Il se transformerait par le déploiement d'autres échelles de résolution.
 
@@ -426,25 +437,97 @@ Une fois que l'apprenant devient moins fixe ET que l'enseignant a maintenu son i
 
 ---
 
-## Conclusion : Spiraler dans le vécu
+## Conclusion : Spiraler dans le vécu – Portée et limites d'un régime d'attention
 
-Le Canon de Bach revient au do mineur après avoir traversé six tonalités. La marche revient après avoir traversé les îlots. Mais ce retour porte la trace de l'excursion.
+Le Canon de Bach revient au do mineur après avoir traversé six tonalités. La marche revient après avoir exploré les îlots. Mais ce retour porte la trace de l'excursion – le preparatory set s'est reconfiguré, l'Umwelt s'est déplié, de nouvelles affordances ont émergé. La surprise qui accompagne ce retour transformé signe qu'une Boucle Étrange s'est bouclée.
 
-Nous avons proposé de penser la pédagogie énactive comme une structure de Boucles Étranges : non pas accumuler des techniques, mais réverbérer - faire résonner le même matériau différemment à chaque traversée. Cette réverbération ne fonctionnerait pas par addition mais par déploiement d'échelles : comme la côte bretonne qui révèle une longueur infinie à mesure qu'on affine la mesure, la marche révélerait une richesse infinie à mesure qu'on affine le couplage.
+Nous avons proposé que l'apprentissage incarné fonctionne par **réverbération fractale** : non pas accumulation de techniques, mais déploiement d'échelles de résolution du couplage. Et que cette réverbération demande une **méthode disséciatrice** : explorer les articulations sans les séparer, suspendre sans scinder, créer les conditions sans forcer l'émergence. L'enseignant-pisteur qui s'enforeste avec l'apprenant, maintient son intégration comme plateforme résonnante, et cultive la co-surprise comme signature de l'individuation.
 
-L'attention dans cette perspective n’est pas une ressource qui s'épuise, mais un système d'amplification de la relation. Les mouvementements - cette vie imperceptible qui tapisse notre couplage au monde - ne deviendraient accessibles que lorsque nous développons la capacité à zoomer sur ces échelles fines. Non pas "faire plus attention", mais déployer les surfaces d'échange.
+Mais il reste une question fondamentale : **à quoi s'applique cette méthode ?**
 
-L'enseignant ne change alors en pisteur : il s'enforeste dans le processus d'apprentissage, piste les traces de ce qui émerge, maintient sa propre intégration comme plateforme résonnante. Comme les métronomes sur la planche qui se synchronisent spontanément, les îlots pédagogiques créeraient un champ de résonances où l'apprenant trouve sa propre manière de s'accorder.
+### Circonscrire un régime d'attention
 
-Car la participation n’est jamais reproduction. Elle serait toujours improvisation dans la structure - comme dans une fugue de Bach où chaque voix improvise son contrepoint tout en maintenant la cohérence de l'ensemble.
+Au mouvement ? À la danse ? Ce serait réducteur. À "l'expérience incarnée" ? Trop vague. À "la vie" ? Dangereusement totalisateur.
 
-Cette capacité d'improvisation se cultive par une confiance incarnée : si tu écoutes, si tu t'exposes, si tu amplifies tes surfaces d'échange, si tu déploies tes échelles de résolution - quelque chose peut émerger. Pas n'importe quoi (le territoire est structuré), mais pas exactement ce qu'on peut prédire (l'individuation est créatrice).
+Jean-François Billeter, dans ses _Leçons sur Tchouang-tseu_, pointe quelque chose de crucial : Tchouang-tseu ne propose pas une méthode universelle, mais décrit un **régime d'attention** particulier – une manière de s'accorder au cours des choses quand on cherche à agir avec efficacité sans forcer.[^billeter]
 
-Nous revenons toujours à la marche. Mais elle résonne différemment. L'espace semble s'être déplié. Le sol porte autrement. Et nous pouvons repartir - car le territoire fractal de l'expérience incarnée ne s’épuise jamais totalement.
+Le boucher qui découpe le bœuf, l'artisan qui façonne la roue, le nageur qui se laisse porter par le courant – tous cultivent ce régime où l'effort cède la place à l'ajustement fin, où la volonté de maîtriser fait place à la réceptivité aux lignes de force du réel.
 
-Spiraler dans le vécu, s'enforester dans la marche - non pas progresser linéairement vers un but, mais approfondir fractalement une relation. Non pas accumuler des savoirs, mais amplifier des surfaces d'échange.
+**Mais** – et c'est décisif – ce régime ne s'applique pas à tout. Il ne s'applique pas quand il faut **résister**, s'opposer, lutter contre une force injuste. Le boucher ne résiste pas au bœuf, mais face à l'oppression, la non-résistance devient complicité.
 
-_Quaerendo invenietis_ - en cherchant, vous trouverez. Mais ce que vous trouverez transformera celui qui cherche. C'est peut-être cela, la Boucle Étrange.
+### Le risque politique du lissage
+
+C'est là que notre méthode disséciatrice rencontre sa limite – ou plutôt, la nécessité de circonscrire son champ. Car il y a un risque réel : que cette logique de "s'accorder au réel", de "dissoudre les problèmes plutôt que les résoudre", de "résonner plutôt que s'opposer" devienne une **neutralisation des rapports de force**.
+
+Si tout est couplage, où placer la critique ? Si tout se co-constitue, comment nommer l'oppression ? Si la résonance harmonise, comment maintenir le conflit nécessaire ?
+
+Ce n'est pas une objection théorique – c'est une question politique urgente. La pensée de la relation, quand elle oublie le rapport de force, risque de devenir une écologie douce qui naturalise la domination. "Tout est lié" peut glisser insidieusement vers "donc tout est acceptable tel quel".
+
+### Critères d'applicabilité
+
+Alors où s'applique cette méthode disséciatrice ?
+
+**Proposition** : elle s'applique là où le problème est **créé par la méthode focalisée elle-même**. Là où la tentative de contrôle produit la rigidité, où la séparation crée l'aliénation, où la correction renforce le symptôme.
+
+Plus précisément : dans les situations où :
+
+1. On cherche à transformer un **couplage habituel** ( mouvement, attention, relation à un environnement)
+2. Ce couplage est maintenu par des **boucles réactives**
+3. La tentative de contrôle direct **aggrave** le pattern qu'on cherche à changer
+4. Il existe une **marge de manœuvre** – la situation n'est pas sous contrainte externe incontournable
+
+**Exemples où ça s'applique** :
+
+- Explorer les conditions d'un mouvement (aucune force externe ne m'oblige à me contracter)
+- Transformer une habitude (c'est mon pattern, pas une contrainte imposée)
+- Cultiver une qualité attentionnelle (je peux moduler mon preparatory set)
+- Apprendre un geste complexe (je peux suspendre, explorer, laisser émerger)
+
+**Exemples où ça ne s'applique pas** :
+
+- Face à une structure oppressive (le problème n'est pas dans mon couplage mais dans le rapport de domination)
+- Face à une violence directe
+- Face à une injustice systémique (dissoudre le problème reviendrait à l'accepter)
+- Quand le conflit est nécessaire et légitime (il faut s'opposer, pas résonner)
+
+### Pluralité des régimes
+
+Parfois l'accordage (quand c'est opérant), parfois la résistance (quand c'est nécessaire). L'erreur serait de croire qu'un seul régime suffit pour tout.
+
+De même ici : la méthode disséciatrice n'est pas "la vraie méthode" qui remplacerait toutes les autres. Elle est **un régime d'attention** approprié pour certaines situations – celles où la transformation passe par la dissolution des boucles réactives plutôt que par l'opposition frontale.
+
+Mais elle coexiste avec d'autres régimes :
+
+- Le régime **critique** qui analyse les rapports de pouvoir
+- Le régime **conflictuel** qui s'oppose à l'injustice
+- Le régime **analytique** qui découpe pour comprendre
+- Le régime **militant** qui lutte pour transformer les structures
+
+Aucun ne remplace les autres. Chacun a son champ d'application, ses forces, ses angles morts.
+
+### La vigilance comme exercice politique
+
+Reste une tension : comment articuler ce régime d'accordage avec la nécessité du conflit politique ?
+
+Nous ne prétendons pas du tout avoir la réponse définitive. Ce que nous proposons, c'est de ne pas **généraliser** abusivement : ce qui fonctionne pour transformer une habitude posturale ne s'applique pas nécessairement aux luttes collectives. Ce qui dissout un problème d'apprentissage ne dissout pas une structure de domination.
+
+Peut-être que la vigilance consiste à toujours se demander : **ce problème que je cherche à dissoudre, est-il vraiment créé par ma méthode ? Ou existe-t-il indépendamment de ma manière de l'aborder ?**
+
+Si c'est le premier cas (problème créé par la méthode focalisée), alors dissécier peut être opérant. La suspension, l'inhibition, la résonance peuvent libérer des possibilités que le contrôle maintenait hors de portée.
+
+Si c'est le second cas (problème structurel, violence imposée, injustice systémique), alors l'accordage risque de devenir complaisance. Ou encore – que la situation demande, invite à résister, s'opposer, lutter.
+
+Savoir distinguer ces situations, c'est déjà un exercice politique.
+
+### Spiraler, encore
+
+La méthode disséciatrice ne résout pas tout. Elle dissout certains problèmes dans certaines situations. Mais dans son champ – celui des couplages habituels maintenus par des boucles réactives – elle ouvre des possibilités remarquables.
+
+Elle permet de **spiraler dans le vécu** : non pas progresser linéairement vers un but, mais approfondir fractalement une relation. Non pas accumuler des savoirs, mais amplifier des surfaces d'échange. Non pas maîtriser le monde, mais danser avec lui dans les situations où cette danse est possible.
+
+_Quaerendo invenietis_ – en cherchant, vous trouverez. Mais ce que vous trouverez transformera celui qui cherche. Et cette transformation, loin d'être une fin en soi, ouvre à la question politique urgente : **transformer pour quoi faire ?** Vers quelle configuration du monde voulons-nous spiraler ?
+
+Question ouverte.
 
 ---
 
@@ -467,6 +550,8 @@ _Quaerendo invenietis_ - en cherchant, vous trouverez. Mais ce que vous trouvere
 **von Uexküll, J.** (2010). _Théorie de la signification_. Éditions du Seuil. [Œuvres choisies]
 
 **Bitbol, M.** (2014). _La conscience a-t-elle ses neurones ?_. Flammarion. ISBN : 978-2081307908
+
+**Billeter, J.-F.** (2002). _Leçons sur Tchouang-tseu_. Allia. ISBN : 978-2844851055
 
 ### 2. Neurosciences, psychologie et phénoménologie
 
@@ -549,3 +634,7 @@ _Quaerendo invenietis_ - en cherchant, vous trouverez. Mais ce que vous trouvere
 ---
 
 **Sources non publiées** : La conférence de Gorman (1993) est référencée comme document disponible auprès du Centre for Training (Londres).
+
+[^1]: **Citton, Y.** (2014). _Pour une écologie de l'attention_. Seuil. ISBN : 978-2021181425. Citton propose de passer d'une "économie" (gestion de la rareté) à une "écologie" (culture de la biodiversité attentionnelle)
+
+[^2]: **Stiegler, B.** (2008). _Prendre soin : De la jeunesse et des générations_. Flammarion. ISBN : 978-2081218291. Voir notamment le vol. 1 sur la captation attentionnelle et la "psychopouvoir"
