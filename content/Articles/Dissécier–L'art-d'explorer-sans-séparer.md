@@ -22,6 +22,46 @@ Auteur: Matthieu.G
 
 ## Dissécier sans dissocier : L'architecture pédagogique comme méthode récursive
 
+Avant de nous jeter à corps perdu dans le prochain développement, laissez-moi
+vous partager une vidéo qui me hante depuis plusieurs années. La décrire permettra
+peut-être de rendre compte de la façon dont elle s'est inscrite en moi. J'ajouterai
+le lien ensuite si vous souhaitez la regarder.
+
+La scène s'ouvre sur une salle au sol noir, que l'on devine destinée à la danse.
+Quelques jeunes filles – six ou sept ans – en justaucorps noirs assistent à ce
+qui semble être leur premier cours. La professeure passe entre elles, alignées,
+et les "place" en première position.
+
+Position inaugurale à partir de laquelle se développera progressivement toute
+une grammaire : jetés, relevés, pliés, sauts de chat, piqués. Vocabulaire dense
+qui demandera des trésors d'ingéniosité pour que l'équilibre soit progressivement
+conféré à un **second sol** – celui de l'oreille interne. Ce système vestibulaire
+prendra le relais du sol visible pour habiter des variations complexes sur des
+appuis raréfiés.
+
+Mais avant que cette grammaire ne s'incorpore, regardez cette petite fille, là,
+à droite de l'écran. Elle ne parvient pas à garder son équilibre, les pieds
+assignés à cette nouvelle configuration. Elle chute, défaisant du même coup
+l'assemblage précaire dans lequel elle était censée "tenir debout". Elle perd
+cette première position et ne parvient pas, malgré d'intenses contorsions –
+gesticulations somme toute assez comiques – à retrouver, à réinvestir cette
+fameuse **empreinte kinesthésique** qui lui avait été si "généreusement" offerte.
+
+Et puis – **le moment inaugural** – après s'être appuyée du regard sur sa camarade,
+elle s'apprête à faire ce geste impensable quelques instants auparavant : celui
+de glisser ses propres mains dans les empreintes de mains de sa professeure, et
+de s'appliquer **elle-même** cette configuration première.
+
+Mais demeure un écart important entre ces deux registres d'images. Chaplin est
+**pris** dans la machine, avalé par elle jusqu'à la faire dérailler. La jeune
+fille, elle, **introjecte** – dans un jeu de miroir abyssal – le geste : de
+danse, de placement, d'attention. Geste de reprise **et** d'assignation d'elle-même
+par elle-même.
+
+C'est cette **violence inaugurale** à l'apprentissage de la danse qui s'est
+**enkystée** en moi comme germe de questionnement foisonnant et qui hante cette
+[[Vidéo-tragedy-first-position|section]].
+
 ### La posture intenable de l'autopoïèse
 
 Nous héritons d'une culture dualiste où "explorer un geste" semble évident : une partie de moi (volonté, conscience) observe et agit sur une autre partie (corps, automatisme). Cette séparation structure notre pensée, notre langage, nos institutions. Mais cette évidence toute simple pose un problème encore plus simple : **je ne peux pas sortir du système pour l'observer**.

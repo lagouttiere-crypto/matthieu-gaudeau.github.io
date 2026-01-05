@@ -16,7 +16,7 @@ Auteur: Matthieu.G
 **Geste propitiatoire** : [[Spirales fugales–Quand-l'apprentissage-réverbère|3.1 spirales fugales]] · [[Dissécier–L'art-d'explorer-sans-séparer|3.2-dissecier]] · [[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|3.3-enseignant-pisteur]]  
 **Vous êtes ici : 3.3 - enseignant-pisteur**
 
-> [! ]
+> [! Contexte]
 > **Rappel : Dissécier sans dissocier**
 > Dans la partie précédente, nous avons affronté le paradoxe central de toute exploration incarnée : **on ne peut pas sortir du système pour l'observer**. Cette posture intenable de l'autopoïèse exige une méthode radicalement différente. **Dissécier** n'est ni disséquer (tuer pour comprendre) ni dissocier (séparer ce qui était tissé). C'est explorer les articulations d'un couplage vivant sans le rompre – comme le pisteur suit les traces sans capturer l'animal. Cette méthode passe par : - **L'inhibition** (Alexander) : suspension du système entier, non contrôle volontaire d'une partie sur une autre - **L'épochè** (Varela, Depraz, Vermersch) : suspension, redirection, lâcher-prise - **Transformation des conditions** : agir sur le preparatory set en amont, pas sur le symptôme conscient qui arrive toujours trop tard (Libet, Gorman) Nous avons vu que la pédagogie fonctionne comme une **partition fugale** : les explorations ne s'additionnent pas, elles réverbèrent, créant des harmoniques qui révèlent des dimensions imperceptibles. Et comme les métronomes sur une plateforme souple, elles se synchronisent spontanément par couplage, sans contrôle centralisé. Mais qui crée et maintient cette plateforme ? Comment l'enseignant peut-il accompagner cette émergence **sans la forcer**, contenir l'expérience **sans la contrôler** ? Comment s'enforester avec l'apprenant dans le territoire fractal de l'expérience tout en maintenant sa propre intégration ? C'est la question du **rôle de l'enseignant** dans ce nouveau paradigme pédagogique.
 
@@ -26,7 +26,7 @@ Auteur: Matthieu.G
 
 Avant de développer notre conception de l'attention comme système fractal, confrontons-nous à l'imaginaire dominant qui façonne notre rapport à l'attention aujourd'hui.
 
-En 2004, Patrick Le Lay, PDG de TF1, énonçait crûment : « Ce que nous vendons à Coca-Cola, c'est du temps de cerveau humain disponible. » Cette formule scandaleuse n'était que l'énoncé explicite d'une conception devenue hégémonique : l'attention comme ressource extractible. _Le Lay (2004, Les dirigeants face au changement, Ed. Huitième Jour)_
+En 2004, Patrick Le Lay, PDG de TF1, énonçait crûment : « Ce que nous vendons à Coca-Cola, c'est du temps de cerveau humain disponible. »[^1]. Cette formule scandaleuse n'était que l'énoncé explicite d'une conception devenue hégémonique : l'attention comme ressource extractible.
 
 Dans cet imaginaire, l'attention serait :
 
@@ -71,7 +71,7 @@ Depuis l'approche énactive, la conception de l'attention comme ressource extrac
 
 **Une critique déjà bien établie**
 
-Cette critique de "l'économie de l'attention" a été développée de manière importante par Yves Citton[^1] et Bernard Stiegler[^2]. Citton montre que penser l'attention comme capital rare à protéger reproduit précisément la logique néolibérale qu'on cherche à critiquer. Stiegler, lui, analyse comment les "technologies de captation attentionnelle" produisent une prolétarisation de l'attention – une dépossession de la capacité à former soi-même son attention.
+Cette critique de "l'économie de l'attention" a été développée de manière importante par Yves Citton[^2] et Bernard Stiegler[^3]. Citton montre que penser l'attention comme capital rare à protéger reproduit précisément la logique néolibérale qu'on cherche à critiquer. Stiegler, lui, analyse comment les "technologies de captation attentionnelle" produisent une prolétarisation de l'attention – une dépossession de la capacité à former soi-même son attention.
 
 Leur critique converge sur un point crucial : **le problème n'est pas la "perte" d'attention (comme si on en possédait un stock), mais la colonisation des régimes attentionnels** par des dispositifs qui imposent un seul mode de couplage au monde.
 
@@ -635,6 +635,8 @@ Question ouverte.
 
 **Sources non publiées** : La conférence de Gorman (1993) est référencée comme document disponible auprès du Centre for Training (Londres).
 
-[^1]: **Citton, Y.** (2014). _Pour une écologie de l'attention_. Seuil. ISBN : 978-2021181425. Citton propose de passer d'une "économie" (gestion de la rareté) à une "écologie" (culture de la biodiversité attentionnelle)
+[^2]: **Citton, Y.** (2014). _Pour une écologie de l'attention_. Seuil. ISBN : 978-2021181425. Citton propose de passer d'une "économie" (gestion de la rareté) à une "écologie" (culture de la biodiversité attentionnelle)
 
-[^2]: **Stiegler, B.** (2008). _Prendre soin : De la jeunesse et des générations_. Flammarion. ISBN : 978-2081218291. Voir notamment le vol. 1 sur la captation attentionnelle et la "psychopouvoir"
+[^3]: **Stiegler, B.** (2008). _Prendre soin : De la jeunesse et des générations_. Flammarion. ISBN : 978-2081218291. Voir notamment le vol. 1 sur la captation attentionnelle et la "psychopouvoir"
+
+[^1]: **Le Lay** (2004, Les dirigeants face au changement, Ed. Huitième Jour)\*
