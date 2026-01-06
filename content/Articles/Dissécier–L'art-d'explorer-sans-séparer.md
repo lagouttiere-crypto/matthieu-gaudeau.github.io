@@ -23,21 +23,17 @@ Auteur: Matthieu.G
 ## Dissécier sans dissocier : L'architecture pédagogique comme méthode récursive
 
 Avant de nous jeter à corps perdu dans le prochain développement, laissez-moi
-vous partager une vidéo qui me hante depuis plusieurs années. La décrire permettra
-peut-être de rendre compte de la façon dont elle s'est inscrite en moi. J'ajouterai
-le lien ensuite si vous souhaitez la regarder.
+vous partager une vidéo qui me hante depuis plusieurs années. La décrire permettra peut-être de rendre compte de la façon dont elle s'est inscrite en moi. J'ajouterai le lien ensuite si vous souhaitez la regarder.
 
 La scène s'ouvre sur une salle au sol noir, que l'on devine destinée à la danse.
-Quelques jeunes filles – six ou sept ans – en justaucorps noirs assistent à ce
-qui semble être leur premier cours. La professeure passe entre elles, alignées,
-et les "place" en première position.
+Quelques jeunes filles – six ou sept ans – en justaucorps noirs assistent, à ce
+qui semble être leur premier cours de danse classique. La professeure passe entre elles, alignées, et les "place" en première position.
 
 Position inaugurale à partir de laquelle se développera progressivement toute
 une grammaire : jetés, relevés, pliés, sauts de chat, piqués. Vocabulaire dense
 qui demandera des trésors d'ingéniosité pour que l'équilibre soit progressivement
 conféré à un **second sol** – celui de l'oreille interne. Ce système vestibulaire
-prendra le relais du sol visible pour habiter des variations complexes sur des
-appuis raréfiés.
+prendra le relais de ce sol, celui que nous partageons avec elle, pour lui permettre d'habiter des variations complexes sur des appuis raréfiés.
 
 Mais avant que cette grammaire ne s'incorpore, regardez cette petite fille, là,
 à droite de l'écran. Elle ne parvient pas à garder son équilibre, les pieds
@@ -52,13 +48,12 @@ elle s'apprête à faire ce geste impensable quelques instants auparavant : celu
 de glisser ses propres mains dans les empreintes de mains de sa professeure, et
 de s'appliquer **elle-même** cette configuration première.
 
-Mais demeure un écart important entre ces deux registres d'images. Chaplin est
-**pris** dans la machine, avalé par elle jusqu'à la faire dérailler. La jeune
-fille, elle, **introjecte** – dans un jeu de miroir abyssal – le geste : de
-danse, de placement, d'attention. Geste de reprise **et** d'assignation d'elle-même
-par elle-même.
+Désormais, cette image peut rester gravée en moi comme geste éminemment premier de cette boucle récursive folle. Témoin de notre impossibilité à introjecter certains gestes, sauf au prix d’efforts repliant furieusement le corps sur lui-même - à l’image, elle aussi sidérante, d’un Chaplin feuilleté dans cet assemblage corps-machine des _temps modernes_.
 
-C'est cette **violence inaugurale** à l'apprentissage de la danse qui s'est
+Mais demeure un écart important entre ces deux registres d'images. Chaplin est
+**pris** dans la machine, avalé par elle jusqu'à la faire dérailler. La jeune fille, elle, **introjecte** – dans un jeu de miroir abyssal – le geste : de danse, de placement, d'attention. Geste de reprise **et** d'assignation d'elle-même par elle-même.
+
+C'est cette **violence inaugurale**, à l'apprentissage de la danse qui s'est
 **enkystée** en moi comme germe de questionnement foisonnant et qui hante cette
 [[Vidéo-tragedy-first-position|section]].
 
