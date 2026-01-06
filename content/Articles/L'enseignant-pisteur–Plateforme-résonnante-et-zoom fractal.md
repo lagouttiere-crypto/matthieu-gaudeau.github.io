@@ -79,7 +79,7 @@ L'approche énactive que nous développons ici prolonge cette critique tout en l
 
 **Les dispositifs comme configurateurs de couplage**
 
-Les dispositifs de capture fonctionneraient parce qu'ils configurent un certain type de couplage - ergotropique, réactif, à échelle macro, focalisé. Ils créeraient un environnement où le preparatory set est maintenu en état de vigilance/alerte, où les micro-stimuli déclenchent des réponses quasi-automatiques, où l'échelle de résolution reste bloquée au niveau des saliences grossières.
+Les dispositifs de capture fonctionneraient parce qu'ils configurent un certain type de couplage - ergotropique, réactif, à échelle macro, focalisé. Ils créeraient un environnement où le preparatory set est maintenu en état de vigilance/alerte, où les micro-stimuli déclenchent des réponses quasi-automatiques, où l'échelle de résolution reste bloquée au niveau des saillances grossières.
 
 Mais l'attention elle-même ne s'épuiserait pas. Ce qui s'éroderait, ce serait la capacité à moduler le couplage – à passer d'une configuration à une autre, à zoomer entre les échelles, à suspendre la réactivité ergotropique pour accéder à une réception trophotropique.
 
@@ -104,7 +104,7 @@ Et ce couplage, loin de s'épuiser par l'usage, s'enrichirait : plus on dévelop
 
 ### Le zoom fractal : la côte bretonne de Mandelbrot
 
-Pour comprendre cette amplification fractale, considérons l'exemple célèbre de Benoît Mandelbrot sur la mesure de la côte bretonne (Nous avons choisi Bretonne, par simple valence affective).
+Pour comprendre cette amplification fractale, considérons l'exemple célèbre de Benoît Mandelbrot sur la mesure de la côte bretonne (Nous avons choisi Bretonne, par simple valence affective) et pardon pour les lecteurs qui ont déjà débroussaillé le terrain dans les articles précédents...
 
 Vue d'un satellite, la côte apparaît comme une ligne relativement simple. On pourrait mesurer sa longueur en suivant les grands contours - disons, 1000 kilomètres. Mais descendons au niveau de la carte topographique : chaque baie révèle des criques, chaque cap révèle des pointes. Si on mesure en suivant tous ces détails, la longueur augmente - disons, 1500 kilomètres.
 
@@ -118,7 +118,7 @@ Ce ne serait pas un paradoxe, ce serait une propriété fondamentale des **objet
 
 Proposons que l’attention incarnée fonctionne comme ce zoom fractal sur la côte. Elle ne serait pas une quantité fixe qu'on distribue entre différents objets. Elle serait une **capacité à varier l'échelle de résolution du couplage**.
 
-Prenons l'exemple du grimpeur expert et du débutant face à une même paroi rocheuse.
+Prenons l'exemple du grimpeur expert et du débutant face à une même paroi rocheuse. (là encore, désolé pour cette reprise mais l'analogie du grimpeur me parle personnellement beaucoup. Mais vous pouvez transposer cela au contact improvisation, pensez à la façon dont un partenaire devient au fil des danses une diversité infinie d'appuis, ou encore à une partition qui se met à sonner, la fugue de Bach qui livre sa complexité au musicien averti, un livre de philosophie, un programme informatique, un tableau qu'un ami vous rend visible pour la première fois... Bref le grimpeur donc )
 
 Le **débutant** voit :
 
@@ -135,11 +135,31 @@ Le **grimpeur expérimenté** voit :
 
 Ce ne serait pas que l'expert "a plus d'attention" au sens d'une quantité. C'est qu'il aurait développé la capacité de **déployer différentes résolutions de couplage** main-roche. À l'échelle micro, chaque texture révélerait des affordances de prise invisibles au macro. Et ces affordances ne seraient pas "cachées dans la roche" - elles **émergeraient à cette échelle de la relation**.
 
-Exactement comme les détails de la côte bretonne : ils ne seraient pas "cachés" attendant d'être "découverts". Ils **n'existeraient qu'à une certaine échelle**. À l'échelle du satellite, il n'y aurait pas de galets. À l'échelle du microscope, il n'y aurait pas de baies. Chaque échelle révélerait des structures qui lui sont propres.
+Exactement comme les détails de la côte bretonne : ils ne seraient pas "cachés"
+attendant d'être "découverts". Ils **n'existeraient qu'à une certaine échelle**.
+À l'échelle du satellite, il n'y aurait pas de galets. À l'échelle du microscope,
+il n'y aurait pas de baies. Chaque échelle révélerait des structures qui lui
+sont propres.
+
+**Un vertige de taille**
+
+Faisons un petite pause "science spéculative" pour respirer un peu si vous voulez bien.
+Du haut de la falaise, imaginons que contre toute attente, des extraterrestres venaient à trouver la Terre. Le plus stupéfiant ne serait peut-être pas qu'ils soient là, mais que nous nous trouvions **à la même échelle**. Nous pourrions juste nous passer à côté. Entre l'échelle de Planck (10⁻³⁵ m) et l'échelle cosmologique (10²⁶ m), nous existons autour du mètre (10⁰ m). Si une intelligence émergente opérait à l'échelle nanométrique ou galactique, nous ne pourrions simplement pas nous **rencontrer** – non par absence de langage commun, mais par absence d'échelle commune.
+
+Ce vertige révèle quelque chose de crucial : notre échelle corporelle (le mètre,
+la seconde, le kilogramme) n'est pas "la réalité" dont les autres échelles
+seraient des détails ou des abstractions. C'est **une fenêtre** dans un spectre
+immense, aussi contingente que l'Umwelt de la tique ou du chien.
+
+L'attention fractale, dès lors, ne serait pas seulement la capacité à zoomer
+**dans** notre échelle habituelle (macro → méso → micro → nano). Ce serait la
+capacité à **décentrer** notre échelle de référence, à réaliser que le "sol
+stable" n'existe qu'à notre échelle, et qu'à l'échelle micro, c'est un champ
+vibratoire.
 
 L'attention fractale, ce serait peut-être précisément cette capacité à **naviguer entre les échelles** - à zoomer in et out selon ce que la situation appelle, déployant à chaque échelle de nouvelles dimensions de la relation.
 
-Et contrairement à la ressource extractible qui s'épuise par usage, **l'attention fractale s'enrichirait par l'usage** : plus on développe la sensibilité aux micro-variations, plus on découvre de niveaux de détail, dans une spirale infinie d'approfondissement.
+Et contrairement à la ressource extractible qui s'épuise par usage, **l'attention fractale elle s'enrichis par l'usage** : plus on développe la sensibilité aux micro-variations, plus on découvre de niveaux de détail, dans une spirale infinie d'approfondissement.
 
 ### Le pré-mouvement comme transformation du couplage
 
@@ -149,7 +169,7 @@ Le préfixe "pré-" dans pré-mouvement indiquerait d'abord que les ajustements 
 
 Mais Godard étend ce principe au-delà des seuls déplacements visibles : « Si je veux tendre un bras devant moi, le premier muscle à entrer en action, avant même que mon bras ait bougé, sera le muscle du mollet, qui anticipe la déstabilisation que va provoquer le poids du bras vers l'avant. »
 
-Et ces pré-mouvements qui anticipent sur des gestes de la jambe et du pied sont encore visibles. Mais Godard va plus loin : « le moindre clin d'œil, le moindre coup de langue, le plus petit frémissement a ses pré-mouvements, ses "mouvementements" intérieurs qui tapissent, d'une toile de fond à peine sensible, ma vie motrice. »
+Et ces pré-mouvements qui anticipent sur des gestes de la jambe et du pied sont encore visibles. Mais Godard va plus loin : « le moindre clin d'œil, le moindre coup de langue, le plus petit frémissement a ses pré-mouvements, ses "mouvementements" intérieurs qui tapissent, d'une toile de fond à peine sensible, ma vie motrice. »[^4]
 
 **Pré-mouvement et preparatory set**
 
@@ -161,21 +181,31 @@ Dès lors, transformer le PS - passer d'une configuration ergotropique à une co
 
 Godard distingue deux modes de toucher pour expliciter le toucher pratiqué dans la Technique Alexander.
 
-Premier mode : commande volontaire, projet instrumental, voie alpha. Même avec "gentillesse", ce mode imposerait.
+Premier mode : commande volontaire, projet instrumental, voie alpha. Même avec "gentillesse", ce mode "impose".
 
-Second mode : « Mes mains sont en réception totale. Il n'y a aucun projet instrumental. Une contagion s'opère. C'est le rapport haptique que j'ai avec mes pieds qui s'ouvre avec la tête qui monte. » Dans ce mode, la personne commencerait à se lever avant même qu'on la lève, parce que le pré-mouvement aurait déjà transformé le champ du couplage.
+Second mode : « Mes mains sont en réception totale. Il n'y a aucun projet instrumental. Une contagion s'opère. C'est le rapport haptique que j'ai avec mes pieds qui s'ouvre avec la tête qui monte. » Dans ce mode, la personne commencerait à se lever avant même qu'on la lève, parce que le pré-mouvement aurait déjà transformé le champ du couplage.[^5]
 
-Cette distinction ne porte pas sur le geste visible, mais sur la toile de fond - les pré-mouvements qui sous-tendent le geste. Et Godard précise : cette toile de fond « déclenche la motricité gamma qui est souscorticale, qui n'est pas du registre de la commande directe ».
+Cette distinction ne porte pas sur le geste visible, mais sur la toile de fond - les pré-mouvements qui sous-tendent le geste. Et Godard précise : cette toile de fond « déclenche la motricité gamma qui est souscorticale, qui n'est pas du registre de la commande directe ».[^5]
 
-C'est exactement ce que les recherches sur l'hypnose ont montré : la transformation du système nerveux autonome ne serait pas sous contrôle volontaire. On ne pourrait pas "décider" de modifier son PS. Mais on pourrait créer les conditions - par la suspension, par la réception haptique, par l'attention aux micro-variations - pour que cette transformation advienne.
+C'est exactement ce que les recherches sur l'hypnose ont montré : la transformation du système nerveux autonome ne serait pas sous contrôle volontaire. On ne pourrait pas "décider" de modifier son PS. Mais on pourrait créer les conditions - par la suspension, par la réception haptique, par l'induction, par l'attention aux micro-variations - pour que cette transformation advienne.
 
 **Une vie imperceptible du couplage**
 
-Ces frémissements, ces micro-ajustements toniques qui "tapissent d'une toile de fond à peine sensible" notre vie motrice, c'est à cette échelle que se jouerait la transformation du couplage. Non pas au niveau des gestes visibles, mais au niveau des mouvementements qui précèdent, anticipent, sous-tendent ces gestes.
+Ces frémissements, ces micro-ajustements toniques qui "tapissent d'une toile de fond à peine sensible" notre vie motrice, c'est à cette échelle que se jouerait la transformation du couplage. Non pas au niveau des gestes visibles, mais au niveau des mouvementements qui précèdent, anticipent, sous-tendent ces gestes.[^4]
 
 Ces mouvementements constitueraient l'échelle micro du couplage - cette résolution fine que la focalisation et la contraction rendraient inaccessible, mais que la suspension et la réception périphérique permettraient d'amplifier.
 
-Quand on revient à la marche après une exploration somatique, ce qui a changé, ce n’est pas nécessairement les paramètres biomécaniques mesurables. Ce qui a changé, ce sont les mouvementements - cette vie imperceptible qui reconfigure le couplage au sol, à la gravité, à l'espace.
+Quand on revient à la marche après une exploration somatique, ce qui a changé,
+ce n'est pas nécessairement les paramètres biomécaniques mesurables. Ce qui a
+changé, ce sont les mouvementements – cette **vie imperceptible, inchoative**,
+qui reconfigure le couplage et **dont dépend le sol, le corps, l'espace dans
+leur apparaître**.
+
+Non pas que le sol "réel" resterait inchangé tandis que ma "perception" changerait.
+Mais que **le sol n'existe pour moi que dans son apparaître** – et cet apparaître
+est configuré par le pré-mouvement. À l'échelle du couplage, il n'y a pas de
+"sol en soi" séparé de "mon corps en soi". Il y a un **champ relationnel** dont
+émergent, indissociablement, le sol-qui-porte-et-le-corps-qui-est-porté.
 
 ### Le preparatory set comme filtre fractal
 
@@ -193,28 +223,28 @@ Un PS en configuration **trophotropique** (orienté vers le repos, l'exploration
 - Permettrait l'accès aux échelles méso et micro
 - Maintiendrait simultanément plusieurs échelles (périphérie ET focus)
 - Déploierait le champ perceptif (réception inconditionnelle)
-- Amplifierait l'activité vestibulaire
+- Amplifierait l'activité vestibulaire[^6]
 
 Il ne s'agit pas de dire qu'une configuration serait "meilleure". L'ergotropique serait nécessaire face à un danger réel. Le problème surviendrait quand cette configuration se **chronicise**, quand elle devient le mode par défaut même en l'absence de danger.
 
-Les études sur l'hypnose montrent des modifications du système nerveux autonome qui s'accompagnent de transformations de l'expérience perceptive.
+Rappelons-nous que les études sur l'hypnose montrent des modifications du système nerveux autonome qui s'accompagnent de transformations de l'expérience perceptive.
 
 Ce que rapportent les praticiens quand il témoigne de changements perceptifs, pièce plus grande, profondeur de l’espace, image du corps modifiée, ne seraient pas des métaphores - elles témoigneraient d'un **changement d'échelle de résolution du couplage**.
 Les études comme celle de La Flèche (2018) sur les ballerines et de Brodie (2010) sur les danseurs montrent que les pratiques somatiques favorisent une image corporelle plus intégrée et positive via une conscience sensorielle accrue, bien que limitées à des échantillons restreints et majoritairement qualitatives.
 
 ### La marche comme territoire fractal
 
-La marche ne serait pas un geste simple qu'on pourrait "apprendre une fois pour toutes". Ce serait un **territoire fractal** qu'on peut arpenter à différentes échelles :
+La _marche_ ne serait pas un geste simple qu'on pourrait "apprendre une fois pour toutes". Ce serait un **territoire fractal** qu'on peut arpenter à différentes échelles :
 
 **Échelle Macro** : Se déplacer d'un point A à un point B, éviter les obstacles, réguler la vitesse
-
+⇅
 **Échelle Méso** : Sentir le transfert de poids, percevoir le déroulé du pied, ajuster la longueur de pas
-
+⇅
 **Échelle Micro** : Détecter les micro-ajustements toniques, sentir les variations de texture du sol, percevoir les modifications du vecteur gravitaire
-
+⇅
 **Échelle Nano** : Capter les résonances vestibulaires, sentir les variations de l'espace imaginaire, percevoir les micro-fluctuations de l'équilibre
 
-Le débutant marche à l'échelle macro. Le praticien expérimenté n'aurait pas "mieux appris" à marcher - il aurait **déplié plus d'échelles**. Il pourrait marcher au macro quand nécessaire, mais il pourrait aussi zoomer au méso, au micro, au nano.
+Le débutant marche à l'échelle macro. Le praticien expérimenté n'aurait pas "mieux appris" à marcher - il aurait **déplié plus d'échelles**. Il pourrait marcher au macro quand nécessaire, mais il pourrait aussi zoomer au méso, au micro, au nano [^7].
 
 Et ce déploiement ne s'arrête d’un certaine façon jamais. Même après des années de pratique, de nouvelles dimensions peuvent émerger - parce qu'elles n'existeraient qu'à des échelles de résolution encore non explorées. Comme la côte bretonne dont la longueur augmente à mesure qu'on affine la mesure, la marche révélerait une richesse infinie à mesure qu'on affine le couplage.
 
@@ -246,6 +276,59 @@ Si l'espace paraît "plus grand", la lumière "plus lumineuse", ce serait que **
 
 Ce n’est pas une illusion. C’est une **réalité augmentée sans prothèse** : augmentation non par addition de dispositifs technologiques, mais par déploiement fractal des surfaces d'échange.
 
+---
+
+**Pause ressourcement !**
+
+Je vous propose de souffler un peu pendant que je vous raconte une anecdote.
+
+Il y a quelques années – pour les plus jeunes d'entre vous, cela va paraître un
+peu dingue – l'ostéopathie était **loin** d'être aussi répandue qu'aujourd'hui.
+Il était juste impensable que des praticiens puissent exercer dans des maternités. Pure fiction. L'ostéopathie se pratiquait dans des stages un peu fermés, voire suspects. (À ce propos, il en était de même pour la méditation – que l'on trouve aujourd'hui en application à télécharger sur nos téléphones.)
+
+Pourquoi je vous parle de tout cela ?
+
+Parce que je me souviens d'avoir lu le témoignage troublant d'un étudiant ostéopathe qui croyait devenir fou. Il avait commencé à percevoir ce mouvement infime de la **respiration primaire** – jusque-là, rien d'incroyable (enfin presque). Mais le plus étrange était qu'il percevait maintenant ce mouvement **partout** : sur les tables, les murs, les objets inertes. Tout semblait animé d'une respiration subtile.
+
+Un peu inquiété, il finit par s'en ouvrir à ses compagnons de route. Quelques-uns avaient vécu exactement la même chose. Était-ce une hallucination collective ? Un délire partagé ?
+
+La conclusion – et c'est là que ça devient intéressant – fut à la fois rassurante
+et vertigineuse. Ce qu'ils percevaient n'était pas "la table qui respire" (ce qui
+aurait été mystique et inquiétant), mais **l'écho de leur propre mouvement dans
+le couplage avec la table**. Leurs mains, devenues sensibles aux micro-variations
+toniques, captaient maintenant la **boucle** : leur propre micro-mouvement →
+réponse de l'objet → ajustement → réponse...
+
+Ce qu'ils prenaient pour une propriété de l'objet ("ça respire") était en fait
+**le système main-objet révélé**. Ils ne percevaient pas "plus" que ce qui était
+là – ils percevaient **autrement**. Leur preparatory set s'était reconfiguré pour
+capter des échelles de couplage auparavant invisibles.
+
+La chose était d'une certaine façon incroyablement **banale** – et pourtant
+radicalement transformatrice. Banale parce que rien de magique : juste un couplage devenu sensible. Transformatrice parce que leur monde avait changé : ce qui était "inerte" était devenu "répondant".
+
+---
+
+Quand nous évoquons ici la figure de l'**enseignant-pisteur**, certains éléments
+paraîtront **familiers** à quelques-uns (ceux qui pratiquent déjà), **inimaginables**
+à d'autres (ceux pour qui "résonner avec les formes vitales" sonne mystique), et
+**impensables** à d'autres encore (ceux pour qui l'enseignement reste transmission
+de contenus).
+
+Exactement comme il était impensable, il y a 30 ans, que l'ostéopathie entre dans
+les hôpitaux. Ou que la méditation devienne application smartphone.
+
+Ce qui change entre "impensable" et "banal", ce n'est pas forcément la pratique
+elle-même – c'est notre capacité collective à **nommer**, **légitimer**, et **transmettre**
+ce qui était déjà là, pratiqué dans l'"ombre".
+
+L'enseignant-pisteur n'est pas un mutant. C'est quelqu'un qui a cultivé une
+sensibilité aux échelles nano du couplage – exactement comme l'ostéopathe cultive sa sensibilité aux micro-mouvements. Et comme pour l'ostéopathie, la question n'est pas "Est-ce que c'est réel ?" mais "**Comment rendre ces échelles accessibles à tous ?**"
+
+Bon, fin de la pause. On replonge ?
+
+---
+
 ### Déployer l'Umwelt : réverbération enrichissante vs appauvrissante
 
 Cette compréhension fractale nous permet peut-être de distinguer une réverbération **enrichissante** d'une réverbération **appauvrissante**.
@@ -270,7 +353,7 @@ Les pédagogies somatiques visent peut-être à cultiver cette capacité au **d�
 
 Comme Morizot le décrit : "On en devient lent, on ne dévore plus les kilomètres, on tourne en rond pour trouver les traces, on met parfois une heure pour faire deux cents mètres". Cette lenteur ne serait pas inefficacité - ce serait le signe qu'on explore à des échelles de résolution plus fines.
 
-C'est ainsi que pourrait se penser la marche : non comme une performance à optimiser, mais comme un **territoire fractal à s'enforester**. Chaque itération pédagogique ne nous ferait pas "mieux marcher", elle nous permettrait de **spiraler dans le vécu de la marche**, découvrant à chaque tour de nouvelles échelles de richesse.
+C'est ainsi que pourrait se penser la _marche_ : non comme une performance à optimiser, mais comme un **territoire fractal où s'enforester**. Chaque itération pédagogique ne nous ferait pas "mieux marcher", elle nous permettrait de **spiraler dans le vécu de la marche**, découvrant à chaque tour de nouvelles échelles de richesse.
 
 ---
 
@@ -287,9 +370,17 @@ Dans un modèle pédagogique d'instruction, l'enseignant :
 - Transmet ces unités selon une progression logique
 - Évalue l'acquisition par l'élève
 
-C’est un modèle **extractiviste** appliqué à l'enseignement : l'enseignant extrait des savoirs de sa propre expérience pour les déposer dans l'élève, comme on extrait une ressource d'un gisement pour la déplacer ailleurs.
+Dans un modèle pédagogique d'**instruction**, le savoir serait traité comme une
+**substance** qu'on peut extraire d'un lieu (l'expérience de l'enseignant) pour
+la déposer ailleurs (l'esprit de l'élève). C'est une ontologie extractiviste :
+elle suppose que le savoir préexiste à la transmission, qu'il peut circuler sans
+se transformer, que l'élève le "reçoit" passivement.
 
-Mais dans un modèle de réverbération fractale, ce schéma s'effondre. Car ce qui se transforme - le preparatory set, l'échelle de résolution du couplage, l'Umwelt - ne peut pas être "transmis". Cela ne peut qu'**émerger** du couplage de l'apprenant avec son environnement.
+Ce modèle a produit des résultats – on peut effectivement transmettre des techniques,
+des procédures, des informations. Mais il atteint ses limites quand ce qui doit
+se transformer n'est pas un "contenu" mais une **configuration du couplage**.
+
+Dans un modèle de réverbération fractale, ce schéma s'effondre. Car ce qui se transforme - le preparatory set, l'échelle de résolution du couplage, l'Umwelt - ne peut pas être "transmis". Cela ne peut qu'**émerger** du couplage de l'apprenant avec son environnement.
 
 Dès lors, dans ce nouveau monde, l'enseignant deviendrait **pisteur**. Le pistage, comme le décrit Morizot, serait un art de lecture des traces qui impliquerait :
 
@@ -298,6 +389,9 @@ Dès lors, dans ce nouveau monde, l'enseignant deviendrait **pisteur**. Le pista
 3. Faire des hypothèses sur où le processus va aller
 4. Ajuster continuellement en fonction de ce qui émerge
 5. Accepter de ne pas savoir - la piste peut surprendre
+6. Co-pister dans l'intersubjectivité – les traces ne se révèlent pleinement
+   que dans l'échange avec des pairs et l'apprenant ; descriptions en première
+   personne et observations en troisième personne créent des contraintes mutuelles qui font émerger ce qu'aucun regard solitaire ne verrait
 
 ### S'enforester, encompagner : être dans le processus
 
@@ -313,7 +407,26 @@ C'est ce que nous avons appeler ailleurs **encompagner** (plutôt qu'accompagner
 
 Cette posture d'encompagnement implique une transformation de l'enseignant lui-même. Comme l'écrit Tim Ingold : "L'éducation consiste à porter attention aux choses plutôt qu'à acquérir le savoir qui nous dispense d'avoir à le faire. À l'exposition plutôt qu'à l'immunisation."
 
-L'enseignant qui s'enforeste accepte l'**exposition** - le risque d'être transformé par la rencontre, la possibilité de découvrir quelque chose qu'il ne savait pas, la co-surprise quand un invariant inattendu se révèle.
+L'enseignant qui s'enforeste accepte l'**exposition** – le risque d'être transformé
+par la rencontre, la possibilité de découvrir quelque chose qu'il ne savait pas,
+la co-surprise quand un invariant inattendu se révèle.
+
+**Dispositif atmosphérique**
+
+Daniel Stern (2010) a montré comment, avant même le langage, le nourrisson et la
+mère s'accordent par **formes dynamiques d'affect**. Quand le bébé secoue un hochet avec une certaine intensité rythmique, la mère ne secoue pas aussi un hochet (ce serait mimétisme stérile). Elle fait "aaaah!" avec une courbe vocale qui épouse la forme dynamique du geste – même tempo, même crescendo, même qualité vitale.
+C'est ce que Stern nomme _accordage affectif_ : résonner avec la forme, pas copier
+le contenu.[^8]
+
+L'enseignant-pisteur fonctionnerait exactement ainsi. Il ne **reproduit** pas ce
+que fait l'apprenant, il **résonne** avec la qualité dynamique de ce qui émerge.
+Si l'apprenant découvre une nouvelle relation au sol avec une qualité d'étonnement soudain, l'enseignant **accueille** cette surprise avec une présence dont le tonus, le tempo, la qualité attentionnelle épousent la forme de ce qui advient.
+
+Ce serait précisément ce que Godard nomme "contagion tonique" : non pas
+transmission d'un contenu (une technique, une posture), mais **résonance avec les
+formes vitales** du couplage en train de se reconfigurer. L'enseignant devient
+**dispositif atmosphérique** – milieu affectif qui valide l'émergence sans la figer,
+qui résonne sans diriger.
 
 ### Contenir sans contrôler : la plateforme résonnante
 
@@ -640,3 +753,15 @@ Question ouverte.
 [^3]: **Stiegler, B.** (2008). _Prendre soin : De la jeunesse et des générations_. Flammarion. ISBN : 978-2081218291. Voir notamment le vol. 1 sur la captation attentionnelle et la "psychopouvoir"
 
 [^1]: **Le Lay** (2004, Les dirigeants face au changement, Ed. Huitième Jour)\*
+
+[^4]: **Bigé, E.** (2022). _Mouvementements : Politiques de la danse_. Éditions Zones Sensibles. ISBN : 978-2377491780
+
+[^5]: Voir entretien H.Godard [Pour un Atlas des figures](https://www.pourunatlasdesfigures.net/element/fond-figure-entretien-avec-hubert-godard) ou [[entretien-H-Godard]]]
+
+[^6]: **Godard, H.** (2020). _Une respiration_. Éditions Contredanse. ISBN : 978-2930486552
+
+[^7]: **Jérémy Damian** (2022) propose de penser nos corps comme "corps sismographes" – non pas pour prédire les tremblements, mais pour **pressentir** les prémisses, être traversé par les forces qui travaillent le milieu. "Le tremblement comme récit, non le récit du tremblement." Cette sensibilité aux micro-variations serait exactement ce que cultive le praticien expérimenté : devenir sensible aux échelles nano du couplage. Damian, J. (2022). "Faire trembler le tremblement", _Multitudes_, 87, 139-148.
+
+[^8]:
+    **Stern, D.** (2010). _Forms of Vitality: Exploring Dynamic Experience in
+    Psychology, the Arts, Psychotherapy, and Development_. Oxford University Press.
