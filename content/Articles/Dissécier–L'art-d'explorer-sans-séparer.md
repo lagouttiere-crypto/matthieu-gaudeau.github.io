@@ -23,7 +23,7 @@ Auteur: Matthieu.G
 ## Dissécier sans dissocier : L'architecture pédagogique comme méthode récursive
 
 Avant de nous jeter à corps perdu dans le prochain développement, laissez-moi
-vous partager une vidéo qui me hante depuis plusieurs années. La décrire permettra peut-être de rendre compte de la façon dont elle s'est inscrite en moi. J'ajouterai le lien ensuite si vous souhaitez la regarder.
+vous partager le souvenir d'une vidéo qui me hante depuis plusieurs années. La décrire permettra peut-être de rendre compte de la façon dont elle s'est inscrite en moi. J'ajouterai le lien ensuite si vous souhaitez la regarder.
 
 La scène s'ouvre sur une salle au sol noir, que l'on devine destinée à la danse.
 Quelques jeunes filles – six ou sept ans – en justaucorps noirs assistent, à ce
@@ -48,7 +48,7 @@ elle s'apprête à faire ce geste impensable quelques instants auparavant : celu
 de glisser ses propres mains dans les empreintes de mains de sa professeure, et
 de s'appliquer **elle-même** cette configuration première.
 
-Désormais, cette image peut rester gravée en moi comme geste éminemment premier de cette boucle récursive folle. Témoin de notre impossibilité à introjecter certains gestes, sauf au prix d’efforts repliant furieusement le corps sur lui-même - à l’image, elle aussi sidérante, d’un Chaplin feuilleté dans cet assemblage corps-machine des _temps modernes_.
+Désormais, cette image reste gravée en moi comme geste éminemment premier de cette boucle récursive folle. Témoin de notre impossibilité à introjecter certains gestes, sauf au prix d’efforts repliant furieusement le corps sur lui-même - à l’image, elle aussi sidérante, d’un Chaplin feuilleté dans cet assemblage corps-machine des _temps modernes_.
 
 Mais demeure un écart important entre ces deux registres d'images. Chaplin est
 **pris** dans la machine, avalé par elle jusqu'à la faire dérailler. La jeune fille, elle, **introjecte** – dans un jeu de miroir abyssal – le geste : de danse, de placement, d'attention. Geste de reprise **et** d'assignation d'elle-même par elle-même.
@@ -70,34 +70,57 @@ Imaginez que je veuille "explorer ma relation gravitaire". Pour ce faire, il fau
 - Je puisse identifier la posture comme un objet séparé
 - Je puisse ensuite agir sur cet objet pour le transformer
 
-Or, ces quatre conditions semblent **impossibles**. Pourquoi ? Parce que je suis **toujours déjà** dans le couplage que je cherche à explorer. C'est ma condition autopoïétique, je ne peux pas m'extraire du système vivant que je suis pour l'étudier comme un objet extérieur. [^1]
+Or, ces quatre conditions semblent **impossibles**. Pourquoi ? Parce que je suis **toujours déjà** dans le couplage que je cherche à explorer. C'est ma condition [[Autopoïése|autopoïétique]], je ne peux pas m'extraire du système vivant que je suis pour l'étudier comme un objet extérieur. [^1]
 
 Alan Watts le dit magnifiquement : "Il existe une analogie entre la vision centrale et la pensée consciente fractionnée et entre la vision périphérique et ce processus mystérieux qui régule l'incroyable complexité de notre organisme. Mais **la complexité n'est pas tant dans notre corps que dans la tentative de comprendre son fonctionnement par notre seul mode de pensée**."[^2]
 
-Le découpage (gravitaire, perceptif, affectif, moteur) ne serait pas "dans" le couplage - il serait dans notre **manière de penser** le couplage. Ce serait un artefact de notre méthode d'analyse.
+Si nous suivons cette piste, le découpage (gravitaire, perceptif, affectif, moteur...) ne serait pas "dans" le couplage - il serait dans notre **manière de penser** le couplage. Ce serait un artefact de notre méthode d'analyse.
 
 **La conscience arrive toujours trop tard**
 
 Les travaux de Benjamin Libet (1985) [^3] montrent que l’**activité électrique prémotrice** (potentiel de préparation, RP) commence environ **550 millisecondes avant le mouvement volontaire**, alors que la **conscience de l’intention** (W) n’émerge que **200 millisecondes avant**. Cette asynchronie de **350 ms** implique que, au moment où « je » deviens conscient de « vouloir » bouger, le système nerveux a déjà initié la préparation motrice – **symptôme conscient d’un processus préconscient**
 
-Cette temporalité aurait des implications pour comprendre les habitudes et comme le note David Gorman à ce propos : **"Le moment où je suis conscient, c'est le moment du symptôme."**[^4]
-Autrement dit, quand je deviens conscient d'une contraction posturale, la boucle se serait **déjà activée**. Le preparatory set qui sous-tend cette habitude se serait configuré à un niveau pré-conscient auquel "je" n'ai pas accès et que "je" ne contrôle pas directement.
+Ce minuscule écart peut avoir de nombreuses ramifications, Appliquons-le ici à la nature circulaire de l'habitude – question centrale dans les pratiques somatiques. Comme le note David Gorman à ce propos dans un article précieux : **"Le moment où je suis conscient, c'est le moment du symptôme."**[^4]
 
-Vouloir "corriger" à ce moment-là, ce serait agir **sur** le symptôme, pas **avec** ce qui l'a produit. Et cette tentative de correction créerait elle-même une **scission dualiste** : une partie de moi (la volonté qui veut corriger) agit sur une autre partie « Ce corps qui a le mauvais geste ».
+Autrement dit, quand je deviens conscient d'un sysmptôme, la boucle se serait **déjà activée**. Le preparatory set qui sous-tend cette habitude se serait configuré à un niveau pré-conscient auquel "je" n'ai pas accès et que "je" ne contrôle pas directement.
+
+Vouloir "corriger" ce moment-là, ce serait d'une part agir **sur** le symptôme, pas **avec** ce qui l'a produit. Et d'autre part, cette tentative de correction créerait elle-même une **scission dualiste** : une partie de moi (la volonté qui veut corriger) agit sur une autre partie « Ce corps qui a le mauvais geste ».
+
+Or, cette scission **ne s'ajoute pas** simplement au problème initial – elle crée une **boucle itérative** : plus j'essaie de corriger ma contraction, plus je me contracte dans l'effort de correction. Le remède devient partie du mal. C'est ce que Gorman nomme "The Rounder We Go, The Stucker We Get" : chaque tour de la boucle complexifie exponentiellement le système.
 
 **Le paradoxe de l'habitude**
 
-D'une part : les habitudes néfastes semblent bien réelles et peuvent être source de souffrance. Il paraît légitime de vouloir les transformer.
+Ce minuscule hiatus temporel (Libet 1985), si solide neurophysiologiquement, nous piège dans un paradoxe : notre **puissance d'agir consciemment** semble minée – la conscience arrive pour constater, non initier. Nous voilà pris comme des rats dans un paradoxe temporel, qui nécessiterait d'agir depuis le futur pour changer le passé, comme Marty McFly rattrapant sa propre causalité.
 
-D'autre part : toute tentative de les corriger **depuis une position de contrôle dualiste** risquerait de renforcer précisément la structure qui les maintient - la scission entre une partie qui contrôle et une partie contrôlée.
+Voyez-vous le problème ? **Ce n'est pas Libet qui nous piège – c'est notre manière de formuler la question.** Rappelons-nous un instant le constat que Emma Bigé faisait concernant le penchant de nos langues indo-européennes : "Quoi qu’on fasse, quoi qu’on pense, en effet, nos verbes se conjuguent en fonction de leurs sujets, pas de leurs objets." et à nous inviter un peu plus loin "à penser autrement nos verbes, de telle sorte que le faire, l’être et le percevoir y soient indissociables, que le sujet et l’objet y soient solidairement impliqués par l’action."
+Les discussions enflammées sur le "libre arbitre" qui ont suivi les travaux de Libet en sont le symptôme [pour exemple](https://mindmatters.ai/2020/03/how-libets-free-will-research-is-misrepresented/): elles présupposent toutes qu'il faudrait soit **sauver** l'initiative consciente du sujet (compatibilisme), soit admettre son inexistence (déterminisme). Mais ces deux positions partagent le même présupposé : que l'action **provient** d'un sujet préexistant. C'est ce présupposé qu'il faut interroger.
+
+Mais revenons à nos habitudes dont nous nous étions très sérieusement éloignés.
+Donc, **d'une part** : les habitudes néfastes semblent bien réelles et peuvent être source de souffrance et il paraît légitime de vouloir les transformer ➾ ⇐ **D'autre part** : toute tentative de les corriger **depuis une position de contrôle dualiste** risquerait de renforcer précisément la structure qui les maintient - la scission entre une partie qui contrôle et une partie contrôlée.
 
 Ce serait le piège des boucles d'habitude : plus j'essaie de "lutter contre" mon habitude, plus je renforce la boucle réactive. Car "lutter contre" suppose déjà la séparation : il y aurait "moi" (qui lutte) et "l'habitude" (contre laquelle je lutte).
+
+Un apologue du Tchouang-tseu, rapporté par Billeter, éclaire ce paradoxe d'une lumière inattendue :
+
+> L'unipatte enviait le mille-pattes, le mille-pattes enviait le serpent, le serpent enviait le vent, le vent enviait l'œil et l'œil l'esprit.
+>
+> L'unipatte dit au mille-pattes : J'ai bien de la peine à avancer en sautillant sur ma patte. Je me demande comment vous faites pour mouvoir toutes les vôtres ?
+>
+> Le mille-pattes répondit : Mais non ! N'avez-vous jamais vu un homme cracher ? Il suffit qu'il expectore pour qu'une pluie de gouttes, les unes grosses comme des perles, les autres fines comme un brouillard, s'abattent pêle-mêle en quantités innombrables. Eh bien [moi aussi], je laisse agir le ressort qui est en moi, sans savoir comment il agit.
+>
+> Le mille-pattes dit au serpent : Comment se fait-il qu'avec toutes mes pattes, j'avance moins bien que vous qui êtes sans pattes ?
+>
+> Le serpent répondit : C'est l'effet du ressort qui est en moi. Je ne puis rien changer à son action et me passe fort bien de pattes.[^billeter-tchouang]
+
+Le mille-pattes ne **sait pas** comment il coordonne ses pattes. Et c'est précisément parce qu'il ne sait pas – parce qu'il "laisse agir le ressort" – qu'il peut les coordonner. L'unipatte, elle, doit contrôler consciemment sa seule patte, et c'est ce contrôle même qui la rend maladroite.
+
+Plus remarquable encore : le serpent dit "Je ne puis rien changer à son action". Ce n'est pas de l'impuissance – c'est la reconnaissance que le "ressort" (le preparatory set, le pré-mouvement) opère à un niveau que le contrôle conscient ne peut atteindre directement. Vouloir "changer" ce qui agit déjà, ce serait précisément créer la boucle réactive qui nous paralyse.
 
 **Cette scission n'est pas une erreur - c'est notre point de départ**
 
 Il ne s'agit pas de nier cette scission et encore moins de culpabiliser. Elle n'est pas un échec personnel. C'est le **produit de notre formation culturelle**.
 
-Comme le montre Rachel Zahn, la pédagogie occidentale nous a formés pendant des siècles à opérer cette séparation : "On a enseigné aux enfants à mettre de côté leurs connaissances naturelles, à rester assis sans bouger, à interdire la rêverie spontanée et à prêter attention à un enseignant qui leur fournira des faits sur la 'réalité objective'."
+Comme le montre Rachel Zahn, la pédagogie occidentale nous a formés pendant des siècles à opérer cette séparation : "On a enseigné aux enfants à mettre de côté leurs connaissances naturelles, à rester assis sans bouger, à interdire la rêverie spontanée et à prêter attention à un enseignant qui leur fournira des faits sur la 'réalité objective'."[^9]
 
 Cette formation chronicise la dissociation et nous apprend à croire que nous **sommes** cette séparation.
 
@@ -111,9 +134,42 @@ Alors que faire ? Pas nier le problème. Pas ignorer la scission. Mais **assumer
 2. Reconnaître que cette impossibilité n'est pas un échec - mais ma condition
 3. Reconnaître que la scission (observateur/observé) est une **construction** utile mais pas une vérité ontologique
 4. **Pratiquer** des méthodes qui travaillent depuis cette impossibilité plutôt que de la nier
+5. **Cultiver** une circulation entre l'expérience vécue et la compréhension conceptuelle – non pour "résoudre" le paradoxe, mais pour créer les conditions d'une transformation du couplage lui-même. Descriptions 1re/3e personne en **contraintes mutuelles génératives** (Varela 1996).[^13]
 
-La pratique de l'inhibition en Technique Alexander nous invite, à condition d'en comprendre les subtilités à **suspendre sans scinder**.
-Ce premier geste, correspond à une des déclinaison de ce que nous avons tenter d'attraper en usant du néologisme **dissécier**.
+Ces cinq gestes ne sont pas des étapes séquentielles mais une **posture** – une
+manière d'habiter la pratique qui reconnaît ses limites (1-3) tout en ouvrant
+ses possibilités (4-5).
+
+Le Tchouang-tseu formule cette posture avec une simplicité désarmante :
+
+> Le serpent répondit : C'est l'effet du ressort qui est en moi. Je ne puis rien
+> changer à son action et me passe fort bien de pattes.
+
+"Je ne puis rien changer" – non pas impuissance, mais reconnaissance que le
+"ressort" (le preparatory set, le pré-mouvement) opère à un niveau que le
+contrôle conscient ne peut atteindre directement. **Créer les conditions, c'est
+précisément cesser de vouloir changer directement.**[^billeter-tchouang]
+
+**Mais alors, qui agit ?** Si "je" n'initie pas consciemment (Libet), si le sujet
+n'est pas premier mais co-émerge du couplage (Varela), qu'est-ce qui se transforme dans la pratique ?
+
+Pas "moi" comme entité fixe qui agirait sur "mon corps" comme objet séparé. Ce
+qui se transforme, c'est **la qualité du couplage lui-même** – cette configuration
+organisme-environnement dont émerge ce que nous appelons provisoirement "je".
+
+Dès lors, les pratiques somatiques ne peuvent plus viser à "corriger des gestes"
+ou "améliorer des postures" – comme si le geste préexistait à son exploration.
+Elles doivent proposer des **méthodes récursives** : des gestes qui, dans leur
+faire même, reconfigurent le preparatory set, transforment les conditions du
+couplage, révèlent de nouvelles affordances.
+
+Des gestes qui **travaillent avec** la structure récursive plutôt que de tenter
+de la court-circuiter par le contrôle conscient.
+
+Dans cette perspective, la pratique de l'inhibition en Technique Alexander nous
+invite, à condition d'en comprendre les subtilités, à **suspendre sans scinder**.
+Ce premier geste correspond à une des déclinaisons de ce que nous avons tenté
+d'attraper en usant du néologisme **dissécier**.
 
 ### L'inhibition comme suspension du système entier
 
@@ -121,7 +177,7 @@ Ce premier geste, correspond à une des déclinaison de ce que nous avons tenter
 
 L'inhibition invite à une **suspension du système entier** - une cessation de la réactivité qui maintient et entretien le pattern, sans qu'une "partie" n'agisse sur une "autre partie"- à ce propos je vous renvoie au texte de D.Gorman "The Rounder We Go, The Stucker We Get"[^4]. Un rapide résumé est disponible [[cercles-vicieux|ici]]. [^5]
 
-**Les trois gestes de l'épochè**
+**Retour aux trois gestes de l'épochè**
 
 Pour rappel [^6], Depraz, Varela et Vermersch décrivent le geste phénoménologique de suspension en trois moments :
 
@@ -137,50 +193,62 @@ Ce geste ne pourrait pas être "décidé" volontairement comme on décide de lev
 
 **Ne rien changer "sur soi"**
 
-Paradoxalement, le but ne serait **pas** de changer "soi" (comme si le soi était une essence fixe à améliorer). Ce serait de faire l'expérience dans le creuset d'une pratique régulière que **le soi n'est pas une essence**, mais un _pattern de couplage_ qui se reconfigure constamment.
+L'inhibition, comme l'épochè, offre une **grammaire du geste** – une description
+fine de comment pratiquer, non pas comme recette à appliquer, mais comme syntaxe à habiter.
+Paradoxalement, le but ne serait **pas** de changer "soi" (comme si le soi était
+une essence fixe à améliorer). Ce serait de faire l'expérience dans le creuset
+d'une pratique régulière que **le soi n'est pas une essence**, mais un _pattern
+de couplage_ qui se reconfigure [[Madhyamaka|constamment]].
 
-En "ne changeant rien sur soi", on cesserait de **renforcer** l'illusion d'un soi-essence à corriger. Et cette cessation réorganise le système spontanément. C'est ce que dit le bouddhisme Madhyamaka (repris par Varela) : pas de "moi" fixe à trouver ou à corriger, seulement des processus de solidification et de dissolution.
-Ainsi, la méditation ne "libérerait" pas quelque chose du moi, encore moins ne permettrait une gestion de _ses_ émotions ou de _son_ stress. Elle est l'espace qui permet **de cesser de nourrir** les processus de solidification, permettant à une autre configuration du couplage d'émerger.
-➫ [[Totalité sphérique post-parménidienne|Pour voir les implications éthiques.]]
+Cette dissolution de l'essence a des implications éthiques importantes. Pas
+d'essence ne signifie pas "rien" (nihilisme), mais **couplage** : je suis
+constitué par mes relations. Donna Haraway nomme cela **response-ability** –
+non pas "responsabilité" au sens moral culpabilisant, mais **capacité à répondre**
+aux êtres avec qui je suis en relation[^14]. Si je ne suis pas une
+essence isolée mais un nœud de relations, alors transformer mon couplage, c'est
+transformer les conditions de ma capacité à répondre au monde.
 
 ### Transformer les conditions, pas le symptôme
 
 Si la conscience arrive toujours trop tard, comment transformer une habitude ?
 
-Pas en agissant sur le symptôme au moment où j'en deviens conscient. D'une part c'est déjà trop tard, mais de plus le symptôme est justement dans cette perspective, une invitation à changer la nature de mon couplage, autrement dit la relation récursive moi <--> monde.
-Comment ? Nous l'avons vu avec Gorman en choisissant de ne pas réagir au symptôme et en transformant les **conditions** qui configurent le preparatory set. Nous pouvons soutenir cette approche par des pratiques que l'on nomme aujourd'hui préventive.
+En transformant **les conditions qui configurent le preparatory set** : pratiques
+régulières de suspension, changements d'environnement, ou – **crucial** –
+**l'altérité comme révélateur**.
 
-### Quelques piste
+Car il y a une limite inhérente à l'exploration solitaire : si je ne peux pas sortir du système pour l'observer, comment puis-je **voir** les patterns de mon propre couplage ? Comment percevoir ce qui reste dans mon angle mort, précisément parce que c'est la structure même de mon regard ?
 
-**1- Pratique régulière**
+### Altérité : miroirs et méta-rapporteurs
 
-Les pratiques telle que la méditation, la Technique Alexander, le Feldenkrais ont en commun de ne pas "corriger" des gestes ou états spécifiques. Elles créeraient les conditions pour que le preparatory set puisse se reconfigurer. Nous l'aurons compris, cette reconfiguration ne se fait pas par décision volontaire mais par **suspension répétée de la réactivité habituelle**. Chaque fois que je pratique, "je" co-crée un **espace** dans lequel le pattern peut se "dissoudre" progressivement, par accumulation de micro-transformations. Pour reprendre le titre d'un livre de F.M Alexander modifier par la même "L'usage de soi".[^7]
+Donna Haraway, dans _Manifeste des espèces compagnes_[^8], décrit son chien
+Roland comme un "méta-rapporteur" : il ne joue pas au jeu de la balle, il observe
+les autres chiens qui jouent et piste leurs patterns.
 
-**2- Environnement différent**
+De même, **l'altérité** – qu'elle prenne la forme d'un enseignant, d'un groupe de pratique, ou même d'un environnement qui "répond" différemment – peut jouer
+le rôle de **révélateur externe**. Pas pour "corriger", mais pour permettre de **voir** les patterns du couplage qu'on ne peut pas voir seul de l'intérieur.
 
-Dans cette perspective, les habitudes seraient des couplages organisme-environnement. Changer l'environnement pourrait transformer le couplage sans qu'une "volonté" n'intervienne.
+**La communauté comme plateforme résonnante**
 
-Si je rumine toujours dans mon bureau, me déplacer dans un parc change les affordances disponibles. Le couplage bureau-rumination ne s'activerait pas. Un autre couplage pourrait émerger.
+Un groupe qui pratique ensemble ne fonctionne pas seulement par addition
+d'individus. Il crée une **plateforme résonnante** – exactement comme les
+métronomes sur la planche souple qui se synchronisent spontanément. La contagion tonique (Godard) opère entre pairs : un preparatory set plus intégré influence les autres, créant des gradients de résonance qui amplifient les transformations possibles.
 
-Ce ne serait pas "fuir" le problème - ce serait reconnaître que le problème ne serait pas "en moi" mais **dans la configuration du couplage**.
+Dans un groupe de pratique expérimenté, ce ne serait même plus "l'enseignant"
+qui détient le savoir – ce serait la **configuration collective** qui crée les conditions. Chacun devient méta-rapporteur pour les autres, pistant les traces de ce qui émerge sans savoir à l'avance ce qui va se révéler.
 
-**3- Intersubjectivité : le méta-rapporteur**
+**L'enseignant comme fonction, pas comme personne**
 
-Donna Haraway dans \_Manifeste des espèces compagnes [^8]décrit son chien Roland comme un "méta-rapporteur" : il ne joue pas au jeu de la balle, il observe les autres chiens qui jouent et piste leurs patterns.
+Dès lors, "l'enseignant" ne désigne plus nécessairement une personne en position
+d'autorité, mais une **fonction** qui peut circuler : celle de créer et maintenir
+les conditions pour que le système puisse se réorganiser. Cette fonction peut
+être incarnée par :
 
-De même, un enseignant pourrait jouer le rôle de **méta-rapporteur externe**. Pas pour "corriger", mais pour permettre de **voir** les patterns du couplage qu'on ne peut pas voir seul de l'intérieur.
+- Un enseignant expérimenté (qui a cultivé sa capacité à ne pas céder au gradient de fixité)
+- Un groupe qui pratique ensemble (plateforme collective)
+- Un environnement configuré pour certaines affordances (un dojo, une salle dont l'espace lui-même "enseigne", à ce propos quand on demandait à Steve Paxton comment enseigner la chute, il répondait "en mettant des tatamis par terre")
+- Même un compagnon non-humain (le chien de Haraway, un cheval, le sol d'une forêt)
 
-Comme le montre Varela avec la neurophénoménologie : guidage mutuel entre comptes rendus objectifs et descriptions en première personne → contraintes mutuelles génératives.
-
-L'enseignant ne "transmettrait" pas des savoirs. Il créerait les conditions pour que l'apprenant accède au méta-niveau qui révèle les patterns.
-
-**4- Accepter le kairos**
-
-Surtout : **accepter qu'on ne contrôle peut-être pas directement** la transformation.
-
-On crée des conditions, on suspend la réactivité, on pratique régulièrement - et le système se réorganise... ou pas. Il y aurait un **kairos**, un moment opportun qui ne peut être forcé.
-
-Vouloir forcer la transformation, ce serait retomber dans le contrôle dualiste. Mais cette force même maintiendrait la scission et empêcherait la réorganisation spontanée.
+Comme le montre Varela avec la neurophénoménologie : guidage mutuel entre comptes rendus objectifs et descriptions en première personne → contraintes mutuelles génératives. L'altérité ne "transmet" pas des savoirs. Elle crée les conditions pour que l'apprenant accède au méta-niveau qui révèle les patterns.
 
 ### Dissécier : Une méthode, pas une technique
 
@@ -285,10 +353,13 @@ La question "comment explorer sans séparer ?" supposerait déjà qu'il y aurait
 des parts séparables. **Mais cette séparation serait créée par la méthode
 analytique elle-même.**
 
-_Dissécier_ ne serait pas une manière plus douce de disséquer mais une
-**autre méthode** qui crée un autre champ de problèmes – ou plutôt, qui
-dissout le problème de la séparation en le révélant comme artefact
-méthodologique.
+Dissécier ne serait pas une manière plus douce de disséquer mais une **autre
+méthode** qui crée un autre champ de problèmes – ou plutôt, qui dissout le
+problème de la séparation en le révélant comme artefact méthodologique.
+
+Mais comment **pratiquer** concrètement cette méthode ? Comment éviter qu'elle
+ne devienne à son tour une "théorie de l'exploration non-séparatrice" qu'on
+adopterait intellectuellement ?
 
 ### Pratiquer la méthode récursive
 
@@ -431,3 +502,11 @@ Cette question nous conduit à repenser radicalement le rôle de l'enseignant da
 [^10]: **Bitbol, M.** (2014). « Entretien avec Michel Bitbol : autour de *La conscience a-t-elle une origine ?* (partie 3) », *Actu Philosophia*, 23 oct. 2014. En ligne : [https://www.actu-philosophia.com/entretien-avec-michel-bitbol-autour-de-la/](https://www.actu-philosophia.com/entretien-avec-michel-bitbol-autour-de-la/).
 
 [^11]: **Varela, F. J., Thompson, E., & Rosch, E.** (1991). _The Embodied Mind: Cognitive Science and Human Experience_. MIT Press. ISBN : 978-0262720212
+
+[^billeter-tchouang]: Billeter, J.-F. (2002). _Leçons sur Tchouang-tseu_. Allia, p. 43.
+
+[^12]: https://mindmatters.ai/2020/03/how-libets-free-will-research-is-misrepresented/
+
+[^13]: « Varela (1996) : *Neurophénoménologie* – contraintes mutuelles 1re/3e personne comme passage génératif ; cf. Bitbol (2014).
+
+[^14]: Haraway, D. (2016). _Staying with the Trouble_. Duke University Press, p. 29-30. Le trait d'union dans "response-ability" insiste sur la capacité (ability) plutôt que l'obligation (responsibility). Haraway écrit : "Response-ability is about both absence and presence of self." Pas d'essence fixe (absence), mais présence dans le couplage – **être présent à qui/ce qui nous constitue**. Voir aussi [[Totalité sphérique post-parménidienne]] pour les implications cosmopolitiques.
