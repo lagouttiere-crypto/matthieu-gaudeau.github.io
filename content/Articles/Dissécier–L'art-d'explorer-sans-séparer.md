@@ -13,7 +13,7 @@ maturity: arbre
 Auteur: Matthieu.G
 ---
 
-**Geste propitiatoire** : [[Spirales fugales–Quand-l'apprentissage-réverbère|3.1 spirales fugales]] · [[Dissécier–L'art-d'explorer-sans-séparer|3.2-dissecier]] · [[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|3.3-enseignant-pisteur]]  
+**Geste propitiatoire** : [[Spirales fugales–Quand-l'apprentissage-réverbère|3.1 spirales fugales]] · [[Dissécier–L'art-d'explorer-sans-séparer|3.2-dissecier]] · 3.3-L'enseignant-pisteur–en cours de réécriture
 **Vous êtes ici : 3.2 - dissecier**
 
 > [! ]
@@ -479,7 +479,7 @@ où le système peut se réorganiser spontanément. Mais qui crée cet espace ?
 Comment maintenir cette suspension sans retomber dans le contrôle dualiste ?
 
 Cette question nous conduit à repenser radicalement le rôle de l'enseignant dans
-**[[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|l'enseignent pisteur]]**. Non plus transmettre des savoirs, mais s'enforester avec l'apprenant dans le territoire fractal de l'expérience. Non plus corriger, mais créer les conditions de la résonance.
+**3.3-L'enseignant-pisteur–en cours de réécriture**. Non plus transmettre des savoirs, mais s'enforester avec l'apprenant dans le territoire fractal de l'expérience. Non plus corriger, mais créer les conditions de la résonance.
 
 [^1]: **Varela, F. J., Thompson, E., & Rosch, E.** (1991). _The Embodied Mind: Cognitive Science and Human Experience_. MIT Press. ISBN : 978-0262720212
 

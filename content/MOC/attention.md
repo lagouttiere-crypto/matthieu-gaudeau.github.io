@@ -64,7 +64,7 @@ Offrir son attention n'est ni la donner (modèle extractiviste) ni la protéger
 du couplage. C'est un geste propitiatoire qui crée les conditions pour que
 quelque chose puisse émerger – sans savoir à l'avance quoi.
 
-==Cette deuxième dimension de l'attention se déploie en trois mouvements :==
+==Cette deuxième dimension de l'attention se déploie en trois mouvements en reprenant et prolongeant certains thèmes de la section précédentes :==
 comment l'apprentissage réverbère (spirales fugales), comment explorer sans
 séparer (dissécier), et comment accompagner cette émergence (enseignant-pisteur).
 
@@ -96,7 +96,7 @@ On ne peut pas sortir du système autopoïétique pour l'observer objectivement 
 
 L'attention n'est pas une ressource extractible à protéger mais une capacité à varier l'échelle de résolution du couplage – comme la côte bretonne de Mandelbrot qui révèle une longueur infinie selon le zoom. L'enseignant devient pisteur : il s'enforeste avec l'apprenant, maintient son intégration face au gradient de fixité (Gorman), crée les conditions de la résonance sans forcer l'émergence. Le retour à la marche vérifie alors : à quelle échelle de résolution suis-je maintenant couplé ? Quelle géométrie a pris ma surface d'échange ?
 
-**Partie 3**: 🌳 [[L'enseignant-pisteur–Plateforme-résonnante-et-zoom fractal|l'enseignent-pisteur]]
+**Partie 3**: 🌳 3.3-L'enseignant-pisteur–en cours de réécriture
 
 ---
 
