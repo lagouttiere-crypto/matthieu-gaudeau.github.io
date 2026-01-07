@@ -3,6 +3,8 @@ type: concept
 aliases: []
 tags:
   - concept
+  - attention-incarnée
+  - perception-amodale
 domaine: Attention-calibration
 auteur_principal: MatthieuG
 date_origine: 20/12/2025
@@ -10,6 +12,8 @@ maturity: arbre
 ---
 
 **L'attention comme accordage résonnant : pour une écologie relationnelle de la présence**
+
+<iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2243141417&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/matthieu-gaudeau-981618744" title="Matthieu Gaudeau" target="_blank" style="color: #cccccc; text-decoration: none;">Matthieu Gaudeau</a> · <a href="https://soundcloud.com/matthieu-gaudeau-981618744/lattention-incarnee-premier-geste" title="L&#x27;attention incarnée premier geste" target="_blank" style="color: #cccccc; text-decoration: none;">L&#x27;attention incarnée premier geste</a></div>
 
 > [! ]
 > _Ce texte propose un déplacement radical dans notre compréhension de l'attention. Plutôt que de la concevoir comme un projecteur mental dirigé par un observateur central, l'attention est ici explorée comme un processus d'accordage multimodal et distribué. À travers des métaphores acoustiques (le sonar des chauves-souris, la résonance des métronomes), nous développons l'idée que notre perception émerge de l'interférence de multiples "sonars" sensoriels qui se modulent mutuellement. Le cerveau n'est pas un chef d'orchestre mais une structure résonnante parmi d'autres, participant à un couplage dynamique entre corps et environnement. Cette perspective relationnelle a des implications concrètes pour la pédagogie et les pratiques somatiques : la subjectivation devient un processus émergent plutôt qu'une donnée fixe, et l'apprentissage se déploie comme création de conditions de couplage plutôt que transmission d'information. L'attention est ainsi révélée comme ce qui nous constitue en tant qu'êtres-en-relation._
