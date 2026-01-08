@@ -21,10 +21,9 @@ maturity: arbre
 **Fondations théoriques**
 Les sections qui suivent s'appuient sur deux corpus de recherche complémentaires :
 
-1. Hubert Godard - Geste, perception et pré-mouvement
-   Danseur, praticien de Rolfing et chercheur, Hubert Godard a développé une approche du geste qui articule biomécanique, neurophysiologie et phénoménologie. Sa théorie du "geste" et du "pré-mouvement" (organisation tonique "non consciente" qui précède tout geste volontaire) est centrale pour comprendre comment l'attention structure la motricité.
+1. Hubert Godard -Danseur, praticien de Rolfing et chercheur, Hubert Godard a développé une approche du geste qui articule neurophysiologie et phénoménologie. Sa théorie du "geste" et du "pré-mouvement" est centrale ici pour comprendre comment l'attention structure la motricité.
 
-2. Ecological Dynamics - Davids, Chow, Araújo
+2. Ecological Dynamics - Davids, Chow, Araújo.  
    Courant de recherche en sciences du mouvement qui articule l'approche écologique (Gibson) avec les systèmes dynamiques non-linéaires (Kugler, Kelso). L'apprentissage y est conçu comme exploration contrainte d'un paysage de solutions possibles, où émergent des attracteurs fonctionnels.
 
 Dans le premier geste, nous avons proposé un déplacement radical : l'attention n'est pas un projecteur mental dirigé par un observateur central, mais un **processus d'accordage** multimodal et distribué.
@@ -32,23 +31,26 @@ Dans le premier geste, nous avons proposé un déplacement radical : l'attention
 
 À travers la métaphore des chauves-souris et de leurs sonars multiples, nous avons exploré comment notre perception émerge de l'**interférence** de multiples sources sensorielles qui se modulent mutuellement : la perception est toujours multimodale.
 
-Dans cette perspective, dire que l’attention n’est pas "dans notre tête" ne nie pas l’activité cérébrale, mais refuse le modèle internaliste d’un observateur central. Le cerveau, loin d'être un chef d'orchestre centralisateur, y apparaît comme une **structure résonnante** parmi d'autres - fascias, tonus, organes sensoriels. Il **pondère** (amplifie certaines informations, en atténue d'autres) mais ne commande pas depuis un poste de contrôle isolé. Cette **pondération** émerge elle-même du **couplage dynamique** entre corps et environnement, dans une co-détermination structure/fonction où la planche (le corps) se transforme au fil des accordages. \
+Dans cette perspective, dire que l’attention n’est pas "dans notre tête" ne nie pas l’activité cérébrale, mais refuse le modèle internaliste d’un observateur central. Le cerveau, loin d'être un chef d'orchestre centralisateur, y apparaît comme une **structure résonnante** parmi d'autres - fascias, tonus, organes sensoriels. Il **pondère** (amplifie certaines informations, en atténue d'autres) mais ne commande pas depuis un poste de contrôle isolé. Cette **pondération** émerge elle-même du **couplage dynamique** entre corps et environnement, dans une co-détermination structure/fonction où la planche (le corps) se transforme au fil des accordages.
 Là encore si vous êtes perdus je vous propose un petit détour par le premier geste.[[L'attention incarnée-premier geste]]
 
 Nous avons vu que cette perspective a des conséquences profondes : la **subjectivation** devient un processus émergent plutôt qu'une donnée fixe ("the relationship is the binding agent of not yet"), et **l'apprentissage** se déploie comme création de conditions de couplage plutôt que transmission d'information.
 
-Nous arrivons au bout de ce retour sur expérience de ce premier geste, pour évoquer le fait que nous avions laissé en suspens une question historique et critique : **d'où viennent ces métaphores visuelles** (projecteur, filtre, zoom, cadre) qui dominent encore notre pensée ? Et surtout : **pourquoi est-il si difficile de s'en défaire** ?
+Nous avions laissé en suspens une question historique et critique : **d'où viennent ces métaphores visuelles** (projecteur, filtre, zoom, cadre) qui dominent encore notre pensée ? Et surtout : **pourquoi est-il si difficile de s'en défaire** ?
 
 ---
 
-### **B. Camera obscura - Le modèle fondateur**
+### **Camera obscura - Le modèle fondateur**
 
 **Descartes et la chambre noire**
 
-Nous devons à Descartes cette merveilleuse intuition. N’oublions pas que Descartes était un homme de son temps et que cet imaginaire présentait une affordance parfaite, un attracteur irrésistible - De la même façon, nous utilisons aujourd’hui le modèle de tenségrité pour décrire le rôle des fascias.
+Commençons par une petite description : La chambre noire est un dispositif optique assez simple : une boîte ou pièce obscure percée d'un petit trou, par lequel la lumière extérieure projette une image inversée et fidèle du paysage sur une surface blanche à l'intérieur.
+Nous devons à Descartes d'utiliser ce modèle pour modéliser l'oeil. N’oublions pas que Descartes était homme de son temps : cet imaginaire offrait une affordance parfaite, un attracteur irrésistible - De la même façon, nous utilisons aujourd’hui un modèle de tenségrité pour décrire le rôle des fascias.
 
-L'analogie entre l'œil et la **camera obscura** (chambre noire) domine la pensée occidentale sur la perception depuis _La Dioptrique_ (1637) de Descartes. Il est encore enseigné dans les collèges (2025), j’en veux pour preuve les cours de science de mon fils.
-Je suis certain que vous connaissez cette image qui semble être finalement une description assez fidèle de l’expérience que nous faisons du monde aujourd’hui. Dans ce texte fondateur, Descartes compare explicitement l'œil à une chambre noire où les images du monde extérieur viendraient **s'imprimer** sur la rétine, comme sur un écran.
+Après lui, et _La Dioptrique_ (1637), l'analogie entre l'œil et la **camera obscura** (chambre noire) va dominer la pensée occidentale sur la perception. Il est encore enseigné dans les collèges (2025), j’en veux pour preuve les cours de science de mon fils.
+Je suis certain que vous connaissez cette analogie. Elle s'est imposée jusque dans l’expérience que nous faisons du monde aujourd’hui.
+
+Donc pour rappel, dans ce texte fondateur, Descartes compare explicitement l'œil à une chambre noire où les images du monde extérieur viendraient **s'imprimer** sur la rétine, comme sur un écran.
 
 Intéressons-nous un instant à la **Structure du modèle :**
 
@@ -59,26 +61,26 @@ Intéressons-nous un instant à la **Structure du modèle :**
 
 Il faut bien _voir_ que ce modèle n’est pas qu'une analogie pédagogique innocente. Il structure **ontologiquement** notre conception de ce qu'est percevoir et ainsi notre rapport au monde :
 
-**1. En Premier, une séparation radicale dedans/dehors**
+**➫ Et en Premier, une séparation radicale dedans/dehors**
 
-La camera obscura présuppose une **frontière étanche** entre l'intérieur (où je suis, où l'image apparaît) et l'extérieur (le monde qui se projette). La perception devient un processus de **représentation** : le monde "là-bas" se re-présente "ici" sous forme d'image mentale. Nous avons un magnifiques exemple de cette conception de la perception dans l’animé « Vice et versa ».
+La camera obscura présuppose une **frontière étanche** entre l'intérieur (où je suis, où l'image apparaît) et l'extérieur (le monde qui se projette). La perception devient un processus de **représentation** : le monde "là-bas" se re-présente "ici" sous forme d'image mentale. Nous avons un magnifique exemple de cette conception de la perception dans l’animé « Vice et versa ».
 
-—-> **Conséquence directe :** Le corps est **enveloppe** - une chambre qui contient le vrai moi (l'âme qui observe) et la peau est la paroi de la camera obscura. Le monde et moi sommes fondamentalement **séparés**.
+—-> **Conséquence directe ? :** Le corps est approché comme **enveloppe** - une chambre qui contient le vrai moi (une âme qui observe, une aire du cerveau qui "interprète") et la peau, est la paroi de la camera obscura.
+Le monde et moi sommes fondamentalement **séparés**.
 
-**2. Passivité perceptive**
+Dans ce modèle, l'œil/cerveau est un **récepteur passif** d'informations qui viennent de l'extérieur.
+Suivons bien les conséquences et implications de cette "brillante" idée :
 
-Dans ce modèle, l'œil/cerveau est **récepteur passif** d'informations qui viennent de l'extérieur. Suivons cette brillante idée :
+- La lumière "entre" --> l’image "se forme" —> l'esprit "contemple".
 
-- La lumière "entre" --> l’image "se forme" —> l'esprit "contemple". Aucune activité du percevant n'est nécessaire - si ce n'est "ouvrir les yeux".
+Donc aucune activité du percevant n'est nécessaire - si ce n'est "ouvrir les yeux".
+Toute la **motricité** inhérente à la perception est occultée. Les mouvements oculaires (saccades, poursuite, accommodation), l'exploration active, les ajustements posturaux qui soutiennent le regard - tout cela devient **invisible**, relégué au rang de "préparation" à la vraie perception (qui elle est purement réceptive).
+Là encore, de magnifiques exemples de cette perspective, nous sont donnés dans le film le Baron de Münchhausen de Terry Gilliam (1987). Les scènes qui opposent les corps et têtes amovibles du roi et de la reine de la lune sont délicieuses.
 
-**Conséquence mais qui est un impensé en occident jusqu’à aujourd’hui :** Toute la **motricité** inhérente à la perception disparaît. Les mouvements oculaires (saccades, poursuite, accommodation), l'exploration active, les ajustements posturaux qui soutiennent le regard - tout cela devient **invisible**, relégué au rang de "préparation" à la vraie perception (qui serait passive).
-Là encore, de magnifiques exemples de cette perspective, nous sont donnés dans le film le Baron de Münchhausen de Terry Gilliam (1987). Les scènes qui apposent corps et têtes du roi et de la reine de la lune sont délicieuses.
-
-**3. Centralisation et homunculus** jusqu’à l’absurde.
-
+Dans ce modèle, **la centralisation et l'homunculus** sont portés jusqu’à l’absurde.
 Si une image se forme dans l'œil, **qui la regarde** ? Descartes répond : l'âme, située dans la glande pinéale. Mais cela crée une **régression infinie** : si l'âme regarde une image, n'y a-t-il pas une autre âme qui regarde l'âme qui regarde ? L'_homunculus_ (petit homme dans la tête) devient inévitablement absurde. Je ne résiste pas cette fois à orienter votre regard sur Men in Black et le petit Alien qui pilote sa « machine-humaine » depuis son poste de commande intra-crânien - dispositif comique qui, tout en se moquant de l'homunculus, en reconduit l'imaginaire.
 
-**Conséquence sérieuse:** Toute l'information doit **converger** vers un point central d'observation et de pilotage, niant par la même :
+Cet imaginaire a des **conséquence sérieuse:** Toute l'information doit **converger** vers un point central d'observation et de pilotage, niant par la même :
 
 - la **distribution** de la perception dans l'ensemble du corps (proprioception, toucher, équilibre, viscères).
 
@@ -207,7 +209,7 @@ Comment **développe-t-on** ces nouvelles techniques du corps ?
 
 C'est la question pédagogique centrale qui s'ouvre maintenant.
 
-## **Section 2 : Reconnaître des invariants en couplage avec le milieu**
+## **Reconnaître des invariants en couplage avec le milieu**
 
 Si l'attention n'est pas un projecteur qui extrait des informations d'un monde préexistant, mais un processus d'accordage qui fait émerger un monde de pertinences (sensing), alors **l'apprentissage** ne peut plus être conçu comme extraction et stockage de données. Il devient autre chose - de plus subtil et, paradoxalement, de plus fondamental.
 
