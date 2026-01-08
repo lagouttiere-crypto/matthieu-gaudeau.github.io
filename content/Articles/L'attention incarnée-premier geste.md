@@ -15,6 +15,8 @@ maturity: arbre
 
 ---
 
+[Partie 1 : Reconnaître ce qui relie](https://garden-gester.fr/Articles/Reconna%C3%AEtre-ce-qui-relie) | [Partie 2 : Cultiver la confiance](https://garden-gester.fr/Articles/Cultiver-la-confiance) | [Partie 3 : Danser avec le monde](https://garden-gester.fr/Articles/Danser-avec-le-monde) ⬅︎ [Strate 1 : L’attention incarnée-premier geste](https://garden-gester.fr/Articles/L'attention-incarn%C3%A9e-premier-geste)
+
 ## Fondations théoriques
 
 Les développements qui suivent tissent ensemble deux traditions de recherche : celle d'Hubert Godard – danseur, praticien de Rolfing et chercheur qui a su articuler neurophysiologie et phénoménologie pour élaborer une théorie du geste et du pré-mouvement essentielle à notre compréhension de la motricité attentionnelle – et celle de l'Ecological Dynamics (Davids, Chow, Araújo), courant qui conjugue l'approche écologique gibsonienne avec les systèmes dynamiques non-linéaires. Dans cette perspective, l'apprentissage se révèle comme exploration contrainte d'un paysage de possibles, où émergent des attracteurs fonctionnels.
