@@ -13,6 +13,8 @@ maturity: arbre
 
 ---
 
+<iframe width="100%" height="150" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A2243802554&color=%23282828&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/matthieu-gaudeau-981618744" title="Matthieu Gaudeau" target="_blank" style="color: #cccccc; text-decoration: none;">Matthieu Gaudeau</a> · <a href="https://soundcloud.com/matthieu-gaudeau-981618744/reconnaitre-ce-qui-relie-08-01" title="reconnaitre ce qui relie" target="_blank" style="color: #cccccc; text-decoration: none;">reconnaitre ce qui relie</a></div>
+
 [[Reconnaître ce qui relie|Partie 1 : Reconnaître ce qui relie]] | [[Cultiver la confiance|Partie 2 : Cultiver la confiance]] | [[Danser avec le monde|Partie 3 : Danser avec le monde]]
 ⬅︎ [[L'attention incarnée-premier geste|Strate 1 : L'attention incarnée-premier geste]]
 
