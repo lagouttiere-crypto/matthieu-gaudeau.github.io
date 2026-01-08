@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr"><head><title>Dissécier – L'art d'explorer sans séparer</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;700&amp;family=Fira Sans:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Garden Gester"/><meta property="og:title" content="Dissécier – L'art d'explorer sans séparer"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Dissécier – L'art d'explorer sans séparer"/><meta name="twitter:description" content="Geste propitiatoire : 3.1 spirales fugales · 3.2-dissecier · 3.3-L’enseignant-pisteur–en cours de réécriture Vous êtes ici : 3.2 - dissecier [! ] Rappel : Spirales fugales et réverbération Dans la première partie, nous avons proposé que l’apprentissage incarné fonctionne par réverbération plutôt que..."/><meta property="og:description" content="Geste propitiatoire : 3.1 spirales fugales · 3.2-dissecier · 3.3-L’enseignant-pisteur–en cours de réécriture Vous êtes ici : 3.2 - dissecier [! ] Rappel : Spirales fugales et réverbération Dans la première partie, nous avons proposé que l’apprentissage incarné fonctionne par réverbération plutôt que..."/><meta property="og:image:alt" content="Geste propitiatoire : 3.1 spirales fugales · 3.2-dissecier · 3.3-L’enseignant-pisteur–en cours de réécriture Vous êtes ici : 3.2 - dissecier [! ] Rappel : Spirales fugales et réverbération Dans la première partie, nous avons proposé que l’apprentissage incarné fonctionne par réverbération plutôt que..."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/Articles/Dissécier–L'art-d'explorer-sans-séparer"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/Articles/Dissécier–L'art-d'explorer-sans-séparer"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Geste propitiatoire : 3.1 spirales fugales · 3.2-dissecier · 3.3-L’enseignant-pisteur–en cours de réécriture Vous êtes ici : 3.2 - dissecier [! ] Rappel : Spirales fugales et réverbération Dans la première partie, nous avons proposé que l’apprentissage incarné fonctionne par réverbération plutôt que..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL21hdHRoaWV1Z2F1ZGVhdS9Eb2N1bWVudHMvZ2FyZGVuLWdlc3Rlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/Articles/Dissécier–L'art-d'explorer-sans-séparer-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/Articles/Dissécier–L'art-d'explorer-sans-séparer-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/Articles/Dissécier–L'art-d'explorer-sans-séparer-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Articles/Dissécier–L'art-d'explorer-sans-séparer"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"></div><div class="center"><div class="page-header"><header><h2 class="page-title"><a href="..">Garden Gester</a></h2><div class="search"><button class="search-button"><span style="font-size: 1.2rem;">🍂</span><p>Recherche</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Rechercher quelque chose" placeholder="Rechercher quelque chose"/><div class="search-layout" data-preview="true"></div></div></div></div></header><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Articles/">Articles</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Dissécier – L'art d'explorer sans séparer</a></div></nav><h1 class="article-title">🌳 Dissécier – L'art d'explorer sans séparer</h1><p show-comma="true" class="content-meta"><time datetime="2025-01-03T23:00:00.000Z">04 janv. 2025</time><span>30 min de lecture</span></p><ul class="tags"><li><a href="../tags/varela" class="internal tag-link">varela</a></li><li><a href="../tags/boucle-etrange" class="internal tag-link">boucle-etrange</a></li><li><a href="../tags/reverberation" class="internal tag-link">reverberation</a></li><li><a href="../tags/couplage" class="internal tag-link">couplage</a></li><li><a href="../tags/godard" class="internal tag-link">godard</a></li></ul></div></div><article class="popover-hint"><p><strong>Geste propitiatoire</strong> : <a href="../Articles/Spirales-fugales–Quand-l'apprentissage-réverbère" class="internal alias" data-slug="Articles/Spirales-fugales–Quand-l'apprentissage-réverbère">3.1 spirales fugales</a> · <a href="../Articles/Dissécier–L'art-d'explorer-sans-séparer" class="internal alias" data-slug="Articles/Dissécier–L'art-d'explorer-sans-séparer">3.2-dissecier</a> · 3.3-L’enseignant-pisteur–en cours de réécriture
+<strong>Vous êtes ici : 3.2 - dissecier</strong></p>
+<blockquote>
+<p>[! ]
+<strong>Rappel : Spirales fugales et réverbération</strong>
+Dans la première partie, nous avons proposé que l’apprentissage incarné fonctionne par <strong>réverbération</strong> plutôt que par accumulation. Comme le Canon de Bach qui revient au do mineur après avoir traversé six tonalités, chaque exploration somatique fait résonner différemment les mêmes gestes –ainsi la marche qui “ressaisi” l’exploration porte la trace de l’excursion. Cette structure de <strong>Boucle Étrange</strong> (Hofstadter) révèle que ce qui se transforme n’est pas la performance mesurable, mais <strong>le preparatory set</strong> (Zahn) – cette configuration intégrée de tout l’organisme qui détermine ce qui peut être perçu et comment l’action peut s’organiser. Le <strong>pré-mouvement</strong> (Godard) – cette vie imperceptible qui tapisse notre couplage au monde – se reconfigure, et avec lui notre Umwelt, nos affordances, notre manière d’habiter l’espace. La <strong>surprise</strong> qui accompagne le retour transformé n’est pas anecdotique : elle est la signature phénoménologique (Depraz) qu’un invariant relationnel a émergé, que quelque chose de nouveau s’est constitué dans le couplage. Mais cette compréhension nous confronte à une question méthodologique cruciale : <strong>comment explorer ces boucles sans les détruire ?</strong> Comment peut-on examiner le couplage organisme-environnement sans retomber dans la scission réflexive qui séparerait un observateur d’un observé ? Comment dissécier les articulations d’un système vivant sans le disséquer ?</p>
+</blockquote>
+<h2 id="dissécier-sans-dissocier--larchitecture-pédagogique-comme-méthode-récursive">Dissécier sans dissocier : L’architecture pédagogique comme méthode récursive<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dissécier-sans-dissocier--larchitecture-pédagogique-comme-méthode-récursive" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Avant de nous jeter à corps perdu dans le prochain développement, laissez-moi
+vous partager le souvenir d’une vidéo qui me hante depuis plusieurs années. La décrire permettra peut-être de rendre compte de la façon dont elle s’est inscrite en moi. J’ajouterai le lien ensuite si vous souhaitez la regarder.</p>
+<p>La scène s’ouvre sur une salle au sol noir, que l’on devine destinée à la danse.
+Quelques jeunes filles – six ou sept ans – en justaucorps noirs assistent, à ce
+qui semble être leur premier cours de danse classique. La professeure passe entre elles, alignées, et les “place” en première position.</p>
+<p>Position inaugurale à partir de laquelle se développera progressivement toute
+une grammaire : jetés, relevés, pliés, sauts de chat, piqués. Vocabulaire dense
+qui demandera des trésors d’ingéniosité pour que l’équilibre soit progressivement
+conféré à un <strong>second sol</strong> – celui de l’oreille interne. Ce système vestibulaire
+prendra le relais de ce sol, celui que nous partageons avec elle, pour lui permettre d’habiter des variations complexes sur des appuis raréfiés.</p>
+<p>Mais avant que cette grammaire ne s’incorpore, regardez cette petite fille, là,
+à droite de l’écran. Elle ne parvient pas à garder son équilibre, les pieds
+assignés à cette nouvelle configuration. Elle chute, défaisant du même coup
+l’assemblage précaire dans lequel elle était censée “tenir debout”. Elle perd
+cette première position et ne parvient pas, malgré d’intenses contorsions –
+gesticulations somme toute assez comiques – à retrouver, à réinvestir cette
+fameuse <strong>empreinte kinesthésique</strong> qui lui avait été si “généreusement” offerte.</p>
+<p>Et puis – <strong>le moment inaugural</strong> – après s’être appuyée du regard sur sa camarade,
+elle s’apprête à faire ce geste impensable quelques instants auparavant : celui
+de glisser ses propres mains dans les empreintes de mains de sa professeure, et
+de s’appliquer <strong>elle-même</strong> cette configuration première.</p>
+<p>Désormais, cette image reste gravée en moi comme geste éminemment premier de cette boucle récursive folle. Témoin de notre impossibilité à introjecter certains gestes, sauf au prix d’efforts repliant furieusement le corps sur lui-même - à l’image, elle aussi sidérante, d’un Chaplin feuilleté dans cet assemblage corps-machine des <em>temps modernes</em>.</p>
+<p>Mais demeure un écart important entre ces deux registres d’images. Chaplin est
+<strong>pris</strong> dans la machine, avalé par elle jusqu’à la faire dérailler. La jeune fille, elle, <strong>introjecte</strong> – dans un jeu de miroir abyssal – le geste : de danse, de placement, d’attention. Geste de reprise <strong>et</strong> d’assignation d’elle-même par elle-même.</p>
+<p>C’est cette <strong>violence inaugurale</strong>, à l’apprentissage de la danse qui s’est
+<strong>enkystée</strong> en moi comme germe de questionnement foisonnant et qui hante cette
+<a href="../Notes/Vidéo-tragedy-first-position" class="internal alias" data-slug="Notes/Vidéo-tragedy-first-position">section</a>.</p>
+<h3 id="la-posture-intenable-de-lautopoïèse">La posture intenable de l’autopoïèse<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#la-posture-intenable-de-lautopoïèse" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Nous héritons d’une culture dualiste où “explorer un geste” semble évident : une partie de moi (volonté, conscience) observe et agit sur une autre partie (corps, automatisme). Cette séparation structure notre pensée, notre langage, nos institutions. Mais cette évidence toute simple pose un problème encore plus simple : <strong>je ne peux pas sortir du système pour l’observer</strong>.</p>
+<p><strong>Le piège de la scission réflexive</strong></p>
+<p>Imaginez que je veuille “explorer ma relation gravitaire”. Pour ce faire, il faudrait que :</p>
+<ul>
+<li>Une partie de moi se place en position de surplomb pour observer</li>
+<li>Cette observation soit neutre, sans affecter ce qui est observé</li>
+<li>Je puisse identifier la posture comme un objet séparé</li>
+<li>Je puisse ensuite agir sur cet objet pour le transformer</li>
+</ul>
+<p>Or, ces quatre conditions semblent <strong>impossibles</strong>. Pourquoi ? Parce que je suis <strong>toujours déjà</strong> dans le couplage que je cherche à explorer. C’est ma condition <a href="../Notes/Autopoïése" class="internal alias" data-slug="Notes/Autopoïése">autopoïétique</a>, je ne peux pas m’extraire du système vivant que je suis pour l’étudier comme un objet extérieur. <sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup></p>
+<p>Alan Watts le dit magnifiquement : “Il existe une analogie entre la vision centrale et la pensée consciente fractionnée et entre la vision périphérique et ce processus mystérieux qui régule l’incroyable complexité de notre organisme. Mais <strong>la complexité n’est pas tant dans notre corps que dans la tentative de comprendre son fonctionnement par notre seul mode de pensée</strong>.”<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup></p>
+<p>Si nous suivons cette piste, le découpage (gravitaire, perceptif, affectif, moteur…) ne serait pas “dans” le couplage - il serait dans notre <strong>manière de penser</strong> le couplage. Ce serait un artefact de notre méthode d’analyse.</p>
+<p><strong>La conscience arrive toujours trop tard</strong></p>
+<p>Les travaux de Benjamin Libet (1985) <sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label" class="internal alias">3</a></sup> montrent que l’<strong>activité électrique prémotrice</strong> (potentiel de préparation, RP) commence environ <strong>550 millisecondes avant le mouvement volontaire</strong>, alors que la <strong>conscience de l’intention</strong> (W) n’émerge que <strong>200 millisecondes avant</strong>. Cette asynchronie de <strong>350 ms</strong> implique que, au moment où « je » deviens conscient de « vouloir » bouger, le système nerveux a déjà initié la préparation motrice – <strong>symptôme conscient d’un processus préconscient</strong></p>
+<p>Ce minuscule écart peut avoir de nombreuses ramifications, Appliquons-le ici à la nature circulaire de l’habitude – question centrale dans les pratiques somatiques. Comme le note David Gorman à ce propos dans un article précieux : <strong>“Le moment où je suis conscient, c’est le moment du symptôme.”</strong><sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label" class="internal alias">4</a></sup></p>
+<p>Autrement dit, quand je deviens conscient d’un sysmptôme, la boucle se serait <strong>déjà activée</strong>. Le preparatory set qui sous-tend cette habitude se serait configuré à un niveau pré-conscient auquel “je” n’ai pas accès et que “je” ne contrôle pas directement.</p>
+<p>Vouloir “corriger” ce moment-là, ce serait d’une part agir <strong>sur</strong> le symptôme, pas <strong>avec</strong> ce qui l’a produit. Et d’autre part, cette tentative de correction créerait elle-même une <strong>scission dualiste</strong> : une partie de moi (la volonté qui veut corriger) agit sur une autre partie « Ce corps qui a le mauvais geste ».</p>
+<p>Or, cette scission <strong>ne s’ajoute pas</strong> simplement au problème initial – elle crée une <strong>boucle itérative</strong> : plus j’essaie de corriger ma contraction, plus je me contracte dans l’effort de correction. Le remède devient partie du mal. C’est ce que Gorman nomme “The Rounder We Go, The Stucker We Get” : chaque tour de la boucle complexifie exponentiellement le système.</p>
+<p><strong>Le paradoxe de l’habitude</strong></p>
+<p>Ce minuscule hiatus temporel (Libet 1985), si solide neurophysiologiquement, nous piège dans un paradoxe : notre <strong>puissance d’agir consciemment</strong> semble minée – la conscience arrive pour constater, non initier. Nous voilà pris comme des rats dans un paradoxe temporel, qui nécessiterait d’agir depuis le futur pour changer le passé, comme Marty McFly rattrapant sa propre causalité.</p>
+<p>Voyez-vous le problème ? <strong>Ce n’est pas Libet qui nous piège – c’est notre manière de formuler la question.</strong> Rappelons-nous un instant le constat que Emma Bigé faisait concernant le penchant de nos langues indo-européennes : “Quoi qu’on fasse, quoi qu’on pense, en effet, nos verbes se conjuguent en fonction de leurs sujets, pas de leurs objets.” et à nous inviter un peu plus loin “à penser autrement nos verbes, de telle sorte que le faire, l’être et le percevoir y soient indissociables, que le sujet et l’objet y soient solidairement impliqués par l’action.”
+Les discussions enflammées sur le “libre arbitre” qui ont suivi les travaux de Libet en sont le symptôme <a href="https://mindmatters.ai/2020/03/how-libets-free-will-research-is-misrepresented/" class="external">pour exemple<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>: elles présupposent toutes qu’il faudrait soit <strong>sauver</strong> l’initiative consciente du sujet (compatibilisme), soit admettre son inexistence (déterminisme). Mais ces deux positions partagent le même présupposé : que l’action <strong>provient</strong> d’un sujet préexistant. C’est ce présupposé qu’il faut interroger.</p>
+<p>Mais revenons à nos habitudes dont nous nous étions très sérieusement éloignés.
+Donc, <strong>d’une part</strong> : les habitudes néfastes semblent bien réelles et peuvent être source de souffrance et il paraît légitime de vouloir les transformer ➾ ⇐ <strong>D’autre part</strong> : toute tentative de les corriger <strong>depuis une position de contrôle dualiste</strong> risquerait de renforcer précisément la structure qui les maintient - la scission entre une partie qui contrôle et une partie contrôlée.</p>
+<p>Ce serait le piège des boucles d’habitude : plus j’essaie de “lutter contre” mon habitude, plus je renforce la boucle réactive. Car “lutter contre” suppose déjà la séparation : il y aurait “moi” (qui lutte) et “l’habitude” (contre laquelle je lutte).</p>
+<p>Un apologue du Tchouang-tseu, rapporté par Billeter, éclaire ce paradoxe d’une lumière inattendue :</p>
+<blockquote>
+<p>L’unipatte enviait le mille-pattes, le mille-pattes enviait le serpent, le serpent enviait le vent, le vent enviait l’œil et l’œil l’esprit.</p>
+<p>L’unipatte dit au mille-pattes : J’ai bien de la peine à avancer en sautillant sur ma patte. Je me demande comment vous faites pour mouvoir toutes les vôtres ?</p>
+<p>Le mille-pattes répondit : Mais non ! N’avez-vous jamais vu un homme cracher ? Il suffit qu’il expectore pour qu’une pluie de gouttes, les unes grosses comme des perles, les autres fines comme un brouillard, s’abattent pêle-mêle en quantités innombrables. Eh bien [moi aussi], je laisse agir le ressort qui est en moi, sans savoir comment il agit.</p>
+<p>Le mille-pattes dit au serpent : Comment se fait-il qu’avec toutes mes pattes, j’avance moins bien que vous qui êtes sans pattes ?</p>
+<p>Le serpent répondit : C’est l’effet du ressort qui est en moi. Je ne puis rien changer à son action et me passe fort bien de pattes.<sup><a href="#user-content-fn-billeter-tchouang" id="user-content-fnref-billeter-tchouang" data-footnote-ref aria-describedby="footnote-label" class="internal alias">5</a></sup></p>
+</blockquote>
+<p>Le mille-pattes ne <strong>sait pas</strong> comment il coordonne ses pattes. Et c’est précisément parce qu’il ne sait pas – parce qu’il “laisse agir le ressort” – qu’il peut les coordonner. L’unipatte, elle, doit contrôler consciemment sa seule patte, et c’est ce contrôle même qui la rend maladroite.</p>
+<p>Plus remarquable encore : le serpent dit “Je ne puis rien changer à son action”. Ce n’est pas de l’impuissance – c’est la reconnaissance que le “ressort” (le preparatory set, le pré-mouvement) opère à un niveau que le contrôle conscient ne peut atteindre directement. Vouloir “changer” ce qui agit déjà, ce serait précisément créer la boucle réactive qui nous paralyse.</p>
+<p><strong>Cette scission n’est pas une erreur - c’est notre point de départ</strong></p>
+<p>Il ne s’agit pas de nier cette scission et encore moins de culpabiliser. Elle n’est pas un échec personnel. C’est le <strong>produit de notre formation culturelle</strong>.</p>
+<p>Comme le montre Rachel Zahn, la pédagogie occidentale nous a formés pendant des siècles à opérer cette séparation : “On a enseigné aux enfants à mettre de côté leurs connaissances naturelles, à rester assis sans bouger, à interdire la rêverie spontanée et à prêter attention à un enseignant qui leur fournira des faits sur la ‘réalité objective’.”<sup><a href="#user-content-fn-9" id="user-content-fnref-9" data-footnote-ref aria-describedby="footnote-label" class="internal alias">6</a></sup></p>
+<p>Cette formation chronicise la dissociation et nous apprend à croire que nous <strong>sommes</strong> cette séparation.</p>
+<p>Pour Zahn, la scission réflexive est notre <strong>point de départ</strong> et féconde dans de nombreux domaines - mais la chroniciser en “réalité du fonctionnement” empêcherait toute transformation réelle.</p>
+<p><strong>Assumer la posture intenable</strong></p>
+<p>Alors que faire ? Pas nier le problème. Pas ignorer la scission. Mais <strong>assumer la posture intenable de l’autopoïèse</strong> :</p>
+<ol>
+<li>Reconnaître que je ne peux pas sortir du système pour l’observer objectivement</li>
+<li>Reconnaître que cette impossibilité n’est pas un échec - mais ma condition</li>
+<li>Reconnaître que la scission (observateur/observé) est une <strong>construction</strong> utile mais pas une vérité ontologique</li>
+<li><strong>Pratiquer</strong> des méthodes qui travaillent depuis cette impossibilité plutôt que de la nier</li>
+<li><strong>Cultiver</strong> une circulation entre l’expérience vécue et la compréhension conceptuelle – non pour “résoudre” le paradoxe, mais pour créer les conditions d’une transformation du couplage lui-même. Descriptions 1re/3e personne en <strong>contraintes mutuelles génératives</strong> (Varela 1996).<sup><a href="#user-content-fn-13" id="user-content-fnref-13" data-footnote-ref aria-describedby="footnote-label" class="internal alias">7</a></sup></li>
+</ol>
+<p>Ces cinq gestes ne sont pas des étapes séquentielles mais une <strong>posture</strong> – une
+manière d’habiter la pratique qui reconnaît ses limites (1-3) tout en ouvrant
+ses possibilités (4-5).</p>
+<p>Le Tchouang-tseu formule cette posture avec une simplicité désarmante :</p>
+<blockquote>
+<p>Le serpent répondit : C’est l’effet du ressort qui est en moi. Je ne puis rien
+changer à son action et me passe fort bien de pattes.</p>
+</blockquote>
+<p>“Je ne puis rien changer” – non pas impuissance, mais reconnaissance que le
+“ressort” (le preparatory set, le pré-mouvement) opère à un niveau que le
+contrôle conscient ne peut atteindre directement. <strong>Créer les conditions, c’est
+précisément cesser de vouloir changer directement.</strong><sup><a href="#user-content-fn-billeter-tchouang" id="user-content-fnref-billeter-tchouang-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">5</a></sup></p>
+<p><strong>Mais alors, qui agit ?</strong> Si “je” n’initie pas consciemment (Libet), si le sujet
+n’est pas premier mais co-émerge du couplage (Varela), qu’est-ce qui se transforme dans la pratique ?</p>
+<p>Pas “moi” comme entité fixe qui agirait sur “mon corps” comme objet séparé. Ce
+qui se transforme, c’est <strong>la qualité du couplage lui-même</strong> – cette configuration
+organisme-environnement dont émerge ce que nous appelons provisoirement “je”.</p>
+<p>Dès lors, les pratiques somatiques ne peuvent plus viser à “corriger des gestes”
+ou “améliorer des postures” – comme si le geste préexistait à son exploration.
+Elles doivent proposer des <strong>méthodes récursives</strong> : des gestes qui, dans leur
+faire même, reconfigurent le preparatory set, transforment les conditions du
+couplage, révèlent de nouvelles affordances.</p>
+<p>Des gestes qui <strong>travaillent avec</strong> la structure récursive plutôt que de tenter
+de la court-circuiter par le contrôle conscient.</p>
+<p>Dans cette perspective, la pratique de l’inhibition en Technique Alexander nous
+invite, à condition d’en comprendre les subtilités, à <strong>suspendre sans scinder</strong>.
+Ce premier geste correspond à une des déclinaisons de ce que nous avons tenté
+d’attraper en usant du néologisme <strong>dissécier</strong>.</p>
+<h3 id="linhibition-comme-suspension-du-système-entier">L’inhibition comme suspension du système entier<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#linhibition-comme-suspension-du-système-entier" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>L’inhibition</strong> permet un écart entre stimulus et réponse automatique. Mais cette inhibition n’est <strong>pas</strong> un contrôle volontaire (“je décide de ne pas réagir” - ce qui serait encore la scission).</p>
+<p>L’inhibition invite à une <strong>suspension du système entier</strong> - une cessation de la réactivité qui maintient et entretien le pattern, sans qu’une “partie” n’agisse sur une “autre partie”- à ce propos je vous renvoie au texte de D.Gorman “The Rounder We Go, The Stucker We Get”<sup><a href="#user-content-fn-4" id="user-content-fnref-4-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">4</a></sup>. Un rapide résumé est disponible <a href="../Notes/cercles-vicieux" class="internal alias" data-slug="Notes/cercles-vicieux">ici</a>. <sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label" class="internal alias">8</a></sup></p>
+<p><strong>Retour aux trois gestes de l’épochè</strong></p>
+<p>Pour rappel <sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label" class="internal alias">9</a></sup>, Depraz, Varela et Vermersch décrivent le geste phénoménologique de suspension en trois moments :</p>
+<ol>
+<li><strong>Suspension</strong> (épochè) : Je ne réagis pas automatiquement au stimulus</li>
+<li><strong>Redirection</strong> : Je porte attention au processus lui-même (pas au contenu)</li>
+<li><strong>Lâcher-prise</strong> : Je laisse venir ce qui émerge (sans forcer ni bloquer)</li>
+</ol>
+<p>Ce geste ne pourrait pas être “décidé” volontairement comme on décide de lever le bras. Il se <strong>cultiverait</strong> par :</p>
+<ul>
+<li>Confiance dans le couplage - le monde vient m’interpeller</li>
+<li>Instruction intersubjective - un enseignant qui guide sans contrôler</li>
+<li>Pratiques régulières - qui créent les conditions de la suspension</li>
+</ul>
+<p><strong>Ne rien changer “sur soi”</strong></p>
+<p>L’inhibition, comme l’épochè, offre une <strong>grammaire du geste</strong> – une description
+fine de comment pratiquer, non pas comme recette à appliquer, mais comme syntaxe à habiter.
+Paradoxalement, le but ne serait <strong>pas</strong> de changer “soi” (comme si le soi était
+une essence fixe à améliorer). Ce serait de faire l’expérience dans le creuset
+d’une pratique régulière que <strong>le soi n’est pas une essence</strong>, mais un <em>pattern
+de couplage</em> qui se reconfigure <a href="../Notes/Madhyamaka" class="internal alias" data-slug="Notes/Madhyamaka">constamment</a>.</p>
+<p>Cette dissolution de l’essence a des implications éthiques importantes. Pas
+d’essence ne signifie pas “rien” (nihilisme), mais <strong>couplage</strong> : je suis
+constitué par mes relations. Donna Haraway nomme cela <strong>response-ability</strong> –
+non pas “responsabilité” au sens moral culpabilisant, mais <strong>capacité à répondre</strong>
+aux êtres avec qui je suis en relation<sup><a href="#user-content-fn-14" id="user-content-fnref-14" data-footnote-ref aria-describedby="footnote-label" class="internal alias">10</a></sup>. Si je ne suis pas une
+essence isolée mais un nœud de relations, alors transformer mon couplage, c’est
+transformer les conditions de ma capacité à répondre au monde.</p>
+<h3 id="transformer-les-conditions-pas-le-symptôme">Transformer les conditions, pas le symptôme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#transformer-les-conditions-pas-le-symptôme" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Si la conscience arrive toujours trop tard, comment transformer une habitude ?</p>
+<p>En transformant <strong>les conditions qui configurent le preparatory set</strong> : pratiques
+régulières de suspension, changements d’environnement, ou – <strong>crucial</strong> –
+<strong>l’altérité comme révélateur</strong>.</p>
+<p>Car il y a une limite inhérente à l’exploration solitaire : si je ne peux pas sortir du système pour l’observer, comment puis-je <strong>voir</strong> les patterns de mon propre couplage ? Comment percevoir ce qui reste dans mon angle mort, précisément parce que c’est la structure même de mon regard ?</p>
+<h3 id="altérité--miroirs-et-méta-rapporteurs">Altérité : miroirs et méta-rapporteurs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#altérité--miroirs-et-méta-rapporteurs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Donna Haraway, dans <em>Manifeste des espèces compagnes</em><sup><a href="#user-content-fn-8" id="user-content-fnref-8" data-footnote-ref aria-describedby="footnote-label" class="internal alias">11</a></sup>, décrit son chien
+Roland comme un “méta-rapporteur” : il ne joue pas au jeu de la balle, il observe
+les autres chiens qui jouent et piste leurs patterns.</p>
+<p>De même, <strong>l’altérité</strong> – qu’elle prenne la forme d’un enseignant, d’un groupe de pratique, ou même d’un environnement qui “répond” différemment – peut jouer
+le rôle de <strong>révélateur externe</strong>. Pas pour “corriger”, mais pour permettre de <strong>voir</strong> les patterns du couplage qu’on ne peut pas voir seul de l’intérieur.</p>
+<p><strong>La communauté comme plateforme résonnante</strong></p>
+<p>Un groupe qui pratique ensemble ne fonctionne pas seulement par addition
+d’individus. Il crée une <strong>plateforme résonnante</strong> – exactement comme les
+métronomes sur la planche souple qui se synchronisent spontanément. La contagion tonique (Godard) opère entre pairs : un preparatory set plus intégré influence les autres, créant des gradients de résonance qui amplifient les transformations possibles.</p>
+<p>Dans un groupe de pratique expérimenté, ce ne serait même plus “l’enseignant”
+qui détient le savoir – ce serait la <strong>configuration collective</strong> qui crée les conditions. Chacun devient méta-rapporteur pour les autres, pistant les traces de ce qui émerge sans savoir à l’avance ce qui va se révéler.</p>
+<p><strong>L’enseignant comme fonction, pas comme personne</strong></p>
+<p>Dès lors, “l’enseignant” ne désigne plus nécessairement une personne en position
+d’autorité, mais une <strong>fonction</strong> qui peut circuler : celle de créer et maintenir
+les conditions pour que le système puisse se réorganiser. Cette fonction peut
+être incarnée par :</p>
+<ul>
+<li>Un enseignant expérimenté (qui a cultivé sa capacité à ne pas céder au gradient de fixité)</li>
+<li>Un groupe qui pratique ensemble (plateforme collective)</li>
+<li>Un environnement configuré pour certaines affordances (un dojo, une salle dont l’espace lui-même “enseigne”, à ce propos quand on demandait à Steve Paxton comment enseigner la chute, il répondait “en mettant des tatamis par terre”)</li>
+<li>Même un compagnon non-humain (le chien de Haraway, un cheval, le sol d’une forêt)</li>
+</ul>
+<p>Comme le montre Varela avec la neurophénoménologie : guidage mutuel entre comptes rendus objectifs et descriptions en première personne → contraintes mutuelles génératives. L’altérité ne “transmet” pas des savoirs. Elle crée les conditions pour que l’apprenant accède au méta-niveau qui révèle les patterns.</p>
+<h3 id="dissécier--une-méthode-pas-une-technique">Dissécier : Une méthode, pas une technique<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dissécier--une-méthode-pas-une-technique" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Nous pouvons maintenant comprendre ce que pourrait signifier <strong>dissécier</strong> - et en quoi ce serait radicalement différent de <strong>disséquer</strong> ou de <strong>dissocier</strong>.</p>
+<p><strong>Disséquer : Tuer pour comprendre</strong></p>
+<p>Disséquer, c’est couper un organisme mort pour en examiner les parties. La dissection anatomique suppose un cadavre - elle tue ce qu’elle cherche à comprendre.</p>
+<p>La méthode analytique classique ferait de même avec les gestes : elle les décomposerait en éléments isolés qu’on pourrait réassembler. Mais cette décomposition <strong>séparerait</strong> ce qui était tissé, et cette séparation changerait peut-être la nature même de ce qu’on étudie.</p>
+<p><strong>Dissocier : Séparer provisoirement</strong></p>
+<p>Rachel Zahn pointe une distinction cruciale : <strong>dissociation fonctionnelle</strong> vs
+<strong>dissociation chronicisée</strong>.<sup><a href="#user-content-fn-9" id="user-content-fnref-9-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">6</a></sup></p>
+<p>Cette capacité à se dissocier temporairement – à faire “comme si” – serait
+essentielle à l’abstraction, à la créativité, au jeu. Un acteur qui dit “je suis Roméo” pendant la répétition joue de cette dissociation fonctionnelle – un “comme si” assumé, nécessaire à l’imagination. Non seulment c’est une séparation <strong>reconnue comme construction</strong> mais cette séparation est fertile.</p>
+<p>Mais que se passe-t-il quand on oublie le “comme si” ? Quand la métaphore se
+fige en vérité ? L’acteur qui ne peut plus sortir du rôle. Le physicien qui croit vraiment que l’atome “est” un système solaire, ou encore que : <strong>“Le corps EST une machine”</strong> – non plus outil heuristique, mais vérité ontologique.</p>
+<p>C’est ce que Zahn nomme <strong>dissociation chronicisée</strong> : la séparation provisoire
+s’est fossilisée, on a oublié qu’elle était une construction méthodologique.
+Elle devient “la réalité”, indiscutable, invisible comme construction.</p>
+<p>Pour Zahn, c’est exactement ce qui serait arrivé au dualisme cartésien. Descartes
+proposait une <strong>méthode</strong>, outil puissant, qui a permis l’essor de la science moderne. Mais trois siècles plus tard, nous avons oublié le “comme si”. La séparation est devenue notre <strong>ontologie</strong> : l’esprit EST séparé du corps, le sujet EST séparé de l’objet.
+La méthode s’est chronicisée. Et cette chronicisation nous maintient dans la
+scission que nous cherchons justement à dépasser.</p>
+<p><strong>Dissécier : Explorer les articulations sans les séparer</strong></p>
+<p><strong>Dissécier</strong>, serait examiner les <strong>articulations</strong> d’un couplage vivant sans le tuer ni le dissocier, à la façon d’un pisteur qui suit des traces, sans capturer l’animal ; <strong>Dissécier</strong> serait explorer une articulation d’un couplage vivant sans la soustraire au tissu qui la fait exister.</p>
+<p>A partir de là, nous pouvons “faire comme si” et porter attention par exemple, à la relation gravitaire sans la figer en “objet d’étude” séparé. Elle reste <strong>tissée</strong> avec perception, affect, mouvement.</p>
+<p>Nous pouvons ainsi <strong>privilégier</strong> une articulation sans la séparer du tout - sans “rompre” l’organisme - mais en se préservant de faire de <strong>l’organisme</strong> le point de départ qui “ferait autorité” sur l’expérience. Un organisme premier, pris dans une chronologie et qui aurait des perceptions, “subirait” la gravité, “éprouverait” des affects.
+Cette pensée – même quand elle se veut énactive – réintroduit un sujet souverain. Elle suppose un organisme-substance dont les articulations ne seraient que des propriétés. Or Varela et Maturana sont nets : <strong>“L’organisation du vivant n’est pas donnée, elle est continuellement produite.”</strong></p>
+<p>L’organisme n’est pas un point de départ mais un pattern qui émerge du couplage structurel.</p>
+<p>C’est ce que Godard nous aide à penser avec les “articulations fondatrices” et les <strong>curseurs dynamiques</strong> - le système vestibulaire établit une première articulation (Haut/Bas), qui rend possible d’autres articulations (Avant/Arrière, Droite/Gauche), qui elles-mêmes ouvrent à d’autres dimensions, jusqu’à la relation au monde elle-même.
+Mais aucune de ces articulations n’existe indépendamment des autres. Aucune n’est “plus fondamentale” et c’est même in fine, la <strong>multiplication des curseurs</strong> qui agit comme antidote contre toute saisie essentialiste du geste.
+Comme précédemment dans le solo de Trisha Brown : ce que nous nommons “organisme” apparaît comme <strong>tension générative</strong> entre les multiples couplages qu’il permet. Il n’a pas de primauté ontologique. Il <strong>est</strong> ce fond en tant qu’il n’existe que par et dans ces articulations multiples.</p>
+<p><strong>Dissécier</strong>, demande de maintenir cette vigilance : explorer les dimensions du couplage sans accorder à aucun terme – pas même “l’organisme” – le privilège d’être premier, fondateur, ou plus réel que les autres.</p>
+<p><strong>C’est la méthode qui crée le problème</strong></p>
+<p>Michel Bitbol dans un entretien <sup><a href="#user-content-fn-10" id="user-content-fnref-10" data-footnote-ref aria-describedby="footnote-label" class="internal alias">12</a></sup> écrit quelque chose de décisif à propos de l’approche de Varela :</p>
+<p>“<strong>C’est la méthode qui définit le champ des problèmes.</strong> Une méthode qui
+focalise exclusivement votre attention sur les objets vous conduit à les tenir
+pour l’origine de tout le reste. Inversement, une méthode qui relaxe votre
+faisceau attentionnel et le conduit à embrasser l’étendue entière de ce qui
+peut être vécu fait disparaître la tentation de prendre pour origine absolue
+l’un de ces moments à l’exclusion de tout autre.”</p>
+<p>Deux méthodes, deux champs de problèmes :</p>
+<p><strong>Méthode focalisée (dissection)</strong> :</p>
+<ul>
+<li>Focalise sur les objets (gravitaire, perceptif, affectif comme objets séparés)</li>
+<li>Ces objets deviennent “ce qu’il faut comprendre/maîtriser”</li>
+<li>Crée le problème : “Comment relier ce qui a été séparé ?”</li>
+<li>Et cherche l’<strong>origine</strong> : quel terme est premier ? L’organisme ? Le cerveau ?
+L’environnement ?</li>
+</ul>
+<p><strong>Méthode disséciatrice</strong> :</p>
+<ul>
+<li>Relaxe le faisceau attentionnel tout en orientant vers une articulation</li>
+<li>L’articulation apparaît sans se séparer du système</li>
+<li>Aucun moment n’est pris pour origine absolue</li>
+<li>Le problème de la séparation se dissout</li>
+<li>Et avec lui, <strong>le problème même de l’origine</strong></li>
+</ul>
+<p><strong>La vacuité de l’origine</strong></p>
+<p>Cette dissolution du problème de l’origine résonne profondément avec le
+bouddhisme Mādhyamaka de Nāgārjuna et son concept central de <em>śūnyatā</em> (vacuité ou vacance) qui influence fortement l’approche de Varela. Nāgārjuna affirme que rien ne possède d’existence indépendante – tout émerge de relations conditionnées (<em>pratītyasamutpāda</em>, coproduction conditionnée).<sup><a href="#user-content-fn-11" id="user-content-fnref-11" data-footnote-ref aria-describedby="footnote-label" class="internal alias">13</a></sup></p>
+<p>Le geste ultime de Nāgārjuna est de retourner la vacuité sur elle-même :
+<strong>la vacuité elle-même est vide</strong>. Il n’y a pas de “fondement ultime” – pas
+même la vacuité comme fondement. Ce n’est pas du nihilisme, c’est une
+<strong>récursivité qui empêche toute fixation</strong>, même sur l’idée de vacuité.</p>
+<p>Appliqué à notre question : chercher “l’origine” du mouvement (est-ce le
+pré-mouvement ? Le geste ? L’organisme ? L’environnement ?) serait déjà
+s’enfermer dans la méthode focalisée. La méthode disséciatrice dissout cette
+question : il n’y a pas d’origine parce qu’il n’y a que des articulations
+mutuellement constitutives. Et cette absence d’origine elle-même ne devient
+pas un nouveau fondement – elle est simplement la manière dont le couplage
+fonctionne, moment après moment.</p>
+<p>Le sens ne peut jamais être “saisi” parce qu’il se reconfigure dans l’acte
+même de le saisir. C’est exactement ce que fait la Boucle Étrange pédagogique :
+elle ne résout pas le problème de l’apprentissage dualiste, elle le <strong>dissout</strong>
+en pratiquant une autre méthode.</p>
+<p>La question “comment explorer sans séparer ?” supposerait déjà qu’il y aurait
+des parts séparables. <strong>Mais cette séparation serait créée par la méthode
+analytique elle-même.</strong></p>
+<p>Dissécier ne serait pas une manière plus douce de disséquer mais une <strong>autre
+méthode</strong> qui crée un autre champ de problèmes – ou plutôt, qui dissout le
+problème de la séparation en le révélant comme artefact méthodologique.</p>
+<p>Mais comment <strong>pratiquer</strong> concrètement cette méthode ? Comment éviter qu’elle
+ne devienne à son tour une “théorie de l’exploration non-séparatrice” qu’on
+adopterait intellectuellement ?</p>
+<h3 id="pratiquer-la-méthode-récursive">Pratiquer la méthode récursive<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#pratiquer-la-méthode-récursive" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Varela ne combat pas le dualisme frontalement. Argumenter contre le dualisme
+depuis une position dualiste (sujet qui critique un objet) reproduirait la
+structure qu’on cherche à dépasser. Au lieu de cela, il propose une <strong>méthode</strong>
+qui rend le dualisme progressivement non-pertinent - <a href="../Articles/Totalité-sphérique-post-parménidienne" class="internal alias" data-slug="Articles/Totalité-sphérique-post-parménidienne">à propos de cette méthode</a>.</p>
+<p>De même, dissécier ne serait pas une “théorie de l’exploration non-séparatrice”
+à adopter intellectuellement. Ce serait une <strong>pratique incarnée</strong> qui dissout
+l’illusion de la séparation en la vivant autrement.</p>
+<p><strong>Le cercle vertueux de la dissolution</strong></p>
+<p>Argumenter un phénomène par la nécessité de la preuve pratique de ce dernier est toujours suspect, mais laissez-moi vous proposer une analogie que nous allons essayer de suivre : pensez à comment on apprend à nager. On ne peut pas “comprendre” la nage depuis le bord de la piscine. Il faut entrer dans l’eau, suspendre la peur de couler, laisser le corps trouver son rapport à la densité de l’eau. Et petit à petit, le problème “comment ne pas couler ?” se dissout – non pas résolu par une technique, mais <strong>dissous</strong> par un nouveau couplage corps-eau qui rend la question obsolète.</p>
+<p>Dissécier fonctionne ainsi. Ce n’est pas une série d’étapes à suivre (ce qui
+serait encore la méthode focalisée : “faire A puis B puis C”). C’est une
+<strong>boucle récursive</strong> où chaque élément informe les autres :</p>
+<ul>
+<li>Je reconnais que je ne peux pas sortir du système → cette reconnaissance
+elle-même fait partie du système → ce qui change ma manière d’être dans le
+système</li>
+<li>Je suspends ma réactivité habituelle (inhibition, épochè) → mais cette
+suspension révèle à quel point j’étais réactif → ce qui approfondit la
+suspension</li>
+<li>J’oriente l’attention vers une articulation du couplage (disons, le
+gravitaire) → mais cette orientation modifie déjà le couplage → ce qui révèle
+de nouvelles dimensions de l’articulation</li>
+<li>Je laisse l’articulation se révéler sans la figer → mais “laisser” suppose
+déjà une qualité de présence → qui elle-même se cultive par ce laisser</li>
+<li>Je reviens au couplage global (revenons à la marche) → mais ce “retour” porte la trace de l’exploration → ce qui modifie rétroactivement le sens de ce qui a été exploré</li>
+<li>J’accepte que la transformation ne peut être forcée (kairos) → mais cette
+acceptation elle-même crée les conditions du kairos → qui ne peut advenir
+que si on cesse de le chercher</li>
+</ul>
+<p>Chaque moment se replie sur les autres. Ce n’est pas linéaire : 1→2→3→4→5→6.
+C’est une <strong>Boucle Étrange</strong> où chaque élément contient et est contenu par les
+autres.</p>
+<p>Comment savoir si cette méthode “fonctionne” ? On ne peut pas le démontrer
+depuis une position extérieure. Ce serait retomber dans le dualisme : un
+observateur neutre qui évaluerait objectivement l’efficacité d’une méthode.</p>
+<p>Non. La seule “preuve” possible, c’est de <strong>pratiquer</strong> et de constater.
+Constater que :</p>
+<ul>
+<li>Les problèmes qui semblaient insolubles se dissolvent (parfois)</li>
+<li>L’opérativité augmente (on peut faire des choses qu’on ne pouvait pas faire)</li>
+<li>De nouvelles possibilités émergent (on perçoit des affordances qui étaient
+invisibles)</li>
+<li>La qualité du couplage se transforme (l’espace “s’ouvre”, le sol “porte”,
+le “corps répond”)</li>
+</ul>
+<p>Ces constats ne sont pas des “preuves objectives”. Ils sont la <strong>transformation
+vécue</strong> qui témoigne que quelque chose a changé dans le couplage. Comme le
+nageur qui constate qu’il ne coule plus – non par mesure externe, mais par
+expérience directe d’un nouveau rapport à l’eau.
+On ne peut pas prouver qu’on sait marcher en l’expliquant. On marche,
+et la marche elle-même est sa propre démonstration.</p>
+<p>La Boucle Étrange pédagogique fonctionne ainsi : elle ne résout pas le problème
+de l’apprentissage dualiste par un meilleur argument théorique. Elle le
+<strong>dissout</strong> en pratiquant une autre méthode – et cette dissolution, vécue de
+l’intérieur, devient sa propre validation.</p>
+<p>Ou pas. Car il y a toujours la possibilité que rien ne se transforme. Que
+l’exploration reste plate, que le retour à la marche soit identique, que le
+kairos ne se présente pas. Cette possibilité n’est pas un échec de la méthode
+– elle est constitutive de sa nature non-contrôlante. On crée des conditions,
+on cultive une présence, on pratique la suspension… et on accepte que
+l’émergence ne soit jamais garantie.</p>
+<p>C’est peut-être la différence fondamentale entre méthode focalisée et méthode
+disséciatrice :</p>
+<ul>
+<li>La première promet des résultats prévisibles (si tu fais A, tu obtiens B)</li>
+<li>La seconde cultive des conditions pour que quelque chose puisse émerger –
+sans jamais savoir exactement quoi, ni quand</li>
+</ul>
+<p>Parfois, on marche longtemps avant que la transformation advienne. Mais quand elle advient, elle arrive toujours “à notre grande surprise” – signature qu’une Boucle Étrange s’est bouclée.</p>
+<h3 id="la-pédagogie-comme-partition-fugale">La pédagogie comme partition fugale<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#la-pédagogie-comme-partition-fugale" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Cette manière d’explorer résonne avec la structure d’une fugue. Dans une fugue, le <strong>sujet</strong> (thème musical) n’existe pas “en soi” - mais par les transformations qu’il opère à travers différentes voix.</p>
+<p>De même, un thème pédagogique - disons “le rapport au support gravitaire” - pourrait être exploré sous différents angles :</p>
+<ul>
+<li>Par le toucher (comment je sens le sol)</li>
+<li>Par l’équilibre (comment je m’organise dans la gravité)</li>
+<li>Par l’attention (comment ma qualité attentionnelle modifie ce rapport)</li>
+</ul>
+<p>Ces explorations ne s’additionnent pas. Elles <strong>réverbérent</strong> - le même thème résonne différemment à chaque approche. Ces résonances s’éclairent mutuellement, créent des harmoniques, révèlent des dimensions imperceptibles quand on n’explore qu’un seul angle.</p>
+<p>Aucune exploration ne se tenant “au-dessus” des autres. Elles seraient en relation horizontale, dialogique. Le thème lui-même émergeant de leur polyphonie.</p>
+<h3 id="synchronisation-sans-contrôle--la-plateforme-résonnante">Synchronisation sans contrôle : la plateforme résonnante<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#synchronisation-sans-contrôle--la-plateforme-résonnante" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Comment cette polyphonie d’explorations pourrait-elle maintenir sa cohérence sans contrôle centralisé ?</p>
+<p>Reprenons pour cela l’analogie canonique que nous avons déjà convoquée ; plusieurs métronomes sur une plateforme souple suspendue. Sur une table rigide, chacun oscille à son propre rythme. Mais sur la plateforme souple, quelque chose d’étonnant se produit : <strong>ils se synchronisent spontanément</strong>.</p>
+<p>La plateforme transmet les micro-vibrations de chaque métronome aux autres. Ces vibrations créent un couplage faible mais suffisant pour que les métronomes ajustent progressivement leurs phases. Personne ne “contrôle” cette synchronisation - elle <strong>émerge</strong> du couplage physique médié par la plateforme.</p>
+<p>Une exploration pédagogique pourrait fonctionner ainsi. Les concepts théoriques (couplage, affordance, Umwelt, preparatory set) ne “contrôleraient” pas les explorations pratiques - ils créeraient une <strong>plateforme conceptuelle</strong> qui permettrait aux différentes explorations de résonner entre elles.</p>
+<p>Et l’enseignant, dans cette configuration, ne serait pas le chef d’orchestre qui bat la mesure. Il serait <strong>la plateforme elle-même</strong> - il créerait et maintiendrait les conditions pour que les synchronisations émergent. Il deviendrait pisteur : il suivrait les traces de ce qui émerge plutôt que de prescrire ce qui devrait advenir.</p>
+<hr/>
+<p><strong>← Retour</strong> : <a href="../Articles/Spirales-fugales–Quand-l'apprentissage-réverbère" class="internal alias" data-slug="Articles/Spirales-fugales–Quand-l'apprentissage-réverbère">Comment l’apprentissage réverbère</a></p>
+<p><strong>→ Suite du parcours</strong></p>
+<p>Dissécier suppose donc de suspendre la réactivité habituelle, de créer un espace
+où le système peut se réorganiser spontanément. Mais qui crée cet espace ?
+Comment maintenir cette suspension sans retomber dans le contrôle dualiste ?</p>
+<p>Cette question nous conduit à repenser radicalement le rôle de l’enseignant dans
+<strong>3.3-L’enseignant-pisteur–en cours de réécriture</strong>. Non plus transmettre des savoirs, mais s’enforester avec l’apprenant dans le territoire fractal de l’expérience. Non plus corriger, mais créer les conditions de la résonance.</p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#footnote-label" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li id="user-content-fn-1">
+<p><strong>Varela, F. J., Thompson, E., &amp; Rosch, E.</strong> (1991). <em>The Embodied Mind: Cognitive Science and Human Experience</em>. MIT Press. ISBN : 978-0262720212 <a href="#user-content-fnref-1" data-footnote-backref aria-label="Back to reference 1" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p><strong>Watts, A.</strong> (1995). <em>The Wisdom of Insecurity: A Message for an Age of Anxiety</em>. Vintage Books. [Édition originale 1951] <a href="#user-content-fnref-2" data-footnote-backref aria-label="Back to reference 2" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p><strong>Libet, B.</strong> (1985). Unconscious cerebral initiative and the role of conscious will in voluntary action. <em>Behavioral and Brain Sciences</em>, 8(4), 529-566. <a href="https://doi.org/10.1017/S0140525X00044903" class="external">https://doi.org/10.1017/S0140525X00044903<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> <a href="#user-content-fnref-3" data-footnote-backref aria-label="Back to reference 3" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p><strong>Gorman, D.</strong> (1996). <em>The Rounder We Go, The Stucker We Get: The Nature of Circular Habits and Hints on Escaping Them</em>. LearningMethods.net (tiré d’une conférence au Centre for Training, mai 1993). <a href="https://learningmethods.com/pages/the-rounder-we-go-the-stucker-we-get" class="external">https://learningmethods.com/pages/the-rounder-we-go-the-stucker-we-get<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a> <a href="#user-content-fnref-4" data-footnote-backref aria-label="Back to reference 4" class="data-footnote-backref internal alias">↩</a> <a href="#user-content-fnref-4-2" data-footnote-backref aria-label="Back to reference 4-2" class="data-footnote-backref internal">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-billeter-tchouang">
+<p>Billeter, J.-F. (2002). <em>Leçons sur Tchouang-tseu</em>. Allia, p. 43. <a href="#user-content-fnref-billeter-tchouang" data-footnote-backref aria-label="Back to reference 5" class="data-footnote-backref internal alias">↩</a> <a href="#user-content-fnref-billeter-tchouang-2" data-footnote-backref aria-label="Back to reference 5-2" class="data-footnote-backref internal">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-9">
+<p><strong>Zahn, R.</strong> (2013). The union of two nervous systems: Neurophenomenology, enkinaesthesia, and the alexander technique. <em>Constructivist Foundations</em>, 9(1), 74-86. <a href="#user-content-fnref-9" data-footnote-backref aria-label="Back to reference 6" class="data-footnote-backref internal alias">↩</a> <a href="#user-content-fnref-9-2" data-footnote-backref aria-label="Back to reference 6-2" class="data-footnote-backref internal">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-13">
+<p>« Varela (1996) : <em>Neurophénoménologie</em> – contraintes mutuelles 1re/3e personne comme passage génératif ; cf. Bitbol (2014). <a href="#user-content-fnref-13" data-footnote-backref aria-label="Back to reference 7" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>Pour son articulation avec le concept de <strong>Réverbération</strong> je vous invite à voir <a href="../Articles/Danser-avec-le-monde" class="internal alias" data-slug="Articles/Danser-avec-le-monde">Danser avec le monde</a> § <strong>Réverbération : Quand le couplage résonne avec lui-même</strong> <a href="#user-content-fnref-5" data-footnote-backref aria-label="Back to reference 8" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>Pour son développement voir <a href="../Articles/Danser-avec-le-monde" class="internal alias" data-slug="Articles/Danser-avec-le-monde">Danser avec le monde</a> § <strong>Becoming aware : Les trois phases du devenir-conscient</strong> <a href="#user-content-fnref-6" data-footnote-backref aria-label="Back to reference 9" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-14">
+<p>Haraway, D. (2016). <em>Staying with the Trouble</em>. Duke University Press, p. 29-30. Le trait d’union dans “response-ability” insiste sur la capacité (ability) plutôt que l’obligation (responsibility). Haraway écrit : “Response-ability is about both absence and presence of self.” Pas d’essence fixe (absence), mais présence dans le couplage – <strong>être présent à qui/ce qui nous constitue</strong>. Voir aussi <a href="../Articles/Totalité-sphérique-post-parménidienne" class="internal alias" data-slug="Articles/Totalité-sphérique-post-parménidienne">Totalité sphérique post-parménidienne</a> pour les implications cosmopolitiques. <a href="#user-content-fnref-14" data-footnote-backref aria-label="Back to reference 10" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-8">
+<p><strong>Haraway, D. J.</strong> (2003). <em>The Companion Species Manifesto: Dogs, People, and Significant Otherness</em>. Chicago : Prickly Paradigm Press (trad. fr. <em>Manifeste des espèces compagnes : chiens, humains et autres partenaires</em>, Flammarion, « Climats », 2019, préf. V. Despret). <a href="#user-content-fnref-8" data-footnote-backref aria-label="Back to reference 11" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-10">
+<p><strong>Bitbol, M.</strong> (2014). « Entretien avec Michel Bitbol : autour de <em>La conscience a-t-elle une origine ?</em> (partie 3) », <em>Actu Philosophia</em>, 23 oct. 2014. En ligne : <a href="https://www.actu-philosophia.com/entretien-avec-michel-bitbol-autour-de-la/" class="external">https://www.actu-philosophia.com/entretien-avec-michel-bitbol-autour-de-la/<svg aria-hidden="true" class="external-icon" style="max-width:0.8em;max-height:0.8em;" viewBox="0 0 512 512"><path d="M320 0H288V64h32 82.7L201.4 265.4 178.7 288 224 333.3l22.6-22.6L448 109.3V192v32h64V192 32 0H480 320zM32 32H0V64 480v32H32 456h32V480 352 320H424v32 96H64V96h96 32V32H160 32z"></path></svg></a>. <a href="#user-content-fnref-10" data-footnote-backref aria-label="Back to reference 12" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-11">
+<p><strong>Varela, F. J., Thompson, E., &amp; Rosch, E.</strong> (1991). <em>The Embodied Mind: Cognitive Science and Human Experience</em>. MIT Press. ISBN : 978-0262720212 <a href="#user-content-fnref-11" data-footnote-backref aria-label="Back to reference 13" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+</ol>
+</section></article><hr/><div class="page-footer"><div class="graph"><h3>Vue Graphique</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="backlinks"><h3>Liens retour</h3><ul id="list-0" class="overflow"><li><a href="../Articles/Dissécier–L'art-d'explorer-sans-séparer" class="internal">Dissécier – L'art d'explorer sans séparer</a></li><li><a href="../Articles/Spirales-fugales–Quand-l'apprentissage-réverbère" class="internal">Spirales fugales – Quand l'apprentissage réverbère</a></li><li><a href="../MOC/attention" class="internal">attention</a></li><li class="overflow-end"></li></ul></div><div class="related-articles"><h3>Articles similaires</h3><div class="related-grid"><a href="../Articles/Spirales-fugales–Quand-l'apprentissage-réverbère" class="garden-card"><h3>🌳 Spirales fugales – Quand l'apprentissage réverbère</h3><p class="excerpt">Geste propitiatoire : 3.1 spirales fugales · 3.2-dissecier · 3.3-L’enseignant-pisteur–en cours de réécriture Vous êtes ici : 3.1 – Spirales fugales R ...</p><div class="card-footer"><time>04 janv. 2025</time><div class="tags"><span class="tag-pill tag-common">#varela</span><span class="tag-pill tag-common">#boucle-etrange</span><span class="tag-pill tag-common">#reverberation</span></div></div></a><a href="../Concepts/Geste" class="garden-card"><h3>🌳 Geste</h3><p class="excerpt">Geste Une organisation émergente vs un mouvement exécuté Abstract Abstract An Emergent Organization vs....</p><div class="card-footer"><time>18 déc. 2025</time><div class="tags"><span class="tag-pill tag-common">#godard</span><span class="tag-pill">#concept-pivot</span><span class="tag-pill">#énaction</span></div></div></a><a href="../Concepts/Gestosphère" class="garden-card"><h3>🌿 Gestosphère</h3><p class="excerpt">Gestosphère L’univers symbolique qui force l’anatomie La gestosphère désigne l’univers symbolique des gestes qui constituent une personne....</p><div class="card-footer"><time>17 déc. 2025</time><div class="tags"><span class="tag-pill tag-common">#godard</span><span class="tag-pill">#geste</span><span class="tag-pill">#symbolique</span></div></div></a></div></div></div></div><div class="right sidebar"></div><footer class><p>Created MGaudeau © 2026Créé avec <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a></p><ul></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

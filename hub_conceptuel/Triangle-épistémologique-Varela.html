@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr"><head><title>Triangle épistémologique Varela</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;700&amp;family=Fira Sans:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Garden Gester"/><meta property="og:title" content="Triangle épistémologique Varela"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Triangle épistémologique Varela"/><meta name="twitter:description" content="Triangle épistémologique Varela : phénoménologie-systémique-bouddhisme Thèse centrale Francisco Varela développe une architecture de pensée unique qui tisse trois traditions apparemment distinctes — phénoménologie occidentale, systémique/cybernétique, et contemplation bouddhiste — en montrant qu’ell..."/><meta property="og:description" content="Triangle épistémologique Varela : phénoménologie-systémique-bouddhisme Thèse centrale Francisco Varela développe une architecture de pensée unique qui tisse trois traditions apparemment distinctes — phénoménologie occidentale, systémique/cybernétique, et contemplation bouddhiste — en montrant qu’ell..."/><meta property="og:image:alt" content="Triangle épistémologique Varela : phénoménologie-systémique-bouddhisme Thèse centrale Francisco Varela développe une architecture de pensée unique qui tisse trois traditions apparemment distinctes — phénoménologie occidentale, systémique/cybernétique, et contemplation bouddhiste — en montrant qu’ell..."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/hub_conceptuel/Triangle-épistémologique-Varela"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/hub_conceptuel/Triangle-épistémologique-Varela"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Triangle épistémologique Varela : phénoménologie-systémique-bouddhisme Thèse centrale Francisco Varela développe une architecture de pensée unique qui tisse trois traditions apparemment distinctes — phénoménologie occidentale, systémique/cybernétique, et contemplation bouddhiste — en montrant qu’ell..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL21hdHRoaWV1Z2F1ZGVhdS9Eb2N1bWVudHMvZ2FyZGVuLWdlc3Rlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/hub_conceptuel/Triangle-épistémologique-Varela-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/hub_conceptuel/Triangle-épistémologique-Varela-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/hub_conceptuel/Triangle-épistémologique-Varela-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="hub_conceptuel/Triangle-épistémologique-Varela"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"></div><div class="center"><div class="page-header"><header><h2 class="page-title"><a href="..">Garden Gester</a></h2><div class="search"><button class="search-button"><span style="font-size: 1.2rem;">🍂</span><p>Recherche</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Rechercher quelque chose" placeholder="Rechercher quelque chose"/><div class="search-layout" data-preview="true"></div></div></div></div></header><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../hub_conceptuel/">hub_conceptuel</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Triangle épistémologique Varela</a></div></nav><h1 class="article-title">🌿 Triangle épistémologique Varela</h1><p show-comma="true" class="content-meta"><time datetime="2025-12-30T07:42:46.000Z">30 déc. 2025</time><span>11 min de lecture</span></p><ul class="tags"><li><a href="../tags/concept" class="internal tag-link">concept</a></li><li><a href="../tags/phénoménologie" class="internal tag-link">phénoménologie</a></li><li><a href="../tags/systémie" class="internal tag-link">systémie</a></li><li><a href="../tags/bouddhisme" class="internal tag-link">bouddhisme</a></li></ul></div></div><article class="popover-hint"><h1 id="triangle-épistémologique-varela--phénoménologie-systémique-bouddhisme">Triangle épistémologique Varela : phénoménologie-systémique-bouddhisme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#triangle-épistémologique-varela--phénoménologie-systémique-bouddhisme" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<h2 id="thèse-centrale">Thèse centrale<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#thèse-centrale" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>Francisco Varela développe une architecture de pensée unique qui <strong>tisse</strong> trois traditions apparemment distinctes — phénoménologie occidentale, systémique/cybernétique, et contemplation bouddhiste — en montrant qu’elles convergent vers une même intuition fondamentale : <strong>l’absence de fondement ultime</strong> (ni sujet pur, ni objet pur, ni système isolé) et l’émergence de sens à travers des <strong>processus récursifs auto-organisés</strong> dans un couplage avec le milieu<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label" class="internal alias">1</a></sup>.</p>
+<p>Ce n’est pas une “synthèse éclectique” mais la révélation d’un <strong>isomorphisme structural</strong> : ces trois approches découvrent indépendamment la même architecture du vivant et du connaître<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label" class="internal alias">2</a></sup>.</p>
+<h2 id="architecture-tripartite">Architecture tripartite<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#architecture-tripartite" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1-systémique-et-cybernétique-de-2e-ordre">1. Systémique et cybernétique de 2e ordre<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-systémique-et-cybernétique-de-2e-ordre" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Héritage von Foerster</strong></p>
+<ul>
+<li>Cybernétique de 2e ordre : l’observateur est inclus dans le système observé → récursivité radicale<sup><a href="#user-content-fn-3" id="user-content-fnref-3" data-footnote-ref aria-describedby="footnote-label" class="internal alias">3</a></sup></li>
+<li>“Objets” comme <em>tokens for eigenbehaviors</em> (jetons pour comportements propres) — le monde émerge des opérations récursives de l’observateur</li>
+<li>Varela radicalise : même le “je” observateur est autopoïétique, pas donné d’avance</li>
+</ul>
+<p><strong>Autopoïèse (avec Maturana)</strong></p>
+<ul>
+<li>Système vivant = <strong>réseau de processus produisant ses propres composants</strong><sup><a href="#user-content-fn-4" id="user-content-fnref-4" data-footnote-ref aria-describedby="footnote-label" class="internal alias">4</a></sup></li>
+<li><strong>Clôture opérationnelle</strong> : pas d’inputs/outputs au sens classique, mais perturbations déclenchant dynamiques internes selon organisation propre</li>
+<li><strong>Autonomie</strong> : organisation circulaire sans commande centrale ni représentation du monde “externe”</li>
+<li>Milieu ne “commande” pas le système, il <strong>déclenche</strong> des réorganisations selon la structure interne</li>
+</ul>
+<p><strong>Rupture avec systémique classique</strong></p>
+<ul>
+<li>Systémique 1re génération (von Bertalanffy) : homéostasie, équilibre face à perturbations <em>externes</em></li>
+<li>Varela/Maturana : pas d’extérieur défini indépendamment — l’environnement pertinent est <strong>énacté</strong> par le système lui-même<sup><a href="#user-content-fn-5" id="user-content-fnref-5" data-footnote-ref aria-describedby="footnote-label" class="internal alias">5</a></sup></li>
+<li>Exemple : la cellule ne “reçoit” pas un nutriment objectif — elle fait émerger ce qui compte comme nutriment selon ses processus métaboliques</li>
+</ul>
+<p><strong>Lien Bateson</strong></p>
+<ul>
+<li>“Unité d’analyse = organisme-dans-environnement” (écologie de l’esprit)<sup><a href="#user-content-fn-6" id="user-content-fnref-6" data-footnote-ref aria-describedby="footnote-label" class="internal alias">6</a></sup></li>
+<li>L’esprit est immanent au système relationnel (<em>pattern qui connecte</em>)</li>
+<li>Varela prolonge : cognition = émergence de sens dans couplage, pas représentation d’un monde préexistant</li>
+</ul>
+<h3 id="2-phénoménologie-husserl-merleau-ponty">2. Phénoménologie (Husserl, Merleau-Ponty)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-phénoménologie-husserl-merleau-ponty" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Réduction phénoménologique</strong></p>
+<ul>
+<li><strong>Epoché</strong> : suspension de l’attitude naturelle (croyance spontanée en monde “là-devant”)</li>
+<li>Réduction transcendantale : remonter des objets constitués vers <strong>actes constituants</strong></li>
+<li>Découverte husserlienne radicalisée par Varela : pas de “sujet pur” dernier, mais <strong>flux auto-affectant</strong> (présent vivant comme rétention-protention)<sup><a href="#user-content-fn-7" id="user-content-fnref-7" data-footnote-ref aria-describedby="footnote-label" class="internal alias">7</a></sup></li>
+</ul>
+<p><strong>Intentionnalité incarnée (Merleau-Ponty)</strong></p>
+<ul>
+<li>Conscience toujours “conscience de…” mais ancrée dans <strong>corps vécu</strong> (Leib)</li>
+<li>Chair : entrelacs sentir-senti, pas dualité sujet-objet</li>
+<li>Monde perceptif émerge de <strong>schémas sensori-moteurs</strong> (pas reconstruction mentale d’inputs)<sup><a href="#user-content-fn-8" id="user-content-fnref-8" data-footnote-ref aria-describedby="footnote-label" class="internal alias">8</a></sup></li>
+</ul>
+<p><strong>Pont avec autopoïèse</strong></p>
+<ul>
+<li>Clôture opérationnelle (systémique) = intentionnalité sans objet préexistant (phénoménologie)</li>
+<li>Couplage structural (systémique) = corrélation noème-noèse (phénoménologie)</li>
+<li>Autonomie (systémique) = constitution du sens par le sujet incarné (phénoménologie)</li>
+</ul>
+<h3 id="3-bouddhisme-madhyamaka-abhidhamma-vipassanā">3. Bouddhisme (madhyamaka, abhidhamma, vipassanā)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-bouddhisme-madhyamaka-abhidhamma-vipassanā" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Anattā (non-soi)</strong></p>
+<ul>
+<li>Pas de soi substantiel, permanent, indépendant</li>
+<li>Investigation contemplative révèle : le “je” est <strong>agrégat impermanent</strong> (skandhas), pas entité fondatrice</li>
+<li>Méditation vipassanā = dissolution empirique du sujet par observation récursive (observer l’observateur jusqu’à disparition)<sup><a href="#user-content-fn-9" id="user-content-fnref-9" data-footnote-ref aria-describedby="footnote-label" class="internal alias">9</a></sup></li>
+</ul>
+<p><strong>Pratītyasamutpāda (coproduction conditionnée)</strong></p>
+<ul>
+<li>Tout phénomène émerge de conditions interdépendantes — pas d’existence intrinsèque (<em>svabhāva</em>)</li>
+<li><strong>Vacuité</strong> (<em>śūnyatā</em>) ≠ néant, mais absence de fondement ultime : chaque chose n’existe que relationnellement<sup><a href="#user-content-fn-10" id="user-content-fnref-10" data-footnote-ref aria-describedby="footnote-label" class="internal alias">10</a></sup></li>
+<li>Convergence avec autopoïèse : organisme n’a pas identité préexistante, elle émerge du réseau de relations</li>
+</ul>
+<p><strong>Madhyamaka (voie moyenne)</strong></p>
+<ul>
+<li>Éviter extrêmes : ni éternalisme (entités permanentes) ni nihilisme (rien n’existe)</li>
+<li>Varela transpose : ni réalisme naïf (monde objectif indépendant) ni idéalisme (tout est mental)<sup><a href="#user-content-fn-11" id="user-content-fnref-11" data-footnote-ref aria-describedby="footnote-label" class="internal alias">11</a></sup></li>
+<li>Position <strong>énactive</strong> : monde et esprit co-émergent dans le couplage</li>
+</ul>
+<p><strong>Pratique contemplative comme méthode</strong></p>
+<ul>
+<li>Méditation = laboratoire phénoménologique rigoureux (2500 ans d’investigation systématique 1re personne)<sup><a href="#user-content-fn-12" id="user-content-fnref-12" data-footnote-ref aria-describedby="footnote-label" class="internal alias">12</a></sup></li>
+<li>Entraînement attention → rapports micro-phénoménologiques précis</li>
+<li>Varela : “Ignorer méditation bouddhiste = ignorer télescope de Galilée”</li>
+</ul>
+<h2 id="isomorphisme-structural-révélé">Isomorphisme structural révélé<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#isomorphisme-structural-révélé" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th><strong>Dimension</strong></th><th><strong>Phénoménologie</strong></th><th><strong>Systémique</strong></th><th><strong>Bouddhisme</strong></th></tr></thead><tbody><tr><td><strong>Méthode</strong></td><td>Réduction (epoché)</td><td>Observation 2e ordre</td><td>Méditation (vipassanā)</td></tr><tr><td><strong>Découverte</strong></td><td>Intentionnalité sans sujet pur</td><td>Autopoïèse sans centre de commande</td><td>Anattā (pas de soi permanent)</td></tr><tr><td><strong>Structure</strong></td><td>Corrélation noème-noèse</td><td>Clôture opérationnelle + couplage</td><td>Coproduction conditionnée</td></tr><tr><td><strong>Temporalité</strong></td><td>Présent vivant (rétention-protention)</td><td>Dynamique récursive</td><td>Impermanence (anicca)</td></tr><tr><td><strong>Résultat</strong></td><td>Monde vécu (<em>Lebenswelt</em>)</td><td>Domaine d’interactions énacté</td><td>Monde comme karma collectif</td></tr><tr><td><strong>Absence</strong></td><td>Pas de sujet transcendantal substantiel</td><td>Pas d’inputs/outputs objectifs</td><td>Pas d’existence intrinsèque</td></tr></tbody></table></div>
+<h2 id="neurophénoménologie--le-dispositif-intégrateur">Neurophénoménologie : le dispositif intégrateur<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#neurophénoménologie--le-dispositif-intégrateur" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Problème initial</strong></p>
+<ul>
+<li>Phénoménologie : rigueur descriptive 1re personne, mais isolée des sciences</li>
+<li>Neurosciences : rigueur 3e personne, mais “écrase” le vécu</li>
+<li>Bouddhisme : pratique millénaire, mais pas dialogue avec cognition</li>
+</ul>
+<p><strong>Solution Varela : contraintes mutuelles</strong><sup><a href="#user-content-fn-13" id="user-content-fnref-13" data-footnote-ref aria-describedby="footnote-label" class="internal alias">13</a></sup></p>
+<ol>
+<li><strong>Données phénoménologiques</strong> : rapports 1re personne disciplinés par entraînement contemplatif</li>
+<li><strong>Données neuroscientifiques</strong> : patterns dynamiques cérébraux (synchronisation neuronale, etc.)</li>
+<li><strong>Modèles systémiques</strong> : autopoïèse, émergence, couplage</li>
+</ol>
+<p><strong>Dispositif concret</strong></p>
+<ul>
+<li>Entraîner méditants à micro-phénoménologie précise</li>
+<li>Corréler avec imagerie (EEG, IRMf)</li>
+<li>Chercher <strong>invariants structurels</strong> — pas réduction 1re→3e personne, mais <strong>résonance</strong> entre niveaux</li>
+</ul>
+<p><strong>Exemple : perception couleur</strong></p>
+<ul>
+<li>1re personne : description fine émergence expérience “rouge”</li>
+<li>3e personne : synchronisation neuronale ~40Hz</li>
+<li>Modèle : émergence propriété globale par couplage récursif neurones<sup><a href="#user-content-fn-14" id="user-content-fnref-14" data-footnote-ref aria-describedby="footnote-label" class="internal alias">14</a></sup></li>
+</ul>
+<h2 id="énaction--concept-synthèse">Énaction : concept-synthèse<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#énaction--concept-synthèse" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Définition</strong></p>
+<blockquote>
+<p>Cognition n’est ni représentation d’un monde préexistant (réalisme), ni projection mentale (idéalisme), mais <strong>faire-émerger</strong> (<em>enact</em>) un monde de sens à travers action incarnée dans couplage structural avec milieu<sup><a href="#user-content-fn-15" id="user-content-fnref-15" data-footnote-ref aria-describedby="footnote-label" class="internal alias">15</a></sup></p>
+</blockquote>
+<p><strong>Triple ancrage</strong></p>
+<ul>
+<li><strong>Phénoménologique</strong> : sens émerge de corrélation corps-monde (Merleau-Ponty)</li>
+<li><strong>Systémique</strong> : organisation autopoïétique définit domaine d’interactions pertinent</li>
+<li><strong>Bouddhiste</strong> : monde co-produit par karma (actions passées) — pas donné indépendamment</li>
+</ul>
+<p><strong>Conséquences</strong></p>
+<ul>
+<li>Pas de “monde objectif” séparé de processus cognitif qui le fait émerger</li>
+<li>Pas de “sujet” indépendant du monde qu’il énacte</li>
+<li>Connaissance = <strong>transformation du couplage</strong>, pas acquisition de représentations correctes</li>
+</ul>
+<h2 id="implications-pour-pédagogie-énactive">Implications pour pédagogie énactive<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#implications-pour-pédagogie-énactive" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="triple-accordage">Triple accordage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#triple-accordage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>1. Accordage phénoménologique</strong> (dimension vécue)</p>
+<ul>
+<li>Cultiver attention au <strong>pré-réfléchi</strong> : sentir tonus, pattern postural, qualité présence</li>
+<li>Alexander Technique : inhibition pattern habituel → espace pour émergence coordination non-voulue, symptôme ou situation comme amorce</li>
+<li>Pas “observer de loin” mais <strong>habiter processus</strong> (réduction incarnée)</li>
+</ul>
+<p><strong>2. Accordage systémique</strong> (dimension organisationnelle)</p>
+<ul>
+<li>Corps comme système autopoïétique : pas “je contrôle corps” mais “corps s’organise et je participe”</li>
+<li>Posture émerge de <strong>circularité sensori-motrice</strong>, pas commande top-down</li>
+<li>Enseigner = créer conditions pour système se réorganise (pas transmettre information)</li>
+</ul>
+<p><strong>3. Accordage éthique-contemplatif</strong> (dimension transformative)</p>
+<ul>
+<li>Alexander : “moyens-par-rapport-à-une-fin” — processus > résultat fixé d’avance</li>
+<li>Bouddhisme : “non-agir” (<em>wu-wei</em>) — action sans saisie sur résultat</li>
+<li>Varela : <strong>sagesse incarnée</strong> = savoir-faire corporel (pas application règles abstraites)<sup><a href="#user-content-fn-16" id="user-content-fnref-16" data-footnote-ref aria-describedby="footnote-label" class="internal alias">16</a></sup></li>
+</ul>
+<h3 id="apprendre--transformer-son-couplage">Apprendre = transformer son couplage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#apprendre--transformer-son-couplage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Pas</strong> : acquérir représentations correctes du monde objectif
+<strong>Mais</strong> : développer compétences d’accordage avec milieu énacté</p>
+<p><strong>Exemple Alexander</strong></p>
+<ul>
+<li>“Bonne posture” n’existe pas en soi (pas norme objective à copier)</li>
+<li>Émerge de <strong>qualité de présence au tonus</strong> (autopoïèse posturale)</li>
+<li><a href="../Inhibition" class="internal" data-slug="Inhibition">Inhibition</a> permet au système se réorganiser sans forcer (à développer)</li>
+<li><a href="../Accordage" class="internal" data-slug="Accordage">Accordage</a> comme compétence à cultiver, pas état à atteindre : Enkinesthésie</li>
+</ul>
+<p><strong>Lien <a href="../gestosphère" class="internal alias" data-slug="gestosphère">gestosphère</a></strong></p>
+<ul>
+<li>Geste ne part pas d’intention sujet séparé</li>
+<li>Émerge du champ relationnel organisme-milieu (Godard)</li>
+<li>Varela fournirait : gestosphère = domaine d’interactions énacté par organisation autopoïétique du corps</li>
+<li><strong>Pour ta pédagogie énactive, l’enkinesthésie donne :</strong></li>
+<li><strong>Un cadre pour penser comment l’accordage n’est pas mental mais corporel-affectif</strong></li>
+<li><strong>Une alternative au modèle représentationnel : les gestes fondateurs ne sont pas des symboles mais des structures enkinesthésiques</strong></li>
+<li><strong>Un concept pour l’appresentation de l’intentionnalité de l’autre dans le geste pédagogique</strong></li>
+</ul>
+<p><strong>Lien <a href="../preuve-du-réel" class="internal alias" data-slug="preuve-du-réel">preuve du réel</a> (Lygia Clark)</strong></p>
+<ul>
+<li>Objet relationnel teste coproduction sens (pas signification fixée)</li>
+<li>Varela : réel = ce qui résiste/répond dans couplage</li>
+<li>Pas “monde extérieur objectif” mais <strong>consistance émergente</strong> du domaine énacté</li>
+</ul>
+<h2 id="dissolution-récursive-du-dualisme">Dissolution récursive du dualisme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dissolution-récursive-du-dualisme" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Méditation “observer l’observateur”</strong></p>
+<ul>
+<li>Protocole : observer respiration → observer observateur → observer observateur observant… (récursion itérée)</li>
+<li>Résultat phénoménologique : distinction observateur/observé devient <strong>indécidable</strong></li>
+<li>Anattā comme constat empirique : pas de “je” séparé, juste boucles attentionnelles sans fondement dernier<sup><a href="#user-content-fn-17" id="user-content-fnref-17" data-footnote-ref aria-describedby="footnote-label" class="internal alias">17</a></sup></li>
+</ul>
+<p><strong>Parallèle réduction Bitbol</strong><sup><a href="#user-content-fn-18" id="user-content-fnref-18" data-footnote-ref aria-describedby="footnote-label" class="internal alias">18</a></sup></p>
+<ul>
+<li>Epoché husserlienne → suspension thèse du monde</li>
+<li>Réduction transcendantale → remontée vers actes constituants</li>
+<li>Réduction radicale (Husserl tardif + Varela) → dissolution du “je transcendantal” lui-même</li>
+<li>Reste : <strong>flux auto-affectant sans propriétaire</strong> (= anattā phénoménologique)</li>
+</ul>
+<p><strong>Convergence triangle</strong></p>
+<ul>
+<li>Phénoménologie : “je” = pôle fonctionnel tardif, pas substrat</li>
+<li>Systémique : autopoïèse sans centre de commande</li>
+<li>Bouddhisme : anattā = agrégats impermanents sans unificateur</li>
+</ul>
+<h2 id="éthique-incarnée">Éthique incarnée<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#éthique-incarnée" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Critique éthique normative</strong></p>
+<ul>
+<li>Règles abstraites déconnectées du vécu → inefficaces pour guider action concrète</li>
+<li>Présupposent sujet rationnel calculant (cognitivisme moral)<sup><a href="#user-content-fn-19" id="user-content-fnref-19" data-footnote-ref aria-describedby="footnote-label" class="internal alias">19</a></sup></li>
+</ul>
+<p><strong>Proposition Varela : savoir-faire éthique</strong></p>
+<ul>
+<li>Sagesse émerge de <strong>pratique incarnée</strong> (discipline contemplative)</li>
+<li>Compassion = compréhension vécue de l’interdépendance (pratītyasamutpāda)</li>
+<li>Pas sentimentalisme mais lucidité : voir coproduction conditionnée → agir avec soin</li>
+</ul>
+<p><strong>Lien autopoïèse → autonomie éthique</strong></p>
+<ul>
+<li>Système autopoïétique définit lui-même critères de viabilité</li>
+<li>Éthique = cultiver conditions pour systèmes autonomes coexistent (respect clôture opérationnelle mutuelle)</li>
+<li>Compassion = reconnaissance que “l’autre” n’est pas séparé (domaines énactés s’interpénètrent)</li>
+</ul>
+<h2 id="ouvrages-clés-varela">Ouvrages clés Varela<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#ouvrages-clés-varela" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="textes-fondateurs">Textes fondateurs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#textes-fondateurs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Maturana, H. &amp; Varela, F. (1980). <em>Autopoiesis and Cognition: The Realization of the Living</em>. Reidel.</li>
+<li>Varela, F. (1989). <em>Autonomie et connaissance : Essai sur le vivant</em>. Seuil.</li>
+<li>Varela, F., Thompson, E. &amp; Rosch, E. (1991). <em>The Embodied Mind: Cognitive Science and Human Experience</em>. MIT Press. [Trad. fr. <em>L’Inscription corporelle de l’esprit</em>, Seuil, 1993]</li>
+</ul>
+<h3 id="neurophénoménologie">Neurophénoménologie<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#neurophénoménologie" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Varela, F. (1996). “Neurophenomenology: A Methodological Remedy for the Hard Problem”. <em>Journal of Consciousness Studies</em>, 3(4), 330-349.</li>
+<li>Varela, F. (1999). “The Specious Present: A Neurophenomenology of Time Consciousness”. In Petitot et al. (eds.), <em>Naturalizing Phenomenology</em>. Stanford UP.</li>
+</ul>
+<h3 id="éthique-et-bouddhisme">Éthique et bouddhisme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#éthique-et-bouddhisme" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Varela, F. (1992). “Un know-how pour l’éthique”. In <em>Un savoir pour l’éthique</em>. La Découverte.</li>
+<li>Varela, F. (1997). <em>Dormir, rêver, mourir : Explorer la conscience avec le Dalaï-Lama</em>. NIL éditions.</li>
+<li>Varela, F. (1999). <em>Quel savoir pour l’éthique ?</em> La Découverte.</li>
+</ul>
+<h3 id="synthèses-posthumes">Synthèses posthumes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#synthèses-posthumes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Bitbol, M., Kerszberg, P. &amp; Petitot, J. (dir.) (2010). <em>Constituting Objectivity: Transcendental Perspectives on Modern Physics</em>. Springer. [Contributions Varela]</li>
+<li>Cohen-Varela, A., Bitbol, M., Dupuy, J.-P. &amp; Petitot, J. (2017). <em>Le Cercle créateur : Écrits (1976-2001)</em>. Seuil. [Entretiens révélant architecture de pensée]</li>
+</ul>
+<h2 id="prolongements-et-commentateurs">Prolongements et commentateurs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#prolongements-et-commentateurs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="approfondissements-théoriques">Approfondissements théoriques<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#approfondissements-théoriques" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Thompson, E.</strong> (2007). <em>Mind in Life: Biology, Phenomenology, and the Sciences of Mind</em>. Harvard UP. [Prolonge autopoïèse + phénoménologie]</li>
+<li><strong>Thompson, E.</strong> (2014). <em>Waking, Dreaming, Being: Self and Consciousness in Neuroscience, Meditation, and Philosophy</em>. Columbia UP.</li>
+<li><strong>Di Paolo, E., Buhrmann, T. &amp; Barandiaran, X.</strong> (2017). <em>Sensorimotor Life: An Enactive Proposal</em>. Oxford UP.</li>
+</ul>
+<h3 id="applications-phénoménologiques">Applications phénoménologiques<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#applications-phénoménologiques" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Depraz, N.</strong> (2001). <em>Lucidité du corps : De l’empirisme transcendantal en phénoménologie</em>. Kluwer.</li>
+<li><strong>Depraz, N., Varela, F. &amp; Vermersch, P.</strong> (2003). <em>On Becoming Aware: A Pragmatics of Experiencing</em>. John Benjamins.</li>
+<li><strong>Vermersch, P.</strong> (1994). <em>L’Entretien d’explicitation</em>. ESF. [Méthode micro-phénoménologique inspirée Varela]</li>
+</ul>
+<h3 id="dialogue-bouddhisme-sciences">Dialogue bouddhisme-sciences<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#dialogue-bouddhisme-sciences" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Wallace, A.</strong> (2007). <em>Contemplative Science: Where Buddhism and Neuroscience Converge</em>. Columbia UP.</li>
+<li><strong>Lutz, A., Dunne, J. &amp; Davidson, R.</strong> (2007). “Meditation and the Neuroscience of Consciousness”. In Zelazo et al., <em>Cambridge Handbook of Consciousness</em>. [Élèves Varela]</li>
+</ul>
+<h3 id="critiques-et-débats">Critiques et débats<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#critiques-et-débats" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Bitbol, M.</strong> (2014). <em>La conscience a-t-elle une origine ? Des neurosciences à la pleine conscience : une nouvelle approche de l’esprit</em>. Flammarion. [Radicalise réduction phénoménologique vers anattā]</li>
+<li><strong>Gallagher, S. &amp; Zahavi, D.</strong> (2021). <em>The Phenomenological Mind</em> (3e éd.). Routledge. [Discussion critique énaction]</li>
+</ul>
+<h2 id="connexions-avec-concepts-du-jardin">Connexions avec concepts du jardin<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#connexions-avec-concepts-du-jardin" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong><a href="../Accordage" class="internal" data-slug="Accordage">Accordage</a></strong></p>
+<ul>
+<li>Varela fournirait : accordage = ajustement continu du couplage structural</li>
+<li>Pas adaptation passive mais <strong>co-spécification</strong> organisme-milieu</li>
+<li>Lien direct avec Alexander : “bonne posture” émerge de qualité accordage, pas norme externe</li>
+</ul>
+<p><strong><a href="../Inhibition" class="internal" data-slug="Inhibition">Inhibition</a></strong></p>
+<ul>
+<li>Suspendre pattern habituel = créer espace pour réorganisation autopoïétique</li>
+<li>Parallèle epoché phénoménologique : suspendre attitude naturelle</li>
+<li>Permettre au système s’auto-organiser sans intervention volontariste</li>
+</ul>
+<p><strong><a href="../Concepts/Gestosphère" class="internal alias" data-slug="Concepts/Gestosphère">Gestosphère</a> (Godard)</strong></p>
+<ul>
+<li>Domaine pré-personnel d’où gestes émergent</li>
+<li>Varela : geste comme actualization d’un domaine d’interactions énacté</li>
+<li>Pas “sujet fait geste dans monde” mais “geste fait émerger sujet-et-monde”</li>
+</ul>
+<p><strong><a href="../Preuve-du-réel" class="internal alias" data-slug="Preuve-du-réel">Preuve du réel</a> (Lygia Clark)</strong></p>
+<ul>
+<li>Objet relationnel teste réalité non comme représentation mais comme <strong>résistance dans couplage</strong></li>
+<li>Varela : réel = ce qui persiste/répond de manière cohérente dans domaine énacté</li>
+<li>Consistance émergente vs correspondance avec monde préexistant</li>
+</ul>
+<p><strong><a href="../Anattā" class="internal alias" data-slug="Anattā">Anattā</a></strong></p>
+<ul>
+<li>Point de convergence explicite triangle Varela</li>
+<li>Constat empirique (méditation) = conclusion phénoménologique (Bitbol) = structure autopoïétique (pas de centre)</li>
+<li>Pédagogie énactive : enseigner <em>depuis</em> non-soi (pas sujet transmettant à objet)</li>
+</ul>
+<h2 id="notes-et-références">Notes et références<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#notes-et-références" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<hr/>
+<p><strong>Permet de relier :</strong></p>
+<ul>
+<li>notes sur <a href="../autopoïèse" class="internal alias" data-slug="autopoïèse">autopoïèse</a>, <a href="../énaction" class="internal alias" data-slug="énaction">énaction</a>, <a href="../neurophénoménologie" class="internal alias" data-slug="neurophénoménologie">neurophénoménologie</a></li>
+<li>explorations Alexander via <a href="../inhibition" class="internal" data-slug="inhibition">inhibition</a>, <a href="../accordage" class="internal" data-slug="accordage">accordage</a></li>
+<li>approche Godard sur <a href="../gestosphère" class="internal alias" data-slug="gestosphère">gestosphère</a>, <a href="../gestes-fondateurs" class="internal alias" data-slug="gestes-fondateurs">gestes fondateurs</a></li>
+<li>investigation <a href="../anattā" class="internal alias" data-slug="anattā">anattā</a>, <a href="../méditation" class="internal alias" data-slug="méditation">méditation</a>, <a href="../réduction-phénoménologique" class="internal alias" data-slug="réduction-phénoménologique">réduction phénoménologique</a></li>
+</ul>
+<p>Le triangle Varela fournit une <strong>architecture théorique rigoureuse</strong> pour fonder une pédagogie énactive : pas simple “mélange” de pratiques, mais reconnaissance d’un <strong>isomorphisme profond</strong> entre traditions.</p>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#footnote-label" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<ol>
+<li id="user-content-fn-1">
+<p>Varela, F., Thompson, E. &amp; Rosch, E. (1991). <em>The Embodied Mind</em>, MIT Press, Introduction. <a href="#user-content-fnref-1" data-footnote-backref aria-label="Back to reference 1" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-2">
+<p>Cohen-Varela, A. et al. (2017). <em>Le Cercle créateur</em>, Seuil, p. 45-67. <a href="#user-content-fnref-2" data-footnote-backref aria-label="Back to reference 2" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-3">
+<p>Von Foerster, H. (1981). <em>Observing Systems</em>, Intersystems Publications. <a href="#user-content-fnref-3" data-footnote-backref aria-label="Back to reference 3" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-4">
+<p>Maturana, H. &amp; Varela, F. (1980). <em>Autopoiesis and Cognition</em>, Reidel, ch. 1-2. <a href="#user-content-fnref-4" data-footnote-backref aria-label="Back to reference 4" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-5">
+<p>Varela, F. (1989). <em>Autonomie et connaissance</em>, Seuil, p. 89-112. <a href="#user-content-fnref-5" data-footnote-backref aria-label="Back to reference 5" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-6">
+<p>Bateson, G. (1972). <em>Steps to an Ecology of Mind</em>, University of Chicago Press. <a href="#user-content-fnref-6" data-footnote-backref aria-label="Back to reference 6" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-7">
+<p>Husserl, E. (1905/1964). <em>Leçons pour une phénoménologie de la conscience intime du temps</em>, PUF. Voir analyse Varela in Varela, F. (1999). “The Specious Present”, in <em>Naturalizing Phenomenology</em>, Stanford UP. <a href="#user-content-fnref-7" data-footnote-backref aria-label="Back to reference 7" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-8">
+<p>Merleau-Ponty, M. (1945). <em>Phénoménologie de la perception</em>, Gallimard. Repris Varela in <em>The Embodied Mind</em>, Part II. <a href="#user-content-fnref-8" data-footnote-backref aria-label="Back to reference 8" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-9">
+<p>Varela, F. (1997). <em>Dormir, rêver, mourir</em>, NIL, ch. 4 “La conscience et le continuum de la vie”. <a href="#user-content-fnref-9" data-footnote-backref aria-label="Back to reference 9" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-10">
+<p>Nāgārjuna (IIe s.). <em>Mūlamadhyamakakārikā</em>. Analyse Varela in <em>The Embodied Mind</em>, ch. 10. <a href="#user-content-fnref-10" data-footnote-backref aria-label="Back to reference 10" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-11">
+<p>Varela, F. et al. (1991). <em>The Embodied Mind</em>, ch. 6 “The Middle Way”. <a href="#user-content-fnref-11" data-footnote-backref aria-label="Back to reference 11" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-12">
+<p>Varela, F. (1996). “Neurophenomenology”, <em>Journal of Consciousness Studies</em>, 3(4), p. 337. <a href="#user-content-fnref-12" data-footnote-backref aria-label="Back to reference 12" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-13">
+<p>Ibid., p. 330-349. <a href="#user-content-fnref-13" data-footnote-backref aria-label="Back to reference 13" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-14">
+<p>Lutz, A. et al. (2002). “Guiding the Study of Brain Dynamics Using First-Person Data”, <em>PNAS</em>, 99(3). <a href="#user-content-fnref-14" data-footnote-backref aria-label="Back to reference 14" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-15">
+<p>Varela, F. et al. (1991). <em>The Embodied Mind</em>, p. 9: “cognition as enaction: a history of structural coupling that brings forth a world”. <a href="#user-content-fnref-15" data-footnote-backref aria-label="Back to reference 15" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-16">
+<p>Varela, F. (1992). “Un know-how pour l’éthique”, in <em>Un savoir pour l’éthique</em>, La Découverte, p. 230-243. <a href="#user-content-fnref-16" data-footnote-backref aria-label="Back to reference 16" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-17">
+<p>Voir dialogue avec bouddhisme Theravāda in Varela (1997), <em>Dormir, rêver, mourir</em>, ch. 3-4. <a href="#user-content-fnref-17" data-footnote-backref aria-label="Back to reference 17" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-18">
+<p>Bitbol, M. (2014). <em>La conscience a-t-elle une origine ?</em>, Flammarion, ch. 3, 6, 7. Bitbol prolonge Varela en radicalisant réduction vers anattā phénoménologique. <a href="#user-content-fnref-18" data-footnote-backref aria-label="Back to reference 18" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+<li id="user-content-fn-19">
+<p>Varela, F. (1999). <em>Quel savoir pour l’éthique ?</em>, La Découverte, ch. 2. <a href="#user-content-fnref-19" data-footnote-backref aria-label="Back to reference 19" class="data-footnote-backref internal alias">↩</a></p>
+</li>
+</ol>
+</section></article><hr/><div class="page-footer"><div class="graph"><h3>Vue Graphique</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="backlinks"><h3>Liens retour</h3><ul id="list-0" class="overflow"><li><a href="../MOC/MOC-Rhizome--Pensées-des-écotones" class="internal">MOC Rhizome  Pensées des écotones</a></li><li class="overflow-end"></li></ul></div><div class="related-articles"><h3>Articles similaires</h3><div class="related-grid"><a href="../Articles/L'attention-incarnée-premier-geste" class="garden-card"><h3>🌳 L'attention incarnée-premier geste</h3><p class="excerpt">L’attention comme accordage résonnant : pour une écologie relationnelle de la présence Matthieu Gaudeau · L&amp;#039;attention incarnée premier geste [! ...</p><div class="card-footer"><time>08 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#attention-incarnée</span><span class="tag-pill">#perception-amodale</span></div></div></a><a href="../MOC/attention" class="garden-card"><h3>🌿 attention</h3><p class="excerpt">IL est difficile de donner une définition de l’attention....</p><div class="card-footer"><time>07 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#attention</span><span class="tag-pill">#attention/filtre</span></div></div></a><a href="../Notes/cercles-vicieux" class="garden-card"><h3>🌿 cercles-vicieux</h3><p class="excerpt">Cercles vicieux et boucles récursives des mauvaises habitudes Le cercle vicieux désigne une boucle auto-entretenue où la tentative de résoudre un prob...</p><div class="card-footer"><time>05 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#systémie</span><span class="tag-pill">#inhibition</span><span class="tag-pill">#auteur/Gorman</span></div></div></a><a href="../MOC/MOC-Rhizome--Pensées-des-écotones" class="garden-card"><h3>🌿 MOC Rhizome  Pensées des écotones</h3><p class="excerpt">🌿 MOC Rhizome : Pensées des écotones “Le rhizome connecte un point quelconque avec un autre point quelconque” - Deleuze &amp;amp; Guattari Principe Ce MO...</p><div class="card-footer"><time>04 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#écotone</span><span class="tag-pill">#MOC</span></div></div></a><a href="../Articles/Kyrielle-+-Catuskoti" class="garden-card"><h3>🌿 Kyrielle + Catuskoti</h3><p class="excerpt">Kyrielle + Catuskoti Titre provisoire “Pédagogie de la Réverbération : Le catuskoti comme structure formelle de l’apprentissage énactif” Ou “Apprendre...</p><div class="card-footer"><time>04 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#Catuskoti</span><span class="tag-pill">#pédagogie</span></div></div></a><a href="../Articles/Boucles-Étranges,-Habitudes-et-Dé-différenciation" class="garden-card"><h3>🌿 Boucles Étranges, Habitudes et Dé-différenciation</h3><p class="excerpt">Boucles Étranges, Habitudes et Dé-différenciation Une approche récursive du dualisme pédagogique La question a surgi dans la nuit : les Boucles Étrang...</p><div class="card-footer"><time>03 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#boucles-étranges</span><span class="tag-pill">#Dé-différenciation</span></div></div></a><a href="../Articles/Kairos" class="garden-card"><h3>🌿 Kairos</h3><p class="excerpt">Voici une version rédigée de ton texte sur la temporalité et le kairos : Temporalité et Kairos : Le temps vécu de l’apprentissage La temporalité désig...</p><div class="card-footer"><time>03 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#kairos</span><span class="tag-pill">#temps</span></div></div></a><a href="../Articles/Totalité-sphérique-post-parménidienne" class="garden-card"><h3>🌿 Totalité sphérique post-parménidienne</h3><p class="excerpt">Décryptage : “Totalité sphérique post-parménidienne” à partir de l’entretien de Bilbot L’impératif varélien : sortir de l’objet-nature Ce qui est reje...</p><div class="card-footer"><time>02 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#auteur/Bitbol</span><span class="tag-pill">#auteur/varela</span></div></div></a></div></div></div></div><div class="right sidebar"></div><footer class><p>Created MGaudeau © 2026Créé avec <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a></p><ul></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

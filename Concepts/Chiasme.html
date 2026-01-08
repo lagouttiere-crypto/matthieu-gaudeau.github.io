@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr"><head><title>Chiasme</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;700&amp;family=Fira Sans:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Garden Gester"/><meta property="og:title" content="Chiasme"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Chiasme"/><meta name="twitter:description" content="Enrichissement - Chiasme touchant-touché (Merleau-Ponty) Concept principal : Chiasme | Reversibilite | Corps propre | Reflexivite corporelle Vue d’ensemble Définition du concept : Le chiasme touchant-touché est l’expérience fondamentale de la réversibilité du sentir : quand je touche ma main gauche ..."/><meta property="og:description" content="Enrichissement - Chiasme touchant-touché (Merleau-Ponty) Concept principal : Chiasme | Reversibilite | Corps propre | Reflexivite corporelle Vue d’ensemble Définition du concept : Le chiasme touchant-touché est l’expérience fondamentale de la réversibilité du sentir : quand je touche ma main gauche ..."/><meta property="og:image:alt" content="Enrichissement - Chiasme touchant-touché (Merleau-Ponty) Concept principal : Chiasme | Reversibilite | Corps propre | Reflexivite corporelle Vue d’ensemble Définition du concept : Le chiasme touchant-touché est l’expérience fondamentale de la réversibilité du sentir : quand je touche ma main gauche ..."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/Concepts/Chiasme"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/Concepts/Chiasme"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Enrichissement - Chiasme touchant-touché (Merleau-Ponty) Concept principal : Chiasme | Reversibilite | Corps propre | Reflexivite corporelle Vue d’ensemble Définition du concept : Le chiasme touchant-touché est l’expérience fondamentale de la réversibilité du sentir : quand je touche ma main gauche ..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL21hdHRoaWV1Z2F1ZGVhdS9Eb2N1bWVudHMvZ2FyZGVuLWdlc3Rlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/Concepts/Chiasme-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/Concepts/Chiasme-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/Concepts/Chiasme-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Concepts/Chiasme"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"></div><div class="center"><div class="page-header"><header><h2 class="page-title"><a href="..">Garden Gester</a></h2><div class="search"><button class="search-button"><span style="font-size: 1.2rem;">🍂</span><p>Recherche</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Rechercher quelque chose" placeholder="Rechercher quelque chose"/><div class="search-layout" data-preview="true"></div></div></div></div></header><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Concepts/">Concepts</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Chiasme</a></div></nav><h1 class="article-title">🌳 Chiasme</h1><p show-comma="true" class="content-meta"><time datetime="2025-12-17T22:55:36.000Z">17 déc. 2025</time><span>16 min de lecture</span></p><ul class="tags"><li><a href="../tags/concept" class="internal tag-link">concept</a></li><li><a href="../tags/enrichissement" class="internal tag-link">enrichissement</a></li><li><a href="../tags/citations" class="internal tag-link">citations</a></li><li><a href="../tags/Merleau-Ponty" class="internal tag-link">Merleau-Ponty</a></li><li><a href="../tags/phenomenologie" class="internal tag-link">phenomenologie</a></li><li><a href="../tags/concept/chiasme" class="internal tag-link">concept/chiasme</a></li><li><a href="../tags/moyen/reversibilite" class="internal tag-link">moyen/reversibilite</a></li><li><a href="../tags/concept/corps-propre" class="internal tag-link">concept/corps-propre</a></li><li><a href="../tags/moyen/chiasme" class="internal tag-link">moyen/chiasme</a></li><li><a href="../tags/moyen/chair" class="internal tag-link">moyen/chair</a></li><li><a href="../tags/effet/depassement-dualisme" class="internal tag-link">effet/depassement-dualisme</a></li><li><a href="../tags/effet/conscience-incarnee" class="internal tag-link">effet/conscience-incarnee</a></li><li><a href="../tags/effet/ouverture-au-monde" class="internal tag-link">effet/ouverture-au-monde</a></li><li><a href="../tags/auteur/Merleau-Ponty" class="internal tag-link">auteur/Merleau-Ponty</a></li><li><a href="../tags/concept/touchant-touche" class="internal tag-link">concept/touchant-touche</a></li><li><a href="../tags/concept/reversibilite" class="internal tag-link">concept/reversibilite</a></li><li><a href="../tags/concept/chair" class="internal tag-link">concept/chair</a></li><li><a href="../tags/pratique/Alexander" class="internal tag-link">pratique/Alexander</a></li><li><a href="../tags/pratique/somatique" class="internal tag-link">pratique/somatique</a></li><li><a href="../tags/philosophie" class="internal tag-link">philosophie</a></li></ul></div></div><article class="popover-hint"><h1 id="enrichissement---chiasme-touchant-touché-merleau-ponty">Enrichissement - Chiasme touchant-touché (Merleau-Ponty)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#enrichissement---chiasme-touchant-touché-merleau-ponty" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<hr/>
+<p><strong>Concept principal :</strong> <a href="../Concepts/Chiasme" class="internal" data-slug="Concepts/Chiasme">Chiasme</a> | <a href="../Reversibilite" class="internal" data-slug="Reversibilite">Reversibilite</a> | <a href="../Corps-propre" class="internal alias" data-slug="Corps-propre">Corps propre</a> | <a href="../Reflexivite-corporelle" class="internal alias" data-slug="Reflexivite-corporelle">Reflexivite corporelle</a></p>
+<h2 id="vue-densemble">Vue d’ensemble<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#vue-densemble" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Définition du concept :</strong></p>
+<blockquote>
+<p>Le chiasme touchant-touché est l’expérience fondamentale de la réversibilité du sentir : quand je touche ma main gauche avec ma main droite, je peux à tout moment “inverser” la relation et sentir ma main droite depuis ma main gauche. Cette réversibilité révèle que mon corps est à la fois sujet sentant et objet senti, qu’il est “chair” - ni pure subjectivité ni pure objectivité, mais leur entrelacement originaire.</p>
+</blockquote>
+<p>**Pourquoi ce concept est crucial ? **
+Le chiasme touchant-touché est au cœur de la dernière philosophie de Merleau-Ponty (<em>Le Visible et l’invisible</em>). Il fonde une nouvelle ontologie (philosophie de l’être) qui dépasse le dualisme sujet-objet. Pour la Technique Alexander et les pratiques somatiques, ce concept éclaire :</p>
+<ul>
+<li>La nature du toucher pédagogique</li>
+<li>La réflexivité corporelle (Behnke)</li>
+<li>L’auto-perception proprioceptive</li>
+<li>Le dépassement d’un corps-objet vers un corps-sujet</li>
+</ul>
+<p><strong>Sources principales :</strong></p>
+<ul>
+<li>Merleau-Ponty, M. (1964). <em>Le Visible et l’invisible</em></li>
+<li>Merleau-Ponty, M. (1945). <em>Phénoménologie de la perception</em></li>
+</ul>
+<hr/>
+<h2 id="moyens-how--comment">MOYENS (How / Comment)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#moyens-how--comment" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="lexpérience-du-touchant-touché">L’expérience du touchant-touché<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lexpérience-du-touchant-touché" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Le Visible et l’invisible</em> (1964) <strong>Page/Contexte :</strong> Chapitre “L’entrelacs - le chiasme”</p>
+<blockquote>
+<p>“Quand je presse mes deux mains l’une contre l’autre, il ne s’agit pas alors de deux sensations que j’éprouverais ensemble, comme on perçoit deux objets juxtaposés, mais d’une organisation ambiguë où les deux mains peuvent alterner dans la fonction de ‘touchante’ et de ‘touchée’.”</p>
+</blockquote>
+<p>**Expérience concrète ? **</p>
+<ol>
+<li>Je touche ma main gauche avec ma main droite</li>
+<li>D’abord : main droite = touchante (active), main gauche = touchée (passive)</li>
+<li>Puis, <strong>sans bouger</strong> : je peux “inverser” mon attention</li>
+<li>Main gauche devient touchante, main droite devient touchée</li>
+<li>Cette inversion peut se faire <strong>à tout moment</strong></li>
+</ol>
+<p>C’est ce que Behnke décrit dans sa technique d’accordage ! Quand elle dit “réinterpréter une sensation en inversant touchant/touché”, elle utilise <strong>cette structure phénoménologique fondamentale</strong>.</p>
+<p>Exemple : toucher mon pied avec ma main</p>
+<ul>
+<li>D’abord : ma main touche mon pied (main active)</li>
+<li>Puis : mon pied touche ma main (pied actif)</li>
+<li>L’inversion réveille la sensibilité du pied</li>
+</ul>
+<p><strong>Connexions :</strong></p>
+<ul>
+<li><a href="../Accordage-(tuning)" class="internal alias" data-slug="Accordage-(tuning)">Accordage (tuning)</a>IBhenke- Réinterpréter une sensation</li>
+</ul>
+<hr/>
+<h3 id="citation-2---la-réversibilité-comme-structure-de-la-chair">Citation 2 - La réversibilité comme structure de la chair<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-2---la-réversibilité-comme-structure-de-la-chair" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Le Visible et l’invisible</em> <strong>Page/Contexte :</strong> Notes de travail</p>
+<blockquote>
+<p>“La réversibilité : le doigt de gant qui se retourne… Il y a réversibilité de voir et du visible, toucher et du touché. Il faut que cette réversibilité soit prise non comme un fait mais comme ce sans quoi il n’y aurait pas chair.”</p>
+</blockquote>
+<p>Le MOYEN ontologique : <strong>la réversibilité comme structure même de l’être corporel</strong></p>
+<p>Métaphore du <strong>doigt de gant qui se retourne</strong> :</p>
+<ul>
+<li>Dedans devient dehors</li>
+<li>Dehors devient dedans</li>
+<li>Sans rupture, sans séparation</li>
+<li>C’est le <strong>même</strong> tissu qui se retourne sur lui-même</li>
+</ul>
+<p><strong>“Prise non comme un fait mais…”</strong> :</p>
+<ul>
+<li>Ce n’est pas un phénomène occasionnel</li>
+<li>C’est la <strong>structure constitutive</strong> de mon corps</li>
+<li>C’est ce qui FAIT que mon corps est “chair” (ni objet ni sujet pur)</li>
+</ul>
+<p><strong>“Il n’y aurait pas chair”</strong> :</p>
+<ul>
+<li>La chair (≠ viande, ≠ matière) = être sensible-sentant</li>
+<li>Sans réversibilité → soit pure conscience (irréelle), soit pur objet (mort)</li>
+<li>La réversibilité = signe que je suis <strong>incarné</strong></li>
+</ul>
+<h3 id="citation-3---limmédiate-réversibilité-du-sentir">Citation 3 - L’immédiate réversibilité du sentir<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-3---limmédiate-réversibilité-du-sentir" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Phénoménologie de la perception</em> (1945) <strong>Page/Contexte :</strong> Chapitre “Le corps comme être sexué”</p>
+<blockquote>
+<p>“Le corps surprend et définit ainsi l’essence de la conscience sensible : la réversibilité de ses rapports avec le monde. Si je touche activement ma main droite avec ma main gauche pendant qu’elle palpe, la main droite objet n’est pas la main droite touchante : la première est un entrelacs d’os, de muscles et de chair fléchie sur un point de l’espace, la seconde traverse l’espace comme une fusée pour aller révéler l’objet extérieur en son lieu.”</p>
+</blockquote>
+<p>Le MOYEN de l’expérience : <strong>distinction entre deux modes d’être de la même main</strong></p>
+<p><strong>Main droite objet</strong> (touchée) :</p>
+<ul>
+<li>Entrelacs d’os, muscles, chair</li>
+<li>Localisée dans l’espace</li>
+<li>Dense, matérielle</li>
+<li>Passive</li>
+</ul>
+<p><strong>Main droite touchante</strong> (sujet) :</p>
+<ul>
+<li>“Traverse l’espace comme une fusée”</li>
+<li>Intentionnelle, dirigée vers le monde</li>
+<li>Active, exploratrice</li>
+<li>Révèle les objets</li>
+</ul>
+<p><strong>MAIS : c’est la même main !</strong></p>
+<p>Paradoxe apparent :</p>
+<ul>
+<li>Comment la même main peut-elle être les deux ?</li>
+<li>Réponse : parce qu’elle est <strong>chair</strong> = ni l’un ni l’autre exclusivement</li>
+</ul>
+<p><strong>Lien avec ma pratique :</strong> Quand j’utilise mes mains pour enseigner :</p>
+<ul>
+<li>Parfois je “pèse”, je touche l’élève comme objet (sentir ses tensions)</li>
+<li>Parfois mes mains sont “transparentes”, dirigées vers l’espace (directions)</li>
+<li>Je peux alterner très rapidement entre les deux</li>
+<li>Cette alternance est au cœur du toucher</li>
+</ul>
+<p>L’élève aussi peut apprendre cela :</p>
+<ul>
+<li>Sentir son pied comme “objet” (lourd, au sol)</li>
+<li>Sentir son pied comme “sujet” (explorant le sol, touchant)</li>
+<li>L’inversion transforme l’expérience</li>
+</ul>
+<h3 id="citation-4---lécart-et-lentrelacs">Citation 4 - L’écart et l’entrelacs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-4---lécart-et-lentrelacs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Le Visible et l’invisible</em> <strong>Page/Contexte :</strong> Chapitre “L’entrelacs - le chiasme”</p>
+<blockquote>
+<p>“La réflexion n’atteint pas la coïncidence totale. Elle est prise dans un entrelacs qui ne se laisse pas dénouer… Il y a un décalage, un écart qui fait que mes deux mains ne sont jamais simultanément touchante et touchée l’une pour l’autre. C’est ce décalage, cet écart de principe qui fait toute la différence entre le sentir et l’être senti.”</p>
+</blockquote>
+<p>Le MOYEN de compréhension : <strong>l’écart irréductible</strong></p>
+<p><strong>Coïncidence impossible :</strong></p>
+<ul>
+<li>Je ne peux PAS toucher ET être touché exactement au même instant</li>
+<li>Il y a toujours un léger <strong>décalage temporel</strong></li>
+<li>Quand je passe de touchant à touché, ça “bascule”</li>
+<li>Les deux ne se superposent jamais parfaitement</li>
+</ul>
+<p><strong>Pourquoi cet écart est important :</strong></p>
+<ul>
+<li>Si coïncidence parfaite → je serais pure conscience (esprit)</li>
+<li>L’écart = preuve de mon incarnation</li>
+<li>L’écart maintient l’<strong>ambiguïté</strong> constitutive de la chair</li>
+<li>Sans écart, pas de réversibilité (car pas de deux “côtés” à inverser)</li>
+</ul>
+<p><strong>“Ne se laisse pas dénouer”</strong> :</p>
+<ul>
+<li>On ne peut pas “séparer” touchant et touché proprement</li>
+<li>Ils sont <strong>entrelacés</strong> comme les fils d’un tissu</li>
+<li>Vouloir les séparer détruit la structure</li>
+</ul>
+<p>Cet écart est <strong>précieux</strong> en Technique Alexander :</p>
+<ul>
+<li>Il maintient l’élève dans un état d’<strong>exploration</strong></li>
+<li>L’élève ne peut jamais “coïncider” totalement avec lui-même</li>
+<li>Il y a toujours une <strong>ouverture</strong>, un <strong>jeu</strong></li>
+<li>C’est dans cet écart qu’un changement peut advenir</li>
+</ul>
+<h3 id="citation-5---le-corps-comme-sentant-sensible">Citation 5 - Le corps comme sentant-sensible<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-5---le-corps-comme-sentant-sensible" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Phénoménologie de la perception</em> <strong>Page/Contexte :</strong> Partie I, chapitre “Le corps”</p>
+<blockquote>
+<p>“Mon corps est fait de la même chair que le monde… et cette chair de mon corps est partagée par le monde, elle en est la texture, elle participe de son être et de sa production. Elle est donc à mi-chemin entre l’individu spatial que nous sommes et le monde qui est comme un autre individu en face de lui.”</p>
+</blockquote>
+<p>Le MOYEN d’articulation : <strong>la chair comme milieu commun</strong></p>
+<p><strong>“Même chair que le monde”</strong> :</p>
+<ul>
+<li>Mon corps n’est pas séparé du monde par une frontière absolue</li>
+<li>Il est fait de la <strong>même étoffe</strong></li>
+<li>Il <strong>participe</strong> au monde</li>
+</ul>
+<p><strong>“À mi-chemin”</strong> :</p>
+<ul>
+<li>Ni totalement “moi” (intérieur)</li>
+<li>Ni totalement “monde” (extérieur)</li>
+<li><strong>Zone médiane</strong>, zone de passage</li>
+</ul>
+<p><strong>Implications :</strong></p>
+<ul>
+<li>Mon corps est le lieu où moi et monde se rencontrent</li>
+<li>Il est <strong>visible</strong> (pour autrui, et pour moi dans le miroir)</li>
+<li>Il est <strong>voyant</strong> (je vois le monde depuis lui)</li>
+<li>Il est <strong>touchable</strong> (pour autrui, et pour moi-même)</li>
+<li>Il est <strong>touchant</strong> (je touche le monde)</li>
+</ul>
+<p><strong>Lien avec ma pratique :</strong> Le toucher Alexander se situe <strong>dans cette zone médiane</strong> :</p>
+<ul>
+<li>Ni purement subjectif (ce n’est pas “dans ma tête”)</li>
+<li>Ni purement objectif (ce n’est pas mécanique)</li>
+<li>C’est une <strong>rencontre</strong> dans la chair partagée</li>
+</ul>
+<p>Quand mes mains touchent l’élève :</p>
+<ul>
+<li>Je ne touche pas “de l’extérieur”</li>
+<li>Je participe à sa chair</li>
+<li>Nous sommes <strong>momentanément</strong> dans un continuum charnel</li>
+<li>C’est pour cela que la transformation peut se transmettre</li>
+</ul>
+<hr/>
+<h2 id="effets-what--quoi">EFFETS (What / Quoi)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#effets-what--quoi" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="citation-1---dépassement-du-dualisme-sujet-objet">Citation 1 - Dépassement du dualisme sujet-objet<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-1---dépassement-du-dualisme-sujet-objet" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Le Visible et l’invisible</em> <strong>Page/Contexte :</strong> Notes de travail</p>
+<blockquote>
+<p>“Il n’y a pas de problème de l’alter ego parce que ce n’est pas moi qui vois, pas lui qui voit, nous sommes l’un et l’autre habités par une visibilité anonyme, vision générale, en vertu de cette propriété primordiale qui appartient à la chair d’être ici et maintenant et de rayonner partout et à jamais.”</p>
+</blockquote>
+<p>EFFET ontologique : <strong>dissolution du problème sujet-objet</strong></p>
+<p><strong>Problème classique de l’alter ego :</strong></p>
+<ul>
+<li>Comment puis-je savoir qu’autrui a une conscience ?</li>
+<li>Je ne vois que son corps (objet)</li>
+<li>Sa conscience m’est inaccessible</li>
+</ul>
+<p><strong>Solution de Merleau-Ponty :</strong></p>
+<ul>
+<li>“Ce n’est pas moi qui vois” = la vision n’est pas enfermée dans un sujet</li>
+<li>“Vision générale” = la vision circule, dépasse les individus</li>
+<li>“Chair” = tissu commun où moi et autrui participons</li>
+</ul>
+<p><strong>“Habités par une visibilité anonyme”</strong> :</p>
+<ul>
+<li>Ce n’est pas MOI (ego) qui vois</li>
+<li>C’est <strong>la chair qui se voit à travers moi</strong></li>
+<li>Autrui et moi : deux points où la chair se replie sur elle-même pour se voir</li>
+</ul>
+<h3 id="citation-2---conscience-incarnée-pas-désincarnée">Citation 2 - Conscience incarnée, pas désincarnée<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-2---conscience-incarnée-pas-désincarnée" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Phénoménologie de la perception</em> <strong>Page/Contexte :</strong> Avant-propos</p>
+<blockquote>
+<p>“Je ne suis pas devant mon corps, je suis dans mon corps, ou plutôt je suis mon corps. Par conséquent, ni l’expérience du corps propre ni celle de l’autre n’ouvrent sur un quelconque esprit : je n’ai pas à penser la présence d’autrui, elle est là.”</p>
+</blockquote>
+<p>EFFET pour la conscience : <strong>incarnation radicale</strong></p>
+<p><strong>“Je suis mon corps”</strong> (pas “j’ai un corps”) :</p>
+<ul>
+<li>Refus du dualisme cartésien</li>
+<li>La conscience n’est pas “dans” le corps comme dans un contenant</li>
+<li>La conscience <strong>EST</strong> corporelle</li>
+</ul>
+<p><strong>“Je n’ai pas à penser la présence d’autrui, elle est là”</strong> :</p>
+<ul>
+<li>L’autre n’est pas une inférence intellectuelle</li>
+<li>Il est <strong>immédiatement présent</strong> dans mon champ perceptif</li>
+<li>Présence <strong>charnelle</strong>, pas représentation mentale</li>
+</ul>
+<p><strong>Implications pour la conscience :</strong></p>
+<ul>
+<li>Toute conscience est <strong>située</strong></li>
+<li>Toute conscience est <strong>perspective</strong></li>
+<li>Toute conscience est <strong>incarnée</strong> (embodied)</li>
+</ul>
+<p><strong>Observation personnelle :</strong> En Technique Alexander, nous explorons avec cette conscience incarnée :</p>
+<ul>
+<li>Pas une conscience “qui surveille” le corps d’en haut</li>
+<li>Une conscience <strong>du dedans</strong>, <strong>sentante</strong></li>
+<li>“Tu sens ton épaule ou tu ES ton épaule sentante ?”</li>
+<li>Passer de l’objectivation à l’incarnation</li>
+</ul>
+<h3 id="citation-3---le-corps-comme-œuvre-dart--unité-dans-la-diversité">Citation 3 - Le corps comme œuvre d’art : unité dans la diversité<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-3---le-corps-comme-œuvre-dart--unité-dans-la-diversité" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Phénoménologie de la perception</em> <strong>Page/Contexte :</strong> Chapitre sur le corps</p>
+<blockquote>
+<p>“Mon corps tout entier n’est pas pour moi un assemblage d’organes juxtaposés dans l’espace. Je le tiens dans une possession indivise et je connais la position de chacun de mes membres par un schéma corporel où ils sont tous enveloppés.”</p>
+</blockquote>
+<p>EFFET pour l’expérience de soi : <strong>unité vécue, pas pensée</strong></p>
+<p><strong>“Pas un assemblage”</strong> :</p>
+<ul>
+<li>Pas une somme de parties</li>
+<li>Pas une mécanique (comme une voiture)</li>
+<li>Unité <strong>vécue de l’intérieur</strong></li>
+</ul>
+<p><strong>“Possession indivise”</strong> :</p>
+<ul>
+<li>Je ne possède pas mes membres séparément</li>
+<li>C’est une <strong>totalité</strong> immédiate</li>
+<li>Je ne dois pas “additionner” mentalement mes parties</li>
+</ul>
+<p><strong>“Schéma corporel où ils sont tous enveloppés”</strong> :</p>
+<ul>
+<li>
+<p>Conscience globale, gestaltique</p>
+</li>
+<li>
+<p>Chaque partie existe <strong>en relation</strong> avec les autres</p>
+</li>
+<li>
+<p>Modification d’une partie = résonance sur le tout</p>
+</li>
+<li>
+<p>percevoir le corps comme <strong>totalité</strong></p>
+</li>
+<li>
+<p>Chaque changement local = réorganisation globale</p>
+</li>
+</ul>
+<h3 id="citation-4---ouverture-au-monde-par-le-corps">Citation 4 - Ouverture au monde par le corps<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-4---ouverture-au-monde-par-le-corps" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Phénoménologie de la perception</em> <strong>Page/Contexte :</strong> Conclusion</p>
+<blockquote>
+<p>“Le monde est inséparable du sujet, mais d’un sujet qui n’est rien que projet du monde, et le sujet est inséparable du monde, mais d’un monde qu’il projette lui-même. Le sujet est être-au-monde et le monde reste ‘subjectif’ puisque sa texture et ses articulations sont dessinées par le mouvement de transcendance du sujet.”</p>
+</blockquote>
+<p><strong>Ma compréhension :</strong> EFFET pour la relation au monde : <strong>co-constitution réciproque</strong></p>
+<p><strong>Circularité :</strong></p>
+<pre><code>Sujet → projette → Monde
+  ↑                  ↓
+  ← dessine texture ←
+</code></pre>
+<p>Ni réalisme naïf (le monde existe indépendamment de moi) Ni idéalisme (le monde est ma représentation)</p>
+<p><strong>“Être-au-monde”</strong> :</p>
+<ul>
+<li>Je ne suis pas d’abord “un sujet” qui ensuite “entre en contact” avec le monde</li>
+<li>Je suis <strong>d’emblée</strong> au monde</li>
+<li>Mon être = être-là, être-situé</li>
+</ul>
+<p><strong>“Mouvement de transcendance”</strong> :</p>
+<ul>
+<li>Je suis toujours <strong>déjà</strong> hors de moi</li>
+<li>Dirigé vers le monde</li>
+<li>Pas enfermé dans une intériorité</li>
+</ul>
+<p>Usage possible ?</p>
+<ul>
+<li>fermé sur nous-même (“je me regarde de l’intérieur”)</li>
+<li>s’<strong>ouvrir vers l’espace</strong></li>
+<li>La direction est <strong>vers le monde</strong>, pas repli sur soi</li>
+</ul>
+<h3 id="citation-5---le-chiasme-voir-visible-généralisé">Citation 5 - Le chiasme voir-visible généralisé<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#citation-5---le-chiasme-voir-visible-généralisé" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Auteur :</strong> Maurice Merleau-Ponty <strong>Source :</strong> <em>Le Visible et l’invisible</em> <strong>Page/Contexte :</strong> Chapitre “L’entrelacs - le chiasme”</p>
+<blockquote>
+<p>“Il y a un rapport fondamental du visible et du touchant, comme si celui-là était une promesse de celui-ci, comme si le visible était fait pour culminer dans le toucher… Le corps propre étant visible et touchant, il se peut qu’il empiète sur toutes choses visibles et touchables dont il fait partie.”</p>
+</blockquote>
+<p>EFFET généralisé : <strong>extension du chiasme à toute perception</strong></p>
+<p><strong>Pas seulement toucher-touché</strong> :</p>
+<ul>
+<li>Aussi : voir-visible</li>
+<li>Entendre-audible</li>
+<li>Etc.</li>
+</ul>
+<p><strong>“Comme si le visible était fait pour culminer dans le toucher”</strong> :</p>
+<ul>
+<li>Le toucher = expérience la plus immédiate de la réversibilité</li>
+<li>Mais la vue aussi est réversible (je suis visible pour autrui)</li>
+<li>Toute perception a cette structure chiasmatique</li>
+</ul>
+<p><strong>“Il empiète sur toutes choses”</strong> :</p>
+<ul>
+<li>Mon corps n’est pas séparé des choses</li>
+<li>Il participe à elles</li>
+<li>“Empiéter” = déborder, s’entrelacer</li>
+</ul>
+<p><strong>Observation personnelle :</strong> Nous explorons sur <strong>tous</strong> les sens :</p>
+<ul>
+<li>Le toucher (évidemment)</li>
+<li>Mais aussi la <strong>vision</strong> (qualité du regard)</li>
+<li>L’<strong>audition</strong> (écouter l’espace)</li>
+<li>La <strong>kinesthésie</strong> (agentivité)</li>
+</ul>
+<p>Tous ces sens ont la structure du chiasme :</p>
+<ul>
+<li>Je vois / je suis visible</li>
+<li>J’entends / je peux être entendu (ma voix)</li>
+<li>Je bouge / je suis mû (par la gravité, l’environnement)</li>
+</ul>
+<p>Affiner la réversibilité sur tous ces plans.</p>
+<h2 id="-relation-moyens--effets">🔄 Relation MOYENS ↔ EFFETS<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-relation-moyens--effets" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="synthèse--comment-le-chiasme-transforme-notre-compréhension">Synthèse : Comment le chiasme transforme notre compréhension<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#synthèse--comment-le-chiasme-transforme-notre-compréhension" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>MOYEN : L’expérience du touchant-touché</strong></p>
+<pre><code>Main droite touche main gauche
+         ↓
+  Je peux &quot;inverser&quot;
+         ↓
+Main gauche touche main droite
+         ↓
+ Réversibilité découverte
+</code></pre>
+<p><strong>EFFET : Révélation de la nature de la chair</strong></p>
+<pre><code>Je ne suis ni pur sujet ni pur objet
+         ↓
+    Je suis CHAIR
+    (sentant-sensible)
+         ↓
+  Dépassement du dualisme
+</code></pre>
+<hr/>
+<h3 id="mécanisme-central--de-lexpérience-à-lontologie">Mécanisme central : De l’expérience à l’ontologie<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#mécanisme-central--de-lexpérience-à-lontologie" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>1. Expérience concrète</strong></p>
+<ul>
+<li>Je touche ma main</li>
+<li>Je découvre la réversibilité</li>
+<li>C’est <strong>accessible à tous</strong></li>
+</ul>
+<p><strong>2. Prise de conscience phénoménologique</strong></p>
+<ul>
+<li>Cette réversibilité n’est pas un “truc”</li>
+<li>C’est la <strong>structure même</strong> de mon être corporel</li>
+<li>C’est ce qui fait que je suis incarné</li>
+</ul>
+<p><strong>3. Révélation ontologique</strong></p>
+<ul>
+<li>Si mon corps est réversible (touchant-touché)</li>
+<li>Alors il n’est ni sujet pur ni objet pur</li>
+<li>Il est <strong>chair</strong> = être ambigu</li>
+</ul>
+<p><strong>4. Extension</strong></p>
+<ul>
+<li>Cette structure chiasmatique se retrouve partout</li>
+<li>Voir-visible</li>
+<li>Entendre-audible</li>
+<li>Moi-autrui</li>
+</ul>
+<hr/>
+<h3 id="application-à-la-technique-alexander">Application à la Technique Alexander<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#application-à-la-technique-alexander" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Le chiasme dans le toucher pédagogique</strong></p>
+<pre><code>PROFESSEUR ↔ ÉLÈVE
+    ↓           ↓
+Je touche  ←→  Je suis touché
+Je sens    ←→  Je suis senti
+    ↓           ↓
+   CHAIR PARTAGÉE
+    (momentanément)
+    ↓
+TRANSFORMATION MUTUELLE
+</code></pre>
+<p><strong>Pourquoi ça fonctionne :</strong></p>
+<ol>
+<li>Le toucher n’est jamais à sens unique</li>
+<li>Il y a <strong>échange</strong> dans la chair</li>
+<li>Professeur et élève <strong>participent</strong> au même tissu charnel (momentanément)</li>
+<li>La transformation se transmet <strong>par</strong> cette participation</li>
+</ol>
+<hr/>
+<h3 id="le-chiasme-et-lauto-perception">Le chiasme et l’auto-perception<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#le-chiasme-et-lauto-perception" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Application personnelle (élève seul)</strong></p>
+<pre><code>AVANT : Vision objectivante
+&quot;Mon épaule est tendue&quot; (objet)
+         ↓
+    Coupure sujet-objet
+         ↓
+  Contrôle, correction
+         ↓
+   Renforcement de la tension
+</code></pre>
+<pre><code>APRÈS : Vision chiasmatique
+&quot;Je sens mon épaule sentante&quot;
+         ↓
+   Réversibilité
+  (je la sens / elle sent)
+         ↓
+  Participation, non-contrôle
+         ↓
+  Libération, transformation
+</code></pre>
+<hr/>
+<h3 id="paradoxes-identifiés">Paradoxes identifiés<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#paradoxes-identifiés" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Paradoxe 1 : L’écart nécessaire</strong></p>
+<ul>
+<li>Pour qu’il y ait réversibilité, il faut un écart</li>
+<li>Mais cet écart n’est pas une séparation</li>
+<li>C’est un <strong>entrelacs</strong>, pas un fossé</li>
+</ul>
+<p><strong>Paradoxe 2 : Unité sans fusion</strong></p>
+<ul>
+<li>Dans le chiasme, je ne fusionne pas avec le monde</li>
+<li>Mais je ne suis pas séparé non plus</li>
+<li><strong>Unité différenciée</strong></li>
+</ul>
+<p><strong>Paradoxe 3 : Activité-passivité</strong></p>
+<ul>
+<li>Touchant = actif</li>
+<li>Touché = passif</li>
+<li>MAIS : les deux sont <strong>le même</strong> dans la réversibilité</li>
+<li>Ni purement actif ni purement passif : <strong>ambiguïté</strong></li>
+</ul>
+<hr/>
+<h2 id="tableau-récapitulatif">Tableau récapitulatif<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tableau-récapitulatif" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>MOYEN (Expérience/Structure)</th><th>EFFET (Révélation/Transformation)</th><th>Mécanisme</th><th>Lien Alexander</th><th>Note</th></tr></thead><tbody><tr><td>Toucher mes deux mains</td><td>Découverte de la réversibilité</td><td>Alternance touchant/touché</td><td>Réflexivité corporelle</td><td><a href="../Behnke" class="internal" data-slug="Behnke">Behnke</a></td></tr><tr><td>Écart irréductible</td><td>Maintien de l’ambiguïté</td><td>Non-coïncidence</td><td>Espace du changement</td><td><a href="../Ecart" class="internal" data-slug="Ecart">Ecart</a></td></tr><tr><td>Chair comme tissu commun</td><td>Dépassement sujet-objet</td><td>Participation</td><td>Toucher pédagogique</td><td><a href="../Intercorporeite" class="internal" data-slug="Intercorporeite">Intercorporeite</a></td></tr><tr><td>Schéma corporel global</td><td>Unité vécue (non pensée)</td><td>Enveloppement</td><td>Contrôle primaire</td><td><a href="../Schema_corporel" class="internal" data-slug="Schema_corporel">Schema_corporel</a></td></tr><tr><td>Être-au-monde</td><td>Ouverture, transcendance</td><td>Projet</td><td>Directions vers l’espace</td><td><a href="../Direction" class="internal" data-slug="Direction">Direction</a></td></tr></tbody></table></div>
+<hr/>
+<h2 id="schémas-explicatifs">Schémas explicatifs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#schémas-explicatifs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="le-chiasme-comme-structure">Le chiasme comme structure<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#le-chiasme-comme-structure" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>      TOUCHANT
+         ↕
+    (réversibilité)
+         ↕
+      TOUCHÉ
+         ↓
+      CHAIR
+  (ni l'un ni l'autre
+   exclusivement)
+</code></pre>
+<h3 id="extension-du-chiasme">Extension du chiasme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#extension-du-chiasme" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>     PERCEPTION
+         ↓
+    ┌─────┴─────┐
+VOIR          TOUCHER
+  ↕               ↕
+VISIBLE      TOUCHABLE
+  ↓               ↓
+    └─────┬─────┘
+         ↓
+   CHAIR DU MONDE
+</code></pre>
+<h3 id="chiasme-moi-autrui">Chiasme moi-autrui<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#chiasme-moi-autrui" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<pre><code>       MOI  ←→  AUTRUI
+        ↓         ↓
+   Touchant   Touchant
+   Visible    Visible
+        ↓         ↓
+    ←────────────→
+    CHAIR PARTAGÉE
+</code></pre>
+<hr/>
+<h2 id="applications-pédagogiques-alexander">Applications pédagogiques Alexander<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#applications-pédagogiques-alexander" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="exercice---découvrir-le-chiasme">Exercice ? : Découvrir le chiasme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#exercice---découvrir-le-chiasme" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ol>
+<li>“Pose ta main droite sur ta main gauche”</li>
+<li>“Qu’est-ce que tu sens ?”</li>
+<li>Souvent : “Je sens ma main gauche”</li>
+<li>“OK. Maintenant, <strong>sans bouger</strong>, sens ta main droite”</li>
+<li>“Comment ta main gauche sent ta main droite ?”</li>
+<li><strong>Surprise</strong> : “Ah ! Ça change !”</li>
+<li>“Tu peux alterner entre les deux ?”</li>
+</ol>
+<p><strong>Ce que ça enseigne :</strong></p>
+<ul>
+<li>La réversibilité n’est pas automatique</li>
+<li>Il faut <strong>apprendre</strong> à l’activer</li>
+<li>C’est une capacité disponible mais souvent non utilisée</li>
+</ul>
+<hr/>
+<h3 id="exercice-2--chiasme-et-zones-mortes">Exercice 2 : Chiasme et zones “mortes”<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#exercice-2--chiasme-et-zones-mortes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Pour les zones insensibles (pied, dos, etc.) :</strong></p>
+<ol>
+<li>“Touche ton pied avec ta main”</li>
+<li>“Ta main sent ton pied… Bien”</li>
+<li>“Maintenant, <strong>inverse</strong> : ton pied touche ta main”</li>
+<li>“Comment c’est ?”</li>
+</ol>
+<h3 id="merleau-ponty-et-behnke">Merleau-Ponty et Behnke<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#merleau-ponty-et-behnke" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="table-container"><table><thead><tr><th>Merleau-Ponty</th><th>Behnke</th><th>Convergence</th></tr></thead><tbody><tr><td>Chiasme touchant-touché</td><td>Réinterpréter la sensation</td><td><strong>Même structure</strong></td></tr><tr><td>Réversibilité de la chair</td><td>Inverser touchant/touché</td><td><strong>Même mécanisme</strong></td></tr><tr><td>Écart irréductible</td><td>”Faire comme si”</td><td><strong>Même ambiguïté</strong></td></tr><tr><td>Chair partagée</td><td>Accordage = rencontre</td><td><strong>Même participation</strong></td></tr></tbody></table></div>
+<p><strong><a href="../Notes/Le-chiasme-comme-structure-énactive" class="internal alias" data-slug="Notes/Le-chiasme-comme-structure-énactive">Complémentarité</a> :</strong></p>
+<ul>
+<li>Merleau-Ponty = fondation <strong>philosophique</strong></li>
+<li>Behnke = application <strong>pratique</strong>, technique</li>
+</ul>
+<hr/>
+<h2 id="comment-cela-informe-la-pratique">Comment cela informe la pratique<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#comment-cela-informe-la-pratique" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="questions-ouvert">Questions ouvert<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#questions-ouvert" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>**Q1 : Rapport du chiasme à l’habitude ? **</p>
+<p><strong>Q2 : Y a-t-il un lien entre chiasme et inhibition ?</strong></p>
+<p><strong>Hypothèse :</strong></p>
+<ul>
+<li>L’inhibition suspend la fixation d’un côté (touchant OU touché)</li>
+<li>Elle ouvre l’espace pour la <strong>bascule</strong> réversible</li>
+<li>Sans inhibition → « coincé » dans un pôle (actif OU passif)</li>
+</ul>
+<p><strong>Q3 : Le chiasme dans les directions Alexander ?</strong></p>
+<p><strong>Hypothèse :</strong></p>
+<ul>
+<li>“Laisser le cou libre” = je suis à la fois :
+<ul>
+<li>Celui qui “laisse” (touchant, actif)</li>
+<li>Celui qui “est laissé libre” (touché, passif)</li>
+</ul>
+</li>
+<li>La direction joue sur la réversibilité ?</li>
+</ul>
+<h2 id="-questions-en-suspens">❓ Questions en suspens<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#-questions-en-suspens" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="sur-leffet-transformation">Sur l’EFFET (transformation)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#sur-leffet-transformation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>❓ Pourquoi la découverte du chiasme est-elle si transformatrice ?</li>
+</ul>
+<h3 id="sur-la-relation-application-pratique">Sur la RELATION (application pratique)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#sur-la-relation-application-pratique" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>❓ Comment transmettre l’expérience du chiasme sans la “réduire” ?</li>
+<li>❓ Peut-on utiliser le chiasme comme outil pédagogique explicite ?</li>
+<li>❓ Y a-t-il des limites à l’approche chiasmatique ?</li>
+</ul>
+<hr/>
+<h2 id="bibliographie">Bibliographie<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bibliographie" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="œuvres-de-merleau-ponty">Œuvres de Merleau-Ponty<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#œuvres-de-merleau-ponty" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Principales :</strong></p>
+<ul>
+<li>Merleau-Ponty, M. (1945). <em>Phénoménologie de la perception</em>. Gallimard.</li>
+<li>Merleau-Ponty, M. (1964). <em>Le Visible et l’invisible</em>. Gallimard.</li>
+</ul>
+<p><strong>Autres :</strong></p>
+<ul>
+<li>Merleau-Ponty, M. (1942). <em>La Structure du comportement</em>. PUF.</li>
+<li>Merleau-Ponty, M. (2003). <em>L’Institution, la passivité : Notes de cours au Collège de France</em>. Belin.</li>
+</ul>
+<h3 id="commentateurs">Commentateurs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#commentateurs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Barbaras, R. (1991). <em>De l’être du phénomène. Sur l’ontologie de Merleau-Ponty</em>. Millon.</li>
+<li>Carman, T. (2008). <em>Merleau-Ponty</em>. Routledge.</li>
+<li>Dillon, M.C. (1988). <em>Merleau-Ponty’s Ontology</em>. Northwestern University Press.</li>
+</ul>
+<h3 id="liens-avec-pratiques-somatiques">Liens avec pratiques somatiques<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#liens-avec-pratiques-somatiques" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Behnke, E. (voir fiche <a href="../Accordage-(tuning)" class="internal alias" data-slug="Accordage-(tuning)">Accordage (tuning)</a>)</li>
+<li>Hanna, T. (1986). “What is Somatics?” <em>Somatics</em>.</li>
+<li>Johnson, D. (1983). <em>Body</em>. Beacon Press.</li>
+</ul>
+<hr/>
+<h2 id="tags-enrichis">Tags enrichis<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tags-enrichis" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><a href=".././tags/enrichissement" class="tag-link internal alias" data-slug="tags/enrichissement">enrichissement</a> <a href=".././tags/citations" class="tag-link internal alias" data-slug="tags/citations">citations</a> <a href=".././tags/moyen/chiasme" class="tag-link internal alias" data-slug="tags/moyen/chiasme">chiasme</a> <a href=".././tags/moyen/reversibilite" class="tag-link internal alias" data-slug="tags/moyen/reversibilite">reversibilite</a> <a href=".././tags/moyen/chair" class="tag-link internal alias" data-slug="tags/moyen/chair">chair</a> <a href=".././tags/effet/depassement-dualisme" class="tag-link internal alias" data-slug="tags/effet/depassement-dualisme">depassement-dualisme</a> <a href=".././tags/effet/conscience-incarnee" class="tag-link internal alias" data-slug="tags/effet/conscience-incarnee">conscience-incarnee</a> <a href=".././tags/effet/ouverture-au-monde" class="tag-link internal alias" data-slug="tags/effet/ouverture-au-monde">ouverture-au-monde</a> <a href=".././tags/auteur/Merleau-Ponty" class="tag-link internal alias" data-slug="tags/auteur/Merleau-Ponty">Merleau-Ponty</a> <a href=".././tags/concept/chiasme" class="tag-link internal alias" data-slug="tags/concept/chiasme">chiasme</a> <a href=".././tags/concept/touchant-touche" class="tag-link internal alias" data-slug="tags/concept/touchant-touche">touchant-touche</a> <a href=".././tags/concept/reversibilite" class="tag-link internal alias" data-slug="tags/concept/reversibilite">reversibilite</a> <a href=".././tags/concept/chair" class="tag-link internal alias" data-slug="tags/concept/chair">chair</a> <a href=".././tags/concept/corps-propre" class="tag-link internal alias" data-slug="tags/concept/corps-propre">corps-propre</a> <a href=".././tags/phenomenologie" class="tag-link internal alias" data-slug="tags/phenomenologie">phenomenologie</a> <a href=".././tags/pratique/Alexander" class="tag-link internal alias" data-slug="tags/pratique/Alexander">Alexander</a> <a href=".././tags/pratique/somatique" class="tag-link internal alias" data-slug="tags/pratique/somatique">somatique</a> <a href=".././tags/philosophie" class="tag-link internal alias" data-slug="tags/philosophie">philosophie</a></p>
+<hr/>
+<p>_Le chiasme touchant-touché est probablement le concept le plus important de la phénoménologie merleau-pontienne pour les pratiques somatiques. Il fournit la fondation philosophique rigoureuse de ce que nous faisons intuitivement dans le toucher, l’accordage, et l’auto-perception transformatrice.</p></article><hr/><div class="page-footer"><div class="graph"><h3>Vue Graphique</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="backlinks"><h3>Liens retour</h3><ul id="list-0" class="overflow"><li><a href="../Concepts/Chiasme" class="internal">Chiasme</a></li><li><a href="../" class="internal">Un jardin de gestes</a></li><li class="overflow-end"></li></ul></div><div class="related-articles"><h3>Articles similaires</h3><div class="related-grid"><a href="../Articles/Boucles-Étranges,-Habitudes-et-Dé-différenciation" class="garden-card"><h3>🌿 Boucles Étranges, Habitudes et Dé-différenciation</h3><p class="excerpt">Boucles Étranges, Habitudes et Dé-différenciation Une approche récursive du dualisme pédagogique La question a surgi dans la nuit : les Boucles Étrang...</p><div class="card-footer"><time>03 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill tag-common">#effet/depassement-dualisme</span><span class="tag-pill">#boucles-étranges</span></div></div></a><a href="../Articles/L'attention-incarnée-premier-geste" class="garden-card"><h3>🌳 L'attention incarnée-premier geste</h3><p class="excerpt">L’attention comme accordage résonnant : pour une écologie relationnelle de la présence Matthieu Gaudeau · L&amp;#039;attention incarnée premier geste [! ...</p><div class="card-footer"><time>08 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#attention-incarnée</span><span class="tag-pill">#perception-amodale</span></div></div></a><a href="../MOC/attention" class="garden-card"><h3>🌿 attention</h3><p class="excerpt">IL est difficile de donner une définition de l’attention....</p><div class="card-footer"><time>07 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#attention</span><span class="tag-pill">#attention/filtre</span></div></div></a><a href="../MOC/MOC-Rhizome--Pensées-des-écotones" class="garden-card"><h3>🌿 MOC Rhizome  Pensées des écotones</h3><p class="excerpt">🌿 MOC Rhizome : Pensées des écotones “Le rhizome connecte un point quelconque avec un autre point quelconque” - Deleuze &amp;amp; Guattari Principe Ce MO...</p><div class="card-footer"><time>04 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#écotone</span><span class="tag-pill">#MOC</span></div></div></a><a href="../Articles/Kyrielle-+-Catuskoti" class="garden-card"><h3>🌿 Kyrielle + Catuskoti</h3><p class="excerpt">Kyrielle + Catuskoti Titre provisoire “Pédagogie de la Réverbération : Le catuskoti comme structure formelle de l’apprentissage énactif” Ou “Apprendre...</p><div class="card-footer"><time>04 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#Catuskoti</span><span class="tag-pill">#pédagogie</span></div></div></a><a href="../Articles/Kairos" class="garden-card"><h3>🌿 Kairos</h3><p class="excerpt">Voici une version rédigée de ton texte sur la temporalité et le kairos : Temporalité et Kairos : Le temps vécu de l’apprentissage La temporalité désig...</p><div class="card-footer"><time>03 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#kairos</span><span class="tag-pill">#temps</span></div></div></a><a href="../Articles/Totalité-sphérique-post-parménidienne" class="garden-card"><h3>🌿 Totalité sphérique post-parménidienne</h3><p class="excerpt">Décryptage : “Totalité sphérique post-parménidienne” à partir de l’entretien de Bilbot L’impératif varélien : sortir de l’objet-nature Ce qui est reje...</p><div class="card-footer"><time>02 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#auteur/Bitbol</span><span class="tag-pill">#auteur/varela</span></div></div></a><a href="../Articles/Rhizome" class="garden-card"><h3>🌱 Rhizome</h3><p class="excerpt">écotone Un écotone est une zone de transition écologique entre deux écosystèmes adjacents, comme la lisière d’une forêt ou une roselière, caractérisée...</p><div class="card-footer"><time>01 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#Rhizome</span><span class="tag-pill">#jardin-communautaire</span></div></div></a></div></div></div></div><div class="right sidebar"></div><footer class><p>Created MGaudeau © 2026Créé avec <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a></p><ul></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

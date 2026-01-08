@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr"><head><title>Cultiver la confiance</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;700&amp;family=Fira Sans:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Garden Gester"/><meta property="og:title" content="Cultiver la confiance"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="Cultiver la confiance"/><meta name="twitter:description" content="Strate 2 : “Être avec - S’insérer dans la mélodie du monde” Partie 1 : Reconnaître ce qui relie | Partie 2 : Cultiver la confiance | Partie 3 : Danser avec le monde ← Strate 1 : L’attention incarnée-premier geste [! ] Dans la Partie 1, nous avons vu que l’apprentissage n’est pas extraction d’inform..."/><meta property="og:description" content="Strate 2 : “Être avec - S’insérer dans la mélodie du monde” Partie 1 : Reconnaître ce qui relie | Partie 2 : Cultiver la confiance | Partie 3 : Danser avec le monde ← Strate 1 : L’attention incarnée-premier geste [! ] Dans la Partie 1, nous avons vu que l’apprentissage n’est pas extraction d’inform..."/><meta property="og:image:alt" content="Strate 2 : “Être avec - S’insérer dans la mélodie du monde” Partie 1 : Reconnaître ce qui relie | Partie 2 : Cultiver la confiance | Partie 3 : Danser avec le monde ← Strate 1 : L’attention incarnée-premier geste [! ] Dans la Partie 1, nous avons vu que l’apprentissage n’est pas extraction d’inform..."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/Articles/Cultiver-la-confiance"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/Articles/Cultiver-la-confiance"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Strate 2 : “Être avec - S’insérer dans la mélodie du monde” Partie 1 : Reconnaître ce qui relie | Partie 2 : Cultiver la confiance | Partie 3 : Danser avec le monde ← Strate 1 : L’attention incarnée-premier geste [! ] Dans la Partie 1, nous avons vu que l’apprentissage n’est pas extraction d’inform..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL21hdHRoaWV1Z2F1ZGVhdS9Eb2N1bWVudHMvZ2FyZGVuLWdlc3Rlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/Articles/Cultiver-la-confiance-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/Articles/Cultiver-la-confiance-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/Articles/Cultiver-la-confiance-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Articles/Cultiver-la-confiance"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"></div><div class="center"><div class="page-header"><header><h2 class="page-title"><a href="..">Garden Gester</a></h2><div class="search"><button class="search-button"><span style="font-size: 1.2rem;">🍂</span><p>Recherche</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Rechercher quelque chose" placeholder="Rechercher quelque chose"/><div class="search-layout" data-preview="true"></div></div></div></div></header><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Articles/">Articles</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>Cultiver la confiance</a></div></nav><h1 class="article-title">🌳 Cultiver la confiance</h1><p show-comma="true" class="content-meta"><time datetime="2025-12-27T14:36:16.000Z">27 déc. 2025</time><span>9 min de lecture</span></p><ul class="tags"><li><a href="../tags/article-en-cours" class="internal tag-link">article-en-cours</a></li><li><a href="../tags/concept" class="internal tag-link">concept</a></li></ul></div></div><article class="popover-hint"><hr/>
+<p><strong>Strate 2 : “Être avec - S’insérer dans la mélodie du monde”</strong></p>
+<p><a href="../Articles/Reconnaître-ce-qui-relie" class="internal alias" data-slug="Articles/Reconnaître-ce-qui-relie">Partie 1 : Reconnaître ce qui relie</a> | <a href="../Articles/Cultiver-la-confiance" class="internal alias" data-slug="Articles/Cultiver-la-confiance">Partie 2 : Cultiver la confiance</a> | <a href="../Articles/Danser-avec-le-monde" class="internal alias" data-slug="Articles/Danser-avec-le-monde">Partie 3 : Danser avec le monde</a>
+← <a href="../Articles/L'attention-incarnée-premier-geste" class="internal alias" data-slug="Articles/L'attention-incarnée-premier-geste">Strate 1 : L’attention incarnée-premier geste</a></p>
+<hr/>
+<blockquote>
+<p>[! ]
+Dans la <a href="../Partie-1" class="internal alias" data-slug="Partie-1">Partie 1</a>, nous avons vu que l’apprentissage n’est pas extraction d’informations préexistantes, mais <em>reconnaissance d’invariants relationnels</em> qui émergent du couplage organisme-environnement. L’Umwelt s’enrichit : le grimpeur expert perçoit ce que le débutant ne voit pas - non par déficit visuel mais parce que ces dimensions n’ont pas encore émergé dans son monde vécu.</p>
+</blockquote>
+<p><strong>Mais reconnaître des invariants ne suffit pas.</strong> Pour qu’ils deviennent opératoires, le système sensori-moteur doit leur <strong>faire confiance</strong>. Explorons comment se cultive cette confiance.</p>
+<h2 id="section-3--cultiver-la-confiance-dans-le-couplage"><strong>Section 3 : Cultiver la confiance dans le couplage</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#section-3--cultiver-la-confiance-dans-le-couplage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p>La reconnaissance d’invariants ne suffit pas. Il faut encore que ces invariants deviennent <strong>fiables</strong> - c’est-à-dire que le système sensori-moteur leur <strong>fasse confiance</strong>.</p>
+<p>Cette question de la confiance est au cœur de ce que les neurosciences appellent la <strong>pondération sensorielle</strong> (sensory weighting) : à chaque instant, le système nerveux évalue quelle source d’information est la plus fiable pour une fonction donnée, et ajuste en conséquence l’amplification ou l’atténuation de chaque « modalité sensorielle » (sonar), pour les lecteurs familiarisés avec les chauves-souris.</p>
+<hr/>
+<h3 id="confiance--croyance-mentale"><strong>Confiance ≠ croyance mentale</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#confiance--croyance-mentale" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Quand nous disons “développer la confiance dans le couplage”, il ne s’agit pas d’une <strong>croyance intellectuelle</strong> (“je crois que ça va marcher”). Il s’agit d’une <strong>pondération implicite</strong> au niveau du système sensori-moteur lui-même.</p>
+<p><strong>Exemple paradigmatique - Le Syndrome d’Ehlers-Danlos hypermobile (SEDh) :</strong></p>
+<p>Dans le SEDh, la laxité ligamentaire produit des signaux proprioceptifs <strong>bruités</strong> - les récepteurs articulaires envoient des informations contradictoires, imprécises. Face à ce bruit, le cerveau adopte une stratégie d’inférence bayésienne implicite (Friston, 2010) : il <strong>dépondère</strong> chroniquement la proprioception (jugée peu fiable) et <strong>surpondère</strong> la vision pour l’équilibration.</p>
+<p><strong>Conséquence :</strong> La personne SEDh “ne fait plus confiance” à ses sensations internes - non pas consciemment, mais au niveau du couplage lui-même. Les yeux fermés, l’équilibre devient précaire parce que le système refuse de s’appuyer sur des signaux jugés peu fiables.</p>
+<p>Le projet <strong>VITALISED</strong> (COMETE-CNRS) teste un protocole de recalibrage dont le principe est exactement : <strong>restaurer la confiance dans le couplage proprioceptif</strong>.</p>
+<p><strong>Comment ?</strong></p>
+<ol>
+<li><strong>Enrichir le signal</strong> : Vêtements compressifs qui amplifient les informations tactiles et proprio (+23% de précision mesurée)</li>
+<li><strong>Créer des situations où ce signal suffit</strong> : Plateforme Huber 360® (instabilités contrôlées) + feedback visuel temps réel qui montre que la proprio <strong>fonctionne</strong></li>
+<li><strong>Forcer la réintégration</strong> : Sous contrainte motrice, obliger le système à réécouter le “sonar proprioceptif”</li>
+</ol>
+<p><strong>Métaphoriquement</strong> : On amplifie le sonar défaillant et on crée des situations où le système peut <strong>éprouver</strong> que ce sonar est digne de confiance. Ce n’est pas “convaincre mentalement” la personne - c’est permettre au système sensori-moteur de <strong>recalibrer</strong> sa pondération.</p>
+<p>→ <strong>Voir</strong> <a href="../Articles/Kyrielle#caen-et-la-réalité-virtuelle--perturber-pour-recalibrer-" class="internal alias" data-slug="Articles/Kyrielle">Stratégies de recalibrage</a> pour le développement complet.</p>
+<hr/>
+<h3 id="la-confiance-se-cultive-par-la-variabilité-explorée"><strong>La confiance se cultive par la variabilité explorée</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#la-confiance-se-cultive-par-la-variabilité-explorée" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Un point crucial, souvent mal compris : la confiance dans un couplage ne se développe pas par <strong>répétition à l’identique</strong> (faire exactement le même geste 1000 fois), mais par <strong>exploration de la variabilité</strong>.</p>
+<p><strong>Pourquoi ?</strong></p>
+<p>Parce que ce qui rend un couplage <strong>fiable</strong>, ce n’est pas qu’il fonctionne dans UNE configuration précise, c’est qu’il <strong>tient malgré les variations</strong>.</p>
+<p><strong>Nikolai Bernstein</strong> (années 1920-1960) a magistralement montré ce point en étudiant des gestes experts (martelage, frappe au clavier, lancer…). Il a découvert que :</p>
+<ol>
+<li><strong>Les experts varient énormément</strong> leurs patterns moteurs détaillés d’un essai à l’autre</li>
+<li><strong>Mais le résultat reste stable</strong> (le clou est enfoncé, la note est juste, la cible est atteinte)</li>
+<li><strong>Ce qui est invariant</strong>, ce n’est pas la forme du mouvement, mais <strong>la coordination fonctionnelle</strong> - c’est-à-dire les relations entre les parties du système qui permettent d’atteindre le but</li>
+</ol>
+<p><strong>Bernstein appelle ça “maîtrise des degrés de liberté” :</strong></p>
+<p>À ce propos, il est est intéressant de se rappeler que les expériences de Bernstein se sont développés après la grande guerre. Le contexte historico-social (assemblage), rendait vacants de nombreux musiciens professionnels amputés pendant la guerre, désormais entièrement disponibles à répéter mille fois le même geste univoque pour en extraire l’invariant.
+Revenons à notre :</p>
+<p><strong>Débutant qui</strong> :</p>
+<ul>
+<li><strong>Fige</strong> la plupart des degrés de liberté (raideur, tension excessive)</li>
+<li>Cherche à reproduire UNE forme “correcte”</li>
+<li><strong>a peur de la variabilité</strong> (“Si je change quelque chose, je vais rater”)</li>
+</ul>
+<p><strong>Expert qui</strong> :</p>
+<ul>
+<li><strong>Libère</strong> progressivement les degrés de liberté</li>
+<li>Explore la variabilité en maintenant l’invariant fonctionnel</li>
+<li><strong>Confiance</strong> : “Je peux varier et ça continuera de fonctionner”</li>
+</ul>
+<hr/>
+<h3 id="variabilité-fonctionnelle-vs-dysfonctionnelle"><strong>Variabilité fonctionnelle vs dysfonctionnelle</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#variabilité-fonctionnelle-vs-dysfonctionnelle" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Attention car encore une fois c’est dans les détails que le diable niche : Toute variabilité n’est pas bonne. Il faut distinguer :</p>
+<p><strong>Variabilité dysfonctionnelle</strong> :</p>
+<ul>
+<li>Chaos, absence de coordination</li>
+<li>Les variations ne maintiennent aucun invariant</li>
+<li>Résultat : instabilité, imprévisibilité</li>
+</ul>
+<p><strong>Variabilité fonctionnelle</strong> :</p>
+<ul>
+<li>Exploration organisée autour d’un invariant</li>
+<li>Les variations <strong>enrichissent</strong> la compréhension du couplage</li>
+<li>Résultat : adaptabilité, robustesse</li>
+</ul>
+<p><strong>Le rôle pédagogique</strong> est précisément de créer les conditions pour que la variabilité soit <strong>fonctionnelle</strong> - c’est-à-dire qu’elle permette la reconnaissance d’invariants plutôt que la dispersion.</p>
+<p><strong>Comment ?</strong></p>
+<p>En <strong>contraignant intelligemment</strong> l’espace d’exploration :</p>
+<ul>
+<li>Pas de variabilité totale (trop chaotique)</li>
+<li>Pas de fixation rigide (trop pauvre)</li>
+<li>Mais une <strong>variabilité guidée</strong> : “Varie cette dimension-ci (pression), maintiens celle-là (contact), observe ce qui se passe ». Ce qui demande un accompagnement en deuxième personne. Autrement dit, une personne qui peut orienter l’élève vers les éléments saillants à observer.</li>
+</ul>
+<p><strong>C’est ce qu’on appelle “pédagogie par manipulation de contraintes”</strong> - et nous y reviendrons.</p>
+<hr/>
+<h3 id="lanalogie--transposer-des-invariants-entre-domaines"><strong>L’analogie : transposer des invariants entre domaines</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lanalogie--transposer-des-invariants-entre-domaines" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Il y a une autre dimension fascinante de la variabilité fonctionnelle : <strong>l’analogie</strong>.<br/>
+<em>Son usage systématique date des années 1980-1990, basé sur des travaux cognitifs montrant qu’elle active schémas préexistants pour appréhender la nouveauté.</em> Gentner (Structure-Mapping Theory, 1983).</p>
+<p>Autrement dit ou expérimenté, quand un professeur de chant dit “chante comme si tu lançais une pierre dans un étang”, il ne propose pas une métaphore décorative - il invite à transposer un invariant déjà incorporé (la coordination élan-libération-portée du lancer) vers un nouveau domaine (le phrasé vocal).
+L’analogie fonctionne parce qu’elle crée un pont entre deux Umwelten apparemment distincts : l’élève reconnaît dans le chant une structure relationnelle qu’il connaît déjà par le corps dans le lancer. Ce qui se transpose, ce n’est pas une forme visible mais un contour dynamique, une qualité temporelle - ce que Stern appelle un affect de vitalité.
+L’expertise dans un domaine enrichit ainsi le répertoire d’invariants disponibles par transposition (parfois de façon caricaturale dans les fameux bilan de compétences basés sur les transferts de compétences…)</p>
+<hr/>
+<h3 id="exemple---analogie-fractale-pour-les-matheux--la-côte-maritime-infinie"><strong>Exemple - Analogie fractale pour les matheux : la côte maritime infinie</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#exemple---analogie-fractale-pour-les-matheux--la-côte-maritime-infinie" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Pour appréhender les fractales de Mandelbrot (je suis sûr que beaucoup d’entre-nous frémissent) :
+<strong>“Imaginez la côte bretonne vue depuis un satellite - une ligne simple. Maintenant zoomez au microscope : chaque crique révèle des galets, chaque galet des aspérités… La côte devient infiniment détaillée.”</strong>
+Regardons de plus près cette analogie:</p>
+<ul>
+<li><strong>L’invariant transposé</strong> : Plus vous zoomez, plus la longueur mesurée augmente - la dimension fractale dépasse 1. <strong>La beauté infinie se cache dans le détail. Tout comme le diable</strong></li>
+</ul>
+<p>—> <strong>Résultat mesuré</strong> : +70% de rétention sur la géométrie non-euclidienne (comparé à l’explication formelle standard).</p>
+<p><strong>Pourquoi ça marche ?</strong> L’étudiant possède déjà l’invariant “zoomer révèle des détails cachés” (cartes, Google Earth, vie quotidienne). L’analogie le transpose vers un domaine abstrait (dimension fractale) en passant par le corps vécu (marcher le long d’une côte, sentir sa rugosité infinie).</p>
+<p>Appuyons-nous un instant sur cette même analogie, pour développer une critique radicale de l’imaginaire aujourd’hui utilisé pour décrire l’attention comme une denrée rare et convoitée.
+Rappelez-vous, Patrick Le Lay, PDG de TF1, prononce en 1996 lors d’un entretien avec Laurent Ruquier dans On a tout essayé (France Inter)
+« Ce que nous vendons à Coca-Cola, c’est du temps de cerveau humain disponible. »
+Cette phrase n’est possible que dans la mesure où l’attention est considérée dans une perspective capitaliste et extractiviste, mais si nous reprenons à présent l’analogie des fractales pour notre développement de l’attention incarnée.
+Notre grimpeur expert que nous avions laisser sur les roches Bretonne, pratique ces zooms fractales sur les affordances de la roche - chaque micro-texture révèle des prises invisibles au débutant, détails infinis dans la relation main-pierre.
+<strong>Son attention (notre attention) devient un système d’amplification infinie de relation qui permettent de déplier et d’habiter nos Umwelts.</strong></p>
+<hr/>
+<h3 id="la-patience-du-système"><strong>La patience du système</strong><a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#la-patience-du-système" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Un dernier point crucial : le recalibrage de la confiance prend <strong>du temps</strong>.</p>
+<p>Dans VITALISED, on ne voit pas d’amélioration immédiate. Il faut plusieurs semaines de pratique (vêtements compressifs + plateforme) pour que le système accepte de <strong>répondérer</strong> la proprioception.</p>
+<p><strong>Pourquoi cette lenteur ?</strong></p>
+<p>Parce que le système ne peut pas se permettre de changer sa pondération <strong>à la légère</strong>. Si les signaux proprio ont été bruités pendant des années, une amélioration temporaire (enrichissement par compression) ne suffit pas - il faut que le système <strong>éprouve sur la durée</strong> que ces signaux sont redevenus fiables.</p>
+<p><strong>C’est un processus conservateur</strong> - et c’est une bonne chose. Un système qui changerait sa pondération à chaque fluctuation serait instable, dangereux.</p>
+<p><strong>Conséquence pédagogique :</strong></p>
+<p>On ne peut pas <strong>forcer</strong> la confiance. On ne peut que créer les conditions pour qu’elle <strong>émerge progressivement</strong> - par l’expérience répétée que le couplage fonctionne, même avec variations.</p>
+<p><strong>Cela demande patience et bienveillance</strong> - envers soi-même si l’on apprend, envers l’élève si l’on enseigne. La confiance ne se décrète pas, elle se cultive.</p>
+<hr/>
+<p>Nous avons vu comment l’apprentissage consiste à reconnaître des invariants en couplage (section 2) et comment la confiance dans ces couplages se cultive par exploration de la variabilité (section 3).</p>
+<p>Mais il y a une dimension que nous n’avons pas encore abordée : <strong>le rapport à soi-même dans ce processus</strong> (ce que F.M Alexander nommait « Usage de soi »).</p>
+<p>Car si l’attention est un geste, si percevoir est un couplage, porter attention à sa propre pratique est lui-même un couplage. Mais un couplage d’un type particulier : un couplage récursif, où je deviens simultanément terme (celui qui pratique) et relation (celui qui “observe” la pratique).</p>
+<p>C’est ce que nous allons explorer maintenant.</p>
+<p><a href="../Articles/Danser-avec-le-monde" class="internal alias" data-slug="Articles/Danser-avec-le-monde">Partie 3 : Danser avec le monde</a></p></article><hr/><div class="page-footer"><div class="graph"><h3>Vue Graphique</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="backlinks"><h3>Liens retour</h3><ul id="list-0" class="overflow"><li><a href="../Articles/Cultiver-la-confiance" class="internal">Cultiver la confiance</a></li><li><a href="../Articles/Danser-avec-le-monde" class="internal">Danser avec le monde</a></li><li><a href="../Articles/L'attention-incarnée-premier-geste" class="internal">L'attention incarnée-premier geste</a></li><li><a href="../Articles/Reconnaître-ce-qui-relie" class="internal">Reconnaître ce qui relie</a></li><li><a href="../MOC/attention" class="internal">attention</a></li><li class="overflow-end"></li></ul></div><div class="related-articles"><h3>Articles similaires</h3><div class="related-grid"><a href="../Articles/Reconnaître-ce-qui-relie" class="garden-card"><h3>🌳 Reconnaître ce qui relie</h3><p class="excerpt">Strate 2 : Être avec - S’insérer dans la mélodie du monde Matthieu Gaudeau · reconnaitre ce qui relie Partie 1 : Reconnaître ce qui relie | Partie 2 :...</p><div class="card-footer"><time>08 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#article-en-cours</span></div></div></a><a href="../Articles/L'attention-incarnée-premier-geste" class="garden-card"><h3>🌳 L'attention incarnée-premier geste</h3><p class="excerpt">L’attention comme accordage résonnant : pour une écologie relationnelle de la présence Matthieu Gaudeau · L&amp;#039;attention incarnée premier geste [! ...</p><div class="card-footer"><time>08 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#attention-incarnée</span><span class="tag-pill">#perception-amodale</span></div></div></a><a href="../MOC/attention" class="garden-card"><h3>🌿 attention</h3><p class="excerpt">IL est difficile de donner une définition de l’attention....</p><div class="card-footer"><time>07 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#attention</span><span class="tag-pill">#attention/filtre</span></div></div></a><a href="../MOC/MOC-Rhizome--Pensées-des-écotones" class="garden-card"><h3>🌿 MOC Rhizome  Pensées des écotones</h3><p class="excerpt">🌿 MOC Rhizome : Pensées des écotones “Le rhizome connecte un point quelconque avec un autre point quelconque” - Deleuze &amp;amp; Guattari Principe Ce MO...</p><div class="card-footer"><time>04 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#écotone</span><span class="tag-pill">#MOC</span></div></div></a><a href="../Articles/Kyrielle-+-Catuskoti" class="garden-card"><h3>🌿 Kyrielle + Catuskoti</h3><p class="excerpt">Kyrielle + Catuskoti Titre provisoire “Pédagogie de la Réverbération : Le catuskoti comme structure formelle de l’apprentissage énactif” Ou “Apprendre...</p><div class="card-footer"><time>04 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#Catuskoti</span><span class="tag-pill">#pédagogie</span></div></div></a><a href="../Articles/Boucles-Étranges,-Habitudes-et-Dé-différenciation" class="garden-card"><h3>🌿 Boucles Étranges, Habitudes et Dé-différenciation</h3><p class="excerpt">Boucles Étranges, Habitudes et Dé-différenciation Une approche récursive du dualisme pédagogique La question a surgi dans la nuit : les Boucles Étrang...</p><div class="card-footer"><time>03 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#boucles-étranges</span><span class="tag-pill">#Dé-différenciation</span></div></div></a><a href="../Articles/Kairos" class="garden-card"><h3>🌿 Kairos</h3><p class="excerpt">Voici une version rédigée de ton texte sur la temporalité et le kairos : Temporalité et Kairos : Le temps vécu de l’apprentissage La temporalité désig...</p><div class="card-footer"><time>03 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#kairos</span><span class="tag-pill">#temps</span></div></div></a><a href="../Articles/Totalité-sphérique-post-parménidienne" class="garden-card"><h3>🌿 Totalité sphérique post-parménidienne</h3><p class="excerpt">Décryptage : “Totalité sphérique post-parménidienne” à partir de l’entretien de Bilbot L’impératif varélien : sortir de l’objet-nature Ce qui est reje...</p><div class="card-footer"><time>02 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#auteur/Bitbol</span><span class="tag-pill">#auteur/varela</span></div></div></a></div></div></div></div><div class="right sidebar"></div><footer class><p>Created MGaudeau © 2026Créé avec <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a></p><ul></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>

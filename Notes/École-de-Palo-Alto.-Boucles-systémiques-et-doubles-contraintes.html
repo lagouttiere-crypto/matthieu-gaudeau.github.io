@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr"><head><title>École de Palo Alto. Boucles systémiques et doubles contraintes</title><meta charset="utf-8"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira Sans:wght@400;700&amp;family=Fira Sans:ital,wght@0,400;0,600;1,400;1,600&amp;family=IBM Plex Mono:wght@400;600&amp;display=swap"/><link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="anonymous"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="og:site_name" content="Garden Gester"/><meta property="og:title" content="École de Palo Alto. Boucles systémiques et doubles contraintes"/><meta property="og:type" content="website"/><meta name="twitter:card" content="summary_large_image"/><meta name="twitter:title" content="École de Palo Alto. Boucles systémiques et doubles contraintes"/><meta name="twitter:description" content="École de Palo Alto : Boucles systémiques et doubles contraintes Note de synthèse - Décembre 2024 Contexte : Lien avec les boucles d’habitude et la dissolution du dualisme L’École de Palo Alto : Principes fondateurs Origines (années 1950-1960) Fondateurs clés : Gregory Bateson (anthropologue, cyberné..."/><meta property="og:description" content="École de Palo Alto : Boucles systémiques et doubles contraintes Note de synthèse - Décembre 2024 Contexte : Lien avec les boucles d’habitude et la dissolution du dualisme L’École de Palo Alto : Principes fondateurs Origines (années 1950-1960) Fondateurs clés : Gregory Bateson (anthropologue, cyberné..."/><meta property="og:image:alt" content="École de Palo Alto : Boucles systémiques et doubles contraintes Note de synthèse - Décembre 2024 Contexte : Lien avec les boucles d’habitude et la dissolution du dualisme L’École de Palo Alto : Principes fondateurs Origines (années 1950-1960) Fondateurs clés : Gregory Bateson (anthropologue, cyberné..."/><meta property="twitter:domain" content="quartz.jzhao.xyz"/><meta property="og:url" content="https://quartz.jzhao.xyz/Notes/École-de-Palo-Alto.-Boucles-systémiques-et-doubles-contraintes"/><meta property="twitter:url" content="https://quartz.jzhao.xyz/Notes/École-de-Palo-Alto.-Boucles-systémiques-et-doubles-contraintes"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="École de Palo Alto : Boucles systémiques et doubles contraintes Note de synthèse - Décembre 2024 Contexte : Lien avec les boucles d’habitude et la dissolution du dualisme L’École de Palo Alto : Principes fondateurs Origines (années 1950-1960) Fondateurs clés : Gregory Bateson (anthropologue, cyberné..."/><meta name="generator" content="Quartz"/><link href="../index.css" rel="stylesheet" type="text/css" data-persist="true"/><style>.expand-button {
+  position: absolute;
+  display: flex;
+  float: right;
+  padding: 0.4rem;
+  margin: 0.3rem;
+  right: 0;
+  color: var(--gray);
+  border-color: var(--dark);
+  background-color: var(--light);
+  border: 1px solid;
+  border-radius: 5px;
+  opacity: 0;
+  transition: 0.2s;
+}
+.expand-button > svg {
+  fill: var(--light);
+  filter: contrast(0.3);
+}
+.expand-button:hover {
+  cursor: pointer;
+  border-color: var(--secondary);
+}
+.expand-button:focus {
+  outline: 0;
+}
+
+pre:hover > .expand-button {
+  opacity: 1;
+  transition: 0.2s;
+}
+
+#mermaid-container {
+  position: fixed;
+  contain: layout;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: none;
+  backdrop-filter: blur(4px);
+  background: rgba(0, 0, 0, 0.5);
+}
+#mermaid-container.active {
+  display: inline-block;
+}
+#mermaid-container > #mermaid-space {
+  border: 1px solid var(--lightgray);
+  background-color: var(--light);
+  border-radius: 5px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+}
+#mermaid-container > #mermaid-space > .mermaid-content {
+  position: relative;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease;
+  overflow: visible;
+  min-height: 200px;
+  min-width: 200px;
+}
+#mermaid-container > #mermaid-space > .mermaid-content pre {
+  margin: 0;
+  border: none;
+}
+#mermaid-container > #mermaid-space > .mermaid-content svg {
+  max-width: none;
+  height: auto;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  background: var(--light);
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: var(--bodyFont);
+  transition: all 0.2s ease;
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:hover {
+  background: var(--lightgray);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:active {
+  transform: translateY(1px);
+}
+#mermaid-container > #mermaid-space > .mermaid-controls .mermaid-control-button:nth-child(2) {
+  width: auto;
+  padding: 0 12px;
+  font-size: 14px;
+}
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VSb290IjoiL1VzZXJzL21hdHRoaWV1Z2F1ZGVhdS9Eb2N1bWVudHMvZ2FyZGVuLWdlc3Rlci9xdWFydHovY29tcG9uZW50cy9zdHlsZXMiLCJzb3VyY2VzIjpbIm1lcm1haWQuaW5saW5lLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUdGO0VBQ0U7OztBQUtGO0VBQ0U7RUFDQTs7O0FBSUo7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0U7O0FBR0Y7RUFDRTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7O0FBR0Y7RUFDRTtFQUNBOztBQUlKO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDRTs7QUFHRjtFQUNFOztBQUlGO0VBQ0U7RUFDQTtFQUNBIiwic291cmNlc0NvbnRlbnQiOlsiLmV4cGFuZC1idXR0b24ge1xuICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gIGRpc3BsYXk6IGZsZXg7XG4gIGZsb2F0OiByaWdodDtcbiAgcGFkZGluZzogMC40cmVtO1xuICBtYXJnaW46IDAuM3JlbTtcbiAgcmlnaHQ6IDA7IC8vIE5PVEU6IHJpZ2h0IHdpbGwgYmUgc2V0IGluIG1lcm1haWQuaW5saW5lLnRzXG4gIGNvbG9yOiB2YXIoLS1ncmF5KTtcbiAgYm9yZGVyLWNvbG9yOiB2YXIoLS1kYXJrKTtcbiAgYmFja2dyb3VuZC1jb2xvcjogdmFyKC0tbGlnaHQpO1xuICBib3JkZXI6IDFweCBzb2xpZDtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBvcGFjaXR5OiAwO1xuICB0cmFuc2l0aW9uOiAwLjJzO1xuXG4gICYgPiBzdmcge1xuICAgIGZpbGw6IHZhcigtLWxpZ2h0KTtcbiAgICBmaWx0ZXI6IGNvbnRyYXN0KDAuMyk7XG4gIH1cblxuICAmOmhvdmVyIHtcbiAgICBjdXJzb3I6IHBvaW50ZXI7XG4gICAgYm9yZGVyLWNvbG9yOiB2YXIoLS1zZWNvbmRhcnkpO1xuICB9XG5cbiAgJjpmb2N1cyB7XG4gICAgb3V0bGluZTogMDtcbiAgfVxufVxuXG5wcmUge1xuICAmOmhvdmVyID4gLmV4cGFuZC1idXR0b24ge1xuICAgIG9wYWNpdHk6IDE7XG4gICAgdHJhbnNpdGlvbjogMC4ycztcbiAgfVxufVxuXG4jbWVybWFpZC1jb250YWluZXIge1xuICBwb3NpdGlvbjogZml4ZWQ7XG4gIGNvbnRhaW46IGxheW91dDtcbiAgei1pbmRleDogOTk5O1xuICBsZWZ0OiAwO1xuICB0b3A6IDA7XG4gIHdpZHRoOiAxMDB2dztcbiAgaGVpZ2h0OiAxMDB2aDtcbiAgb3ZlcmZsb3c6IGhpZGRlbjtcbiAgZGlzcGxheTogbm9uZTtcbiAgYmFja2Ryb3AtZmlsdGVyOiBibHVyKDRweCk7XG4gIGJhY2tncm91bmQ6IHJnYmEoMCwgMCwgMCwgMC41KTtcblxuICAmLmFjdGl2ZSB7XG4gICAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xuICB9XG5cbiAgJiA+ICNtZXJtYWlkLXNwYWNlIHtcbiAgICBib3JkZXI6IDFweCBzb2xpZCB2YXIoLS1saWdodGdyYXkpO1xuICAgIGJhY2tncm91bmQtY29sb3I6IHZhcigtLWxpZ2h0KTtcbiAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgcG9zaXRpb246IGZpeGVkO1xuICAgIHRvcDogNTAlO1xuICAgIGxlZnQ6IDUwJTtcbiAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZSgtNTAlLCAtNTAlKTtcbiAgICBoZWlnaHQ6IDgwdmg7XG4gICAgd2lkdGg6IDgwdnc7XG4gICAgb3ZlcmZsb3c6IGhpZGRlbjtcblxuICAgICYgPiAubWVybWFpZC1jb250ZW50IHtcbiAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgIHRyYW5zZm9ybS1vcmlnaW46IDAgMDtcbiAgICAgIHRyYW5zaXRpb246IHRyYW5zZm9ybSAwLjFzIGVhc2U7XG4gICAgICBvdmVyZmxvdzogdmlzaWJsZTtcbiAgICAgIG1pbi1oZWlnaHQ6IDIwMHB4O1xuICAgICAgbWluLXdpZHRoOiAyMDBweDtcblxuICAgICAgcHJlIHtcbiAgICAgICAgbWFyZ2luOiAwO1xuICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICB9XG5cbiAgICAgIHN2ZyB7XG4gICAgICAgIG1heC13aWR0aDogbm9uZTtcbiAgICAgICAgaGVpZ2h0OiBhdXRvO1xuICAgICAgfVxuICAgIH1cblxuICAgICYgPiAubWVybWFpZC1jb250cm9scyB7XG4gICAgICBwb3NpdGlvbjogYWJzb2x1dGU7XG4gICAgICBib3R0b206IDIwcHg7XG4gICAgICByaWdodDogMjBweDtcbiAgICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgICBnYXA6IDhweDtcbiAgICAgIHBhZGRpbmc6IDhweDtcbiAgICAgIGJhY2tncm91bmQ6IHZhcigtLWxpZ2h0KTtcbiAgICAgIGJvcmRlcjogMXB4IHNvbGlkIHZhcigtLWxpZ2h0Z3JheSk7XG4gICAgICBib3JkZXItcmFkaXVzOiA2cHg7XG4gICAgICBib3gtc2hhZG93OiAwIDJweCA0cHggcmdiYSgwLCAwLCAwLCAwLjEpO1xuICAgICAgei1pbmRleDogMjtcblxuICAgICAgLm1lcm1haWQtY29udHJvbC1idXR0b24ge1xuICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcbiAgICAgICAgd2lkdGg6IDMycHg7XG4gICAgICAgIGhlaWdodDogMzJweDtcbiAgICAgICAgcGFkZGluZzogMDtcbiAgICAgICAgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHQpO1xuICAgICAgICBjb2xvcjogdmFyKC0tZGFyayk7XG4gICAgICAgIGJvcmRlci1yYWRpdXM6IDRweDtcbiAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICBmb250LXNpemU6IDE2cHg7XG4gICAgICAgIGZvbnQtZmFtaWx5OiB2YXIoLS1ib2R5Rm9udCk7XG4gICAgICAgIHRyYW5zaXRpb246IGFsbCAwLjJzIGVhc2U7XG5cbiAgICAgICAgJjpob3ZlciB7XG4gICAgICAgICAgYmFja2dyb3VuZDogdmFyKC0tbGlnaHRncmF5KTtcbiAgICAgICAgfVxuXG4gICAgICAgICY6YWN0aXZlIHtcbiAgICAgICAgICB0cmFuc2Zvcm06IHRyYW5zbGF0ZVkoMXB4KTtcbiAgICAgICAgfVxuXG4gICAgICAgIC8vIFN0eWxlIHRoZSByZXNldCBidXR0b24gZGlmZmVyZW50bHlcbiAgICAgICAgJjpudGgtY2hpbGQoMikge1xuICAgICAgICAgIHdpZHRoOiBhdXRvO1xuICAgICAgICAgIHBhZGRpbmc6IDAgMTJweDtcbiAgICAgICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICAgIH1cbiAgICAgIH1cbiAgICB9XG4gIH1cbn1cbiJdfQ== */</style><link href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" rel="stylesheet" type="text/css" data-persist="true"/><script src="../prescript.js" type="application/javascript" data-persist="true"></script><script type="application/javascript" data-persist="true">const fetchData = fetch("../static/contentIndex.json").then(data => data.json())</script><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://quartz.jzhao.xyz/index.xml"/><meta property="og:image:width" content="1200"/><meta property="og:image:height" content="630"/><meta property="og:image" content="https://quartz.jzhao.xyz/Notes/École-de-Palo-Alto.-Boucles-systémiques-et-doubles-contraintes-og-image.webp"/><meta property="og:image:url" content="https://quartz.jzhao.xyz/Notes/École-de-Palo-Alto.-Boucles-systémiques-et-doubles-contraintes-og-image.webp"/><meta name="twitter:image" content="https://quartz.jzhao.xyz/Notes/École-de-Palo-Alto.-Boucles-systémiques-et-doubles-contraintes-og-image.webp"/><meta property="og:image:type" content="image/.webp"/></head><body data-slug="Notes/École-de-Palo-Alto.-Boucles-systémiques-et-doubles-contraintes"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"></div><div class="center"><div class="page-header"><header><h2 class="page-title"><a href="..">Garden Gester</a></h2><div class="search"><button class="search-button"><span style="font-size: 1.2rem;">🍂</span><p>Recherche</p></button><div class="search-container"><div class="search-space"><input autocomplete="off" class="search-bar" name="search" type="text" aria-label="Rechercher quelque chose" placeholder="Rechercher quelque chose"/><div class="search-layout" data-preview="true"></div></div></div></div></header><div class="popover-hint"><nav class="breadcrumb-container" aria-label="breadcrumbs"><div class="breadcrumb-element"><a href="../">Home</a><p> ❯ </p></div><div class="breadcrumb-element"><a href="../Notes/">Notes</a><p> ❯ </p></div><div class="breadcrumb-element"><a href>École de Palo Alto. Boucles systémiques et doubles contraintes</a></div></nav><h1 class="article-title">🌿 École de Palo Alto. Boucles systémiques et doubles contraintes</h1><p show-comma="true" class="content-meta"><time datetime="2025-12-31T08:44:49.000Z">31 déc. 2025</time><span>11 min de lecture</span></p><ul class="tags"><li><a href="../tags/concept" class="internal tag-link">concept</a></li></ul></div></div><article class="popover-hint"><h1 id="école-de-palo-alto--boucles-systémiques-et-doubles-contraintes">École de Palo Alto : Boucles systémiques et doubles contraintes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#école-de-palo-alto--boucles-systémiques-et-doubles-contraintes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h1>
+<p><strong>Note de synthèse</strong> - Décembre 2024<br/>
+<strong>Contexte</strong> : Lien avec les boucles d’habitude et la dissolution du dualisme</p>
+<hr/>
+<h2 id="lécole-de-palo-alto--principes-fondateurs">L’École de Palo Alto : Principes fondateurs<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#lécole-de-palo-alto--principes-fondateurs" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="origines-années-1950-1960">Origines (années 1950-1960)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#origines-années-1950-1960" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Fondateurs clés</strong> :</p>
+<ul>
+<li><strong>Gregory Bateson</strong> (anthropologue, cybernéticien) - concept de double contrainte</li>
+<li><strong>Paul Watzlawick</strong> (psychologue, philosophe) - pragmatique de la communication</li>
+<li><strong>Don Jackson</strong> (psychiatre) - thérapie familiale systémique</li>
+<li><strong>Jay Haley</strong> (thérapeute) - thérapie stratégique</li>
+</ul>
+<p><strong>Institution</strong> : Mental Research Institute (MRI), Palo Alto, Californie</p>
+<h3 id="rupture-épistémologique-fondamentale">Rupture épistémologique fondamentale<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#rupture-épistémologique-fondamentale" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>L’École de Palo Alto rompt radicalement avec la psychologie/psychiatrie classique :</p>
+<p><strong>Approche classique</strong> (psychanalyse, behaviorisme) :</p>
+<ul>
+<li>Cherche les causes “dans” l’individu (inconscient, trauma, apprentissage)</li>
+<li>Modèle linéaire : Cause → Effet</li>
+<li>Focus : POURQUOI ? (étiologie)</li>
+</ul>
+<p><strong>Approche systémique</strong> (Palo Alto) :</p>
+<ul>
+<li>Étudie les patterns d’interaction dans le système</li>
+<li>Modèle circulaire : Boucles de rétroaction</li>
+<li>Focus : COMMENT ? (processus)</li>
+</ul>
+<p><strong>Citation clé de Watzlawick</strong> :</p>
+<blockquote>
+<p>“Le problème n’est pas le problème. Le problème, c’est la manière dont on essaie de résoudre le problème.”</p>
+</blockquote>
+<hr/>
+<h2 id="les-axiomes-de-la-communication-watzlawick">Les axiomes de la communication (Watzlawick)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#les-axiomes-de-la-communication-watzlawick" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1-on-ne-peut-pas-ne-pas-communiquer">1. On ne peut pas ne pas communiquer<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-on-ne-peut-pas-ne-pas-communiquer" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Tout comportement est communication. Le silence, l’immobilité, l’absence - tout communique quelque chose.</p>
+<p><strong>Implication</strong> : Il n’y a pas de position neutre “hors système”. On est toujours déjà dans la communication/relation.</p>
+<h3 id="2-toute-communication-a-un-contenu-et-une-relation">2. Toute communication a un contenu ET une relation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-toute-communication-a-un-contenu-et-une-relation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Niveau du contenu</strong> : Ce qui est dit (les mots)</li>
+<li><strong>Niveau de la relation</strong> : Comment c’est dit (qui parle à qui, dans quel rapport)</li>
+</ul>
+<p>Le niveau relationnel définit le contenu, pas l’inverse.</p>
+<h3 id="3-communication-digitale-et-analogique">3. Communication digitale et analogique<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-communication-digitale-et-analogique" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Digitale</strong> : Langage verbal, symbolique, arbitraire</li>
+<li><strong>Analogique</strong> : Langage non-verbal, corporel, iconique</li>
+</ul>
+<p>Les deux peuvent entrer en contradiction → double contrainte</p>
+<h3 id="4-interaction-symétrique-ou-complémentaire">4. Interaction symétrique ou complémentaire<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-interaction-symétrique-ou-complémentaire" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li><strong>Symétrique</strong> : Les partenaires se positionnent sur un pied d’égalité (risque d’escalade)</li>
+<li><strong>Complémentaire</strong> : Les positions sont différentes mais s’ajustent (risque de rigidification)</li>
+</ul>
+<h3 id="5-ponctuation-de-la-séquence-des-événements">5. Ponctuation de la séquence des événements<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-ponctuation-de-la-séquence-des-événements" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Chaque participant “ponctue” différemment la séquence causale de l’interaction.</p>
+<p><strong>Exemple classique</strong> :</p>
+<ul>
+<li>Épouse : “Je me plains parce que tu te retires”</li>
+<li>Époux : “Je me retire parce que tu te plains”</li>
+</ul>
+<p>→ Aucun n’est “la cause” - c’est une <strong>boucle circulaire</strong></p>
+<hr/>
+<h2 id="la-double-contrainte-double-bind">La double contrainte (Double Bind)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#la-double-contrainte-double-bind" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="concept-développé-par-bateson-1956">Concept développé par Bateson (1956)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#concept-développé-par-bateson-1956" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Définition</strong> : Une situation où une personne reçoit des messages contradictoires à différents niveaux logiques, rendant impossible toute réponse “correcte”.</p>
+<h3 id="structure-de-la-double-contrainte">Structure de la double contrainte<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#structure-de-la-double-contrainte" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Cinq conditions</strong> :</p>
+<ol>
+<li><strong>Relation intense</strong> (famille, institution totale)</li>
+<li><strong>Injonction primaire négative</strong> : “Ne fais pas X, sinon je te punirai”</li>
+<li><strong>Injonction secondaire contradictoire</strong> (à un niveau différent) : “Tu dois faire X”</li>
+<li><strong>Injonction tertiaire</strong> : “Tu ne peux pas quitter le champ” (impossibilité de méta-communiquer ou de partir)</li>
+<li><strong>Chronicisation</strong> : Répétition jusqu’à ce que la structure soit internalisée</li>
+</ol>
+<h3 id="exemple-classique">Exemple classique<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#exemple-classique" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Mère à son enfant</strong> :</p>
+<ul>
+<li>Niveau verbal : “Viens me faire un câlin” (injonction à s’approcher)</li>
+<li>Niveau corporel : Se raidit, se détourne (rejet)</li>
+<li>Message implicite : “Ne me touche pas”</li>
+</ul>
+<p>→ L’enfant ne peut pas gagner :</p>
+<ul>
+<li>S’il s’approche : Rejeté au niveau corporel</li>
+<li>S’il ne s’approche pas : Accusé de ne pas aimer sa mère</li>
+<li>S’il commente la contradiction : “Comment oses-tu dire que je ne t’aime pas !”</li>
+</ul>
+<p><strong>Résultat</strong> : L’enfant apprend à ne plus faire confiance à sa propre perception de la réalité. Bateson a lié cela à la genèse de certaines formes de schizophrénie (hypothèse débattue).</p>
+<h3 id="types-de-doubles-contraintes">Types de doubles contraintes<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#types-de-doubles-contraintes" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Pathologique</strong> (exemple ci-dessus) : Chronicisé, pas de méta-communication possible</p>
+<p><strong>Créative</strong> (paradoxe zen) :</p>
+<ul>
+<li>Koan : “Quel est le son d’une seule main qui applaudit ?”</li>
+<li>Crée une impossibilité logique qui force un saut de niveau</li>
+<li>Différence : Le cadre zen <em>permet</em> explicitement de sortir du cadre rationnel</li>
+</ul>
+<hr/>
+<h2 id="tentatives-de-solution--problème">Tentatives de solution = Problème<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#tentatives-de-solution--problème" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="le-principe-central-de-palo-alto">Le principe central de Palo Alto<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#le-principe-central-de-palo-alto" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Watzlawick, Weakland &amp; Fisch</strong> (<em>Change</em>, 1974) identifient un pattern récurrent :</p>
+<blockquote>
+<p>“La tentative de résoudre le problème <strong>devient</strong> le problème.”</p>
+</blockquote>
+<p><strong>Mécanisme</strong> :</p>
+<ol>
+<li>Situation difficile (A)</li>
+<li>Tentative de solution (B)</li>
+<li>B ne résout pas A, mais crée un nouveau problème (C)</li>
+<li>On intensifie B pour résoudre C</li>
+<li>→ <strong>Boucle</strong> : Plus on applique B, plus C s’aggrave</li>
+</ol>
+<h3 id="exemples-typiques">Exemples typiques<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#exemples-typiques" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Insomnie</strong> :</p>
+<ul>
+<li>Problème initial : Difficulté à s’endormir</li>
+<li>Tentative de solution : “Il FAUT que je dorme, je vais me concentrer pour dormir”</li>
+<li>Résultat : L’effort pour dormir empêche le sommeil</li>
+<li>Escalade : Plus j’essaie, moins je dors → Plus je suis anxieux → Plus j’essaie</li>
+</ul>
+<p><strong>Timidité</strong> :</p>
+<ul>
+<li>Problème initial : Malaise en société</li>
+<li>Tentative de solution : “Je vais éviter les situations sociales”</li>
+<li>Résultat : Moins d’expérience sociale → Plus de malaise</li>
+<li>Escalade : Plus j’évite, plus je suis mal → Plus j’évite</li>
+</ul>
+<p><strong>Contrôle parental</strong> :</p>
+<ul>
+<li>Problème initial : Adolescent prend des risques</li>
+<li>Tentative de solution : Augmenter le contrôle</li>
+<li>Résultat : Adolescent se rebelle davantage</li>
+<li>Escalade : Plus de contrôle → Plus de rébellion → Plus de contrôle</li>
+</ul>
+<h3 id="le-pattern-toujours-plus-de-la-même-chose">Le pattern “Toujours plus de la même chose”<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#le-pattern-toujours-plus-de-la-même-chose" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Watzlawick identifie ce qu’il nomme la solution de “<strong>toujours plus de la même chose</strong>” (<em>more of the same</em>) :</p>
+<ul>
+<li>Face à un problème, on applique une solution</li>
+<li>Si ça ne marche pas, on l’intensifie</li>
+<li>L’intensification aggrave le problème</li>
+<li>On intensifie encore plus</li>
+<li>→ Escalade symétrique sans fin</li>
+</ul>
+<p><strong>Citation</strong> :</p>
+<blockquote>
+<p>“Si ce que vous faites ne fonctionne pas, faites autre chose - n’importe quoi d’autre.”</p>
+</blockquote>
+<hr/>
+<h2 id="changement-1-vs-changement-2">Changement 1 vs Changement 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#changement-1-vs-changement-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="distinction-cruciale-watzlawick">Distinction cruciale (Watzlawick)<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#distinction-cruciale-watzlawick" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Changement 1</strong> : Changement à l’intérieur du système</p>
+<ul>
+<li>On modifie un paramètre</li>
+<li>Mais on garde les règles du système</li>
+<li>Exemple : Réorganiser les meubles d’une pièce</li>
+</ul>
+<p><strong>Changement 2</strong> : Changement du système lui-même</p>
+<ul>
+<li>On change les règles du jeu</li>
+<li>Transformation des prémisses</li>
+<li>Exemple : Déménager dans une autre maison</li>
+</ul>
+<p><strong>Lien avec la Théorie des Types Logiques (Russell)</strong> :</p>
+<p>Watzlawick s’appuie sur Russell et Whitehead : on ne peut pas résoudre un problème au niveau où il a été créé. Il faut un <strong>saut de niveau logique</strong>.</p>
+<h3 id="application-aux-problèmes-psychologiques">Application aux problèmes psychologiques<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#application-aux-problèmes-psychologiques" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Exemple : Phobie sociale</strong></p>
+<p><strong>Changement 1</strong> (ne fonctionne pas) :</p>
+<ul>
+<li>“Je vais essayer d’être moins anxieux en société”</li>
+<li>“Je vais me forcer à aller à des soirées”</li>
+<li>→ Reste dans le cadre : “Il y a un problème (mon anxiété) qu’il faut résoudre”</li>
+</ul>
+<p><strong>Changement 2</strong> (thérapie paradoxale) :</p>
+<ul>
+<li>“Allez à une soirée et essayez d’être le plus anxieux possible”</li>
+<li>→ Change le cadre : L’anxiété n’est plus le problème à éviter mais quelque chose à produire volontairement</li>
+<li>→ Court-circuite la boucle “Plus j’essaie de ne pas être anxieux, plus je le suis”</li>
+</ul>
+<hr/>
+<h2 id="interventions-paradoxales">Interventions paradoxales<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#interventions-paradoxales" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="la-prescription-du-symptôme">La prescription du symptôme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#la-prescription-du-symptôme" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Principe</strong> : Au lieu de dire “Ne fais pas X” (ce qui crée résistance), dire “Fais X volontairement”</p>
+<p><strong>Exemples cliniques</strong> :</p>
+<p><strong>Couple qui se dispute</strong> :</p>
+<ul>
+<li>Intervention : “Cette semaine, disputez-vous tous les jours à 20h pendant exactement 15 minutes”</li>
+<li>Effet : Transformer la dispute spontanée en acte volontaire</li>
+<li>Résultat : Souvent, les disputes deviennent impossibles (on ne peut pas se disputer “sur commande”)</li>
+</ul>
+<p><strong>Insomnie</strong> :</p>
+<ul>
+<li>Intervention : “Essayez de rester éveillé le plus longtemps possible”</li>
+<li>Effet : Enlève l’anxiété de performance liée au sommeil</li>
+<li>Résultat : Paradoxalement, facilite l’endormissement</li>
+</ul>
+<p><strong>Enfant qui fait des crises</strong> :</p>
+<ul>
+<li>Intervention (aux parents) : “Demandez-lui de faire une crise maintenant”</li>
+<li>Effet : La crise n’est plus une manière d’obtenir attention/contrôle</li>
+<li>Résultat : L’enfant refuse souvent de faire la crise “commandée”</li>
+</ul>
+<h3 id="le-recadrage">Le recadrage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#le-recadrage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Définition</strong> : Changer la signification attribuée à une situation sans changer la situation elle-même</p>
+<p><strong>Exemple célèbre (Watzlawick)</strong> :</p>
+<p><strong>Situation</strong> : Homme déprimé parce qu’il se sent “trop gentil” et que les gens profitent de lui</p>
+<p><strong>Recadrage</strong> : “Votre gentillesse n’est pas un défaut. C’est une stratégie brillante pour contrôler les autres en les rendant redevables.”</p>
+<p><strong>Effet</strong> : L’homme ne peut plus se sentir “victime” de sa gentillesse (ce n’est plus une faiblesse mais une manipulation). Souvent, cela libère la possibilité d’être gentil autrement.</p>
+<hr/>
+<h2 id="liens-avec-nos-développements">Liens avec nos développements<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#liens-avec-nos-développements" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1-boucles-dhabitude-et-tentatives-de-solution">1. Boucles d’habitude et tentatives de solution<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-boucles-dhabitude-et-tentatives-de-solution" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Notre analyse ce matin</strong> :</p>
+<ul>
+<li>Habitude néfaste (contraction posturale)</li>
+<li>Tentative de correction : “Je vais essayer de me tenir droit”</li>
+<li>Résultat : La tension volontaire crée une nouvelle contraction</li>
+<li>Escalade : Plus j’essaie de corriger, plus je me contracte</li>
+</ul>
+<p><strong>C’est exactement le pattern de Palo Alto</strong> : La tentative de solution (contrôle volontaire) devient le problème (chronicise la contraction).</p>
+<h3 id="2-inhibition-alexandrienne-comme-changement-2">2. Inhibition alexandrienne comme Changement 2<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-inhibition-alexandrienne-comme-changement-2" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>L’inhibition d’Alexander n’est <strong>pas</strong> un Changement 1 (“Je vais essayer de mieux bouger”).</p>
+<p>C’est un <strong>Changement 2</strong> : On change le cadre même du problème.</p>
+<ul>
+<li>Changement 1 : “Corriger la posture”</li>
+<li>Changement 2 : “Suspendre toute tentative de faire quoi que ce soit” (inhibition)</li>
+</ul>
+<p>En suspendant la tentative de solution, on sort de la boucle.</p>
+<h3 id="3-double-contrainte-et-dissociation-pédagogique">3. Double contrainte et dissociation pédagogique<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-double-contrainte-et-dissociation-pédagogique" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>La pédagogie traditionnelle crée une <strong>double contrainte subtile</strong> :</p>
+<p><strong>Message 1</strong> (explicite) : “Sois spontané, créatif, exprime-toi” <strong>Message 2</strong> (implicite, structurel) : “Reste assis sans bouger, suis les consignes, ne dévie pas”</p>
+<p>→ L’enfant ne peut pas gagner :</p>
+<ul>
+<li>S’il est spontané : Puni pour indiscipline</li>
+<li>S’il suit les consignes mécaniquement : Critiqué pour manque de créativité</li>
+</ul>
+<p><strong>Résultat</strong> : Dissociation (Zahn) - apprendre à se scinder entre “la partie qui obéit” et “la partie qui voudrait s’exprimer”.</p>
+<h3 id="4-méditation-et-recadrage">4. Méditation et recadrage<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#4-méditation-et-recadrage" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>La méditation opère un <strong>recadrage radical</strong> :</p>
+<p><strong>Cadre habituel</strong> : “J’ai des pensées parasites qu’il faut éliminer” <strong>Recadrage</strong> : “Les pensées apparaissent et disparaissent naturellement, aucune action n’est nécessaire”</p>
+<p>Ce n’est pas un Changement 1 (“Je vais mieux contrôler mes pensées”) mais un Changement 2 (changer le rapport même à la pensée).</p>
+<h3 id="5-varela-et-palo-alto--approches-systémiques">5. Varela et Palo Alto : Approches systémiques<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#5-varela-et-palo-alto--approches-systémiques" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Varela et l’École de Palo Alto partagent une <strong>épistémologie systémique</strong> :</p>
+<p><strong>Palo Alto</strong> : Le problème n’est pas “dans” l’individu mais dans les <strong>patterns d’interaction</strong></p>
+<p><strong>Varela (énaction)</strong> : La cognition n’est pas “dans” le cerveau mais dans le <strong>couplage organisme-environnement</strong></p>
+<p>Les deux refusent la localisation du problème “en dedans” et pensent en termes de <strong>boucles circulaires</strong> plutôt que de causalité linéaire.</p>
+<h3 id="6-impossibilité-de-ne-pas-être-dans-le-système">6. Impossibilité de ne pas être dans le système<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#6-impossibilité-de-ne-pas-être-dans-le-système" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p><strong>Palo Alto</strong> : “On ne peut pas ne pas communiquer” → Toujours déjà dans la relation</p>
+<p><strong>Notre posture intenable</strong> : “On ne peut pas sortir du système pour l’observer” → Toujours déjà dans le couplage autopoïétique</p>
+<p>Même refus de la position de surplomb extérieure.</p>
+<hr/>
+<h2 id="limites-et-critiques">Limites et critiques<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#limites-et-critiques" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="1-risque-de-manipulation">1. Risque de manipulation<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#1-risque-de-manipulation" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Les interventions paradoxales peuvent sembler manipulatrices. Si le thérapeute “prescrit le symptôme”, il instrumentalise le patient.</p>
+<p><strong>Réponse de Palo Alto</strong> : Toute thérapie manipule. L’important est l’<strong>efficacité</strong> et le <strong>consentement</strong> éclairé.</p>
+<h3 id="2-manque-de-profondeur-">2. Manque de profondeur ?<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#2-manque-de-profondeur-" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>Critique psychanalytique : Palo Alto ne s’intéresse qu’aux <strong>symptômes</strong> (patterns comportementaux), pas aux causes profondes (inconscient, trauma).</p>
+<p><strong>Réponse</strong> : La distinction symptôme/cause profonde est elle-même un <strong>cadre</strong> (théorie psychanalytique). Changer le pattern change la vie de la personne - est-ce que ce n’est pas suffisant ?</p>
+<h3 id="3-responsabilité-individuelle">3. Responsabilité individuelle<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#3-responsabilité-individuelle" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<p>En mettant l’accent sur le système, risque de diluer la responsabilité individuelle : “Ce n’est pas ma faute, c’est le système.”</p>
+<p><strong>Nuance</strong> : Penser systémiquement n’exclut pas la responsabilité. Mais cela change ce que signifie “être responsable” : non pas “contrôler” mais “participer différemment au système”.</p>
+<hr/>
+<h2 id="bibliographie-essentielle">Bibliographie essentielle<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#bibliographie-essentielle" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<p><strong>Bateson, G.</strong> (1972). <em>Steps to an Ecology of Mind</em>. University of Chicago Press.</p>
+<ul>
+<li>Contient l’article fondateur sur la double contrainte (1956)</li>
+</ul>
+<p><strong>Watzlawick, P., Beavin, J. H., &amp; Jackson, D. D.</strong> (1967). <em>Pragmatics of Human Communication</em>. W. W. Norton.</p>
+<ul>
+<li>Les 5 axiomes de la communication</li>
+</ul>
+<p><strong>Watzlawick, P., Weakland, J., &amp; Fisch, R.</strong> (1974). <em>Change: Principles of Problem Formation and Problem Resolution</em>. W. W. Norton.</p>
+<ul>
+<li>Changement 1 vs Changement 2</li>
+<li>Tentatives de solution deviennent problème</li>
+</ul>
+<p><strong>Watzlawick, P.</strong> (1978). <em>The Language of Change</em>. Basic Books.</p>
+<ul>
+<li>Recadrage et interventions paradoxales</li>
+</ul>
+<p><strong>Watzlawick, P.</strong> (1984). <em>The Invented Reality</em>. W. W. Norton.</p>
+<ul>
+<li>Constructivisme radical</li>
+</ul>
+<hr/>
+<h2 id="pour-aller-plus-loin--connexions-possibles">Pour aller plus loin : Connexions possibles<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#pour-aller-plus-loin--connexions-possibles" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h2>
+<h3 id="avec-varela">Avec Varela<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#avec-varela" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Bateson est une influence directe sur Varela (cybernétique de 2e ordre)</li>
+<li>Autopoïèse (Maturana &amp; Varela) = Extension systémique aux organismes vivants</li>
+<li>Énaction = Approche systémique de la cognition</li>
+</ul>
+<h3 id="avec-alexander">Avec Alexander<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#avec-alexander" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Inhibition = Intervention paradoxale (“Ne fais rien” pour permettre au système de se réorganiser)</li>
+<li>“End-gaining” = Tentative de solution qui devient problème</li>
+<li>Moyens vs fins = Changement 1 vs Changement 2</li>
+</ul>
+<h3 id="avec-le-bouddhisme">Avec le bouddhisme<a role="anchor" aria-hidden="true" tabindex="-1" data-no-popover="true" href="#avec-le-bouddhisme" class="internal"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></a></h3>
+<ul>
+<li>Recadrage radical de la souffrance</li>
+<li>Cessation de l’effort (lâcher-prise) vs intensification de l’effort</li>
+<li>Non-dualité = Sortie du cadre sujet/objet</li>
+</ul>
+<hr/>
+<p><strong>Note finale</strong> : L’École de Palo Alto offre un <strong>langage</strong> et des <strong>outils conceptuels</strong> pour penser les boucles qui nous enferment et comment en sortir - non pas en les combattant (ce qui les renforce) mais en changeant le cadre même qui les rend possibles.</p>
+<p>C’est exactement ce que nous faisions ce matin avec “dissécier” : ne pas combattre le dualisme (Changement 1) mais changer la méthode qui le crée (Changement 2).</p>
+<hr/>
+<p><em>Décembre 2024</em></p></article><hr/><div class="page-footer"><div class="graph"><h3>Vue Graphique</h3><div class="graph-outer"><div class="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:false,&quot;enableRadial&quot;:false}"></div><button class="global-graph-icon" aria-label="Global Graph"><svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xml:space="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+                s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+                c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+                C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+                c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+                v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+                s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+                C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+                S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+                s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+                s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></button></div><div class="global-graph-outer"><div class="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.2,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1,&quot;showTags&quot;:true,&quot;removeTags&quot;:[],&quot;focusOnHover&quot;:true,&quot;enableRadial&quot;:true}"></div></div></div><div class="related-articles"><h3>Articles similaires</h3><div class="related-grid"><a href="../Articles/L'attention-incarnée-premier-geste" class="garden-card"><h3>🌳 L'attention incarnée-premier geste</h3><p class="excerpt">L’attention comme accordage résonnant : pour une écologie relationnelle de la présence Matthieu Gaudeau · L&amp;#039;attention incarnée premier geste [! ...</p><div class="card-footer"><time>08 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#attention-incarnée</span><span class="tag-pill">#perception-amodale</span></div></div></a><a href="../MOC/attention" class="garden-card"><h3>🌿 attention</h3><p class="excerpt">IL est difficile de donner une définition de l’attention....</p><div class="card-footer"><time>07 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#attention</span><span class="tag-pill">#attention/filtre</span></div></div></a><a href="../MOC/MOC-Rhizome--Pensées-des-écotones" class="garden-card"><h3>🌿 MOC Rhizome  Pensées des écotones</h3><p class="excerpt">🌿 MOC Rhizome : Pensées des écotones “Le rhizome connecte un point quelconque avec un autre point quelconque” - Deleuze &amp;amp; Guattari Principe Ce MO...</p><div class="card-footer"><time>04 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#écotone</span><span class="tag-pill">#MOC</span></div></div></a><a href="../Articles/Kyrielle-+-Catuskoti" class="garden-card"><h3>🌿 Kyrielle + Catuskoti</h3><p class="excerpt">Kyrielle + Catuskoti Titre provisoire “Pédagogie de la Réverbération : Le catuskoti comme structure formelle de l’apprentissage énactif” Ou “Apprendre...</p><div class="card-footer"><time>04 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#Catuskoti</span><span class="tag-pill">#pédagogie</span></div></div></a><a href="../Articles/Boucles-Étranges,-Habitudes-et-Dé-différenciation" class="garden-card"><h3>🌿 Boucles Étranges, Habitudes et Dé-différenciation</h3><p class="excerpt">Boucles Étranges, Habitudes et Dé-différenciation Une approche récursive du dualisme pédagogique La question a surgi dans la nuit : les Boucles Étrang...</p><div class="card-footer"><time>03 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#boucles-étranges</span><span class="tag-pill">#Dé-différenciation</span></div></div></a><a href="../Articles/Kairos" class="garden-card"><h3>🌿 Kairos</h3><p class="excerpt">Voici une version rédigée de ton texte sur la temporalité et le kairos : Temporalité et Kairos : Le temps vécu de l’apprentissage La temporalité désig...</p><div class="card-footer"><time>03 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#kairos</span><span class="tag-pill">#temps</span></div></div></a><a href="../Articles/Totalité-sphérique-post-parménidienne" class="garden-card"><h3>🌿 Totalité sphérique post-parménidienne</h3><p class="excerpt">Décryptage : “Totalité sphérique post-parménidienne” à partir de l’entretien de Bilbot L’impératif varélien : sortir de l’objet-nature Ce qui est reje...</p><div class="card-footer"><time>02 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#auteur/Bitbol</span><span class="tag-pill">#auteur/varela</span></div></div></a><a href="../Articles/Rhizome" class="garden-card"><h3>🌱 Rhizome</h3><p class="excerpt">écotone Un écotone est une zone de transition écologique entre deux écosystèmes adjacents, comme la lisière d’une forêt ou une roselière, caractérisée...</p><div class="card-footer"><time>01 janv. 2026</time><div class="tags"><span class="tag-pill tag-common">#concept</span><span class="tag-pill">#Rhizome</span><span class="tag-pill">#jardin-communautaire</span></div></div></a></div></div></div></div><div class="right sidebar"></div><footer class><p>Created MGaudeau © 2026Créé avec <a href="https://quartz.jzhao.xyz/">Quartz v4.5.2</a></p><ul></ul></footer></div></div></body><script type="application/javascript" data-persist="true">function n(){let t=this.parentElement;t.classList.toggle("is-collapsed");let e=t.getElementsByClassName("callout-content")[0];if(!e)return;let l=t.classList.contains("is-collapsed");e.style.gridTemplateRows=l?"0fr":"1fr"}function c(){let t=document.getElementsByClassName("callout is-collapsible");for(let e of t){let l=e.getElementsByClassName("callout-title")[0],s=e.getElementsByClassName("callout-content")[0];if(!l||!s)continue;l.addEventListener("click",n),window.addCleanup(()=>l.removeEventListener("click",n));let o=e.classList.contains("is-collapsed");s.style.gridTemplateRows=o?"0fr":"1fr"}}document.addEventListener("nav",c);
+</script><script type="module" data-persist="true">function E(a,e){if(!a)return;function t(o){o.target===this&&(o.preventDefault(),o.stopPropagation(),e())}function n(o){o.key.startsWith("Esc")&&(o.preventDefault(),e())}a?.addEventListener("click",t),window.addCleanup(()=>a?.removeEventListener("click",t)),document.addEventListener("keydown",n),window.addCleanup(()=>document.removeEventListener("keydown",n))}function f(a){for(;a.firstChild;)a.removeChild(a.firstChild)}var m=class{constructor(e,t){this.container=e;this.content=t;this.setupEventListeners(),this.setupNavigationControls(),this.resetTransform()}isDragging=!1;startPan={x:0,y:0};currentPan={x:0,y:0};scale=1;MIN_SCALE=.5;MAX_SCALE=3;cleanups=[];setupEventListeners(){let e=this.onMouseDown.bind(this),t=this.onMouseMove.bind(this),n=this.onMouseUp.bind(this),o=this.onTouchStart.bind(this),r=this.onTouchMove.bind(this),i=this.onTouchEnd.bind(this),s=this.resetTransform.bind(this);this.container.addEventListener("mousedown",e),document.addEventListener("mousemove",t),document.addEventListener("mouseup",n),this.container.addEventListener("touchstart",o,{passive:!1}),document.addEventListener("touchmove",r,{passive:!1}),document.addEventListener("touchend",i),window.addEventListener("resize",s),this.cleanups.push(()=>this.container.removeEventListener("mousedown",e),()=>document.removeEventListener("mousemove",t),()=>document.removeEventListener("mouseup",n),()=>this.container.removeEventListener("touchstart",o),()=>document.removeEventListener("touchmove",r),()=>document.removeEventListener("touchend",i),()=>window.removeEventListener("resize",s))}cleanup(){for(let e of this.cleanups)e()}setupNavigationControls(){let e=document.createElement("div");e.className="mermaid-controls";let t=this.createButton("+",()=>this.zoom(.1)),n=this.createButton("-",()=>this.zoom(-.1)),o=this.createButton("Reset",()=>this.resetTransform());e.appendChild(n),e.appendChild(o),e.appendChild(t),this.container.appendChild(e)}createButton(e,t){let n=document.createElement("button");return n.textContent=e,n.className="mermaid-control-button",n.addEventListener("click",t),window.addCleanup(()=>n.removeEventListener("click",t)),n}onMouseDown(e){e.button===0&&(this.isDragging=!0,this.startPan={x:e.clientX-this.currentPan.x,y:e.clientY-this.currentPan.y},this.container.style.cursor="grabbing")}onMouseMove(e){this.isDragging&&(e.preventDefault(),this.currentPan={x:e.clientX-this.startPan.x,y:e.clientY-this.startPan.y},this.updateTransform())}onMouseUp(){this.isDragging=!1,this.container.style.cursor="grab"}onTouchStart(e){if(e.touches.length!==1)return;this.isDragging=!0;let t=e.touches[0];this.startPan={x:t.clientX-this.currentPan.x,y:t.clientY-this.currentPan.y}}onTouchMove(e){if(!this.isDragging||e.touches.length!==1)return;e.preventDefault();let t=e.touches[0];this.currentPan={x:t.clientX-this.startPan.x,y:t.clientY-this.startPan.y},this.updateTransform()}onTouchEnd(){this.isDragging=!1}zoom(e){let t=Math.min(Math.max(this.scale+e,this.MIN_SCALE),this.MAX_SCALE),n=this.content.getBoundingClientRect(),o=n.width/2,r=n.height/2,i=t-this.scale;this.currentPan.x-=o*i,this.currentPan.y-=r*i,this.scale=t,this.updateTransform()}updateTransform(){this.content.style.transform=`translate(${this.currentPan.x}px, ${this.currentPan.y}px) scale(${this.scale})`}resetTransform(){let t=this.content.querySelector("svg").getBoundingClientRect(),n=t.width/this.scale,o=t.height/this.scale;this.scale=1,this.currentPan={x:(this.container.clientWidth-n)/2,y:(this.container.clientHeight-o)/2},this.updateTransform()}},T=["--secondary","--tertiary","--gray","--light","--lightgray","--highlight","--dark","--darkgray","--codeFont"],y;document.addEventListener("nav",async()=>{let e=document.querySelector(".center").querySelectorAll("code.mermaid");if(e.length===0)return;y||=await import("https://cdnjs.cloudflare.com/ajax/libs/mermaid/11.4.0/mermaid.esm.min.mjs");let t=y.default,n=new WeakMap;for(let r of e)n.set(r,r.innerText);async function o(){for(let s of e){s.removeAttribute("data-processed");let c=n.get(s);c&&(s.innerHTML=c)}let r=T.reduce((s,c)=>(s[c]=window.getComputedStyle(document.documentElement).getPropertyValue(c),s),{}),i=document.documentElement.getAttribute("saved-theme")==="dark";t.initialize({startOnLoad:!1,securityLevel:"loose",theme:i?"dark":"base",themeVariables:{fontFamily:r["--codeFont"],primaryColor:r["--light"],primaryTextColor:r["--darkgray"],primaryBorderColor:r["--tertiary"],lineColor:r["--darkgray"],secondaryColor:r["--secondary"],tertiaryColor:r["--tertiary"],clusterBkg:r["--light"],edgeLabelBackground:r["--highlight"]}}),await t.run({nodes:e})}await o(),document.addEventListener("themechange",o),window.addCleanup(()=>document.removeEventListener("themechange",o));for(let r=0;r<e.length;r++){let v=function(){let g=l.querySelector("#mermaid-space"),h=l.querySelector(".mermaid-content");if(!h)return;f(h);let w=i.querySelector("svg").cloneNode(!0);h.appendChild(w),l.classList.add("active"),g.style.cursor="grab",u=new m(g,h)},M=function(){l.classList.remove("active"),u?.cleanup(),u=null},i=e[r],s=i.parentElement,c=s.querySelector(".clipboard-button"),d=s.querySelector(".expand-button"),p=window.getComputedStyle(c),L=c.offsetWidth+parseFloat(p.marginLeft||"0")+parseFloat(p.marginRight||"0");d.style.right=`calc(${L}px + 0.3rem)`,s.prepend(d);let l=s.querySelector("#mermaid-container");if(!l)return;let u=null;d.addEventListener("click",v),E(l,M),window.addCleanup(()=>{u?.cleanup(),d.removeEventListener("click",v)})}});
+</script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js" type="application/javascript" data-persist="true"></script><script src="../postscript.js" type="module" data-persist="true"></script></html>
