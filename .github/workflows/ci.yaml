@@ -55,12 +55,15 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
+
       - name: Setup Node
         uses: actions/setup-node@v6
         with:
           node-version: 22
+
       - name: Get package version
         run: node -p -e '`PACKAGE_VERSION=${require("./package.json").version}`' >> $GITHUB_ENV
+
       - name: Create release tag
         uses: pkgdeps/git-tag-action@v3
         with:
