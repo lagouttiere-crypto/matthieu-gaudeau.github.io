@@ -12,7 +12,7 @@ maturity: arbre
 ## **Strate 2 : "Être avec - S'insérer dans la mélodie du monde"**
 
 [[Reconnaître ce qui relie|Partie 1 : Reconnaître ce qui relie]] | [[Cultiver la confiance|Partie 2 : Cultiver la confiance]] | [[Danser avec le monde|Partie 3 : Danser avec le monde]].
-⬅︎ [[L'attention incarnée-premier geste|Strate. 1 : L'attention incarnée-premier geste]]
+â [[L'attention incarnée-premier geste|Strate. 1 : L'attention incarnée-premier geste]]
 
 ---
 

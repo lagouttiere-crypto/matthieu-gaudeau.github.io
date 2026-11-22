@@ -33,7 +33,7 @@ maturity: arbuste
 
 ### Du langage au geste
 
-La voix médiane n'est pas qu'une structure grammaticale, elle se manifeste dans le [[Geste]] corporel :
+La voix médiane n'est pas qu'une structure grammaticale, elle se manifeste dans le [[Public/Concepts/Geste]] corporel :
 
 **GESTE ACTIF (voix active)**
 
@@ -125,7 +125,7 @@ Cette dissolution n'est pas une perte mais une libération : ne plus avoir à "f
 
 ## Liens
 
-- [[Geste]] — organisation émergente, transitivité
+- [[Public/Concepts/Geste]] — organisation émergente, transitivité
 - [[Donner]] — donation plutôt que production
 - [[Récursivité]] — co-émergence sujet/geste
 - [[Agentivité]] — dissolution du sujet comme origine

@@ -92,9 +92,9 @@ Le corps n'est pas un simple exécutant mais un **participant actif** dans la co
 
 ---
 
-## Subsomption et [[Geste]]
+## Subsomption et [[Public/Concepts/Geste]]
 
-Le [[Geste]] opère selon une logique de subsomption. Les niveaux infra-intentionnels (tonus, réflexes, anticipation gravitaire) restent actifs et ne sont pas "dépassés" par la volonté consciente — ils sont **subsumés** par elle.
+Le [[Public/Concepts/Geste]] opère selon une logique de subsomption. Les niveaux infra-intentionnels (tonus, réflexes, anticipation gravitaire) restent actifs et ne sont pas "dépassés" par la volonté consciente — ils sont **subsumés** par elle.
 
 **Hypothèses et implications pour la pédagogie énactive** :
 
@@ -131,7 +131,7 @@ La [[Récursivité]] s'exprime ici : les affordances perçues par les niveaux su
 ## Liens
 
 - [[Public/Concepts/Affordance|Affordance]] — possibilités d'action directement perçues
-- [[Geste]] — organisation émergente qui subsume les niveaux infra-intentionnels
+- [[Public/Concepts/Geste]] — organisation émergente qui subsume les niveaux infra-intentionnels
 - [[Voix médiane]] — ni actif ni passif, mais médian
 - [[Récursivité]] — boucle perception-action
 - [[L'expérience de la chute]] — perception directe des affordances gravitaires

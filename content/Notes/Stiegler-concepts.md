@@ -10,4 +10,4 @@ date_origine: 20/12/2025
 maturity: arbuste
 ---
 
-<iframe width="450" height="315" src="https://publish.obsidian.md/bamwempan/Fiche+Résumé/Fiche+-+Bernard+Stiegler" ></iframe>
+<iframe width="450" height="315" src="https://publish.obsidian.md/bamwempan/Personnalit%C3%A9/Bernard+Stiegler"></iframe>

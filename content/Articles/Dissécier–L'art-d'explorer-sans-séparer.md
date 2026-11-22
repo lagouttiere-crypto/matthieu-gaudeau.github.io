@@ -26,7 +26,7 @@ Avant de nous jeter à corps perdu dans le prochain développement, laissez-moi
 vous partager le souvenir d'une vidéo qui me hante depuis plusieurs années. La décrire permettra peut-être de rendre compte de la façon dont elle s'est inscrite en moi. J'ajouterai le lien ensuite si vous souhaitez la regarder.
 
 La scène s'ouvre sur une salle au sol noir, que l'on devine destinée à la danse.
-Quelques jeunes filles – six ou sept ans – en justaucorps noirs assistent, à ce
+Quelques jeunes filles, six ou sept ans, en justaucorps noirs assistent, à ce
 qui semble être leur premier cours de danse classique. La professeure passe entre elles, alignées, et les "place" en première position.
 
 Position inaugurale à partir de laquelle se développera progressivement toute

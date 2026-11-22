@@ -1,7 +1,7 @@
 #!/bin/bash
-
+set -e
 echo "📦 Synchronisation du dossier Public..."
-rsync -av --delete "/Users/matthieugaudeau/Library/Mobile Documents/iCloud~md~obsidian/Documents/Technique Alexander/noyau théorique/Public/" "content/"
+rsync -av --delete "/Users/macbook/Library/Mobile Documents/iCloud~md~obsidian/Documents/Technique Alexander/noyau théorique/Public/" "content/"
 
 echo "📝 Sauvegarde des modifications..."
 npx prettier . --write

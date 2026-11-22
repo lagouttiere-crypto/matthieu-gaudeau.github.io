@@ -34,7 +34,7 @@ La pomme, dans ce cadre, n'est qu'un objet soumis à des forces. Elle n'a pas d'
 
 ## Première personne : l'expérience incarnée
 
-Paxton explore la chute **de "l'intérieur"**. Non pas "comment ça tombe" mais "comment je vis le fait de tomber". Le [[Geste]] de la chute ne se réduit pas à une trajectoire cinématique — il engage :
+Paxton explore la chute **de "l'intérieur"**. Non pas "comment ça tombe" mais "comment je vis le fait de tomber". Le [[Public/Concepts/Geste]] de la chute ne se réduit pas à une trajectoire cinématique — il engage :
 
 - Une réorganisation posturale anticipée
 - Un dialogue tonique avec la gravité
@@ -45,7 +45,7 @@ Cette dimension ne peut être saisie en troisième personne. Elle n'est accessib
 
 ## Ce par quoi la chute se donne
 
-La chute, comme tout [[Geste]], n'est pas quelque chose qu'on "fait" volontairement. C'est un processus qui **[[Donner|se donne]]** par le corps, qui en est le lieu sans en être la cause.
+La chute, comme tout [[Public/Concepts/Geste]], n'est pas quelque chose qu'on "fait" volontairement. C'est un processus qui **[[Donner|se donne]]** par le corps, qui en est le lieu sans en être la cause.
 
 Quand on lâche l'appui, la chute advient. Mais l'expérience de cette chute — sa qualité, sa tonalité — dépend de la manière dont le corps **habite** ce processus. Ni actif (je décide de tomber), ni passif (je subis la chute), mais **médian** ([[Voix médiane]]) : ça se donne par moi, et je participe à ce qui advient.
 
@@ -73,7 +73,7 @@ La pomme de Newton tombe selon des lois immuables. Mais celui qui apprend à tom
 
 ## Liens
 
-- [[Geste]] — organisation émergente, transitivité
+- [[Public/Concepts/Geste]] — organisation émergente, transitivité
 - [[Donner]] — donation plutôt que production
 - [[Voix médiane]] — ni actif ni passif
 - [[Récursivité]] — l'expérience transforme ce qu'elle explore

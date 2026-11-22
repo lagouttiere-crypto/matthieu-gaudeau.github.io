@@ -14,7 +14,7 @@ maturity: arbuste
 
 La gestosphère désigne l'**univers symbolique des gestes** qui constituent une personne. Ce n'est pas simplement l'ensemble des mouvements qu'un corps peut faire (la _kinésphère_ de Laban), ni l'organisation dynamique de ces mouvements (la _dynamosphère_). C'est le répertoire des gestes avec leur portée signifiante, affective, relationnelle — l'ensemble des possibilités gestuelles avec leur charge symbolique.
 
-Le concept est introduit par Hubert Godard comme une extension radicale du travail de Rudolf Laban. Là où Laban cartographie l'espace cinématique et dynamique, H.Godard ajoute la dimension symbolique : chaque [[Geste]] porte une histoire de constitution, une relation à l'objet au sens psychanalytique, un dialogue tonico-affectif avec l'environnement humain et plus qu'humain.
+Le concept est introduit par Hubert Godard comme une extension radicale du travail de Rudolf Laban. Là où Laban cartographie l'espace cinématique et dynamique, H.Godard ajoute la dimension symbolique : chaque [[Public/Concepts/Geste]] porte une histoire de constitution, une relation à l'objet au sens psychanalytique, un dialogue tonico-affectif avec l'environnement humain et plus qu'humain.
 
 ## Le renversement : du geste à l'anatomie
 
@@ -56,7 +56,7 @@ L'espace n'est pas donné a priori, il est reconstruit différemment pour chaque
 
 ## Liens
 
-- [[Geste]] — organisation émergente, transitivité
+- [[Public/Concepts/Geste]] — organisation émergente, transitivité
 - [[Récursivité]] — le sens émerge du parcours qui le cherche
 - [[Voix médiane]] — ni actif ni passif
 - [[20 - Terrains/21 - ⚗️Fermentarium/50_Import-Worpress/Articles/affordance/Affordance]] — possibilités d'action qui émergent du couplage

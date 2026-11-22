@@ -165,6 +165,7 @@ Les verbes du jardinage sont aussi des verbes de la pensée. Chaque geste corres
     - [Vannevar Bush - As We May Think (1945)](http://www.softphd.com/these/traduction/vannevar-bush-as-we-may-think)
     - [Mike Caulfield - The Garden and the Stream (2015)](https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/)
 - **Terrasser** = Préparer un niveau, créer une plateforme
+  - [[Abhidharma conscience]]
 - **Drainer** = Permettre la circulation, éviter la stagnation
 - **Fertiliser** = Enrichir le milieu, apporter des nutriments conceptuels
 

@@ -24,7 +24,7 @@ Cette nomination ne désigne pas une action volontaire. Les arbres ne "produisen
 
 ## Le geste comme fructidor
 
-Le [[Geste]] n'est pas un mouvement que l'on exécute. Il est **ce par quoi un monde se donne**. Cette formulation n'est pas métaphorique — elle nomme un processus transitif où quelque chose advient _par_ le geste, sans que le geste soit une cause volontaire ou une origine stable.
+Le [[Public/Concepts/Geste]] n'est pas un mouvement que l'on exécute. Il est **ce par quoi un monde se donne**. Cette formulation n'est pas métaphorique — elle nomme un processus transitif où quelque chose advient _par_ le geste, sans que le geste soit une cause volontaire ou une origine stable.
 
 Le geste opère selon la même structure :
 
@@ -51,7 +51,7 @@ Comme fructidor nomme le temps où les fruits se donnent et transforment l'arbre
 
 ## Liens
 
-- [[Geste]] — organisation émergente, transitivité
+- [[Public/Concepts/Geste]] — organisation émergente, transitivité
 - [[Voix médiane]] — ni actif ni passif
 - [[Récursivité]] — le sens émerge du processus qui le cherche
 - [[Agentivité]] — dissolution du sujet comme origine stable
